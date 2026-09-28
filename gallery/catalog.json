@@ -11,8 +11,46 @@
     "orientation": "portrait",
     "alt": "Moonlit alpine meadow with wildflowers overlooking a glowing village and lake under a full moon and snow-capped peaks",
     "description": "A dreamlike night landscape: wildflower meadow in the foreground, warm-lit alpine village and moonlit lake in the valley, snow-capped peaks beyond.",
-    "keywords": ["alpine night", "moonlit landscape", "mountain village art", "wildflower meadow print", "AI wall art", "ChatGPT art print"],
-    "products": ["poster", "framed_print"],
+    "keywords": [
+      "alpine night",
+      "moonlit landscape",
+      "mountain village art",
+      "wildflower meadow print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting."
+  },
+  {
+    "id": "02-moonlit-mediterranean-village",
+    "slug": "moonlit-mediterranean-village",
+    "title": "Moonlit Mediterranean Village",
+    "photoNumber": 2,
+    "source": "ChatGPT",
+    "file": "02-moonlit-mediterranean-village.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Mediterranean lakeside village with pink flowers, warm lantern light, bell tower, sailboat, and full moon reflecting on the water",
+    "description": "Romantic nighttime lakeside village: stone walls and pink blossoms in the foreground, warm-lit campanile and cypress trees along the shore, a sailboat on still water under a full moon.",
+    "keywords": [
+      "Mediterranean night",
+      "moonlit village",
+      "lakeside wall art",
+      "romantic landscape print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
     "status": "ready"
   }
 ]

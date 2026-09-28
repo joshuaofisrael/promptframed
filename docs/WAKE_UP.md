@@ -1,0 +1,118 @@
+# Wake-up checklist — Prompt Framed
+**Prepared:** 28 Sep 2026 ~02:50 BST (while Joshua slept)  
+**Goal when you wake:** only custom domain purchase (+ maybe Instagram) remain.
+
+Owner email for all accounts: **joshofisrael@yahoo.com** (retain access).
+
+---
+
+## 1. What’s done overnight
+
+| Item | Status |
+|---|---|
+| Repo seeded | Done — https://github.com/joshuaofisrael/promptframed |
+| Gallery assets (local) | Photo 1 + 2 + Night Windows contact sheet in `/workspace/promptframed/gallery/` |
+| Docs | BUSINESS_PLAN, MARKETING_NIGHT_WINDOWS, PRINTFUL_SETUP, INSTAGRAM_ACCOUNT, DOMAIN_HANDOFF, SEO_SCORECARD, this file |
+| Cloud site-build agent | `bc-0b12b08c-1714-5e8e-be1f-d86cc4e8f3c4` was tasked to build the site (see §2) |
+| GitHub Pages | See §2 — enabled if `index.html` landed on `main`; else one-click left |
+| Printful | **Not spent** — click-path ready in §4 (no account created overnight) |
+| Instagram | **Incomplete** — captcha blocker; details in §5 |
+| Custom domain | **Your job this morning** — §3 |
+
+---
+
+## 2. Live URL / site / PR status
+
+**Intended live URL (GitHub Pages project site):**  
+https://joshuaofisrael.github.io/promptframed/
+
+**Cloud agent PR:** _(filled at end of overnight run — check below)_  
+- PR URL: see “Overnight run result” at bottom of this file  
+- Do not merge until checks are green and the PR clearly ships a complete gallery site (`index.html` + piece pages + buy CTA stubs).
+
+**One-click Pages enable (if still off):**  
+1. Open https://github.com/joshuaofisrael/promptframed/settings/pages  
+2. Source: **Deploy from a branch** → Branch `main` / folder `/ (root)` → Save  
+   — or — Source: **GitHub Actions** if the PR added a Pages workflow  
+3. Wait 1–2 minutes, then open https://joshuaofisrael.github.io/promptframed/
+
+Full DNS/CNAME steps for a custom domain: `docs/DOMAIN_HANDOFF.md`.
+
+---
+
+## 3. Domain buy (you — morning)
+
+**Registrar:** Namecheap or Cloudflare Registrar only. **No Porkbun.**  
+**Do not buy until you pick one name.** Candidates from BUSINESS_PLAN:
+
+1. **promptframed.com** (preferred brand match)
+2. **framedprompt.com**
+3. **aicanvasprints.com**
+
+After purchase:
+1. Follow `docs/DOMAIN_HANDOFF.md` (CNAME → `joshuaofisrael.github.io`)
+2. In repo Settings → Pages → Custom domain: enter the domain → Save → wait for HTTPS
+3. Add a root `CNAME` file on `main` containing the bare domain (e.g. `promptframed.com`) if Pages does not auto-commit one
+4. Update Instagram bio + site canonicals from the github.io URL to the custom domain
+
+---
+
+## 4. Printful Quick Store (you click — $0 until you publish; no overnight spend)
+
+Source of truth: `docs/PRINTFUL_SETUP.md`. Condensed click path:
+
+1. Sign in / create Printful with **joshofisrael@yahoo.com**; business **Joshua Israel Ventures LLC** (US tax/bank as owner).
+2. **Stores → Add store → Quick Stores** → name **Prompt Framed** → pick slug → upload logo → expect URL like `https://promptframed.printful.me/`.
+3. **My products → Add product**: poster + framed poster; upload Night Windows art (keep 2:3); set frame colours, copy, retail prices, mockups → **Publish**.
+4. **Billing → Quick Stores**: Stripe onboarding + W-9 as owner.
+5. Preview mobile + shipping; optional sample order before ads.
+6. Paste store + product URLs into the site buy buttons / `buy.html` and Instagram bio.
+
+Suggested retail test ranges (your call): 12×18 unframed $34–44; 12×18 framed $79–99; 20×30 framed $129–159; 24×36 framed $179–229 (+ shipping). Upscale art before large framed sizes (current files are 1024×1536).
+
+**Skip Quick Stores** if you need UK/EU shipping → use Gelato + Etsy instead (see PRINTFUL_SETUP.md §1).
+
+---
+
+## 5. Instagram (if still incomplete)
+
+**Status at sleep:** signup form submitted for username **`promptframed`** with **joshofisrael@yahoo.com**. Instagram showed username valid, then blocked on **reCAPTCHA Enterprise** (“Help us confirm it’s you”) — Next disabled until a human completes the captcha. Account is **not** created yet.
+
+**Your clicks:**
+1. Open https://www.instagram.com/accounts/emailsignup/ (or continue the open signup session).
+2. Complete the captcha → Next → finish signup.
+3. Password is recorded in `docs/INSTAGRAM_ACCOUNT.md` (local only; do **not** commit that file to GitHub).
+4. Bio: `AI art gallery · Want the poster? Link in bio · ChatGPT wall art shipped as prints · Joshua Israel Ventures LLC`
+5. Bio link (until custom domain): `https://joshuaofisrael.github.io/promptframed/`
+6. First posts: Night Windows series — CTA “Want the poster? Link in bio” (see MARKETING_NIGHT_WINDOWS.md). Keep “AI/ChatGPT” out of captions unless you ask for it; SEO pages can still say it.
+
+---
+
+## 6. Morning order of operations
+
+1. Check live URL / merge green site PR if not already merged  
+2. Confirm GitHub Pages serves the gallery  
+3. Buy domain (one of the 3 candidates) + apply DOMAIN_HANDOFF DNS  
+4. Finish Instagram captcha + bio link  
+5. Create Printful Quick Store + publish first Night Windows products + paste buy URLs into site  
+
+Then you’re live for Instagram → site → Printful checkout.
+
+---
+
+## Overnight run result
+_(executor fills this section before sleep ends)_
+
+- Checked at: 28 Sep 2026 ~02:50 BST
+- Repo `main`: seed only (`07b0787` — gallery photo 1 + business plan); **no open PR yet** when checklist first written
+- Pages: not enabled at first check (`has_pages: false`)
+- Follow-up poll / enable / PR merge notes appended below by the overnight executor
+
+### Executor update — 28 Sep 2026 ~02:53 BST
+
+- Cloud agent `bc-0b12b08c-1714-5e8e-be1f-d86cc4e8f3c4`: **no PR / no new commits** after multiple `gh` polls (~10 min). No open or closed PRs on the repo.
+- **GitHub Pages enabled** via API: legacy build from `main` `/` → https://joshuaofisrael.github.io/promptframed/
+- **Minimal complete gallery site shipped to `main`** by overnight executor so the live URL is not a 404 while waiting on the cloud agent: `index.html`, piece pages, `buy.html`, `about.html`, `styles.css`, web JPEGs in `assets/`, `robots.txt`, `sitemap.xml`.
+- If the cloud agent later opens a PR with a fuller design, review & merge when checks are green (prefer improving, not blocking morning domain buy).
+- Docs added: `WAKE_UP.md`, `DOMAIN_HANDOFF.md`, `SEO_SCORECARD.md` (Instagram password file stays local-only; not committed).
+- **Still for morning:** (1) domain buy + DNS, (2) Instagram captcha, (3) Printful Quick Store publish + paste buy URLs.
