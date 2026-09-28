@@ -116,3 +116,9 @@ _(executor fills this section before sleep ends)_
 - If the cloud agent later opens a PR with a fuller design, review & merge when checks are green (prefer improving, not blocking morning domain buy).
 - Docs added: `WAKE_UP.md`, `DOMAIN_HANDOFF.md`, `SEO_SCORECARD.md` (Instagram password file stays local-only; not committed).
 - **Still for morning:** (1) domain buy + DNS, (2) Instagram captcha, (3) Printful Quick Store publish + paste buy URLs.
+
+### Live confirmation — 28 Sep 2026 ~02:54 BST
+
+- https://joshuaofisrael.github.io/promptframed/ → **HTTP 200** (Pages `built`, commit `057a3ae`)
+- Piece pages, buy.html, assets, sitemap also serving
+- Cloud agent PR: **none** as of this confirmation
