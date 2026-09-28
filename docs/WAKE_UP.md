@@ -1,3 +1,5 @@
+**Instagram:** [@nightshadeart](https://www.instagram.com/nightshadeart/) (Night Shade Art)
+
 # Wake-up checklist — Prompt Framed
 **Prepared:** 28 Sep 2026 ~02:50 BST (while Joshua slept)  
 **Goal when you wake:** only custom domain purchase (+ maybe Instagram) remain.

@@ -128,5 +128,70 @@
     },
     "asset": "10-mediterranean-lantern-walk.jpg",
     "printSource": "gallery/10-mediterranean-lantern-walk.png"
+  },
+  {
+    "slug": "moonlit-rice-terraces",
+    "title": "Moonlit Rice Terraces",
+    "series": "Night Windows",
+    "photoNumber": 11,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "11-moonlit-rice-terraces.jpg",
+    "printSource": "gallery/11-moonlit-rice-terraces.png"
+  },
+  {
+    "slug": "venetian-canal-moonrise",
+    "title": "Venetian Canal Moonrise",
+    "series": "Night Windows",
+    "photoNumber": 12,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "12-venetian-canal-moonrise.jpg",
+    "printSource": "gallery/12-venetian-canal-moonrise.png"
+  },
+  {
+    "slug": "japanese-temple-pond",
+    "title": "Japanese Temple Pond",
+    "series": "Night Windows",
+    "photoNumber": 13,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "13-japanese-temple-pond.jpg",
+    "printSource": "gallery/13-japanese-temple-pond.png"
+  },
+  {
+    "slug": "moroccan-kasbah-night",
+    "title": "Moroccan Kasbah Night",
+    "series": "Night Windows",
+    "photoNumber": 14,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "14-moroccan-kasbah-night.jpg",
+    "printSource": "gallery/14-moroccan-kasbah-night.png"
+  },
+  {
+    "slug": "scottish-highlands-loch",
+    "title": "Scottish Highlands Loch",
+    "series": "Night Windows",
+    "photoNumber": 15,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "15-scottish-highlands-loch.jpg",
+    "printSource": "gallery/15-scottish-highlands-loch.png"
   }
 ]

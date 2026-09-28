@@ -268,5 +268,140 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "11-moonlit-rice-terraces",
+    "slug": "moonlit-rice-terraces",
+    "title": "Moonlit Rice Terraces",
+    "photoNumber": 11,
+    "source": "ChatGPT",
+    "file": "11-moonlit-rice-terraces.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit rice terraces cascading down a misty hillside with warm village lights and a full moon reflected in flooded paddies",
+    "description": "Cascading moonlit rice terraces and warm village lights glow under a full moon, with mist, wildflowers, and deep blue-green night tones.",
+    "keywords": [
+      "rice terraces",
+      "moonlit paddies",
+      "Asian night landscape",
+      "village lights print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "12-venetian-canal-moonrise",
+    "slug": "venetian-canal-moonrise",
+    "title": "Venetian Canal Moonrise",
+    "photoNumber": 12,
+    "source": "ChatGPT",
+    "file": "12-venetian-canal-moonrise.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Venetian canal with ornate bridges, warm windows reflecting on still water, a quiet gondola, and hanging flowers",
+    "description": "A quiet Venetian canal under moonlight: stone bridges, warm windows on the water, a lone gondola, and flowers along the walls.",
+    "keywords": [
+      "Venice canal",
+      "moonlit gondola",
+      "Italian night landscape",
+      "bridge wall art",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "13-japanese-temple-pond",
+    "slug": "japanese-temple-pond",
+    "title": "Japanese Temple Pond",
+    "photoNumber": 13,
+    "source": "ChatGPT",
+    "file": "13-japanese-temple-pond.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Japanese temple garden with a still pond reflecting a full moon, stone lanterns, maple and pine trees",
+    "description": "A still temple pond mirrors the full moon while stone lanterns warm the misty garden path beneath pines and maples.",
+    "keywords": [
+      "Japanese temple",
+      "moonlit pond",
+      "stone lantern garden",
+      "Zen landscape print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "14-moroccan-kasbah-night",
+    "slug": "moroccan-kasbah-night",
+    "title": "Moroccan Kasbah Night",
+    "photoNumber": 14,
+    "source": "ChatGPT",
+    "file": "14-moroccan-kasbah-night.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Moroccan kasbah at the edge of desert dunes with warm lantern light, palms, and wildflowers in an oasis",
+    "description": "A moonlit kasbah glows at the desert’s edge, lantern light in adobe windows, palms and wildflowers framing the dunes.",
+    "keywords": [
+      "Moroccan kasbah",
+      "desert night",
+      "oasis landscape",
+      "lantern adobe print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "15-scottish-highlands-loch",
+    "slug": "scottish-highlands-loch",
+    "title": "Scottish Highlands Loch",
+    "photoNumber": 15,
+    "source": "ChatGPT",
+    "file": "15-scottish-highlands-loch.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Scottish Highlands loch with castle ruins glowing on a distant shore, heather and wildflowers in the foreground",
+    "description": "Mist drifts over a Highlands loch as castle ruins glow on the far shore beneath a luminous moon and heather meadows.",
+    "keywords": [
+      "Scottish Highlands",
+      "moonlit loch",
+      "castle ruins",
+      "heather landscape print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]

@@ -93,7 +93,7 @@ Daily highest-EV action; **no article quota**.
 
 ### Days 1–14 — Launch foundation
 - [ ] Custom domain live (Namecheap/Cloudflare → Pages)  
-- [ ] Instagram @promptframed finished + bio + link  
+- [ ] Instagram @nightshadeart finished + bio + link  
 - [ ] Printful Quick Store + first 2–5 products published; buy URLs on site  
 - [ ] Daily routine producing 5 images; post 3–5/week curated  
 - [ ] First SEO pass: titles, sitemap, piece pages, one guide  

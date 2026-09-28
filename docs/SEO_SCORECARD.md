@@ -24,7 +24,9 @@ Follow `/home/box/agent-data/workflows/seo-growth-operator/` — additive to BUS
 | Conversions (print orders) | 0 | — | — | Printful / store attribution |
 | Non-bot pageviews (CF Web Analytics) | — | — | — | After custom domain |
 
-Fill the first real row the day after GSC + Cloudflare Web Analytics are connected. Append daily CF views to `JI_Ventures_Traffic.xlsx` per owner rules. Ads only after trailing 7-day non-bot pageviews ≥ 10,000 OR yesterday ≥ 2,000.
+Fill the first real row the day after GSC + Cloudflare Web Analytics are connected.
+**Traffic note (28 Sep 2026 BST):** `JI_Ventures_Traffic.xlsx` DailyViews columns are Date / Site / Brand / Bot / Pageviews total / Pageviews non-bot / Visits total / Visits non-bot / GSC Clicks 28d / GSC Impressions 28d / Source / Monetize? / Notes. Prompt Framed is **not** on the Sites sheet and has **no** Cloudflare Web Analytics beacon (github.io host; no custom domain / CF token yet). Do not invent pageview rows until a beacon or other RUM is live.
+ Append daily CF views to `JI_Ventures_Traffic.xlsx` per owner rules. Ads only after trailing 7-day non-bot pageviews ≥ 10,000 OR yesterday ≥ 2,000.
 
 ---
 
@@ -80,5 +82,6 @@ Skip if you cannot add original practical value beyond what already ranks.
 | Date (BST) | Action | Why (EV) | Result |
 |---|---|---|---|
 | 28 Sep 2026 | Scorecard created; baseline empty | Pre-launch measurement stub | — |
+| 28 Sep 2026 | Shipped `guide-print-sizes.html` (12×18 / 20×30 / 24×36 + room-distance + frame notes + print-res honesty); linked from home/buy/about/sitemap; added WebSite + CollectionPage JSON-LD on `index.html` | Week-1 highest-EV: one unique informational page tied to real SKUs + technical schema for a brand-new gallery; compounds product pages without article spam | Ready locally; publish with next drop commit |
 
 Update this log when an SEO action ships. Prefer improving existing piece pages over speculative new URLs.
