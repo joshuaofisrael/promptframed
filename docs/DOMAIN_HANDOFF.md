@@ -1,34 +1,35 @@
-# Domain → GitHub Pages handoff (Prompt Framed)
+# Domain handoff — moonlitwindows.com
 
-**Live custom domain:** https://moonlitwindows.com  
-**Registered:** Namecheap, 28 Sep 2026 (Joshua)  
-**Pages host:** `joshuaofisrael.github.io`  
-**Project site path on github.io:** `/promptframed/`  
-**Fallback URL:** https://joshuaofisrael.github.io/promptframed/  
-**Repo:** https://github.com/joshuaofisrael/promptframed  
-**Repo `CNAME`:** root file, one line, `moonlitwindows.com`
+**Chosen domain:** `moonlitwindows.com`  
+**Registrar:** Namecheap (Joshua)  
+**Entity:** Joshua Israel Ventures LLC  
+**Pages host:** `joshuaofisrael.github.io` / repo `joshuaofisrael/promptframed`  
+**Instagram:** [@artnightshade](https://www.instagram.com/artnightshade/) (Night Shade Art)
 
-The preferred public URL is **https://moonlitwindows.com**. Canonicals, Open Graph, `sitemap.xml`, `robots.txt`, and Instagram captions already use that host. Relative asset and page paths are unchanged.
+## Temporary live URL (DNS incomplete)
 
-A custom domain on a GitHub Pages project site serves this repo from the domain root. Piece URLs are `https://moonlitwindows.com/pieces/SLUG.html` (no `/promptframed/` prefix). Once GitHub verifies DNS, https://joshuaofisrael.github.io/promptframed/ redirects to https://moonlitwindows.com/.
+Custom domain was **temporarily removed** from GitHub Pages (and the root `CNAME` file deleted) because Namecheap has **no A records** yet. With the custom domain set, `https://joshuaofisrael.github.io/promptframed/` 301-redirected to a dead `moonlitwindows.com`.
 
-DNS A/CNAME records at Namecheap are a separate coordinator step. This file does not change the registrar.
+**Live gallery now:** https://joshuaofisrael.github.io/promptframed/  
+(Verified HTTP 200 HTML for the homepage.)
+
+Site copy, Open Graph, and Instagram captions temporarily use the github.io base so visitors and shares do not hit a dead host. When DNS works, restore the custom domain and switch public URLs back to `https://moonlitwindows.com/`.
+
+Hosting stays **free GitHub Pages only**. No Porkbun. No paid Vercel unless Joshua asks.
 
 ---
 
-## DNS records (Namecheap)
+## Exact Namecheap DNS steps (still required)
 
-Point the apex and `www` at GitHub Pages. Do not create a conflicting A or CNAME that points elsewhere.
+In Namecheap → Domain List → **moonlitwindows.com** → **Advanced DNS**:
 
-| Type | Name / Host | Value / Target | TTL |
+| Type | Host | Value | TTL |
 |---|---|---|---|
-| **A** | `@` | `185.199.108.153` | Automatic |
-| **A** | `@` | `185.199.109.153` | Automatic |
-| **A** | `@` | `185.199.110.153` | Automatic |
-| **A** | `@` | `185.199.111.153` | Automatic |
-| **CNAME** | `www` | `joshuaofisrael.github.io` | Automatic |
-
-Namecheap has no ALIAS/ANAME on a typical domain, so the apex uses all four A records. The `www` host is a DNS CNAME. The Pages custom-domain hostname stays the apex (`moonlitwindows.com`), which is what the repo `CNAME` file contains.
+| **A Record** | `@` | `185.199.108.153` | Automatic |
+| **A Record** | `@` | `185.199.109.153` | Automatic |
+| **A Record** | `@` | `185.199.110.153` | Automatic |
+| **A Record** | `@` | `185.199.111.153` | Automatic |
+| **CNAME Record** | `www` | `joshuaofisrael.github.io` | Automatic |
 
 Optional IPv6 **AAAA** on `@` (all four):
 
@@ -39,33 +40,46 @@ Optional IPv6 **AAAA** on `@` (all four):
 2606:50c0:8003::153
 ```
 
-### GitHub Pages custom domain
+Remove any conflicting `@` A/CNAME or parking records that do not point at GitHub.
 
-1. The root `CNAME` file is already `moonlitwindows.com`. That is how branch publishing (`main` / `/`) remembers the domain.
-2. Repo → **Settings → Pages** should show custom domain `moonlitwindows.com`.
-3. Check **Enforce HTTPS** after the certificate provisions (minutes to about an hour after DNS answers). Leave it off while the certificate is pending.
+Confirm with:
+
+```bash
+dig +short A moonlitwindows.com
+# expect the four 185.199.* addresses
+dig +short CNAME www.moonlitwindows.com
+# expect joshuaofisrael.github.io.
+```
+
+---
+
+## Reconnect custom domain on GitHub Pages (after DNS answers)
+
+1. Add a root file named `CNAME` (no extension) with one line:
+
+```
+moonlitwindows.com
+```
+
+2. Repo → **Settings → Pages** → Custom domain → `moonlitwindows.com` → Save  
+   (or let the `CNAME` file reattach the domain on the next Pages build.)
+3. Wait for DNS check to pass. Leave **Enforce HTTPS** off until the certificate is ready, then enable it.
 4. Confirm:
    - https://moonlitwindows.com serves the gallery
    - https://www.moonlitwindows.com reaches the same site
-   - https://joshuaofisrael.github.io/promptframed/ redirects to https://moonlitwindows.com/
-
-### After DNS is live
-
-1. Instagram bio for **@nightshadeart** (Night Shade Art): `https://moonlitwindows.com/`
-2. Submit `https://moonlitwindows.com/sitemap.xml` in Google Search Console (see `docs/SEO_SCORECARD.md`)
-3. Add Cloudflare Web Analytics (owner rule) and append daily views to `JI_Ventures_Traffic.xlsx`
-4. Do not invent Printful product URLs. Buy buttons stay on-site until a real product URL is pasted into `products.json`.
+   - https://joshuaofisrael.github.io/promptframed/ may redirect to the custom domain again
+5. Switch site canonicals / OG / Instagram captions / `sitemap.xml` / `robots.txt` back to `https://moonlitwindows.com/` (project path `/promptframed/` is not used on the custom domain root).
+6. Instagram bio for **@artnightshade**: `https://moonlitwindows.com/`
 
 ### Troubleshooting
 
-- **Not resolving:** wait for DNS TTL; check that `@` answers with the four GitHub A records and `www` is a CNAME to `joshuaofisrael.github.io`
-- **404 on the custom domain:** Pages source must stay branch `main`, folder `/ (root)`, on this repo
-- **HTTPS pending:** leave Enforce HTTPS off until the cert is ready, then enable it
-- **Wrong site:** the custom domain must be set on **this** repo’s Pages settings
-- **Broken images after the domain works:** page and asset links in HTML are relative (`./`, `../`). Do not prefix them with `/promptframed/`
+- **Not resolving:** wait for TTL; confirm all four apex A records and `www` CNAME
+- **404 on custom domain:** Pages source must stay branch `main`, folder `/ (root)`
+- **HTTPS pending:** leave Enforce HTTPS off until cert is ready
+- **Broken images:** keep HTML asset links relative (`./`, `../`); do not hard-prefix `/promptframed/` for custom-domain serving
 
 ---
 
 ## Reminder
 
-Hosting stays **free GitHub Pages only**. No paid Vercel unless Joshua asks. The domain is already registered. Do not buy a second name. Printful product costs happen only when Joshua publishes products.
+Do not buy a second domain. Do not invent Stripe or Printful product URLs. Buy buttons stay on-site (`buy.html` anchors) until real Payment Link / shop URLs are pasted into `products.json`.

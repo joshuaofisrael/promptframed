@@ -4,7 +4,7 @@
 **Funnel:** ChatGPT art → gallery site → Instagram want → buy poster/frame (Printful)  
 **Live site:** https://moonlitwindows.com/  
 **Registered:** Namecheap, 28 Sep 2026 (Joshua). Fallback: https://joshuaofisrael.github.io/promptframed/  
-**Instagram:** @nightshadeart (Night Shade Art)  
+**Instagram:** @artnightshade (Night Shade Art)  
 **Updated:** 28 Sep 2026
 
 ---
@@ -95,7 +95,7 @@ Daily highest-EV action; **no article quota**.
 
 ### Days 1–14 — Launch foundation
 - [x] Custom domain registered: moonlitwindows.com (Namecheap, 28 Sep 2026). Preferred URL https://moonlitwindows.com. Namecheap DNS is the coordinator’s step.  
-- [ ] Instagram @nightshadeart (Night Shade Art) bio link → https://moonlitwindows.com/  
+- [ ] Instagram @artnightshade (Night Shade Art) bio link → https://moonlitwindows.com/  
 - [ ] Printful Quick Store + first 2–5 products published; buy URLs on site  
 - [ ] Daily routine producing 5 images; post 3–5/week curated  
 - [ ] First SEO pass: titles, sitemap, piece pages, one guide  
@@ -148,5 +148,5 @@ Daily highest-EV action; **no article quota**.
 
 ## Operating rhythm (already partly automated)
 - **Weekdays 8:49 London:** Night Windows daily drop routine — 5 ChatGPT images → site → IG with buy link + SEO action + morning digest  
-- **Human:** Namecheap DNS for moonlitwindows.com (coordinator), Printful onboarding, Instagram @nightshadeart bio, spend approvals  
+- **Human:** Namecheap DNS for moonlitwindows.com (coordinator), Printful onboarding, Instagram @artnightshade bio, spend approvals  
 

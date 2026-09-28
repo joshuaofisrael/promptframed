@@ -10,7 +10,12 @@
       "status": "placeholder"
     },
     "asset": "01-moonlit-alpine-meadow.jpg",
-    "printSource": "gallery/01-moonlit-alpine-meadow.png"
+    "printSource": "gallery/01-moonlit-alpine-meadow.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "moonlit-mediterranean-village",
@@ -23,7 +28,12 @@
       "status": "placeholder"
     },
     "asset": "02-moonlit-mediterranean-village.jpg",
-    "printSource": "gallery/02-moonlit-mediterranean-village.png"
+    "printSource": "gallery/02-moonlit-mediterranean-village.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "snowy-peaks-above-clouds",
@@ -36,7 +46,12 @@
       "status": "placeholder"
     },
     "asset": "03-snowy-peaks-above-clouds.jpg",
-    "printSource": "gallery/03-snowy-peaks-above-clouds.png"
+    "printSource": "gallery/03-snowy-peaks-above-clouds.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "coastal-cliffside-town",
@@ -49,7 +64,12 @@
       "status": "placeholder"
     },
     "asset": "04-coastal-cliffside-town.jpg",
-    "printSource": "gallery/04-coastal-cliffside-town.png"
+    "printSource": "gallery/04-coastal-cliffside-town.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "lakeside-cabin",
@@ -62,7 +82,12 @@
       "status": "placeholder"
     },
     "asset": "05-lakeside-cabin.jpg",
-    "printSource": "gallery/05-lakeside-cabin.png"
+    "printSource": "gallery/05-lakeside-cabin.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "hilltop-path-village",
@@ -75,7 +100,12 @@
       "status": "placeholder"
     },
     "asset": "06-hilltop-path-village.jpg",
-    "printSource": "gallery/06-hilltop-path-village.png"
+    "printSource": "gallery/06-hilltop-path-village.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "moonlit-waterfall",
@@ -88,7 +118,12 @@
       "status": "placeholder"
     },
     "asset": "07-moonlit-waterfall.jpg",
-    "printSource": "gallery/07-moonlit-waterfall.png"
+    "printSource": "gallery/07-moonlit-waterfall.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "wildflower-meadow-cabin",
@@ -101,7 +136,12 @@
       "status": "placeholder"
     },
     "asset": "08-wildflower-meadow-cabin.jpg",
-    "printSource": "gallery/08-wildflower-meadow-cabin.png"
+    "printSource": "gallery/08-wildflower-meadow-cabin.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "northern-lights-fjord",
@@ -114,7 +154,12 @@
       "status": "placeholder"
     },
     "asset": "09-northern-lights-fjord.jpg",
-    "printSource": "gallery/09-northern-lights-fjord.png"
+    "printSource": "gallery/09-northern-lights-fjord.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "mediterranean-lantern-walk",
@@ -127,7 +172,12 @@
       "status": "placeholder"
     },
     "asset": "10-mediterranean-lantern-walk.jpg",
-    "printSource": "gallery/10-mediterranean-lantern-walk.png"
+    "printSource": "gallery/10-mediterranean-lantern-walk.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "moonlit-rice-terraces",
@@ -140,7 +190,12 @@
       "status": "placeholder"
     },
     "asset": "11-moonlit-rice-terraces.jpg",
-    "printSource": "gallery/11-moonlit-rice-terraces.png"
+    "printSource": "gallery/11-moonlit-rice-terraces.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "venetian-canal-moonrise",
@@ -153,7 +208,12 @@
       "status": "placeholder"
     },
     "asset": "12-venetian-canal-moonrise.jpg",
-    "printSource": "gallery/12-venetian-canal-moonrise.png"
+    "printSource": "gallery/12-venetian-canal-moonrise.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "japanese-temple-pond",
@@ -166,7 +226,12 @@
       "status": "placeholder"
     },
     "asset": "13-japanese-temple-pond.jpg",
-    "printSource": "gallery/13-japanese-temple-pond.png"
+    "printSource": "gallery/13-japanese-temple-pond.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "moroccan-kasbah-night",
@@ -179,7 +244,12 @@
       "status": "placeholder"
     },
     "asset": "14-moroccan-kasbah-night.jpg",
-    "printSource": "gallery/14-moroccan-kasbah-night.png"
+    "printSource": "gallery/14-moroccan-kasbah-night.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   },
   {
     "slug": "scottish-highlands-loch",
@@ -192,6 +262,11 @@
       "status": "placeholder"
     },
     "asset": "15-scottish-highlands-loch.jpg",
-    "printSource": "gallery/15-scottish-highlands-loch.png"
+    "printSource": "gallery/15-scottish-highlands-loch.png",
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    }
   }
 ]

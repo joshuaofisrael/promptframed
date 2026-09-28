@@ -37,20 +37,29 @@
       (Array.isArray(list) ? list : []).forEach(function (item) { bySlug[item.slug] = item; });
       document.querySelectorAll("[data-buy]").forEach(function (el) {
         var item = bySlug[el.getAttribute("data-buy")];
-        if (!item || !item.printful) return;
+        if (!item) return;
         var sku = el.getAttribute("data-sku");
-        var url = sku === "framed" ? item.printful.framedUrl : item.printful.posterUrl;
+        var url = shopUrlFor(item, sku);
         if (!isShopUrl(url)) return;
         el.href = url;
         el.target = "_blank";
         el.rel = "noopener noreferrer";
         var status = document.getElementById("buy-status");
         if (status && sku === "poster") {
-          status.textContent = "Buy Poster opens the print shop in a new tab. Prompt Framed does not take a card on this page. The shop prints the poster and ships it.";
+          status.textContent = "Buy Poster opens checkout in a new tab. Prompt Framed does not take a card on this page.";
         }
       });
     })
     .catch(function () {});
+
+  function shopUrlFor(item, sku) {
+    var stripe = item.stripe || {};
+    var printful = item.printful || {};
+    if (sku === "framed") {
+      return stripe.framedUrl || printful.framedUrl || null;
+    }
+    return stripe.posterUrl || printful.posterUrl || null;
+  }
 
   function isShopUrl(url) {
     if (typeof url !== "string") return false;

@@ -42,7 +42,7 @@ Namecheap DNS (apex A records and `www` CNAME) is a separate coordinator step. R
 
 ### 2. Instagram
 
-The public Instagram is **@nightshadeart** (Night Shade Art). The footer links there.
+The public Instagram is **@artnightshade** (Night Shade Art). The footer links there.
 
 1. Bio link: `https://moonlitwindows.com/`
 2. For a post, open the piece page and press **Copy caption**. Every caption ends with:

@@ -244,3 +244,31 @@ input, textarea {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+.series-list {
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+.series-list li { margin: 0.35rem 0; }
+.series-list a { color: var(--ink); text-decoration: none; }
+.series-list a:hover { color: var(--accent); }
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(7, 11, 20, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.card .meta .soft-cta { margin-top: 0.55rem; }
+.card .meta .soft-cta a { font-size: 0.95rem; }
+@media (max-width: 640px) {
+  .wrap { width: min(var(--max), calc(100% - 1.25rem)); }
+  .site-header { flex-wrap: wrap; padding: 0.75rem 0; }
+  .nav { width: 100%; gap: 0.15rem 0.7rem; }
+  .nav a { min-height: 40px; font-size: 0.92rem; }
+  .btn { width: 100%; }
+  .actions .btn { width: auto; flex: 1 1 auto; }
+  .hero { padding: 1.5rem 0 1rem; }
+}

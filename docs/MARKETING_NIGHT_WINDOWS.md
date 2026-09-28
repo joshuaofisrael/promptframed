@@ -2,7 +2,7 @@
 
 Series name: **Night Windows**
 Studio: **Prompt Framed** (Joshua Israel Ventures LLC)
-Instagram: **@nightshadeart** (Night Shade Art)
+Instagram: **@artnightshade** (Night Shade Art)
 Live gallery: **https://moonlitwindows.com** (custom domain registered on Namecheap, 28 Sep 2026)
 Fallback: https://joshuaofisrael.github.io/promptframed/
 Hook: each piece is a window into somewhere you wish you were.
