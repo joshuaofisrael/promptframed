@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://joshuaofisrael.github.io/promptframed/sitemap.xml
+Sitemap: https://moonlitwindows.com/sitemap.xml

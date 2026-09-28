@@ -1,6 +1,8 @@
 # Night Windows domain picks
 
-**Checked:** 28 September 2026, 08:40 BST. **Registrars considered:** Namecheap and Cloudflare Registrar only. No domain was purchased.
+**Registered:** Joshua registered **moonlitwindows.com** on Namecheap on 28 Sep 2026. It is the live custom domain. Preferred URL: https://moonlitwindows.com. Do not buy a second name.
+
+**Checked:** 28 September 2026, 08:40 BST, before that registration. **Registrars considered:** Namecheap and Cloudflare Registrar only. The availability notes below are that pre-purchase snapshot.
 
 ## Recommendation
 

@@ -2,7 +2,9 @@
 **Brand / series:** Night Windows  
 **Company:** Joshua Israel Ventures LLC  
 **Funnel:** ChatGPT art → gallery site → Instagram want → buy poster/frame (Printful)  
-**Live site:** https://joshuaofisrael.github.io/promptframed/  
+**Live site:** https://moonlitwindows.com/  
+**Registered:** Namecheap, 28 Sep 2026 (Joshua). Fallback: https://joshuaofisrael.github.io/promptframed/  
+**Instagram:** @nightshadeart (Night Shade Art)  
 **Updated:** 28 Sep 2026
 
 ---
@@ -46,7 +48,7 @@ Build a recognizable night-landscape print brand people follow for the *feeling*
 - Collab/share with interior, travel, and cozy-aesthetic accounts (gift a free print for a story tag once Printful works — owner approve spend)
 - Save-worthy carousels (“10 windows for rainy nights”)
 - Consistent visual grid (same crop, same moonlit palette) so the profile *looks* like a brand in 3 seconds
-- Link in bio → gallery home (or Linktree listing top pieces) — never change CTA language
+- Link in bio → https://moonlitwindows.com/ (gallery home) — never change CTA language
 
 **Paid (later):** only after organic posts repeatedly drive purchases; test $5–10/day boosts on top converting pieces, US shipping geo if Printful Quick Store is US-only.
 
@@ -92,8 +94,8 @@ Daily highest-EV action; **no article quota**.
 ## 90‑day plan
 
 ### Days 1–14 — Launch foundation
-- [ ] Custom domain live (Namecheap/Cloudflare → Pages)  
-- [ ] Instagram @nightshadeart finished + bio + link  
+- [x] Custom domain registered: moonlitwindows.com (Namecheap, 28 Sep 2026). Preferred URL https://moonlitwindows.com. Namecheap DNS is the coordinator’s step.  
+- [ ] Instagram @nightshadeart (Night Shade Art) bio link → https://moonlitwindows.com/  
 - [ ] Printful Quick Store + first 2–5 products published; buy URLs on site  
 - [ ] Daily routine producing 5 images; post 3–5/week curated  
 - [ ] First SEO pass: titles, sitemap, piece pages, one guide  
@@ -146,5 +148,5 @@ Daily highest-EV action; **no article quota**.
 
 ## Operating rhythm (already partly automated)
 - **Weekdays 8:49 London:** Night Windows daily drop routine — 5 ChatGPT images → site → IG with buy link + SEO action + morning digest  
-- **Human:** domain, Printful onboarding, Instagram captcha/account ownership, spend approvals  
+- **Human:** Namecheap DNS for moonlitwindows.com (coordinator), Printful onboarding, Instagram @nightshadeart bio, spend approvals  
 
