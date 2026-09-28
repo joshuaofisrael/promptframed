@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://joshuaofisrael.github.io/promptframed/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://joshuaofisrael.github.io/promptframed/art/moonlit-alpine-meadow/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://joshuaofisrael.github.io/promptframed/gallery/web/01-moonlit-alpine-meadow.jpg</image:loc>
+      <image:title>Moonlit Alpine Meadow</image:title>
+      <image:caption>Wildflower meadow, a lit alpine village, and the moon over snowy peaks.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://joshuaofisrael.github.io/promptframed/about/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://joshuaofisrael.github.io/promptframed/how-it-works/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://joshuaofisrael.github.io/promptframed/contact/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://joshuaofisrael.github.io/promptframed/guides/how-to-turn-chatgpt-art-into-a-framed-poster/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

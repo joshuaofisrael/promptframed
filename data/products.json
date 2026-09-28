@@ -1,0 +1,19 @@
+{
+  "notes": "Paste a real https link from Printful into poster.url and framed_print.url. Leave a url as an empty string until that product is actually live. Empty links stay on this page and do not open a checkout. This site never charges a card.",
+  "instagram": {
+    "handle": "@placeholder",
+    "url": ""
+  },
+  "pieces": {
+    "moonlit-alpine-meadow": {
+      "poster": {
+        "label": "Buy Poster",
+        "url": ""
+      },
+      "framed_print": {
+        "label": "Framed Print",
+        "url": ""
+      }
+    }
+  }
+}

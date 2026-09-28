@@ -6,6 +6,10 @@
     "photoNumber": 1,
     "source": "ChatGPT",
     "file": "01-moonlit-alpine-meadow.png",
+    "display": {
+      "jpg": "web/01-moonlit-alpine-meadow.jpg",
+      "webp": "web/01-moonlit-alpine-meadow.webp"
+    },
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
