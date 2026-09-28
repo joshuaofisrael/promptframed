@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "moonlit-alpine-meadow",
+    "title": "Moonlit Alpine Meadow",
+    "series": "Night Windows",
+    "photoNumber": 1,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "01-moonlit-alpine-meadow.jpg",
+    "printSource": "gallery/01-moonlit-alpine-meadow.png"
+  },
+  {
+    "slug": "moonlit-mediterranean-village",
+    "title": "Moonlit Mediterranean Village",
+    "series": "Night Windows",
+    "photoNumber": 2,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "02-moonlit-mediterranean-village.jpg",
+    "printSource": "gallery/02-moonlit-mediterranean-village.png"
+  },
+  {
+    "slug": "snowy-peaks-above-clouds",
+    "title": "Snowy Peaks Above Clouds",
+    "series": "Night Windows",
+    "photoNumber": 3,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "03-snowy-peaks-above-clouds.jpg",
+    "printSource": "gallery/03-snowy-peaks-above-clouds.png"
+  },
+  {
+    "slug": "coastal-cliffside-town",
+    "title": "Coastal Cliffside Town",
+    "series": "Night Windows",
+    "photoNumber": 4,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "04-coastal-cliffside-town.jpg",
+    "printSource": "gallery/04-coastal-cliffside-town.png"
+  },
+  {
+    "slug": "lakeside-cabin",
+    "title": "Lakeside Cabin",
+    "series": "Night Windows",
+    "photoNumber": 5,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "05-lakeside-cabin.jpg",
+    "printSource": "gallery/05-lakeside-cabin.png"
+  },
+  {
+    "slug": "hilltop-path-village",
+    "title": "Hilltop Path to Village",
+    "series": "Night Windows",
+    "photoNumber": 6,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "06-hilltop-path-village.jpg",
+    "printSource": "gallery/06-hilltop-path-village.png"
+  },
+  {
+    "slug": "moonlit-waterfall",
+    "title": "Moonlit Waterfall",
+    "series": "Night Windows",
+    "photoNumber": 7,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "07-moonlit-waterfall.jpg",
+    "printSource": "gallery/07-moonlit-waterfall.png"
+  },
+  {
+    "slug": "wildflower-meadow-cabin",
+    "title": "Wildflower Meadow Cabin",
+    "series": "Night Windows",
+    "photoNumber": 8,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "08-wildflower-meadow-cabin.jpg",
+    "printSource": "gallery/08-wildflower-meadow-cabin.png"
+  },
+  {
+    "slug": "northern-lights-fjord",
+    "title": "Northern Lights Fjord",
+    "series": "Night Windows",
+    "photoNumber": 9,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "09-northern-lights-fjord.jpg",
+    "printSource": "gallery/09-northern-lights-fjord.png"
+  },
+  {
+    "slug": "mediterranean-lantern-walk",
+    "title": "Mediterranean Lantern Walk",
+    "series": "Night Windows",
+    "photoNumber": 10,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "10-mediterranean-lantern-walk.jpg",
+    "printSource": "gallery/10-mediterranean-lantern-walk.png"
+  }
+]

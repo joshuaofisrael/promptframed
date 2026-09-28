@@ -44,6 +44,7 @@ a:hover { text-decoration: underline; }
 }
 .card:hover { transform: translateY(-3px); border-color: rgba(201,164,106,0.45); }
 .card img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; display: block; background: #000; }
+.card.landscape img { aspect-ratio: 11 / 10; }
 .card .meta { padding: 1rem 1.1rem 1.2rem; }
 .card h2 { margin: 0 0 0.35rem; font-size: 1.15rem; font-weight: 600; }
 .card h2 a { color: var(--ink); }
