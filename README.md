@@ -2,8 +2,8 @@
 
 Night Windows, a static gallery for Joshua Israel Ventures LLC.
 
-**Live:** https://moonlitwindows.com/  
-**Fallback:** https://joshuaofisrael.github.io/promptframed/ (GitHub Pages redirects here once the Namecheap DNS for moonlitwindows.com is verified)
+**Live:** https://joshuaofisrael.github.io/promptframed/
+**Custom domain:** moonlitwindows.com is intentionally not enabled; do not add a CNAME or redirect until DNS is ready.
 
 ## Night Windows marketing
 
@@ -32,19 +32,15 @@ Full morning notes: `docs/WAKE_UP.md`. Domain DNS: `docs/DOMAIN_HANDOFF.md`. Pri
 
 When you sit down, these are yours. The gallery, including Photos 1–10, is already on the live URL.
 
-### 1. Custom domain
+### 1. Hosting
 
-Joshua registered **moonlitwindows.com** on Namecheap on 28 Sep 2026. That is the live custom domain. Preferred URL: https://moonlitwindows.com/
-
-The repo already has a root `CNAME` file containing `moonlitwindows.com`. Canonical tags, Open Graph tags, `sitemap.xml`, `robots.txt`, and the Instagram captions use `https://moonlitwindows.com`. Relative asset paths are unchanged. A Pages project site serves the repo root on the custom domain, so public URLs do not include `/promptframed/`.
-
-Namecheap DNS (apex A records and `www` CNAME) is a separate coordinator step. Record values are in `docs/DOMAIN_HANDOFF.md`. After those records answer, turn on **Enforce HTTPS** in Settings → Pages. https://joshuaofisrael.github.io/promptframed/ stays as the fallback and should redirect to the custom domain once GitHub verifies DNS.
+GitHub Pages serves `main` from the repository root at https://joshuaofisrael.github.io/promptframed/. The custom domain `moonlitwindows.com` is intentionally disabled, and the repository has no `CNAME` file. Do not re-enable it until DNS is ready.
 
 ### 2. Instagram
 
-The public Instagram is **@artnightshade** (Night Shade Art). The footer links there.
+The Instagram handle is TBD. The site keeps the display brand **Night Shade Art** without linking to a specific account.
 
-1. Bio link: `https://moonlitwindows.com/`
+1. Bio link: `https://joshuaofisrael.github.io/promptframed/buy.html`
 2. For a post, open the piece page and press **Copy caption**. Every caption ends with:
 
 ```

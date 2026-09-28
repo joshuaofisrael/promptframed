@@ -1,19 +1,19 @@
-**Instagram:** [@artnightshade](https://www.instagram.com/artnightshade/) (Night Shade Art)
+**Instagram:** Night Shade Art on Instagram (handle TBD)
 
 # Wake-up checklist — Prompt Framed
 **Prepared:** 28 Sep 2026 ~02:50 BST (while Joshua slept)  
-**Domain update:** 28 Sep 2026 — **moonlitwindows.com** is the live custom domain.
+**Domain update:** 28 Sep 2026 — GitHub Pages is live; the custom domain remains disabled.
 
 Owner email for all accounts: **joshofisrael@yahoo.com** (retain access).
 
 ## Domain status
 
-Joshua registered **moonlitwindows.com** on Namecheap on 28 Sep 2026. Preferred gallery URL: **https://moonlitwindows.com/**
+Joshua registered **moonlitwindows.com** on Namecheap on 28 Sep 2026. Current gallery URL: **https://joshuaofisrael.github.io/promptframed/**
 
-- Root `CNAME` file: `moonlitwindows.com`
-- Canonicals, Open Graph, sitemap, robots.txt, and Instagram captions use `https://moonlitwindows.com`
-- Instagram: **@artnightshade** (Night Shade Art). Bio link: `https://moonlitwindows.com/`
-- Fallback until DNS verifies: https://joshuaofisrael.github.io/promptframed/
+- Root `CNAME` file: absent (custom domain intentionally disabled)
+- Canonicals, Open Graph, sitemap, robots.txt, and Instagram captions use `https://joshuaofisrael.github.io/promptframed/`
+- Instagram: **Night Shade Art (handle TBD)**. Bio link: `https://joshuaofisrael.github.io/promptframed/buy.html`
+- GitHub Pages live URL: https://joshuaofisrael.github.io/promptframed/
 - Namecheap DNS (apex A records and `www` CNAME) is the coordinator’s step. Values are in `docs/DOMAIN_HANDOFF.md`. Do not buy another domain.
 
 ---
@@ -35,8 +35,8 @@ Joshua registered **moonlitwindows.com** on Namecheap on 28 Sep 2026. Preferred 
 
 ## 2. Live URL / site / PR status
 
-**Preferred live URL:** https://moonlitwindows.com/  
-**GitHub Pages fallback:** https://joshuaofisrael.github.io/promptframed/
+**Live URL:** https://joshuaofisrael.github.io/promptframed/
+**Custom domain:** disabled until DNS is ready.
 
 **Cloud agent PR:** none as of wake checklist (agent id `bc-0b12b08c-1714-5e8e-be1f-d86cc4e8f3c4` never opened a PR). Gallery site was shipped directly to `main` overnight.
 
@@ -52,11 +52,11 @@ Full DNS/CNAME steps for a custom domain: `docs/DOMAIN_HANDOFF.md`.
 
 Repo work is in place:
 
-1. Root `CNAME` is `moonlitwindows.com`
-2. Public canonicals, Open Graph, sitemap, and Instagram captions use https://moonlitwindows.com
+1. Root `CNAME` is absent; do not re-enable the custom domain yet
+2. Public canonicals, Open Graph, sitemap, and Instagram captions use https://joshuaofisrael.github.io/promptframed/
 3. DNS at Namecheap is still the coordinator’s step — `docs/DOMAIN_HANDOFF.md` (four apex A records, `www` CNAME → `joshuaofisrael.github.io`)
 4. After DNS answers, Settings → Pages → **Enforce HTTPS**
-5. Instagram bio for @artnightshade: `https://moonlitwindows.com/`
+5. Instagram bio once a handle is chosen: `https://joshuaofisrael.github.io/promptframed/buy.html`
 
 ---
 
@@ -86,7 +86,7 @@ Suggested retail test ranges (your call): 12×18 unframed $34–44; 12×18 frame
 2. Complete the captcha → Next → finish signup.
 3. Password is recorded in `docs/INSTAGRAM_ACCOUNT.md` (local only; do **not** commit that file to GitHub).
 4. Bio: `Night Windows · AI landscapes as posters · Link buys the print`
-5. The public account for this series is **@artnightshade** (Night Shade Art). Bio link: `https://moonlitwindows.com/`
+5. The Instagram handle for this series is TBD. Bio link: `https://joshuaofisrael.github.io/promptframed/buy.html`
 6. First posts: Night Windows series. Caption ends with “Want a poster? Buy at the link” plus the piece URL on moonlitwindows.com (see MARKETING_NIGHT_WINDOWS.md). Keep “AI/ChatGPT” out of captions and out of the site hero. Disclosure stays in the footer and on About.
 
 ---
@@ -96,7 +96,7 @@ Suggested retail test ranges (your call): 12×18 unframed $34–44; 12×18 frame
 1. Check live URL / merge green site PR if not already merged  
 2. Confirm GitHub Pages serves the gallery  
 3. Coordinator applies Namecheap DNS for moonlitwindows.com (`docs/DOMAIN_HANDOFF.md`)  
-4. Instagram bio link for @artnightshade → https://moonlitwindows.com/  
+4. Choose an Instagram handle, then set the bio link to https://joshuaofisrael.github.io/promptframed/buy.html
 5. Create Printful Quick Store + publish first Night Windows products + paste buy URLs into site  
 
 Then you’re live for Instagram → site → Printful checkout.

@@ -13,7 +13,7 @@
 - Framed 12×18: £69–£79 (or ~$89)
 
 ## Instagram
-@artnightshade bio → https://moonlitwindows.com/buy.html (or site home) once DNS live.
+Instagram bio (handle TBD) → https://moonlitwindows.com/buy.html (or site home) once DNS live.
 
 ## Status
 Awaiting Stripe connector auth, then create Payment Links and write URLs into `products.json`.
