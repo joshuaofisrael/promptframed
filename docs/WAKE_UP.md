@@ -76,9 +76,9 @@ Suggested retail test ranges (your call): 12×18 unframed $34–44; 12×18 frame
 1. Open https://www.instagram.com/accounts/emailsignup/ (or continue the open signup session).
 2. Complete the captcha → Next → finish signup.
 3. Password is recorded in `docs/INSTAGRAM_ACCOUNT.md` (local only; do **not** commit that file to GitHub).
-4. Bio: `AI art gallery · Want the poster? Link in bio · ChatGPT wall art shipped as prints · Joshua Israel Ventures LLC`
+4. Bio: `Night Windows · AI landscapes as posters · Link buys the print`
 5. Bio link (until custom domain): `https://joshuaofisrael.github.io/promptframed/`
-6. First posts: Night Windows series — CTA “Want the poster? Link in bio” (see MARKETING_NIGHT_WINDOWS.md). Keep “AI/ChatGPT” out of captions unless you ask for it; SEO pages can still say it.
+6. First posts: Night Windows series. Caption ends with “Want a poster? Buy at the link” plus the piece URL (see MARKETING_NIGHT_WINDOWS.md). Keep “AI/ChatGPT” out of captions and out of the site hero. Disclosure stays in the footer and on About.
 
 ---
 

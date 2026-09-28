@@ -43,13 +43,33 @@ a:hover { color: #f0cb86; }
   border-bottom: 1px solid var(--line);
 }
 .brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+  line-height: 1.05;
+  text-decoration: none;
+  color: inherit;
+}
+.brand-series {
   font-family: var(--serif);
   font-size: 1.25rem;
   letter-spacing: -0.02em;
   color: var(--ink);
-  text-decoration: none;
 }
-.brand span { color: var(--accent); }
+.brand-studio {
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+.soft-cta { margin: 0.85rem 0 0; }
+.series-sheet { margin: 0 0 3rem; }
+.series-sheet img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
 .nav { display: flex; gap: 0.35rem 0.9rem; flex-wrap: wrap; }
 .nav a {
   color: var(--muted);

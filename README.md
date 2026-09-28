@@ -4,6 +4,25 @@ Night Windows, a static gallery for Joshua Israel Ventures LLC.
 
 **Live:** https://joshuaofisrael.github.io/promptframed/
 
+## Night Windows marketing
+
+Source: `docs/MARKETING_NIGHT_WINDOWS.md`.
+
+Prompt Framed presents **Night Windows**, a series of dreamy moonlit landscape posters. The hook: each piece is a window into somewhere you wish you were. The public site says “Windows into places you wish you were.”
+
+Every Instagram post uses the same close:
+
+```
+Want a poster? Buy at the link:
+https://joshuaofisrael.github.io/promptframed/pieces/SLUG.html
+```
+
+Or, in a bio: poster link in bio. Suggested bio: `Night Windows · AI landscapes as posters · Link buys the print`. Keep “AI” and “ChatGPT” out of captions and out of the site hero. The disclosure stays in the footer and on About. The style prompt stays internal.
+
+Drop formats: one window (art, short mood, CTA); which window tonight (two or three pieces, then the buy link); detail crop into a full reveal; room mockup; day/night twins when they exist. Cadence: 3–5 posts a week inside this series before a new style line.
+
+The contact sheet (`gallery/night-windows-contact-sheet.png`, shown on `/night-windows.html`) is the series reference. Photos 1 and 2 were specified first. The other eight windows are already individual pages because the files were in the gallery. Buy links still come from `products.json` and do not charge anyone until a real Printful URL is pasted in.
+
 GitHub Pages already serves `main` from the repository root. There is no paid host. This site does not charge a card. Buy Poster opens a Printful link only after a real product URL is saved in `products.json`.
 
 ## WAKE UP
@@ -82,7 +101,8 @@ If the URL 404s, open https://github.com/joshuaofisrael/promptframed/settings/pa
 
 | Path | Page |
 | --- | --- |
-| `/` | Night Windows gallery, Photos 1–10 |
+| `/` | Night Windows gallery |
+| `/night-windows.html` | Series page and contact sheet |
 | `/pieces/moonlit-alpine-meadow.html` | Photo 1, Buy Poster, caption |
 | `/pieces/moonlit-mediterranean-village.html` | Photo 2 |
 | `/buy.html` | All ten, poster and framed buttons |
