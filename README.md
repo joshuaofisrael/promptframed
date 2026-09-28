@@ -2,7 +2,8 @@
 
 Night Windows, a static gallery for Joshua Israel Ventures LLC.
 
-**Live:** https://joshuaofisrael.github.io/promptframed/
+**Live:** https://moonlitwindows.com/  
+**Fallback:** https://joshuaofisrael.github.io/promptframed/ (GitHub Pages redirects here once the Namecheap DNS for moonlitwindows.com is verified)
 
 ## Night Windows marketing
 
@@ -14,7 +15,7 @@ Every Instagram post uses the same close:
 
 ```
 Want a poster? Buy at the link:
-https://joshuaofisrael.github.io/promptframed/pieces/SLUG.html
+https://moonlitwindows.com/pieces/SLUG.html
 ```
 
 Or, in a bio: poster link in bio. Suggested bio: `Night Windows · AI landscapes as posters · Link buys the print`. Keep “AI” and “ChatGPT” out of captions and out of the site hero. The disclosure stays in the footer and on About. The style prompt stays internal.
@@ -31,36 +32,24 @@ Full morning notes: `docs/WAKE_UP.md`. Domain DNS: `docs/DOMAIN_HANDOFF.md`. Pri
 
 When you sit down, these are yours. The gallery, including Photos 1–10, is already on the live URL.
 
-### 1. Buy the domain
+### 1. Custom domain
 
-Namecheap or Cloudflare Registrar. Not Porkbun. Do not buy a name you have not checked.
+Joshua registered **moonlitwindows.com** on Namecheap on 28 Sep 2026. That is the live custom domain. Preferred URL: https://moonlitwindows.com/
 
-1. promptframed.com
-2. framedprompt.com
-3. aicanvasprints.com
+The repo already has a root `CNAME` file containing `moonlitwindows.com`. Canonical tags, Open Graph tags, `sitemap.xml`, `robots.txt`, and the Instagram captions use `https://moonlitwindows.com`. Relative asset paths are unchanged. A Pages project site serves the repo root on the custom domain, so public URLs do not include `/promptframed/`.
 
-Then follow `docs/DOMAIN_HANDOFF.md`:
+Namecheap DNS (apex A records and `www` CNAME) is a separate coordinator step. Record values are in `docs/DOMAIN_HANDOFF.md`. After those records answer, turn on **Enforce HTTPS** in Settings → Pages. https://joshuaofisrael.github.io/promptframed/ stays as the fallback and should redirect to the custom domain once GitHub verifies DNS.
 
-- CNAME `www` → `joshuaofisrael.github.io`
-- Apex: ALIAS/ANAME to `joshuaofisrael.github.io`, or all four A records `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-- Optional AAAA: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
-- On Cloudflare, leave the proxy grey (DNS only) until GitHub issues the certificate
-- Repo **Settings → Pages → Custom domain** → save → **Enforce HTTPS**
-- Pages is already set to deploy from branch `main` / root. A root `CNAME` file is how that mode remembers the domain. Put only the domain in the file, for example `promptframed.com`, after you own it.
+### 2. Instagram
 
-After the domain answers, replace `https://joshuaofisrael.github.io/promptframed` in canonical tags, Open Graph tags, `sitemap.xml`, `robots.txt`, and the Instagram captions.
+The public Instagram is **@nightshadeart** (Night Shade Art). The footer links there.
 
-### 2. Instagram, if the captcha is still open
-
-The footer says `@promptframed (pending)` and does not link out, so we never send people to someone else’s account.
-
-1. Finish signup at Instagram. The overnight note is in `docs/WAKE_UP.md` section 5. Do not commit a password file.
-2. Bio link, until the custom domain works: `https://joshuaofisrael.github.io/promptframed/`
-3. For a post, open the piece page and press **Copy caption**. Every caption ends with:
+1. Bio link: `https://moonlitwindows.com/`
+2. For a post, open the piece page and press **Copy caption**. Every caption ends with:
 
 ```
 Want a poster? Buy at the link:
-https://joshuaofisrael.github.io/promptframed/pieces/moonlit-alpine-meadow.html
+https://moonlitwindows.com/pieces/moonlit-alpine-meadow.html
 ```
 
 Use the URL of the picture you posted. Photo 2 is `pieces/moonlit-mediterranean-village.html`.

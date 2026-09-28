@@ -1,8 +1,21 @@
 # Night Windows — marketing system
 
 Series name: **Night Windows**
+Studio: **Prompt Framed** (Joshua Israel Ventures LLC)
+Instagram: **@nightshadeart** (Night Shade Art)
+Live gallery: **https://moonlitwindows.com** (custom domain registered on Namecheap, 28 Sep 2026)
+Fallback: https://joshuaofisrael.github.io/promptframed/
 Hook: each piece is a window into somewhere you wish you were.
-CTA (every post): Want this on your wall? Poster link in bio / Want a poster? Buy at the link.
+CTA (every post): Want a poster? Buy at the link.
+
+Bio link: `https://moonlitwindows.com/`
+
+Caption close (use the piece you posted):
+
+```
+Want a poster? Buy at the link:
+https://moonlitwindows.com/pieces/SLUG.html
+```
 
 ## Drop formats
 1. One Window — full art + short mood caption + CTA
@@ -17,6 +30,8 @@ Style prompt stays internal / SEO only.
 
 ## Bio
 Night Windows · AI landscapes as posters · Link buys the print
+
+Link: https://moonlitwindows.com/
 
 ## Cadence
 3–5 posts/week inside the series before introducing a new style line.

@@ -5,8 +5,8 @@ Online art gallery of ChatGPT / AI-drawn images. Visitors browse the gallery, bu
 
 ## Brand
 - Working name: **Prompt Framed**
-- Repo / GitHub Pages: `joshuaofisrael/promptframed` → `https://joshuaofisrael.github.io/promptframed/`
-- Custom domain: Joshua buys tomorrow (candidates: promptframed.com, framedprompt.com, aicanvasprints.com). Do not register until he confirms.
+- Repo / GitHub Pages: `joshuaofisrael/promptframed`
+- Live custom domain: **https://moonlitwindows.com** (Joshua registered moonlitwindows.com on Namecheap, 28 Sep 2026). Fallback: `https://joshuaofisrael.github.io/promptframed/`
 - Legal: Joshua Israel Ventures LLC. Owner login access: joshofisrael@yahoo.com / joshuaofisrael@gmail.com.
 
 ## Product flow
