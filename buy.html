@@ -1,112 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Buy a print — Prompt Framed</title>
-  <meta name="description" content="Buy Night Windows posters and framed prints. Checkout is hosted on Printful Quick Store once products are published." />
-  <link rel="canonical" href="https://joshuaofisrael.github.io/promptframed/buy.html" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Buy Night Windows posters and framed prints. Checkout opens on the print shop after each product URL is saved. This page does not charge a card.">
+  <link rel="canonical" href="https://joshuaofisrael.github.io/promptframed/buy.html">
+  <meta property="og:title" content="Buy a print — Prompt Framed">
+  <meta property="og:description" content="Buy Night Windows posters and framed prints. This page does not charge a card.">
+  <meta property="og:url" content="https://joshuaofisrael.github.io/promptframed/buy.html">
+  <meta property="og:image" content="https://joshuaofisrael.github.io/promptframed/assets/night-windows-contact-sheet.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Outfit:wght@380;560;650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-products="products.json">
   <div class="wrap">
     <header class="site-header">
       <a class="brand" href="./">Prompt <span>Framed</span></a>
       <nav class="nav">
         <a href="./#gallery">Gallery</a>
-        <a href="./buy.html">Buy a print</a>
+        <a href="./how-it-works.html">How it works</a>
         <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
       </nav>
     </header>
-    <section class="hero" style="text-align:left; padding-bottom:1rem;">
+    <section class="hero left">
       <div class="kicker">Shop</div>
       <h1>Buy the print</h1>
-      <p>Want a poster? Buy at the link once Printful Quick Store is published (print, pack, ship). Product URLs get pasted here after Joshua publishes the store — no fake checkout.</p>
+      <p>Want a poster? Buy at the link on each piece. Until a real Printful URL is saved in products.json, these buttons stay on this site and do not open a checkout.</p>
     </section>
     <section class="grid">
       <article class="card" id="moonlit-alpine-meadow">
-        <img src="./assets/01-moonlit-alpine-meadow.jpg" alt="Moonlit Alpine Meadow" />
+        <a href="./pieces/moonlit-alpine-meadow.html"><img src="./assets/01-moonlit-alpine-meadow.jpg" alt="Moonlit Alpine Meadow"></a>
         <div class="meta">
           <h2>Moonlit Alpine Meadow</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/moonlit-alpine-meadow.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="moonlit-alpine-meadow" data-sku="poster" href="./pieces/moonlit-alpine-meadow.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="moonlit-alpine-meadow" data-sku="framed" href="./pieces/moonlit-alpine-meadow.html">Framed Print</a>
         </div>
       </article>
       <article class="card" id="moonlit-mediterranean-village">
-        <img src="./assets/02-moonlit-mediterranean-village.jpg" alt="Moonlit Mediterranean Village" />
+        <a href="./pieces/moonlit-mediterranean-village.html"><img src="./assets/02-moonlit-mediterranean-village.jpg" alt="Moonlit Mediterranean Village"></a>
         <div class="meta">
           <h2>Moonlit Mediterranean Village</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/moonlit-mediterranean-village.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="moonlit-mediterranean-village" data-sku="poster" href="./pieces/moonlit-mediterranean-village.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="moonlit-mediterranean-village" data-sku="framed" href="./pieces/moonlit-mediterranean-village.html">Framed Print</a>
         </div>
       </article>
       <article class="card landscape" id="snowy-peaks-above-clouds">
-        <img src="./assets/03-snowy-peaks-above-clouds.jpg" alt="Snowy Peaks Above Clouds" />
+        <a href="./pieces/snowy-peaks-above-clouds.html"><img src="./assets/03-snowy-peaks-above-clouds.jpg" alt="Snowy Peaks Above Clouds"></a>
         <div class="meta">
           <h2>Snowy Peaks Above Clouds</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/snowy-peaks-above-clouds.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="snowy-peaks-above-clouds" data-sku="poster" href="./pieces/snowy-peaks-above-clouds.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="snowy-peaks-above-clouds" data-sku="framed" href="./pieces/snowy-peaks-above-clouds.html">Framed Print</a>
         </div>
       </article>
       <article class="card landscape" id="coastal-cliffside-town">
-        <img src="./assets/04-coastal-cliffside-town.jpg" alt="Coastal Cliffside Town" />
+        <a href="./pieces/coastal-cliffside-town.html"><img src="./assets/04-coastal-cliffside-town.jpg" alt="Coastal Cliffside Town"></a>
         <div class="meta">
           <h2>Coastal Cliffside Town</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/coastal-cliffside-town.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="coastal-cliffside-town" data-sku="poster" href="./pieces/coastal-cliffside-town.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="coastal-cliffside-town" data-sku="framed" href="./pieces/coastal-cliffside-town.html">Framed Print</a>
         </div>
       </article>
       <article class="card landscape" id="lakeside-cabin">
-        <img src="./assets/05-lakeside-cabin.jpg" alt="Lakeside Cabin" />
+        <a href="./pieces/lakeside-cabin.html"><img src="./assets/05-lakeside-cabin.jpg" alt="Lakeside Cabin"></a>
         <div class="meta">
           <h2>Lakeside Cabin</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/lakeside-cabin.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="lakeside-cabin" data-sku="poster" href="./pieces/lakeside-cabin.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="lakeside-cabin" data-sku="framed" href="./pieces/lakeside-cabin.html">Framed Print</a>
         </div>
       </article>
       <article class="card landscape" id="hilltop-path-village">
-        <img src="./assets/06-hilltop-path-village.jpg" alt="Hilltop Path to Village" />
+        <a href="./pieces/hilltop-path-village.html"><img src="./assets/06-hilltop-path-village.jpg" alt="Hilltop Path to Village"></a>
         <div class="meta">
           <h2>Hilltop Path to Village</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/hilltop-path-village.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="hilltop-path-village" data-sku="poster" href="./pieces/hilltop-path-village.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="hilltop-path-village" data-sku="framed" href="./pieces/hilltop-path-village.html">Framed Print</a>
         </div>
       </article>
       <article class="card landscape" id="moonlit-waterfall">
-        <img src="./assets/07-moonlit-waterfall.jpg" alt="Moonlit Waterfall" />
+        <a href="./pieces/moonlit-waterfall.html"><img src="./assets/07-moonlit-waterfall.jpg" alt="Moonlit Waterfall"></a>
         <div class="meta">
           <h2>Moonlit Waterfall</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/moonlit-waterfall.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="moonlit-waterfall" data-sku="poster" href="./pieces/moonlit-waterfall.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="moonlit-waterfall" data-sku="framed" href="./pieces/moonlit-waterfall.html">Framed Print</a>
         </div>
       </article>
       <article class="card landscape" id="wildflower-meadow-cabin">
-        <img src="./assets/08-wildflower-meadow-cabin.jpg" alt="Wildflower Meadow Cabin" />
+        <a href="./pieces/wildflower-meadow-cabin.html"><img src="./assets/08-wildflower-meadow-cabin.jpg" alt="Wildflower Meadow Cabin"></a>
         <div class="meta">
           <h2>Wildflower Meadow Cabin</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/wildflower-meadow-cabin.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="wildflower-meadow-cabin" data-sku="poster" href="./pieces/wildflower-meadow-cabin.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="wildflower-meadow-cabin" data-sku="framed" href="./pieces/wildflower-meadow-cabin.html">Framed Print</a>
         </div>
       </article>
       <article class="card landscape" id="northern-lights-fjord">
-        <img src="./assets/09-northern-lights-fjord.jpg" alt="Northern Lights Fjord" />
+        <a href="./pieces/northern-lights-fjord.html"><img src="./assets/09-northern-lights-fjord.jpg" alt="Northern Lights Fjord"></a>
         <div class="meta">
           <h2>Northern Lights Fjord</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/northern-lights-fjord.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="northern-lights-fjord" data-sku="poster" href="./pieces/northern-lights-fjord.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="northern-lights-fjord" data-sku="framed" href="./pieces/northern-lights-fjord.html">Framed Print</a>
         </div>
       </article>
       <article class="card landscape" id="mediterranean-lantern-walk">
-        <img src="./assets/10-mediterranean-lantern-walk.jpg" alt="Mediterranean Lantern Walk" />
+        <a href="./pieces/mediterranean-lantern-walk.html"><img src="./assets/10-mediterranean-lantern-walk.jpg" alt="Mediterranean Lantern Walk"></a>
         <div class="meta">
           <h2>Mediterranean Lantern Walk</h2>
-          <p>Poster &amp; framed options — link pending Printful publish.</p>
-          <a class="btn secondary" href="./pieces/mediterranean-lantern-walk.html">View piece</a>
+          <p>Poster first. Framed print is the second product. Links stay here until Printful URLs are saved.</p>
+          <a class="btn" data-buy="mediterranean-lantern-walk" data-sku="poster" href="./pieces/mediterranean-lantern-walk.html">Buy Poster</a>
+          <a class="btn secondary" data-buy="mediterranean-lantern-walk" data-sku="framed" href="./pieces/mediterranean-lantern-walk.html">Framed Print</a>
         </div>
       </article>
     </section>
-    <p class="note">Store URL placeholder: <code>https://promptframed.printful.me/</code> (confirm slug in Printful). See <code>docs/PRINTFUL_SETUP.md</code>.</p>
+    <p class="note" id="buy-status">Paste each live https product URL into products.json (posterUrl and framedUrl). Leave them null until the product is public. Prompt Framed never asks for a card number.</p>
   </div>
-  <footer class="site-footer"><div class="wrap"><div>© Prompt Framed · Joshua Israel Ventures LLC</div></div></footer>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>© 2026 Joshua Israel Ventures LLC. Art in this gallery may be AI-generated (ChatGPT and similar tools).</div>
+      <div><a href="./">Gallery</a> · <a href="./how-it-works.html">How it works</a></div>
+    </div>
+  </footer>
+  <script src="site.js"></script>
 </body>
 </html>
