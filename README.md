@@ -15,7 +15,7 @@ Every Instagram post uses the same close:
 
 ```
 Want a poster? Buy at the link:
-https://moonlitwindows.com/pieces/SLUG.html
+https://joshuaofisrael.github.io/promptframed/pieces/SLUG.html
 ```
 
 Or, in a bio: poster link in bio. Suggested bio: `Night Windows · AI landscapes as posters · Link buys the print`. Keep “AI” and “ChatGPT” out of captions and out of the site hero. The disclosure stays in the footer and on About. The style prompt stays internal.
@@ -38,14 +38,14 @@ GitHub Pages serves `main` from the repository root at https://joshuaofisrael.gi
 
 ### 2. Instagram
 
-The Instagram handle is TBD. The site keeps the display brand **Night Shade Art** without linking to a specific account.
+The Instagram account is **[@moonnightshadeart](https://www.instagram.com/moonnightshadeart/)** for **Night Shade Art**.
 
 1. Bio link: `https://joshuaofisrael.github.io/promptframed/buy.html`
 2. For a post, open the piece page and press **Copy caption**. Every caption ends with:
 
 ```
 Want a poster? Buy at the link:
-https://moonlitwindows.com/pieces/moonlit-alpine-meadow.html
+https://joshuaofisrael.github.io/promptframed/pieces/moonlit-alpine-meadow.html
 ```
 
 Use the URL of the picture you posted. Photo 2 is `pieces/moonlit-mediterranean-village.html`.

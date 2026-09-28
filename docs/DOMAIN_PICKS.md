@@ -1,6 +1,6 @@
 # Night Windows domain picks
 
-**Registered:** Joshua registered **moonlitwindows.com** on Namecheap on 28 Sep 2026. It is the live custom domain. Preferred URL: https://moonlitwindows.com. Do not buy a second name.
+**Registered:** Joshua registered **moonlitwindows.com** on Namecheap on 28 Sep 2026. It is registered but not live yet; GitHub Pages remains the current URL until DNS works. Current URL: https://joshuaofisrael.github.io/promptframed/. Do not buy a second name.
 
 **Checked:** 28 September 2026, 08:40 BST, before that registration. **Registrars considered:** Namecheap and Cloudflare Registrar only. The availability notes below are that pre-purchase snapshot.
 

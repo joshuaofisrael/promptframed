@@ -35,7 +35,7 @@ PRODUCTS_PATH = ROOT / "products.json"
 INDEX_PATH = ROOT / "index.html"
 BUY_PATH = ROOT / "buy.html"
 SITEMAP_PATH = ROOT / "sitemap.xml"
-BASE_URL = "https://moonlitwindows.com"
+BASE_URL = "https://joshuaofisrael.github.io/promptframed"
 
 STYLE = (
     "Dreamy cinematic fantasy realism, photorealistic landscape photography, "
@@ -322,6 +322,7 @@ def piece_html(piece: dict, width: int, height: int) -> str:
         <a href="../#gallery">Gallery</a>
         <a href="../buy.html">Buy a print</a>
         <a href="../about.html">About</a>
+        <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a>
       </nav>
     </header>
     <article class="piece">
@@ -338,7 +339,7 @@ def piece_html(piece: dict, width: int, height: int) -> str:
       </div>
     </article>
   </div>
-  <footer class="site-footer"><div class="wrap"><div>© Prompt Framed · Joshua Israel Ventures LLC</div><div><a href="../">Back to gallery</a></div></div></footer>
+  <footer class="site-footer"><div class="wrap"><div>© Prompt Framed · Joshua Israel Ventures LLC</div><div><a href="../">Back to gallery</a> · <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div></div></footer>
 </body>
 </html>
 """

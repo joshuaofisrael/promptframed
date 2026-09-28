@@ -4,7 +4,7 @@
 **Registrar:** Namecheap (Joshua)  
 **Entity:** Joshua Israel Ventures LLC  
 **Pages host:** `joshuaofisrael.github.io` / repo `joshuaofisrael/promptframed`  
-**Instagram:** Night Shade Art on Instagram (handle TBD)
+**Instagram:** Night Shade Art on Instagram: [@moonnightshadeart](https://www.instagram.com/moonnightshadeart/)
 
 ## Temporary live URL (DNS incomplete)
 
@@ -69,7 +69,7 @@ moonlitwindows.com
    - https://www.moonlitwindows.com reaches the same site
    - https://joshuaofisrael.github.io/promptframed/ may redirect to the custom domain again
 5. Switch site canonicals / OG / Instagram captions / `sitemap.xml` / `robots.txt` back to `https://moonlitwindows.com/` (project path `/promptframed/` is not used on the custom domain root).
-6. Instagram bio, once a handle is chosen: `https://moonlitwindows.com/`
+6. Instagram bio, once DNS works: `https://moonlitwindows.com/`
 
 ### Troubleshooting
 

@@ -10,7 +10,7 @@ Date | Site | Brand | Bot | Pageviews total | Pageviews non-bot | Visits total |
 Prompt Framed / Night Windows is **not** listed on the Sites sheet and has **no** DailyViews rows.
 
 ## Analytics availability
-- Preferred host: https://moonlitwindows.com (Joshua registered it on Namecheap, 28 Sep 2026). Fallback: `joshuaofisrael.github.io/promptframed/`
+- Current host: https://joshuaofisrael.github.io/promptframed/ (GitHub Pages). Custom domain `moonlitwindows.com` is registered but disabled until DNS works.
 - Cloudflare Web Analytics: **unavailable** — no CF beacon on this site; hostname absent from `/workspace/seo/cf-web-analytics-tokens-2026-09-27.json`
 - Namecheap DNS is not in this repo, so there are no CF zone edge totals yet
 - No GA4 / other RUM found for this gallery

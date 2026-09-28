@@ -1,20 +1,18 @@
-# Night Shade Art Instagram — handle TBD
+# Night Shade Art Instagram — @moonnightshadeart
 
-Handle TBD (28 Sep 2026): both previously checked handle choices were taken; do not invent a new handle here.
+Handle locked by Joshua (28 Sep 2026): **[@moonnightshadeart](https://www.instagram.com/moonnightshadeart/)**
+(Other handle choices are unavailable — do not use them)
 
-## Create on phone
-1. Instagram → Create new account (or switch → Add account)
-2. Username: TBD (choose only after a new handle is approved)
-3. Display name: Night Shade Art
-4. Avatar: use `profile-avatar-1080.jpg` or `profile-avatar-clean-1080.jpg` in this folder
-5. Paste bio + link below
-6. Post from `first-posts/` using `CAPTIONS.md` (cinematic; no AI jargon)
+## Profile picture
+Use artwork avatar (Night Windows piece 02 — moonlit Mediterranean village):
+- `profile-avatar-art-1080.jpg` (preferred)
+- Also on Desktop: `instagram-kit/profile-avatar-art-1080.jpg`
 
-## Bio link (paste now)
-Use this buy link:
+## Bio link
 ```
 https://joshuaofisrael.github.io/promptframed/buy.html
 ```
+Keep using the GitHub Pages link above until the custom domain DNS is working.
 
 ## Bio text
 ```
@@ -25,5 +23,3 @@ Joshua Israel Ventures LLC
 
 ## Posts
 Use `first-posts/` + `CAPTIONS.md`. Every caption ends with: Want a poster? Buy at the link.
-
-Checkout: Stripe Payment Links on the gallery Buy Poster buttons (in progress). Until those are live, the buy page still collects interest / shows the gallery.
