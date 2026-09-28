@@ -13,8 +13,8 @@ Owner email for all accounts: **joshofisrael@yahoo.com** (retain access).
 | Repo seeded | Done — https://github.com/joshuaofisrael/promptframed |
 | Gallery assets (local) | Photo 1 + 2 + Night Windows contact sheet in `/workspace/promptframed/gallery/` |
 | Docs | BUSINESS_PLAN, MARKETING_NIGHT_WINDOWS, PRINTFUL_SETUP, INSTAGRAM_ACCOUNT, DOMAIN_HANDOFF, SEO_SCORECARD, this file |
-| Cloud site-build agent | `bc-0b12b08c-1714-5e8e-be1f-d86cc4e8f3c4` was tasked to build the site (see §2) |
-| GitHub Pages | See §2 — enabled if `index.html` landed on `main`; else one-click left |
+| Cloud site-build agent | `bc-0b12b08c-1714-5e8e-be1f-d86cc4e8f3c4` — **no PR appeared**; overnight executor shipped gallery site instead |
+| GitHub Pages | **Live** — https://joshuaofisrael.github.io/promptframed/ (HTTP 200) |
 | Printful | **Not spent** — click-path ready in §4 (no account created overnight) |
 | Instagram | **Incomplete** — captcha blocker; details in §5 |
 | Custom domain | **Your job this morning** — §3 |
@@ -26,15 +26,9 @@ Owner email for all accounts: **joshofisrael@yahoo.com** (retain access).
 **Intended live URL (GitHub Pages project site):**  
 https://joshuaofisrael.github.io/promptframed/
 
-**Cloud agent PR:** _(filled at end of overnight run — check below)_  
-- PR URL: see “Overnight run result” at bottom of this file  
-- Do not merge until checks are green and the PR clearly ships a complete gallery site (`index.html` + piece pages + buy CTA stubs).
+**Cloud agent PR:** none as of wake checklist (agent id `bc-0b12b08c-1714-5e8e-be1f-d86cc4e8f3c4` never opened a PR). Gallery site was shipped directly to `main` overnight.
 
-**One-click Pages enable (if still off):**  
-1. Open https://github.com/joshuaofisrael/promptframed/settings/pages  
-2. Source: **Deploy from a branch** → Branch `main` / folder `/ (root)` → Save  
-   — or — Source: **GitHub Actions** if the PR added a Pages workflow  
-3. Wait 1–2 minutes, then open https://joshuaofisrael.github.io/promptframed/
+**GitHub Pages:** already enabled (legacy, `main` `/`). Live URL above is serving. Re-check Settings → Pages only if the URL 404s.
 
 Full DNS/CNAME steps for a custom domain: `docs/DOMAIN_HANDOFF.md`.
 
