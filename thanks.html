@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thank you — Night Windows | Prompt Framed</title>
+  <meta name="description" content="Thank you for your Night Windows order. Your print is being prepared.">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://joshuaofisrael.github.io/promptframed/thanks.html">
+  <meta name="theme-color" content="#070b14">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Outfit:wght@380;560;650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <a class="brand" href="./"><span class="brand-series">Night Windows</span><span class="brand-studio">Prompt Framed</span></a>
+            <nav class="nav" aria-label="Primary">
+        <a href="./#gallery">Gallery</a>
+        <a href="./night-windows.html">The series</a>
+        <a href="./buy.html">Buy</a>
+        <a href="./guide-print-sizes.html">Print sizes</a>
+        <a href="./how-it-works.html">How it works</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a>
+      </nav>
+    </header>
+    <section class="thanks">
+      <div class="kicker">Order received</div>
+      <h1>Thank you</h1>
+      <p id="thanks-line">Thank you, your Night Windows print is being prepared; you&rsquo;ll get an email receipt.</p>
+      <img id="thanks-img" src="./assets/night-windows-contact-sheet.jpg" alt="Night Windows series">
+      <p class="note">Each print is made to order and shipped to the address you entered at checkout. Questions about your order? <a href="./contact.html">Get in touch</a>.</p>
+      <p class="actions" style="justify-content:center"><a class="btn" href="./">Back to the gallery</a> <a class="btn secondary" href="./buy.html">See more windows</a></p>
+    </section>
+  </div>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>© 2026 Joshua Israel Ventures LLC · Night Windows by Prompt Framed · Night Shade Art</div>
+      <div><a href="./buy.html">Want a poster? Buy at the link.</a></div>
+      <div><a href="./">Gallery</a> · <a href="./how-it-works.html">How it works</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
+    </div>
+  </footer>
+  <script>
+  (function () {
+    var q = new URLSearchParams(window.location.search);
+    var slug = q.get("piece");
+    var variant = q.get("variant") === "framed" ? "framed print" : "poster";
+    if (!slug || !/^[a-z0-9-]+$/.test(slug)) return;
+    fetch("products.json").then(function (r) { return r.json(); }).then(function (list) {
+      var item = (list || []).filter(function (p) { return p.slug === slug; })[0];
+      if (!item) return;
+      document.getElementById("thanks-line").textContent =
+        "Thank you, your Night Windows print is being prepared: " + item.title + " (" + variant + ", 12\u00d718). You\u2019ll get an email receipt.";
+      var img = document.getElementById("thanks-img");
+      img.src = "./assets/" + item.asset;
+      img.alt = item.title;
+    }).catch(function () {});
+  })();
+  </script>
+</body>
+</html>

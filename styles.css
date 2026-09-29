@@ -272,3 +272,17 @@ input, textarea {
   .actions .btn { width: auto; flex: 1 1 auto; }
   .hero { padding: 1.5rem 0 1rem; }
 }
+
+/* Stripe buy buttons */
+.price-line { margin: 0.6rem 0 0; font-weight: 560; letter-spacing: 0.01em; color: var(--accent); }
+.buy-box { margin-top: 1rem; }
+.buy-actions { margin-top: 0.6rem; }
+.window-nav { margin: 0.9rem 0 0; }
+.grid .card[id], .buy-box { scroll-margin-top: 96px; }
+.grid .card:target, .grid .card.is-target {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  box-shadow: 0 0 0 8px rgba(228, 177, 90, 0.12);
+}
+.thanks { max-width: 640px; margin: 0 auto; text-align: center; padding: 3rem 0 2rem; }
+.thanks img { max-width: 320px; width: 100%; border-radius: 12px; margin: 1.2rem auto 0; display: block; }

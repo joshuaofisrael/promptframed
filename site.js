@@ -28,8 +28,25 @@
     });
   }
 
+  // Deep links such as buy.html#moonlit-alpine-meadow: highlight the piece and
+  // bring its buy buttons into view once images have laid out.
+  function focusHashTarget() {
+    var id = decodeURIComponent((window.location.hash || "").slice(1));
+    if (!id) return;
+    var el = document.getElementById(id);
+    if (!el) return;
+    document.querySelectorAll(".is-target").forEach(function (n) { n.classList.remove("is-target"); });
+    el.classList.add("is-target");
+    el.scrollIntoView({ block: "start" });
+  }
+  window.addEventListener("hashchange", focusHashTarget);
+  window.addEventListener("load", focusHashTarget);
+
+  // Buy buttons are plain <a href> links to Stripe Payment Links, written into
+  // the HTML by scripts/apply_stripe_links.py. products.json is only used here
+  // to keep them in sync if a link is replaced before the pages are regenerated.
   var src = document.body.getAttribute("data-products");
-  if (!src) return;
+  if (!src || !window.fetch) return;
   fetch(src)
     .then(function (response) { return response.json(); })
     .then(function (list) {
@@ -38,35 +55,19 @@
       document.querySelectorAll("[data-buy]").forEach(function (el) {
         var item = bySlug[el.getAttribute("data-buy")];
         if (!item) return;
-        var sku = el.getAttribute("data-sku");
-        var url = shopUrlFor(item, sku);
-        if (!isShopUrl(url)) return;
-        el.href = url;
-        el.target = "_blank";
-        el.rel = "noopener noreferrer";
-        var status = document.getElementById("buy-status");
-        if (status && sku === "poster") {
-          status.textContent = "Buy Poster opens checkout in a new tab. Prompt Framed does not take a card on this page.";
-        }
+        var url = shopUrlFor(item, el.getAttribute("data-sku"));
+        if (isShopUrl(url)) el.href = url;
       });
     })
     .catch(function () {});
 
   function shopUrlFor(item, sku) {
     var stripe = item.stripe || {};
-    var printful = item.printful || {};
-    if (sku === "framed") {
-      return stripe.framedUrl || printful.framedUrl || null;
-    }
-    return stripe.posterUrl || printful.posterUrl || null;
+    return sku === "framed" ? stripe.framedUrl || null : stripe.posterUrl || null;
   }
 
   function isShopUrl(url) {
-    if (typeof url !== "string") return false;
-    url = url.trim();
-    if (!/^https:\/\//i.test(url)) return false;
-    if (/example\.com|placeholder|your-?store|TODO|CHANGEME|printful\.me\/?$/i.test(url)) return false;
-    return true;
+    return typeof url === "string" && /^https:\/\/buy\.stripe\.com\/[A-Za-z0-9]+$/.test(url.trim());
   }
 
   function copyFallback(text) {

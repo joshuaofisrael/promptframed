@@ -52,7 +52,7 @@ Use the URL of the picture you posted. Photo 2 is `pieces/moonlit-mediterranean-
 
 ### 3. Printful Quick Store, when you want money to move
 
-Do this when you are ready. Nothing is charged today. `posterUrl` and `framedUrl` in `products.json` are `null`, so Buy Poster stays on this site.
+**Superseded:** checkout now runs on Stripe Payment Links (see `docs/STRIPE_SITE_CHECKOUT.md`). The Printful notes below are kept for fulfilment reference only.
 
 Quick Stores, as documented in `docs/PRINTFUL_SETUP.md`, are for US merchants shipping to US addresses. Confirm that in the dashboard before promising other countries.
 
@@ -71,8 +71,9 @@ Use a real `https://` link. Leave the value `null` until the product is public. 
 1. Save the print master as `gallery/NN-short-name.png`.
 2. Save a display JPEG as `assets/NN-short-name.jpg`.
 3. Add the piece to `gallery/catalog.json` and `products.json` (`posterUrl` and `framedUrl` null).
-4. Add a card on `index.html` and `buy.html`, a page at `pieces/short-name.html` (copy a neighbor), and a line in `sitemap.xml`.
-5. Push to `main`. Pages republishes from that branch.
+4. Add a card on `index.html`, a page at `pieces/short-name.html` (copy a neighbor), and a line in `sitemap.xml`.
+5. Create its Stripe Products, Prices and Payment Links (poster $29 + framed $69) following `scripts/create_stripe_links.md`, paste the URLs into `products.json`, then run `python3 scripts/apply_stripe_links.py` (writes the buy buttons into `buy.html` and the piece page). See `docs/STRIPE_SITE_CHECKOUT.md`.
+6. Push to `main`. Pages republishes from that branch.
 
 Keep piece titles in the Night Windows voice. The AI disclosure stays in the footer and on About.
 
