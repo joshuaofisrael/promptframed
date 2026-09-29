@@ -268,5 +268,95 @@
       "framedUrl": null,
       "status": "placeholder"
     }
+  },
+  {
+    "slug": "provence-lavender-moon",
+    "title": "Provence Lavender Moon",
+    "series": "Night Windows",
+    "photoNumber": 16,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "16-provence-lavender-moon.jpg",
+    "printSource": "gallery/16-provence-lavender-moon.png"
+  },
+  {
+    "slug": "amalfi-terrace-night",
+    "title": "Amalfi Terrace Night",
+    "series": "Night Windows",
+    "photoNumber": 17,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "17-amalfi-terrace-night.jpg",
+    "printSource": "gallery/17-amalfi-terrace-night.png"
+  },
+  {
+    "slug": "patagonia-lake-peaks",
+    "title": "Patagonia Lake Peaks",
+    "series": "Night Windows",
+    "photoNumber": 18,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "18-patagonia-lake-peaks.jpg",
+    "printSource": "gallery/18-patagonia-lake-peaks.png"
+  },
+  {
+    "slug": "bali-jungle-temple",
+    "title": "Bali Jungle Temple",
+    "series": "Night Windows",
+    "photoNumber": 19,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "19-bali-jungle-temple.jpg",
+    "printSource": "gallery/19-bali-jungle-temple.png"
+  },
+  {
+    "slug": "iceland-black-sand-moon",
+    "title": "Iceland Black Sand Moon",
+    "series": "Night Windows",
+    "photoNumber": 20,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "20-iceland-black-sand-moon.jpg",
+    "printSource": "gallery/20-iceland-black-sand-moon.png"
   }
 ]

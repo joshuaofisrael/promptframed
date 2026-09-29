@@ -85,5 +85,6 @@ Skip if you cannot add original practical value beyond what already ranks.
 |---|---|---|---|
 | 28 Sep 2026 | Scorecard created; baseline empty | Pre-launch measurement stub | — |
 | 28 Sep 2026 | Shipped `guide-print-sizes.html` (12×18 / 20×30 / 24×36 + room-distance + frame notes + print-res honesty); linked from home/buy/about/sitemap; added WebSite + CollectionPage JSON-LD on `index.html` | Week-1 highest-EV: one unique informational page tied to real SKUs + technical schema for a brand-new gallery; compounds product pages without article spam | Ready locally; publish with next drop commit |
+| 29 Sep 2026 | Strengthened `night-windows.html` series hub: unique intro naming new destinations, full cross-links for all 20 pieces, richer title/meta, sitemap already includes hub; new piece pages ship with unique title/meta/OG/alt | Highest EV at thin-traffic launch: compound the series hub + internal links rather than a new article; new product URLs get discovery paths from the hub | Shipped with pieces 16–20 drop |
 
 Update this log when an SEO action ships. Prefer improving existing piece pages over speculative new URLs.

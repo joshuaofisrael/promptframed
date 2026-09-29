@@ -403,5 +403,140 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "16-provence-lavender-moon",
+    "slug": "provence-lavender-moon",
+    "title": "Provence Lavender Moon",
+    "photoNumber": 16,
+    "source": "ChatGPT",
+    "file": "16-provence-lavender-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Provence lavender fields in long purple rows under a full moon, distant stone farmhouse with warm window lights, wildflowers in the foreground",
+    "description": "Rows of moonlit lavender stretch toward a warm stone farmhouse while a full moon glows through dramatic clouds over the Provence fields.",
+    "keywords": [
+      "Provence lavender",
+      "moonlit fields",
+      "French countryside night",
+      "lavender wall art",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "17-amalfi-terrace-night",
+    "slug": "amalfi-terrace-night",
+    "title": "Amalfi Terrace Night",
+    "photoNumber": 17,
+    "source": "ChatGPT",
+    "file": "17-amalfi-terrace-night.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Cliffside Amalfi coast terraces at night with warm glowing windows, lemon trees, and a silver moonlight path across the Mediterranean sea",
+    "description": "Stacked Amalfi terraces glow with warm windows above a moonlit sea path, lemon trees and wildflowers lining the cliffside stone.",
+    "keywords": [
+      "Amalfi coast",
+      "Italian terrace night",
+      "Mediterranean moonlight",
+      "cliffside wall art",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "18-patagonia-lake-peaks",
+    "slug": "patagonia-lake-peaks",
+    "title": "Patagonia Lake Peaks",
+    "photoNumber": 18,
+    "source": "ChatGPT",
+    "file": "18-patagonia-lake-peaks.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Turquoise glacial lake in Patagonia under moonlight with jagged snow-dusted peaks, moon haze, and wildflowers along the shore",
+    "description": "A turquoise Patagonian lake mirrors jagged moonlit peaks while haze and wildflowers soften the glacial shore.",
+    "keywords": [
+      "Patagonia lake",
+      "glacial peaks",
+      "moonlit mountains",
+      "turquoise lake print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "19-bali-jungle-temple",
+    "slug": "bali-jungle-temple",
+    "title": "Bali Jungle Temple",
+    "photoNumber": 19,
+    "source": "ChatGPT",
+    "file": "19-bali-jungle-temple.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Mossy Balinese temple stone steps in jungle mist at night with soft lantern light and moonlight through a dense canopy",
+    "description": "Mossy temple steps climb through jungle mist as lanterns and moonbeams filter through the canopy in a quiet Balinese night.",
+    "keywords": [
+      "Bali temple",
+      "jungle night",
+      "lantern stone steps",
+      "tropical temple print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "20-iceland-black-sand-moon",
+    "slug": "iceland-black-sand-moon",
+    "title": "Iceland Black Sand Moon",
+    "photoNumber": 20,
+    "source": "ChatGPT",
+    "file": "20-iceland-black-sand-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Iceland black sand beach at night with basalt sea stacks and northern moonlight gleaming on wet sand under dramatic clouds",
+    "description": "Northern moonlight gleams across wet black sand and basalt stacks while dramatic clouds sweep an Icelandic shore.",
+    "keywords": [
+      "Iceland black sand",
+      "basalt stacks",
+      "northern moonlight",
+      "beach night print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]

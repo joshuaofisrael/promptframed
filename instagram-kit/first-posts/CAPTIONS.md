@@ -1,32 +1,21 @@
 Instagram: [@moonnightshadeart](https://www.instagram.com/moonnightshadeart/)
 
-# Night Shade Art — first 5 Instagram captions
-# CTA always: want a poster / buy at the link. No AI jargon.
+# Night Shade Art — Instagram captions
+# Always include FULL buy URL + hashtag block. No AI jargon.
 
-## Post 1 — Alpine Meadow
-Somewhere cold enough to hear yourself think.
-Night Windows · Moonlit Alpine Meadow
-Want a poster? Buy at the link.
+Buy URL (until moonlitwindows.com works):
+https://joshuaofisrael.github.io/promptframed/buy.html
 
-## Post 2 — Mediterranean Village
-Warm stone. Quiet water. A village that forgot to turn the lights off.
-Night Windows · Moonlit Mediterranean Village
-Want a poster? Buy at the link.
+## Required ending on every post
+Want a poster? Buy at the link:
+https://joshuaofisrael.github.io/promptframed/buy.html
 
-## Post 3 — Northern Lights Fjord
-Green fire over still water — the kind of night you keep.
-Night Windows · Northern Lights Fjord
-Want a poster? Buy at the link.
+#nightwindows #moonlit #wallart #landscapeart #posterart #homedecor #interiordesign #artprint #printsforsale #nightscape #cinematicart #moodygrams #landscapephotography #walldecor #buyart
 
-## Post 4 — Moonlit Waterfall
-Soft roar. Soft light. A place that doesn’t ask you to hurry.
-Night Windows · Moonlit Waterfall
-Want a poster? Buy at the link.
+## Template
+[1–2 cinematic lines]
+Night Windows · [Piece Title]
+Want a poster? Buy at the link:
+https://joshuaofisrael.github.io/promptframed/buy.html
 
-## Post 5 — Lantern Walk
-Lanterns, and a path that looks like it leads somewhere better.
-Night Windows · Mediterranean Lantern Walk
-Want a poster? Buy at the link.
-
-# Hashtag block (put on line after caption or first comment)
-#nightwindows #wallart #landscapeart #moonlit #posterart #homedecor #printshop
+#nightwindows #moonlit #wallart #landscapeart #posterart #homedecor #interiordesign #artprint #printsforsale #nightscape #cinematicart #moodygrams #landscapephotography #walldecor #buyart
