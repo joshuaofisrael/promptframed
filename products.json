@@ -570,9 +570,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/28E7sM2s02ZXbZZ0jKb3q1f",
+      "framedUrl": "https://buy.stripe.com/3cIfZi7Mk1VTe877Mcb3q1g",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VM0YGclXqXMNqx",
+      "posterPriceId": "price_1ULIXKK3OWN3aipgjDsC00ul",
+      "posterPaymentLinkId": "plink_1ULIXSK3OWN3aipgALk5Sx22",
+      "framedProductId": "prod_VM0Y1KZdkgpKGI",
+      "framedPriceId": "price_1ULIXQK3OWN3aipgkni49RnS",
+      "framedPaymentLinkId": "plink_1ULIXaK3OWN3aipgd6d8WZej"
     },
     "asset": "21-cappadocia-fairy-chimneys.jpg",
     "printSource": "gallery/21-cappadocia-fairy-chimneys.png"
@@ -588,9 +598,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/8x25kE9Us6c93ttgiIb3q1h",
+      "framedUrl": "https://buy.stripe.com/5kQ7sM9UsfMJd431nOb3q1i",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VM0Yg7ID1O0A54",
+      "posterPriceId": "price_1ULIXbK3OWN3aipgt74iGLtG",
+      "posterPaymentLinkId": "plink_1ULIXtK3OWN3aipg4MPJJWUw",
+      "framedProductId": "prod_VM0Y3kohFBKP12",
+      "framedPriceId": "price_1ULIXeK3OWN3aipgSJIiXnJ3",
+      "framedPaymentLinkId": "plink_1ULIXwK3OWN3aipglyDEaYY5"
     },
     "asset": "22-santorini-caldera-moon.jpg",
     "printSource": "gallery/22-santorini-caldera-moon.png"
@@ -606,9 +626,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/9B614o6Ig441aVVaYob3q1j",
+      "framedUrl": "https://buy.stripe.com/5kQdRad6Easp2ppeaAb3q1k",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VM0ZdCBpfr9GoV",
+      "posterPriceId": "price_1ULIXwK3OWN3aipgmUZKL26E",
+      "posterPaymentLinkId": "plink_1ULIY5K3OWN3aipgjsfEIPmp",
+      "framedProductId": "prod_VM0ZtVwpxaQeGb",
+      "framedPriceId": "price_1ULIY0K3OWN3aipgQszt3xTj",
+      "framedPaymentLinkId": "plink_1ULIY8K3OWN3aipgkSN9eFjO"
     },
     "asset": "23-tuscany-cypress-hills.jpg",
     "printSource": "gallery/23-tuscany-cypress-hills.png"
@@ -624,9 +654,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/7sY8wQ6IgfMJ9RR6I8b3q1l",
+      "framedUrl": "https://buy.stripe.com/28E8wQ9UscAx1ll2rSb3q1m",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VM0ZcSdhDLq4vP",
+      "posterPriceId": "price_1ULIY9K3OWN3aipgmwS09kCE",
+      "posterPaymentLinkId": "plink_1ULIYHK3OWN3aipgLTDe0dkJ",
+      "framedProductId": "prod_VM0ZMmMm0T28HR",
+      "framedPriceId": "price_1ULIYBK3OWN3aipgLLb9wJyj",
+      "framedPaymentLinkId": "plink_1ULIYKK3OWN3aipgrpGQiR5S"
     },
     "asset": "24-machu-picchu-mist.jpg",
     "printSource": "gallery/24-machu-picchu-mist.png"
@@ -642,9 +682,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/aFa7sM0jS0RPggf7Mcb3q1n",
+      "framedUrl": "https://buy.stripe.com/5kQbJ21nWgQN1llgiIb3q1o",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VM0ZZMRMPLaF1k",
+      "posterPriceId": "price_1ULIYLK3OWN3aipg5xo8qlsd",
+      "posterPaymentLinkId": "plink_1ULIYTK3OWN3aipgt0PEDrDq",
+      "framedProductId": "prod_VM0Z04MVXsO54n",
+      "framedPriceId": "price_1ULIYNK3OWN3aipgon1gWSIQ",
+      "framedPaymentLinkId": "plink_1ULIYWK3OWN3aipgZmJksLdZ"
     },
     "asset": "25-ha-long-bay-moon.jpg",
     "printSource": "gallery/25-ha-long-bay-moon.png"
