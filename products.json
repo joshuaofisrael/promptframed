@@ -558,5 +558,95 @@
     },
     "asset": "20-iceland-black-sand-moon.jpg",
     "printSource": "gallery/20-iceland-black-sand-moon.png"
+  },
+  {
+    "slug": "cappadocia-fairy-chimneys",
+    "title": "Cappadocia Fairy Chimneys",
+    "series": "Night Windows",
+    "photoNumber": 21,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "21-cappadocia-fairy-chimneys.jpg",
+    "printSource": "gallery/21-cappadocia-fairy-chimneys.png"
+  },
+  {
+    "slug": "santorini-caldera-moon",
+    "title": "Santorini Caldera Moon",
+    "series": "Night Windows",
+    "photoNumber": 22,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "22-santorini-caldera-moon.jpg",
+    "printSource": "gallery/22-santorini-caldera-moon.png"
+  },
+  {
+    "slug": "tuscany-cypress-hills",
+    "title": "Tuscany Cypress Hills",
+    "series": "Night Windows",
+    "photoNumber": 23,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "23-tuscany-cypress-hills.jpg",
+    "printSource": "gallery/23-tuscany-cypress-hills.png"
+  },
+  {
+    "slug": "machu-picchu-mist",
+    "title": "Machu Picchu Mist",
+    "series": "Night Windows",
+    "photoNumber": 24,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "24-machu-picchu-mist.jpg",
+    "printSource": "gallery/24-machu-picchu-mist.png"
+  },
+  {
+    "slug": "ha-long-bay-moon",
+    "title": "Ha Long Bay Moon",
+    "series": "Night Windows",
+    "photoNumber": 25,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "25-ha-long-bay-moon.jpg",
+    "printSource": "gallery/25-ha-long-bay-moon.png"
   }
 ]

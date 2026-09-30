@@ -538,5 +538,140 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "21-cappadocia-fairy-chimneys",
+    "slug": "cappadocia-fairy-chimneys",
+    "title": "Cappadocia Fairy Chimneys",
+    "photoNumber": 21,
+    "source": "ChatGPT",
+    "file": "21-cappadocia-fairy-chimneys.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Cappadocia fairy chimney rock dwellings with warm cave-house windows, wildflowers on the hillside, and a full moon through dramatic night clouds",
+    "description": "Fairy chimney rock dwellings glow with warm windows while moonlight and haze sweep a quiet Cappadocia valley.",
+    "keywords": [
+      "Cappadocia night",
+      "fairy chimneys",
+      "moonlit Turkey",
+      "cave house wall art",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "22-santorini-caldera-moon",
+    "slug": "santorini-caldera-moon",
+    "title": "Santorini Caldera Moon",
+    "photoNumber": 22,
+    "source": "ChatGPT",
+    "file": "22-santorini-caldera-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Santorini cliffside with whitewashed buildings and blue domes, bougainvillea, and a silver moonlight path across the caldera sea",
+    "description": "Whitewashed Santorini terraces and blue domes overlook a moonlit caldera path while bougainvillea softens the stone steps.",
+    "keywords": [
+      "Santorini night",
+      "caldera moonlight",
+      "Greek island wall art",
+      "blue dome print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "23-tuscany-cypress-hills",
+    "slug": "tuscany-cypress-hills",
+    "title": "Tuscany Cypress Hills",
+    "photoNumber": 23,
+    "source": "ChatGPT",
+    "file": "23-tuscany-cypress-hills.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Tuscan hills with a cypress-lined road, distant stone villa with warm windows, olive groves and wildflowers under dramatic night clouds",
+    "description": "A cypress-lined road winds through moonlit Tuscan hills toward a warm stone villa while olive groves and wildflowers soften the night.",
+    "keywords": [
+      "Tuscany night",
+      "cypress hills",
+      "Italian countryside moonlight",
+      "villa wall art",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "24-machu-picchu-mist",
+    "slug": "machu-picchu-mist",
+    "title": "Machu Picchu Mist",
+    "photoNumber": 24,
+    "source": "ChatGPT",
+    "file": "24-machu-picchu-mist.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Machu Picchu stone terraces emerging from Andean mist with lush vegetation and silver moonlight on ancient walls",
+    "description": "Ancient stone terraces rise through Andean mist as moonlight silvers the walls of a quiet Machu Picchu night.",
+    "keywords": [
+      "Machu Picchu",
+      "Andean moonlight",
+      "misty ruins print",
+      "Peru wall art",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "25-ha-long-bay-moon",
+    "slug": "ha-long-bay-moon",
+    "title": "Ha Long Bay Moon",
+    "photoNumber": 25,
+    "source": "ChatGPT",
+    "file": "25-ha-long-bay-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Ha Long Bay limestone karsts rising from calm reflective water with lantern-lit junk boats and volumetric night haze",
+    "description": "Limestone karsts rise from a mirror-calm bay while lantern-lit junks and moonlight haze soften a quiet Ha Long night.",
+    "keywords": [
+      "Ha Long Bay",
+      "moonlit karsts",
+      "Vietnam seascape",
+      "junk boat night print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]
