@@ -2,8 +2,8 @@
 **Brand / series:** Night Windows  
 **Company:** Joshua Israel Ventures LLC  
 **Funnel:** ChatGPT art → gallery site → Instagram want → buy poster/frame (Printful)  
-**Live site:** https://joshuaofisrael.github.io/promptframed/
-**Custom domain:** `moonlitwindows.com` is registered with Namecheap but disabled until DNS works.
+**Live site:** https://moonlitwindows.com/
+**Custom domain:** `moonlitwindows.com` is registered with Namecheap and live on GitHub Pages (HTTPS) since 1 Oct 2026.
 **Instagram:** Night Shade Art — [@moonnightshadeart](https://www.instagram.com/moonnightshadeart/)
 **Updated:** 28 Sep 2026
 
@@ -48,7 +48,7 @@ Build a recognizable night-landscape print brand people follow for the *feeling*
 - Collab/share with interior, travel, and cozy-aesthetic accounts (gift a free print for a story tag once Printful works — owner approve spend)
 - Save-worthy carousels (“10 windows for rainy nights”)
 - Consistent visual grid (same crop, same moonlit palette) so the profile *looks* like a brand in 3 seconds
-- Link in bio → https://joshuaofisrael.github.io/promptframed/ (gallery home) — never change CTA language
+- Link in bio → https://moonlitwindows.com/ (gallery home) — never change CTA language
 
 **Paid (later):** only after organic posts repeatedly drive purchases; test $5–10/day boosts on top converting pieces, US shipping geo if Printful Quick Store is US-only.
 
@@ -94,8 +94,8 @@ Daily highest-EV action; **no article quota**.
 ## 90‑day plan
 
 ### Days 1–14 — Launch foundation
-- [x] Custom domain registered: moonlitwindows.com (Namecheap, 28 Sep 2026). Current URL https://joshuaofisrael.github.io/promptframed/. Namecheap DNS is the coordinator’s step.
-- [ ] Instagram bio (@moonnightshadeart) link → https://joshuaofisrael.github.io/promptframed/
+- [x] Custom domain registered: moonlitwindows.com (Namecheap, 28 Sep 2026). Namecheap DNS set; live on GitHub Pages with HTTPS since 1 Oct 2026.
+- [ ] Instagram bio (@moonnightshadeart) link → https://moonlitwindows.com/
 - [ ] Printful Quick Store + first 2–5 products published; buy URLs on site  
 - [ ] Daily routine producing 5 images; post 3–5/week curated  
 - [ ] First SEO pass: titles, sitemap, piece pages, one guide  

@@ -10,9 +10,9 @@ Use artwork avatar (Night Windows piece 02 — moonlit Mediterranean village):
 
 ## Bio link
 ```
-https://joshuaofisrael.github.io/promptframed/buy.html
+https://moonlitwindows.com/buy.html
 ```
-Keep using the GitHub Pages link above until the custom domain DNS is working.
+moonlitwindows.com is live with HTTPS. Do not use the old github.io link.
 
 ## Bio text
 ```

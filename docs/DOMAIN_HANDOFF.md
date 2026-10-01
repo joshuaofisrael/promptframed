@@ -6,20 +6,19 @@
 **Pages host:** `joshuaofisrael.github.io` / repo `joshuaofisrael/promptframed`  
 **Instagram:** Night Shade Art on Instagram: [@moonnightshadeart](https://www.instagram.com/moonnightshadeart/)
 
-## Temporary live URL (DNS incomplete)
+## Status (1 Oct 2026): live
 
-Custom domain was **temporarily removed** from GitHub Pages (and the root `CNAME` file deleted) because Namecheap has **no A records** yet. With the custom domain set, `https://joshuaofisrael.github.io/promptframed/` 301-redirected to a dead `moonlitwindows.com`.
+Namecheap DNS resolves (apex A → 185.199.108–111.153, `www` CNAME → `joshuaofisrael.github.io`). The root `CNAME` file is back, the Pages custom domain is `moonlitwindows.com`, and **Enforce HTTPS** is on.
 
-**Live gallery now:** https://joshuaofisrael.github.io/promptframed/  
-(Verified HTTP 200 HTML for the homepage.)
+**Live gallery:** https://moonlitwindows.com/ (www redirects to apex; https://joshuaofisrael.github.io/promptframed/ redirects to the custom domain).
 
-Site copy, Open Graph, and Instagram captions temporarily use the github.io base so visitors and shares do not hit a dead host. When DNS works, restore the custom domain and switch public URLs back to `https://moonlitwindows.com/`.
+Canonicals, Open Graph, sitemap, robots.txt, Instagram captions, and Stripe Payment Link redirects all use `https://moonlitwindows.com/`.
 
 Hosting stays **free GitHub Pages only**. No Porkbun. No paid Vercel unless Joshua asks.
 
 ---
 
-## Exact Namecheap DNS steps (still required)
+## Namecheap DNS records (applied)
 
 In Namecheap → Domain List → **moonlitwindows.com** → **Advanced DNS**:
 
@@ -53,7 +52,7 @@ dig +short CNAME www.moonlitwindows.com
 
 ---
 
-## Reconnect custom domain on GitHub Pages (after DNS answers)
+## Reconnect custom domain on GitHub Pages (done 1 Oct 2026; kept for reference)
 
 1. Add a root file named `CNAME` (no extension) with one line:
 
@@ -67,9 +66,9 @@ moonlitwindows.com
 4. Confirm:
    - https://moonlitwindows.com serves the gallery
    - https://www.moonlitwindows.com reaches the same site
-   - https://joshuaofisrael.github.io/promptframed/ may redirect to the custom domain again
+   - https://joshuaofisrael.github.io/promptframed/ redirects to the custom domain
 5. Switch site canonicals / OG / Instagram captions / `sitemap.xml` / `robots.txt` back to `https://moonlitwindows.com/` (project path `/promptframed/` is not used on the custom domain root).
-6. Instagram bio, once DNS works: `https://moonlitwindows.com/`
+6. Instagram bio: `https://moonlitwindows.com/buy.html`
 
 ### Troubleshooting
 

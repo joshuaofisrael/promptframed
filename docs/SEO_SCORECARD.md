@@ -3,8 +3,8 @@
 **Site:** Prompt Framed / series Night Windows  
 **Operator:** JI Ventures SEO growth operator (quality over volume; highest EV action/day; no article quota; no spam)  
 **Baseline date:** 28 Sep 2026 (pre-launch / empty metrics)  
-**Primary URL:** https://joshuaofisrael.github.io/promptframed/
-**Custom domain:** moonlitwindows.com is registered but disabled until DNS works. Sitemap: https://joshuaofisrael.github.io/promptframed/sitemap.xml
+**Primary URL:** https://moonlitwindows.com/
+**Custom domain:** moonlitwindows.com is live (GitHub Pages custom domain, HTTPS). Sitemap: https://moonlitwindows.com/sitemap.xml
 
 
 Follow `/home/box/agent-data/workflows/seo-growth-operator/` — additive to BUSINESS_PLAN. Hard no: spammy links, fake expertise, mass near-duplicates, manufactured freshness.
@@ -47,7 +47,7 @@ Fill the first real row the day after GSC + Cloudflare Web Analytics are connect
 
 1. Confirm GitHub Pages serves `index.html`, clean 200s, no soft-404.
 2. Add `robots.txt` + `sitemap.xml` (home, gallery index, each piece, buy/about if present).
-3. Unique `<title>` + meta description per page; canonical host is https://joshuaofisrael.github.io/promptframed.
+3. Unique `<title>` + meta description per page; canonical host is https://moonlitwindows.com/.
 4. Open Graph / Twitter cards using gallery images; sensible `alt` text (see `gallery/catalog.json`).
 5. Image performance: compressed derivatives for web; keep print masters separate; lazy-load below fold.
 6. Internal links: home ↔ gallery ↔ each piece ↔ buy CTA.

@@ -37,7 +37,7 @@ INDEX_PATH = ROOT / "index.html"
 BUY_PATH = ROOT / "buy.html"
 SITEMAP_PATH = ROOT / "sitemap.xml"
 SERIES_PATH = ROOT / "night-windows.html"
-BASE_URL = "https://joshuaofisrael.github.io/promptframed"
+BASE_URL = "https://moonlitwindows.com"
 
 STYLE = (
     "Dreamy cinematic fantasy realism, photorealistic landscape photography, "
@@ -378,7 +378,7 @@ def piece_html(piece: dict, width: int, height: int) -> str:
           <a class="btn" href="../buy.html#{slug}">Buy this print</a>
           <a class="btn secondary" href="./{next_slug}.html">{next_label}</a>
         </div>
-        <p class="note">Want a poster? Buy at the link. Poster and framed sizes ship via print-on-demand after checkout. Buy links stay on github.io until moonlitwindows.com DNS is live.</p>
+        <p class="note">Want a poster? Buy at the link. Poster and framed sizes ship via print-on-demand after checkout.</p>
         <p class="note"><a href="../night-windows.html">Browse the full Night Windows series</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></p>
       </div>
     </article>
@@ -559,7 +559,7 @@ def update_series_hub() -> None:
 {items}
     </ol>
     <p>New this drop: <a href="./pieces/cappadocia-fairy-chimneys.html">Cappadocia Fairy Chimneys</a>, <a href="./pieces/santorini-caldera-moon.html">Santorini Caldera Moon</a>, <a href="./pieces/tuscany-cypress-hills.html">Tuscany Cypress Hills</a>, <a href="./pieces/machu-picchu-mist.html">Machu Picchu Mist</a>, and <a href="./pieces/ha-long-bay-moon.html">Ha Long Bay Moon</a>.</p>
-    <p>Follow Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a>. Buy Poster stays on github.io until moonlitwindows.com DNS works. Stripe checkout is live for poster and framed prints.</p>
+    <p>Follow Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a>. Stripe checkout is live for poster and framed prints.</p>
     <p><a class="btn secondary" href="./guide-print-sizes.html">Print size guide</a> · <a class="btn secondary" href="./#gallery">Full gallery</a></p>
   </div>
   <footer class="site-footer">

@@ -17,8 +17,8 @@ Replace `<slug>`, `<Title>`, `<NN>` below. Do both the poster and framed variant
 {
   "name": "<Title> – Night Windows Poster 12×18",
   "description": "Night Windows by Prompt Framed. 12×18 in poster on enhanced matte paper. Shipping included. Sold by Joshua Israel Ventures LLC.",
-  "images": ["https://joshuaofisrael.github.io/promptframed/gallery/social/<NN>-<slug>.jpg"],
-  "url": "https://joshuaofisrael.github.io/promptframed/pieces/<slug>.html",
+  "images": ["https://moonlitwindows.com/gallery/social/<NN>-<slug>.jpg"],
+  "url": "https://moonlitwindows.com/pieces/<slug>.html",
   "shippable": true,
   "metadata": {"slug": "<slug>", "variant": "poster", "series": "night-windows", "size": "12x18"},
   "default_price_data": {"currency": "usd", "unit_amount": 2900, "metadata": {"slug": "<slug>", "variant": "poster"}}
@@ -42,7 +42,7 @@ The response's `default_price` is the Price ID for step 2.
     ["US","GB","CA","AU","NZ","IE","FR","DE","NL","BE","LU","AT","ES","PT","IT","DK","SE","FI","NO","CH","PL"]},
   "phone_number_collection": {"enabled": true},
   "after_completion": {"type": "redirect", "redirect":
-    {"url": "https://joshuaofisrael.github.io/promptframed/thanks.html?piece=<slug>&variant=poster"}},
+    {"url": "https://moonlitwindows.com/thanks.html?piece=<slug>&variant=poster"}},
   "metadata": {"slug": "<slug>", "variant": "poster", "series": "night-windows"},
   "payment_intent_data": {"metadata": {"slug": "<slug>", "variant": "poster"}}
 }

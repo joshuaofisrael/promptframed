@@ -28,7 +28,7 @@ Visible copy on the site: **$29 poster · $69 framed (12×18)**.
 
 - **Product** `"<Title> – Night Windows Poster 12×18"` / `"<Title> – Night Windows Framed Poster 12×18"`
   - metadata: `slug`, `variant` (`poster|framed`), `series=night-windows`, `size=12x18`
-  - image: the **watermarked** preview `gallery/social/NN-slug.jpg` on github.io (never a print master)
+  - image: the **watermarked** preview `https://moonlitwindows.com/gallery/social/NN-slug.jpg` (never a print master)
   - `url`: the piece page; `shippable: true`
 - **Price**: one-time USD default price (`2900` or `6900`), metadata `slug`, `variant`
 - **Payment Link**:
@@ -36,7 +36,7 @@ Visible copy on the site: **$29 poster · $69 framed (12×18)**.
   - `shipping_address_collection.allowed_countries`: US, GB, CA, AU, NZ, IE, FR, DE, NL, BE, LU, AT,
     ES, PT, IT, DK, SE, FI, NO, CH, PL
   - `phone_number_collection.enabled: true`
-  - `after_completion`: redirect to `https://joshuaofisrael.github.io/promptframed/thanks.html?piece=<slug>&variant=<variant>`
+  - `after_completion`: redirect to `https://moonlitwindows.com/thanks.html?piece=<slug>&variant=<variant>`
   - metadata `slug`, `variant`, `series`; `payment_intent_data.metadata` `slug`, `variant`
 
 All IDs are recorded in `products.json` under `stripe` (`posterProductId`, `posterPriceId`,
@@ -66,5 +66,5 @@ the `PRICE_LINE` constant in that script plus this doc. Deactivate (don't delete
 
 ## Instagram
 
-Instagram bio (@moonnightshadeart) → https://joshuaofisrael.github.io/promptframed/buy.html.
+Instagram bio (@moonnightshadeart) → https://moonlitwindows.com/buy.html.
 Deep links such as `buy.html#moonlit-alpine-meadow` land on (and highlight) that piece's buttons.

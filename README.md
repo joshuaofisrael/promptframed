@@ -2,8 +2,8 @@
 
 Night Windows, a static gallery for Joshua Israel Ventures LLC.
 
-**Live:** https://joshuaofisrael.github.io/promptframed/
-**Custom domain:** moonlitwindows.com is intentionally not enabled; do not add a CNAME or redirect until DNS is ready.
+**Live:** https://moonlitwindows.com/
+**Custom domain:** moonlitwindows.com is live on GitHub Pages (custom domain + HTTPS, enabled 1 Oct 2026). https://joshuaofisrael.github.io/promptframed/ redirects there.
 
 ## Night Windows marketing
 
@@ -15,7 +15,7 @@ Every Instagram post uses the same close:
 
 ```
 Want a poster? Buy at the link:
-https://joshuaofisrael.github.io/promptframed/pieces/SLUG.html
+https://moonlitwindows.com/pieces/SLUG.html
 ```
 
 Or, in a bio: poster link in bio. Suggested bio: `Night Windows · AI landscapes as posters · Link buys the print`. Keep “AI” and “ChatGPT” out of captions and out of the site hero. The disclosure stays in the footer and on About. The style prompt stays internal.
@@ -34,18 +34,18 @@ When you sit down, these are yours. The gallery, including Photos 1–10, is alr
 
 ### 1. Hosting
 
-GitHub Pages serves `main` from the repository root at https://joshuaofisrael.github.io/promptframed/. The custom domain `moonlitwindows.com` is intentionally disabled, and the repository has no `CNAME` file. Do not re-enable it until DNS is ready.
+GitHub Pages serves `main` from the repository root at https://moonlitwindows.com/. The custom domain `moonlitwindows.com` is set in Pages settings and in the root `CNAME` file; HTTPS is enforced. The site uses relative asset paths, so it works at the domain root.
 
 ### 2. Instagram
 
 The Instagram account is **[@moonnightshadeart](https://www.instagram.com/moonnightshadeart/)** for **Night Shade Art**.
 
-1. Bio link: `https://joshuaofisrael.github.io/promptframed/buy.html`
+1. Bio link: `https://moonlitwindows.com/buy.html`
 2. For a post, open the piece page and press **Copy caption**. Every caption ends with:
 
 ```
 Want a poster? Buy at the link:
-https://joshuaofisrael.github.io/promptframed/pieces/moonlit-alpine-meadow.html
+https://moonlitwindows.com/pieces/moonlit-alpine-meadow.html
 ```
 
 Use the URL of the picture you posted. Photo 2 is `pieces/moonlit-mediterranean-village.html`.

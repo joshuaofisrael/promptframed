@@ -3,18 +3,18 @@
 Series name: **Night Windows**
 Studio: **Prompt Framed** (Joshua Israel Ventures LLC)
 Instagram: **Night Shade Art — [@moonnightshadeart](https://www.instagram.com/moonnightshadeart/)**
-Live gallery: **https://joshuaofisrael.github.io/promptframed/** (custom domain registered on Namecheap, 28 Sep 2026)
-Custom domain: `moonlitwindows.com` (registered; disabled until DNS works)
+Live gallery: **https://moonlitwindows.com/** (custom domain registered on Namecheap, 28 Sep 2026)
+Custom domain: `moonlitwindows.com` (registered; live with HTTPS since 1 Oct 2026)
 Hook: each piece is a window into somewhere you wish you were.
 CTA (every post): Want a poster? Buy at the link.
 
-Bio link: `https://joshuaofisrael.github.io/promptframed/`
+Bio link: `https://moonlitwindows.com/`
 
 Caption close (use the piece you posted):
 
 ```
 Want a poster? Buy at the link:
-https://joshuaofisrael.github.io/promptframed/pieces/SLUG.html
+https://moonlitwindows.com/pieces/SLUG.html
 ```
 
 ## Drop formats
@@ -31,7 +31,7 @@ Style prompt stays internal / SEO only.
 ## Bio
 Night Windows · AI landscapes as posters · Link buys the print
 
-Link: https://joshuaofisrael.github.io/promptframed/
+Link: https://moonlitwindows.com/
 
 ## Cadence
 3–5 posts/week inside the series before introducing a new style line.

@@ -35,7 +35,7 @@ PRODUCTS_PATH = ROOT / "products.json"
 INDEX_PATH = ROOT / "index.html"
 BUY_PATH = ROOT / "buy.html"
 SITEMAP_PATH = ROOT / "sitemap.xml"
-BASE_URL = "https://joshuaofisrael.github.io/promptframed"
+BASE_URL = "https://moonlitwindows.com"
 
 STYLE = (
     "Dreamy cinematic fantasy realism, photorealistic landscape photography, "
