@@ -710,9 +710,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/cNi28sfeM1VTbZZ0jKb3q1t",
+      "framedUrl": "https://buy.stripe.com/aFa3cwaYwbwt4xxd6wb3q1u",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMNzOzrMGiQcnY",
+      "posterPriceId": "price_1ULfDlK3OWN3aipgqnYCKigO",
+      "posterPaymentLinkId": "plink_1ULfDxK3OWN3aipgGIm304yX",
+      "framedProductId": "prod_VMNzYFAuJHLiMt",
+      "framedPriceId": "price_1ULfDvK3OWN3aipgcOp7quQn",
+      "framedPaymentLinkId": "plink_1ULfE4K3OWN3aipg6uUGLVGn"
     },
     "asset": "26-banff-lake-louise-moon.jpg",
     "printSource": "gallery/26-banff-lake-louise-moon.png"
@@ -728,9 +738,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/5kQ8wQd6Easp3ttc2sb3q1v",
+      "framedUrl": "https://buy.stripe.com/7sY6oI4A8cAx1lld6wb3q1w",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMO0PXD9TC4zBn",
+      "posterPriceId": "price_1ULfEBK3OWN3aipgdMrgV4e1",
+      "posterPaymentLinkId": "plink_1ULfEcK3OWN3aipgOqtXiZBp",
+      "framedProductId": "prod_VMO0sn9mLdpbR9",
+      "framedPriceId": "price_1ULfEEK3OWN3aipgAgnTOoMX",
+      "framedPaymentLinkId": "plink_1ULfEeK3OWN3aipgS4eHle8Y"
     },
     "asset": "27-petra-treasury-night.jpg",
     "printSource": "gallery/27-petra-treasury-night.png"
@@ -746,9 +766,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/6oUdRa9Us8khaVV7Mcb3q1x",
+      "framedUrl": "https://buy.stripe.com/eVq7sMfeM7gd8NN7Mcb3q1y",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMO0xc0IfhBqDT",
+      "posterPriceId": "price_1ULfEHK3OWN3aipgBSAlbRwo",
+      "posterPaymentLinkId": "plink_1ULfEjK3OWN3aipggzRwxsNQ",
+      "framedProductId": "prod_VMO0N4OPXRlypp",
+      "framedPriceId": "price_1ULfEJK3OWN3aipgyjNB83eA",
+      "framedPaymentLinkId": "plink_1ULfElK3OWN3aipgXjT5GIYX"
     },
     "asset": "28-kyoto-bamboo-moon.jpg",
     "printSource": "gallery/28-kyoto-bamboo-moon.png"
@@ -764,9 +794,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/28EfZi3w40RP6FF2rSb3q1z",
+      "framedUrl": "https://buy.stripe.com/00w00kfeMdEB7JJ2rSb3q1A",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMO0kwrQgUj1vY",
+      "posterPriceId": "price_1ULfEOK3OWN3aipgLfNh1GiJ",
+      "posterPaymentLinkId": "plink_1ULfEvK3OWN3aipgLNGHQWlW",
+      "framedProductId": "prod_VMO0v4XaGqHiTB",
+      "framedPriceId": "price_1ULfERK3OWN3aipgRepJCmzG",
+      "framedPaymentLinkId": "plink_1ULfEyK3OWN3aipg3sfcObyT"
     },
     "asset": "29-yosemite-half-dome-moon.jpg",
     "printSource": "gallery/29-yosemite-half-dome-moon.png"
@@ -782,9 +822,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/cNicN62s0aspd439Ukb3q1B",
+      "framedUrl": "https://buy.stripe.com/bJefZiaYw1VT3tt9Ukb3q1C",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMO0E6ADVM34yf",
+      "posterPriceId": "price_1ULfEUK3OWN3aipglm2cx73U",
+      "posterPaymentLinkId": "plink_1ULfF2K3OWN3aipgu3ftSibN",
+      "framedProductId": "prod_VMO0OSDVNCj4rr",
+      "framedPriceId": "price_1ULfEWK3OWN3aipgzOvOBYEf",
+      "framedPaymentLinkId": "plink_1ULfF4K3OWN3aipgDlHEzPeO"
     },
     "asset": "30-norwegian-stave-church-fjord.jpg",
     "printSource": "gallery/30-norwegian-stave-church-fjord.png"
