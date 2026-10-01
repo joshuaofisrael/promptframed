@@ -698,5 +698,95 @@
     },
     "asset": "25-ha-long-bay-moon.jpg",
     "printSource": "gallery/25-ha-long-bay-moon.png"
+  },
+  {
+    "slug": "banff-lake-louise-moon",
+    "title": "Banff Lake Louise Moon",
+    "series": "Night Windows",
+    "photoNumber": 26,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "26-banff-lake-louise-moon.jpg",
+    "printSource": "gallery/26-banff-lake-louise-moon.png"
+  },
+  {
+    "slug": "petra-treasury-night",
+    "title": "Petra Treasury Night",
+    "series": "Night Windows",
+    "photoNumber": 27,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "27-petra-treasury-night.jpg",
+    "printSource": "gallery/27-petra-treasury-night.png"
+  },
+  {
+    "slug": "kyoto-bamboo-moon",
+    "title": "Kyoto Bamboo Moon",
+    "series": "Night Windows",
+    "photoNumber": 28,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "28-kyoto-bamboo-moon.jpg",
+    "printSource": "gallery/28-kyoto-bamboo-moon.png"
+  },
+  {
+    "slug": "yosemite-half-dome-moon",
+    "title": "Yosemite Half Dome Moon",
+    "series": "Night Windows",
+    "photoNumber": 29,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "29-yosemite-half-dome-moon.jpg",
+    "printSource": "gallery/29-yosemite-half-dome-moon.png"
+  },
+  {
+    "slug": "norwegian-stave-church-fjord",
+    "title": "Norwegian Stave Church Fjord",
+    "series": "Night Windows",
+    "photoNumber": 30,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "30-norwegian-stave-church-fjord.jpg",
+    "printSource": "gallery/30-norwegian-stave-church-fjord.png"
   }
 ]

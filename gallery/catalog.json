@@ -673,5 +673,140 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "26-banff-lake-louise-moon",
+    "slug": "banff-lake-louise-moon",
+    "title": "Banff Lake Louise Moon",
+    "photoNumber": 26,
+    "source": "ChatGPT",
+    "file": "26-banff-lake-louise-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Lake Louise in Banff with turquoise glacial water reflecting snowy peaks, pine shore, wildflowers, and a full moon through dramatic night clouds",
+    "description": "Turquoise glacial water mirrors snowy Rockies peaks while moonlight and pine hush settle over a quiet Lake Louise night.",
+    "keywords": [
+      "Banff night",
+      "Lake Louise moonlight",
+      "Canadian Rockies wall art",
+      "glacial lake print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "27-petra-treasury-night",
+    "slug": "petra-treasury-night",
+    "title": "Petra Treasury Night",
+    "photoNumber": 27,
+    "source": "ChatGPT",
+    "file": "27-petra-treasury-night.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Petra Treasury carved into rose-red sandstone with lantern glow in the Siq, classical facade columns, and volumetric night haze",
+    "description": "Rose-red sandstone of the Treasury glows under moonlight while lantern haze softens the quiet Siq approach to Petra.",
+    "keywords": [
+      "Petra night",
+      "Al-Khazneh moonlight",
+      "Jordan desert wall art",
+      "Treasury print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "28-kyoto-bamboo-moon",
+    "slug": "kyoto-bamboo-moon",
+    "title": "Kyoto Bamboo Moon",
+    "photoNumber": 28,
+    "source": "ChatGPT",
+    "file": "28-kyoto-bamboo-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Kyoto Arashiyama bamboo grove with tall green stalks, a mossy stone path, mist, and silver moonlight filtering through the canopy",
+    "description": "Tall bamboo glows green under filtered moonlight while mist and moss soften a quiet Kyoto grove path.",
+    "keywords": [
+      "Kyoto night",
+      "Arashiyama bamboo",
+      "moonlit Japan wall art",
+      "bamboo grove print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "29-yosemite-half-dome-moon",
+    "slug": "yosemite-half-dome-moon",
+    "title": "Yosemite Half Dome Moon",
+    "photoNumber": 29,
+    "source": "ChatGPT",
+    "file": "29-yosemite-half-dome-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Yosemite Valley with Half Dome rising above mist, Merced River reflection, meadow wildflowers, and dramatic night clouds",
+    "description": "Half Dome rises through valley mist as moonlight silvers the Merced and wildflower meadows of a quiet Yosemite night.",
+    "keywords": [
+      "Yosemite night",
+      "Half Dome moonlight",
+      "California national park wall art",
+      "granite cliff print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "30-norwegian-stave-church-fjord",
+    "slug": "norwegian-stave-church-fjord",
+    "title": "Norwegian Stave Church Fjord",
+    "photoNumber": 30,
+    "source": "ChatGPT",
+    "file": "30-norwegian-stave-church-fjord.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Norwegian wooden stave church on a hillside above a deep fjord with warm window glow, meadows, pines, and steep moonlit mountains",
+    "description": "A wooden stave church glows above a deep fjord while moonlight and mist soften steep mountain walls of a quiet Norwegian night.",
+    "keywords": [
+      "Norwegian fjord night",
+      "stave church moonlight",
+      "Scandinavia wall art",
+      "fjord landscape print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]
