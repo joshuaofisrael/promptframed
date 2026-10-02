@@ -10,15 +10,19 @@
 
 | Window | Impressions | Clicks | CTR | Avg position | Indexed pages | Notes |
 |---|---:|---:|---:|---:|---:|---|
-| 7d (as of 2026-10-02 BST) | no data yet | no data yet | no data yet | no data yet | no data yet | GSC/GA4 browser review unavailable this run (executor has no computerUse/Task tool). Do not invent metrics. |
-| 28d | no data yet | no data yet | no data yet | no data yet | no data yet | Property verified via HTML tag (meta on homepage); GA4 G-663R8VD62L on all public pages. |
-| 90d | no data yet | no data yet | no data yet | no data yet | no data yet | Site custom domain live early Oct 2026 — expect lag before query data. |
+| 7d (as of 2026-10-02 ~14:35 BST) | processing | processing | processing | processing | n/a yet | GSC: “Processing data, please check again in a day or so.” |
+| 28d / ~3mo GSC default | processing | processing | processing | processing | n/a yet | Same processing banner; no queries/pages table yet. |
+| 90d | processing | processing | processing | processing | n/a yet | Custom domain + property verified early Oct 2026. |
 
-**Top queries:** no data yet  
-**Top pages (GA4):** no data yet / session not readable this run  
-**Page views (GA4 7/28d):** no data yet / session not readable this run  
+**GSC property:** `https://moonlitwindows.com/` (URL-prefix, joshuaofisrael@gmail.com)  
+**Sitemap:** `https://moonlitwindows.com/sitemap.xml` — Success (read/submitted 2 Oct 2026); **42 discovered pages**, 0 videos. Not resubmitted (already current).  
+**Indexing requests:** none this run (inspection UI unavailable while performance data processing).  
+**Top queries / pages (GSC):** not available yet (processing).  
+**GA4 property:** Moonlit Windows · measurement ID `G-663R8VD62L` (confirmed in live HTML; UI label may truncate).  
+**GA4 status:** “No data received from your website yet.” Users / sessions / views / sources for 7d and 28d: unavailable (not zero — not reporting).  
+**Page views (GA4 7/28d):** no data received yet  
 
-Fill real numbers on the next run that can open Search Console + GA4 while signed in as joshuaofisrael@gmail.com.
+Next run: re-check GSC performance once processing clears; confirm GA4 Realtime/DebugView after a few page hits; request indexing for a few piece URLs when URL Inspection works.
 
 ---
 
@@ -30,7 +34,9 @@ Fill real numbers on the next run that can open Search Console + GA4 while signe
 - Stripe Payment Links: not created today; existing piece CTAs present. Did not audit every link’s promo-code / thanks redirect settings in Stripe admin (no Stripe write today).
 
 ### Data review
-- **GSC / GA4:** Could not open box browser via computerUse from this executor (Task tool not available to the subagent). Metrics left as “no data yet” — not guessed.
+- Follow-up computerUse pass (same day, signed in as joshuaofisrael@gmail.com) opened GSC + GA4.
+- **GSC:** property `https://moonlitwindows.com/` — performance still “Processing data…” (no clicks/impressions/CTR/position/queries/pages yet). Sitemap Success, 42 discovered URLs. No indexing requests (inspection unavailable while processing).
+- **GA4:** Moonlit Windows / `G-663R8VD62L` — “No data received from your website yet.” Live site tag verified correct; treat as new-property lag or hit lag, not invented zeros.
 
 ### Opportunity chosen (and why)
 **Add Product + Offer + ImageObject + BreadcrumbList JSON-LD to all 35 piece pages.**
@@ -50,3 +56,9 @@ Why highest EV for a brand-new product gallery:
 - No new collection/article pages (speculative content last).
 - No commit of print-masters, reels staging/logs, Instagram kit tarball, music, or `.night-windows-*` JSON.
 - No spend; GitHub Pages only.
+
+### Follow-up same day (~14:35 BST)
+- Updated scorecard from live GSC/GA4 browser session.
+- Stripe live charges: still none.
+- Flag for later (not changed today): public page `how-to-turn-chatgpt-art-into-a-framed-poster.html` still names ChatGPT in the URL/title path — conflicts with public-copy rule; rewrite/redirect on a future high-EV day.
+

@@ -95,3 +95,7 @@ Skip if you cannot add original practical value beyond what already ranks.
 | 2 Oct 2026 BST | Added Product+Offer+ImageObject+BreadcrumbList JSON-LD to all 35 piece pages (public assets/*.jpg only); sitemap + how-to guide URL; created docs/SEO_LOG.md with scorecard stub | First SEO-operator fire: piece pages lacked commerce schema while titles/meta/alt already unique — highest EV vs speculative content on a zero-impression young gallery | Pushed; GSC/GA4 numbers pending browser session |
 
 Update this log when an SEO action ships. Prefer improving existing piece pages over speculative new URLs.
+
+## 2026-10-02 afternoon update
+- GSC processing; sitemap Success / 42 URLs.
+- GA4: no data received yet (tag G-663R8VD62L live).
