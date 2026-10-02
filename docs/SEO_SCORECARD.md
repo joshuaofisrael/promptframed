@@ -92,4 +92,6 @@ Skip if you cannot add original practical value beyond what already ranks.
 
 | 2 Oct 2026 BST | Strengthened `night-windows.html` hub for pieces 31–35 (unique intro, meta/OG/Twitter to thirty-five windows, full cross-links + New this drop) AND refreshed `buy.html` hero/meta from stale “Twenty windows” to thirty-five with new-drop destinations named | Series hub is the strongest internal-link target for new piece URLs; buy page was still indexing as 20-piece shop copy — fixing that protects CTR/snippet accuracy as catalog hits 35 | Done with drop publish + second commit; live after push |
 
+| 2 Oct 2026 BST | Added Product+Offer+ImageObject+BreadcrumbList JSON-LD to all 35 piece pages (public assets/*.jpg only); sitemap + how-to guide URL; created docs/SEO_LOG.md with scorecard stub | First SEO-operator fire: piece pages lacked commerce schema while titles/meta/alt already unique — highest EV vs speculative content on a zero-impression young gallery | Pushed; GSC/GA4 numbers pending browser session |
+
 Update this log when an SEO action ships. Prefer improving existing piece pages over speculative new URLs.
