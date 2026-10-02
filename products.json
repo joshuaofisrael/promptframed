@@ -850,9 +850,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/28EcN68Qo7gdggfd6wb3q1D",
+      "framedUrl": "https://buy.stripe.com/8x2dRafeMfMJ4xxc2sb3q1E",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMl6Mutm0XhlAr",
+      "posterPriceId": "price_1UM1aBK3OWN3aipgwkkyXHrC",
+      "posterPaymentLinkId": "plink_1UM1ajK3OWN3aipgB6mo4ZII",
+      "framedProductId": "prod_VMl6XG9wU2V5zR",
+      "framedPriceId": "price_1UM1aEK3OWN3aipgijn9OM0y",
+      "framedPaymentLinkId": "plink_1UM1amK3OWN3aipgXqI3zfzd"
     },
     "asset": "31-mont-saint-michel-moon.jpg",
     "printSource": "gallery/31-mont-saint-michel-moon.png"
@@ -868,9 +878,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/7sY28s2s0dEB4xxd6wb3q1F",
+      "framedUrl": "https://buy.stripe.com/8x2eVe6Igasp3tt5E4b3q1G",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMl600IT1CmOeE",
+      "posterPriceId": "price_1UM1aFK3OWN3aipgDg5WcT15",
+      "posterPaymentLinkId": "plink_1UM1anK3OWN3aipgAjpPPb11",
+      "framedProductId": "prod_VMl6EK4MEdgBFn",
+      "framedPriceId": "price_1UM1aGK3OWN3aipgEciUEdk1",
+      "framedPaymentLinkId": "plink_1UM1aqK3OWN3aipg4tNG56zj"
     },
     "asset": "32-hallstatt-lake-moon.jpg",
     "printSource": "gallery/32-hallstatt-lake-moon.png"
@@ -886,9 +906,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/cNifZi4A82ZXd433vWb3q1H",
+      "framedUrl": "https://buy.stripe.com/14A3cw3w4cAx6FF5E4b3q1I",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMl6fyO5OQfgEM",
+      "posterPriceId": "price_1UM1aNK3OWN3aipg25clCXt6",
+      "posterPaymentLinkId": "plink_1UM1axK3OWN3aipgwPunkzMt",
+      "framedProductId": "prod_VMl6quo9UMeOQh",
+      "framedPriceId": "price_1UM1aOK3OWN3aipgdK3HfZyP",
+      "framedPaymentLinkId": "plink_1UM1b0K3OWN3aipgmUgeLi3L"
     },
     "asset": "33-zhangjiajie-pillars-moon.jpg",
     "printSource": "gallery/33-zhangjiajie-pillars-moon.png"
@@ -904,9 +934,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/9B68wQeaI9olbZZ6I8b3q1J",
+      "framedUrl": "https://buy.stripe.com/14AcN68Qo6c9d433vWb3q1K",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMl6SeecmAM4Lv",
+      "posterPriceId": "price_1UM1aPK3OWN3aipgLWpYuLGE",
+      "posterPaymentLinkId": "plink_1UM1b3K3OWN3aipgs3TtIfVT",
+      "framedProductId": "prod_VMl6SyWusPmIPD",
+      "framedPriceId": "price_1UM1aZK3OWN3aipgvthfBmDc",
+      "framedPaymentLinkId": "plink_1UM1b4K3OWN3aipg8fq2yxJu"
     },
     "asset": "34-bagan-temples-night.jpg",
     "printSource": "gallery/34-bagan-temples-night.png"
@@ -922,9 +962,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/fZu6oI0jSgQNd431nOb3q1L",
+      "framedUrl": "https://buy.stripe.com/8x23cw4A8fMJ8NNaYob3q1M",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VMl6vNvUtQj8I5",
+      "posterPriceId": "price_1UM1aaK3OWN3aipgAOONud17",
+      "posterPaymentLinkId": "plink_1UM1b7K3OWN3aipgMWYVIONo",
+      "framedProductId": "prod_VMl6oKVcYSMv65",
+      "framedPriceId": "price_1UM1acK3OWN3aipgjhrWA7uo",
+      "framedPaymentLinkId": "plink_1UM1bAK3OWN3aipg7hwOoiin"
     },
     "asset": "35-matterhorn-alpine-moon.jpg",
     "printSource": "gallery/35-matterhorn-alpine-moon.png"

@@ -90,4 +90,6 @@ Skip if you cannot add original practical value beyond what already ranks.
 
 | 1 Oct 2026 BST | Strengthened `night-windows.html` hub for pieces 26–30: unique intro, updated meta/OG/Twitter to thirty windows, full cross-link list including Banff Lake Louise / Petra Treasury / Kyoto bamboo / Yosemite Half Dome / Norwegian stave church fjord, and a New this drop paragraph with deep links | Series hub remains the strongest internal-link target for new piece pages; unique snippet + crawl paths as catalog hits 30 | Done in publish script; live after push |
 
+| 2 Oct 2026 BST | Strengthened `night-windows.html` hub for pieces 31–35 (unique intro, meta/OG/Twitter to thirty-five windows, full cross-links + New this drop) AND refreshed `buy.html` hero/meta from stale “Twenty windows” to thirty-five with new-drop destinations named | Series hub is the strongest internal-link target for new piece URLs; buy page was still indexing as 20-piece shop copy — fixing that protects CTR/snippet accuracy as catalog hits 35 | Done with drop publish + second commit; live after push |
+
 Update this log when an SEO action ships. Prefer improving existing piece pages over speculative new URLs.
