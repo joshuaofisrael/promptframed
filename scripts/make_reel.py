@@ -9,10 +9,14 @@ Turn a raw Higgsfield image-to-video clip into a postable Instagram Reel.
   - Background music bed from assets/music/ with fade in/out, native clip audio
     (wind/water) kept ~12 dB under the music, final mix normalised to about -14 LUFS,
     true peak limited to -1.5 dBTP
+  - End banner (default on): "Like this? Follow for more" + "@moonnightshadeart" on a
+    midnight-navy (#0b1530, ~70% opacity) rounded pill, centred at ~67% of the height
+    (inside Instagram's safe zone, clear of the bottom-right watermark), shown for the
+    last 2.0 s with a 0.4 s fade-in. Turn off with --no-end-banner.
   - Mid-point still JPG saved next to the MP4 for a watermark check
 
 Usage:
-  python3 scripts/make_reel.py RAW.mp4 OUT.mp4 --music assets/music/04-calm-night.mp3 [--music-start 1.4]
+  python3 scripts/make_reel.py RAW.mp4 OUT.mp4 --music assets/music/04-calm-night.mp3 [--music-start 1.4] [--no-end-banner]
   (omit --music-start to use the start offset listed in assets/music/tracks.json)
 """
 from __future__ import annotations
@@ -24,7 +28,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 import sys
@@ -35,6 +39,22 @@ W, H, FPS = 1080, 1920, 30
 TARGET_LUFS = -16.0       # gentle, calming level
 NATIVE_DUCK_DB = -12.0     # native ambient audio relative to music
 FADE_IN, FADE_OUT = 1.5, 2.0
+
+# End banner ("Like this? Follow for more"), shown for the last BANNER_SECS of every Reel
+BANNER_TEXT = "Like this? Follow for more"
+BANNER_HANDLE = "@moonnightshadeart"
+BANNER_SECS, BANNER_FADE = 2.0, 0.4
+BANNER_CENTER_Y = 0.67            # fraction of frame height (pill spans ~62-72%)
+BANNER_BG = (0x0b, 0x15, 0x30)    # midnight navy
+BANNER_BG_ALPHA = 0.70
+BANNER_MAIN_PX, BANNER_SUB_PX = 60, 34
+BANNER_MAIN_RGB, BANNER_SUB_RGB = (246, 247, 250), (200, 206, 218)   # white / soft silver
+BANNER_MAX_W = W - 2 * 100        # keep clear of the side edges and IG's right-hand icon column
+BANNER_FONTS = [  # (path, variable-font weight name or None); first that loads wins
+    ("/usr/share/fonts/truetype/sand-box/google/Montserrat/Montserrat-VariableFont_wght.ttf", "Medium"),
+    ("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", None),
+]
+SAFE_BOTTOM_PX = 320              # Instagram caption/UI band at the bottom
 
 
 def run(cmd: list[str]) -> str:
@@ -62,6 +82,58 @@ def build_watermark(tmp: Path) -> tuple[Path, int, int]:
     return p, x, y
 
 
+def _font(size: int, weight: str | None = None) -> ImageFont.FreeTypeFont:
+    for path, default_weight in BANNER_FONTS:
+        if not Path(path).exists():
+            continue
+        f = ImageFont.truetype(path, size)
+        w = weight or default_weight
+        if w:
+            try:
+                f.set_variation_by_name(w)
+            except (OSError, ValueError):
+                pass
+        return f
+    raise SystemExit("No banner font found (install Montserrat or DejaVu Sans)")
+
+
+def build_end_banner(tmp: Path, wm_y: int) -> tuple[Path, int, int]:
+    """Render the end banner pill as an RGBA PNG; return (path, x, y) for the overlay."""
+    main_size = BANNER_MAIN_PX
+    while True:
+        f_main = _font(main_size)
+        mb = f_main.getbbox(BANNER_TEXT)
+        if mb[2] - mb[0] + 2 * 52 <= BANNER_MAX_W or main_size <= 44:
+            break
+        main_size -= 2
+    f_sub = _font(BANNER_SUB_PX, "Regular")
+    sb = f_sub.getbbox(BANNER_HANDLE)
+    main_w, main_h = mb[2] - mb[0], mb[3] - mb[1]
+    sub_w, sub_h = sb[2] - sb[0], sb[3] - sb[1]
+    pad_x, pad_y, gap = 52, 34, 20
+    bw = min(BANNER_MAX_W, max(main_w, sub_w) + 2 * pad_x)
+    bh = pad_y + main_h + gap + sub_h + pad_y
+    ss = 3  # supersample the pill for smooth rounded edges
+    pill = Image.new("RGBA", (bw * ss, bh * ss), (0, 0, 0, 0))
+    ImageDraw.Draw(pill).rounded_rectangle(
+        (0, 0, bw * ss - 1, bh * ss - 1), radius=bh * ss // 2,
+        fill=BANNER_BG + (round(255 * BANNER_BG_ALPHA),),
+        outline=(200, 206, 218, 70), width=2 * ss)  # faint silver hairline
+    im = pill.resize((bw, bh), Image.Resampling.LANCZOS)
+    d = ImageDraw.Draw(im)
+    d.text(((bw - main_w) / 2 - mb[0], pad_y - mb[1]), BANNER_TEXT, font=f_main,
+           fill=BANNER_MAIN_RGB + (255,))
+    d.text(((bw - sub_w) / 2 - sb[0], pad_y + main_h + gap - sb[1]), BANNER_HANDLE, font=f_sub,
+           fill=BANNER_SUB_RGB + (235,))
+    x = (W - bw) // 2
+    y = int(H * BANNER_CENTER_Y) - bh // 2
+    # safe-zone guards: above IG's bottom UI band and clear of the watermark
+    assert y + bh <= H - SAFE_BOTTOM_PX and y + bh < wm_y and x >= 40, (x, y, bw, bh)
+    p = tmp / "end_banner.png"
+    im.save(p)
+    return p, x, y
+
+
 def default_start(music: Path) -> float:
     meta = ROOT / "assets" / "music" / "tracks.json"
     if meta.exists():
@@ -79,6 +151,8 @@ def main() -> int:
     ap.add_argument("--music-start", type=float, default=None)
     ap.add_argument("--no-native-audio", action="store_true", help="(default now) music only")
     ap.add_argument("--keep-native-audio", action="store_true", help="mix in the clip's generated sound under the music")
+    ap.add_argument("--no-end-banner", action="store_true",
+                    help='skip the "Like this? Follow for more" banner over the last 2 s')
     a = ap.parse_args()
 
     raw, out, music = Path(a.raw), Path(a.out), Path(a.music)
@@ -91,10 +165,19 @@ def main() -> int:
     with tempfile.TemporaryDirectory() as td:
         tmp = Path(td)
         wm_png, x, y = build_watermark(tmp)
+        banner = None if a.no_end_banner else build_end_banner(tmp, y)
+        b_start = max(0.0, dur - BANNER_SECS)
 
         vf = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
-              f"fps={FPS},format=yuv420p[base];"
-              f"[base][2:v]overlay={x}:{y}:format=auto,format=yuv420p[v]")
+              f"fps={FPS},format=yuv420p[base];")
+        if banner:
+            _, bx, by = banner
+            vf += (f"[base][2:v]overlay={x}:{y}:format=auto[wm];"
+                   f"[3:v]format=rgba,fade=t=in:st={b_start:.3f}:d={BANNER_FADE}:alpha=1[bn];"
+                   f"[wm][bn]overlay={bx}:{by}:format=auto:eof_action=pass:"
+                   f"enable='gte(t,{b_start:.3f})',format=yuv420p[v]")
+        else:
+            vf += f"[base][2:v]overlay={x}:{y}:format=auto,format=yuv420p[v]"
         mus = (f"[1:a]atrim=0:{dur:.3f},asetpts=PTS-STARTPTS,aresample=48000,"
                f"aformat=channel_layouts=stereo,loudnorm=I={TARGET_LUFS}:TP=-2:LRA=11,aresample=48000,"
                f"afade=t=in:st=0:d={FADE_IN},afade=t=out:st={fo_start:.3f}:d={FADE_OUT}[m]")
@@ -116,8 +199,10 @@ def main() -> int:
                  "-filter_complex", fc, "-map", "[a]", "-t", f"{dur:.3f}", "-c:a", "pcm_s16le", str(dst)])
 
         def encode(dst: Path, audio: Path) -> None:
+            banner_in = ([] if not banner else
+                         ["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.3f}", "-i", str(banner[0])])
             run(["ffmpeg", "-y", "-v", "error", "-i", str(raw), "-i", str(audio), "-i", str(wm_png),
-                 "-filter_complex", vf, "-map", "[v]", "-map", "1:a", "-af", "apad",
+                 *banner_in, "-filter_complex", vf, "-map", "[v]", "-map", "1:a", "-af", "apad",
                  "-t", f"{dur:.3f}", "-c:v", "libx264", "-profile:v", "high", "-preset", "slow",
                  "-crf", "18", "-r", str(FPS), "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k",
                  "-ar", "48000", "-ac", "2", "-movflags", "+faststart", str(dst)])
@@ -141,7 +226,10 @@ def main() -> int:
          "-frames:v", "1", "-q:v", "2", str(still)])
     print(json.dumps({"out": str(out), "still": str(still), "music": music.name,
                       "music_start": start, "duration": dur, "loudness_lufs": final,
-                      "watermark_xywh": [x, y]}, indent=1))
+                      "watermark_xywh": [x, y],
+                      "end_banner": None if not banner else
+                      {"xy": [banner[1], banner[2]], "start_sec": round(b_start, 3),
+                       "fade_sec": BANNER_FADE}}, indent=1))
     return 0
 
 
