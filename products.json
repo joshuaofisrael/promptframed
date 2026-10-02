@@ -838,5 +838,95 @@
     },
     "asset": "30-norwegian-stave-church-fjord.jpg",
     "printSource": "gallery/30-norwegian-stave-church-fjord.png"
+  },
+  {
+    "slug": "mont-saint-michel-moon",
+    "title": "Mont Saint-Michel Moon",
+    "series": "Night Windows",
+    "photoNumber": 31,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "31-mont-saint-michel-moon.jpg",
+    "printSource": "gallery/31-mont-saint-michel-moon.png"
+  },
+  {
+    "slug": "hallstatt-lake-moon",
+    "title": "Hallstatt Lake Moon",
+    "series": "Night Windows",
+    "photoNumber": 32,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "32-hallstatt-lake-moon.jpg",
+    "printSource": "gallery/32-hallstatt-lake-moon.png"
+  },
+  {
+    "slug": "zhangjiajie-pillars-moon",
+    "title": "Zhangjiajie Pillars Moon",
+    "series": "Night Windows",
+    "photoNumber": 33,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "33-zhangjiajie-pillars-moon.jpg",
+    "printSource": "gallery/33-zhangjiajie-pillars-moon.png"
+  },
+  {
+    "slug": "bagan-temples-night",
+    "title": "Bagan Temples Night",
+    "series": "Night Windows",
+    "photoNumber": 34,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "34-bagan-temples-night.jpg",
+    "printSource": "gallery/34-bagan-temples-night.png"
+  },
+  {
+    "slug": "matterhorn-alpine-moon",
+    "title": "Matterhorn Alpine Moon",
+    "series": "Night Windows",
+    "photoNumber": 35,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "35-matterhorn-alpine-moon.jpg",
+    "printSource": "gallery/35-matterhorn-alpine-moon.png"
   }
 ]

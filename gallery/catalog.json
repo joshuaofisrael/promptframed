@@ -808,5 +808,140 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "31-mont-saint-michel-moon",
+    "slug": "mont-saint-michel-moon",
+    "title": "Mont Saint-Michel Moon",
+    "photoNumber": 31,
+    "source": "ChatGPT",
+    "file": "31-mont-saint-michel-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Mont Saint-Michel abbey rising from reflective tidal flats, warm window glow on stone walls, wildflowers on the shore, and a full moon through dramatic night clouds",
+    "description": "The abbey rises from silver tidal water while moonlight and warm windows hush a quiet Mont Saint-Michel night.",
+    "keywords": [
+      "Mont Saint-Michel night",
+      "Normandy moonlight",
+      "tidal island wall art",
+      "abbey print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "32-hallstatt-lake-moon",
+    "slug": "hallstatt-lake-moon",
+    "title": "Hallstatt Lake Moon",
+    "photoNumber": 32,
+    "source": "ChatGPT",
+    "file": "32-hallstatt-lake-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Hallstatt lakeside village with church steeple reflected in still alpine water, timber houses, sheer mountains, and a full moon through dramatic night clouds",
+    "description": "Hallstatt’s steeple mirrors in still alpine water while moonlight and warm windows settle over a quiet lakeside night.",
+    "keywords": [
+      "Hallstatt night",
+      "Austrian lake moonlight",
+      "alpine village wall art",
+      "lakeside print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "33-zhangjiajie-pillars-moon",
+    "slug": "zhangjiajie-pillars-moon",
+    "title": "Zhangjiajie Pillars Moon",
+    "photoNumber": 33,
+    "source": "ChatGPT",
+    "file": "33-zhangjiajie-pillars-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Zhangjiajie sandstone pillars rising from misty forest valleys with lush cliff vegetation, volumetric haze, and a full moon through dramatic night clouds",
+    "description": "Sandstone pillars rise through forest mist as moonlight and blue-green haze soften a quiet Zhangjiajie night.",
+    "keywords": [
+      "Zhangjiajie night",
+      "Avatar mountains moonlight",
+      "sandstone pillar wall art",
+      "China landscape print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "34-bagan-temples-night",
+    "slug": "bagan-temples-night",
+    "title": "Bagan Temples Night",
+    "photoNumber": 34,
+    "source": "ChatGPT",
+    "file": "34-bagan-temples-night.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Bagan temple plain with countless brick stupas and pagodas across misty fields, soft warm temple lights, and a full moon through dramatic night clouds",
+    "description": "Brick stupas scatter across a misty plain while moonlight and soft temple glow hush a quiet Bagan night.",
+    "keywords": [
+      "Bagan night",
+      "Myanmar temples moonlight",
+      "pagoda plain wall art",
+      "stupa print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "35-matterhorn-alpine-moon",
+    "slug": "matterhorn-alpine-moon",
+    "title": "Matterhorn Alpine Moon",
+    "photoNumber": 35,
+    "source": "ChatGPT",
+    "file": "35-matterhorn-alpine-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Matterhorn peak above alpine meadows with snow ridges reflected in a still lake, wildflowers, pines, and a full moon through dramatic night clouds",
+    "description": "The Matterhorn’s pyramid rises over a still alpine lake while moonlight silvers snow ridges and wildflower meadows.",
+    "keywords": [
+      "Matterhorn night",
+      "Zermatt moonlight",
+      "Swiss Alps wall art",
+      "alpine peak print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]
