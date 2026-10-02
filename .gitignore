@@ -1,3 +1,11 @@
 
 # Local secrets — do not publish
 docs/INSTAGRAM_ACCOUNT.md
+
+# Reels pipeline: licensed music must not be redistributed standalone; raw clips are un-watermarked
+assets/music/*.mp3
+gallery/reels/*-raw.mp4
+
+# internal docs live in /workspace/promptframed-private
+docs/REELS_PIPELINE.md
+docs/MARGINS.md
