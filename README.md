@@ -84,12 +84,12 @@ Those PNGs used to be in this public repository, so GitHub Pages served them at 
 Merging the change that drops them will delete the tracked copies from a working tree. The shell glob will not see files that are already gone, so restore by name from that commit:
 
 ```
-git ls-tree -r --name-only 739ca2c gallery \
+git ls-tree -r --name-only a91f807 gallery \
   | grep -E '(^gallery/[0-9]{2}-.+\.png$|^gallery/print-masters/.+\.png$|^gallery/night-windows-contact-sheet\.png$)' \
-  | xargs -r git checkout 739ca2c --
+  | xargs -r git checkout a91f807 --
 ```
 
-`739ca2c` is the last commit that still contains the masters. After that checkout the files are gitignored. Do not `git add -f` them. Copy them somewhere private before you rely on this repo.
+`a91f807` is the last commit that still contains every clean master, including pieces 36–40. After that checkout the files are gitignored. Do not `git add -f` them. Copy them somewhere private before you rely on this repo.
 
 GitHub Pages serves the current `main` tree only, so `https://moonlitwindows.com/gallery/01-moonlit-alpine-meadow.png` stops resolving once this is on `main`. Older commits on GitHub still contain the blobs until history is rewritten; that rewrite is a separate force-push and is not part of this change.
 

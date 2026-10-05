@@ -14,12 +14,12 @@ Ship prints from `print-masters/`. Do not download `assets/*.jpg` or `gallery/so
 
 Keep a second copy of the PNGs somewhere private (a disk or a private repo). This public repo is not that copy.
 
-If a merge deletes the tracked masters from a working tree, restore them from the last commit that still has them (`739ca2c`) without republishing:
+If a merge deletes the tracked masters from a working tree, restore them from the last commit that still has every piece, including 36–40 (`a91f807`), without republishing:
 
 ```
-git ls-tree -r --name-only 739ca2c gallery \
+git ls-tree -r --name-only a91f807 gallery \
   | grep -E '(^gallery/[0-9]{2}-.+\.png$|^gallery/print-masters/.+\.png$|^gallery/night-windows-contact-sheet\.png$)' \
-  | xargs -r git checkout 739ca2c --
+  | xargs -r git checkout a91f807 --
 ```
 
 After that checkout the files match `.gitignore`. Do not `git add -f` them.

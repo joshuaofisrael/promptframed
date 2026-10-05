@@ -6,4 +6,4 @@ Clean PNGs for post-order fulfillment live in this folder on the fulfillment mac
 
 Upload these PNGs to Printful or Gelato. Do not upload `assets/*.jpg` or `gallery/social/*.jpg`.
 
-See `../README.md` for how to restore the files from commit `739ca2c` if a pull removes them from disk.
+See `../README.md` for how to restore the files from commit `a91f807` if a pull removes them from disk.
