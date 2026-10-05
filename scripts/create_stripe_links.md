@@ -28,7 +28,7 @@ Replace `<slug>`, `<Title>`, `<NN>` below. Do both the poster and framed variant
 Framed: name `"<Title> – Night Windows Framed Poster 12×18"`, description
 `"... 12×18 in enhanced matte poster in a black frame. ..."`, `variant: "framed"`, `unit_amount: 6900`.
 
-Image rule: only the **watermarked** `gallery/social/*.jpg`. Never `gallery/print-masters/` or `gallery/*.png`.
+Image rule: only the **watermarked** `gallery/social/*.jpg` (or the watermarked `assets/NN-*.jpg`). Never `gallery/print-masters/` or `gallery/*.png` — those are local fulfillment files and are not on the site.
 
 The response's `default_price` is the Price ID for step 2.
 

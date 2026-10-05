@@ -22,7 +22,7 @@ Or, in a bio: poster link in bio. Suggested bio: `Night Windows · AI landscapes
 
 Drop formats: one window (art, short mood, CTA); which window tonight (two or three pieces, then the buy link); detail crop into a full reveal; room mockup; day/night twins when they exist. Cadence: 3–5 posts a week inside this series before a new style line.
 
-The contact sheet (`gallery/night-windows-contact-sheet.png`, shown on `/night-windows.html`) is the series reference. Photos 1 and 2 were specified first. The other eight windows are already individual pages because the files were in the gallery. Buy links still come from `products.json` and do not charge anyone until a real Printful URL is pasted in.
+The contact sheet (`assets/night-windows-contact-sheet.jpg`, shown on `/night-windows.html`) is the series reference. Each panel carries the Night Shade Art watermark. Photos 1 and 2 were specified first. The other eight windows are already individual pages because the files were in the gallery. Buy links still come from `products.json`.
 
 GitHub Pages already serves `main` from the repository root. There is no paid host. This site does not charge a card. Buy Poster opens a Printful link only after a real product URL is saved in `products.json`.
 
@@ -58,7 +58,7 @@ Quick Stores, as documented in `docs/PRINTFUL_SETUP.md`, are for US merchants sh
 
 1. Sign in at https://www.printful.com with the studio account.
 2. **Stores → Add store → Quick Stores.** Name it Prompt Framed. The store address cannot be casually renamed, so choose the slug on purpose.
-3. Add a poster for each picture you want to sell. Upload the print master in `gallery/` (the PNG, not the smaller JPEG in `assets/`). Photos 1 and 2 are 1024×1536, about a 7×10 inch print at 150 dpi. Use a higher-resolution file before you sell a large poster.
+3. Add a poster for each picture you want to sell. Upload the clean print master from the local `gallery/print-masters/` folder (the PNG, not a JPEG from `assets/` or `gallery/social/`). Those PNGs are not on the website. Photos 1 and 2 are 1024×1536, about a 7×10 inch print at 150 dpi. Use a higher-resolution file before you sell a large poster.
 4. Add a framed print of the same picture as the second product. Publish.
 5. Copy the public product URL.
 6. Paste it into `products.json` for that slug: `printful.posterUrl` and `printful.framedUrl`.
@@ -68,12 +68,30 @@ Use a real `https://` link. Leave the value `null` until the product is public. 
 
 ## Add a picture
 
-1. Save the print master as `gallery/NN-short-name.png`.
-2. Save a display JPEG as `assets/NN-short-name.jpg`.
-3. Add the piece to `gallery/catalog.json` and `products.json` (`posterUrl` and `framedUrl` null).
-4. Add a card on `index.html`, a page at `pieces/short-name.html` (copy a neighbor), and a line in `sitemap.xml`.
-5. Create its Stripe Products, Prices and Payment Links (poster $29 + framed $69) following `scripts/create_stripe_links.md`, paste the URLs into `products.json`, then run `python3 scripts/apply_stripe_links.py` (writes the buy buttons into `buy.html` and the piece page). See `docs/STRIPE_SITE_CHECKOUT.md`.
-6. Push to `main`. Pages republishes from that branch.
+1. Save the clean print master as `gallery/NN-short-name.png` on the fulfillment machine. Do not commit it. Git ignores `gallery/NN-*.png`, `gallery/print-masters/*.png`, and `gallery/night-windows-contact-sheet.png`.
+2. Run `python3 scripts/watermark_for_social.py NN-short-name`. That writes the watermarked website JPEG `assets/NN-short-name.jpg` and the watermarked social JPEG `gallery/social/NN-short-name.jpg`, and copies the clean PNG into `gallery/print-masters/` without altering a single pixel of the master.
+3. Add the piece to `gallery/catalog.json` and `products.json` (`posterUrl` and `framedUrl` null). `printSource` stays the local path `gallery/NN-short-name.png`.
+4. Add a card on `index.html`, a page at `pieces/short-name.html` (copy a neighbor), and a line in `sitemap.xml`. The publish scripts (`scripts/publish_new_pieces.py` and the later drop scripts) call the same watermark exporter, so they cannot write a clean JPEG into `assets/`.
+5. Create its Stripe Products, Prices and Payment Links (poster $29 + framed $69) following `scripts/create_stripe_links.md`, paste the URLs into `products.json`, then run `python3 scripts/apply_stripe_links.py` (writes the buy buttons into `buy.html` and the piece page). See `docs/STRIPE_SITE_CHECKOUT.md`. Stripe product images use `gallery/social/`, which is watermarked.
+6. Push to `main`. Pages republishes from that branch. Only the watermarked JPEGs go out.
+
+## Fulfillment copies
+
+Print from `gallery/print-masters/NN-short-name.png` (or the canonical `gallery/NN-short-name.png` next to it). Both are clean and local. The website, Open Graph, and Twitter images are watermarked on purpose so a screenshot is not a print file.
+
+Those PNGs used to be in this public repository, so GitHub Pages served them at `/gallery/...`. They are removed from the published tree and listed in `.gitignore`. Keep a private copy outside this repo (a disk or a private repository, not a GitHub Pages branch).
+
+Merging the change that drops them will delete the tracked copies from a working tree. The shell glob will not see files that are already gone, so restore by name from that commit:
+
+```
+git ls-tree -r --name-only a91f807 gallery \
+  | grep -E '(^gallery/[0-9]{2}-.+\.png$|^gallery/print-masters/.+\.png$|^gallery/night-windows-contact-sheet\.png$)' \
+  | xargs -r git checkout a91f807 --
+```
+
+`a91f807` is the last commit that still contains every clean master, including pieces 36–40. After that checkout the files are gitignored. Do not `git add -f` them. Copy them somewhere private before you rely on this repo.
+
+GitHub Pages serves the current `main` tree only, so `https://moonlitwindows.com/gallery/01-moonlit-alpine-meadow.png` stops resolving once this is on `main`. Older commits on GitHub still contain the blobs until history is rewritten; that rewrite is a separate force-push and is not part of this change.
 
 Keep piece titles in the Night Windows voice. The AI disclosure stays in the footer and on About.
 

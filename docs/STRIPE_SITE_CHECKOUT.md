@@ -20,7 +20,9 @@ Visible copy on the site: **$29 poster · $69 framed (12×18)**.
 2. The link opens that piece's Stripe Payment Link (quantity 1–5, shipping address + phone collected).
 3. After payment Stripe redirects to `thanks.html?piece=<slug>&variant=<poster|framed>` and emails a receipt.
 4. Joshua fulfils manually (Gelato / Printful) from the Stripe order email or dashboard, uploading the
-   **clean print master** from `gallery/print-masters/` (never the watermarked social image).
+   **clean print master** from the local `gallery/print-masters/` folder (never a watermarked
+   `gallery/social/` or `assets/` JPEG, and never a file downloaded from the public site).
+   Those PNGs are gitignored; see `gallery/README.md`.
    Metadata `slug` + `variant` is on the Payment Link, the Checkout Session, and the PaymentIntent,
    so every order says which piece and size to print.
 
@@ -46,8 +48,9 @@ All IDs are recorded in `products.json` under `stripe` (`posterProductId`, `post
 
 A new piece is **not sellable** until it has its own two Products, Prices and Payment Links.
 
-1. Publish the piece as usual (print master in `gallery/print-masters/`, display JPEG in `assets/`,
-   watermarked `gallery/social/NN-slug.jpg` via `scripts/watermark_for_social.py`, piece page,
+1. Publish the piece as usual (clean print master kept locally in `gallery/print-masters/`,
+   watermarked display JPEG in `assets/` and watermarked `gallery/social/NN-slug.jpg` via
+   `scripts/watermark_for_social.py`, piece page,
    `products.json` row with `stripe.posterUrl/framedUrl: null`, `status: "placeholder"`).
 2. Push once so the watermarked social JPEG is public (Stripe fetches the product image by URL).
 3. Create the Stripe objects exactly as in `scripts/create_stripe_links.md` (Stripe MCP connector or
