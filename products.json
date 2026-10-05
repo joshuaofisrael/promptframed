@@ -978,5 +978,95 @@
     },
     "asset": "35-matterhorn-alpine-moon.jpg",
     "printSource": "gallery/35-matterhorn-alpine-moon.png"
+  },
+  {
+    "slug": "chefchaouen-blue-moon",
+    "title": "Chefchaouen Blue Moon",
+    "series": "Night Windows",
+    "photoNumber": 36,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "36-chefchaouen-blue-moon.jpg",
+    "printSource": "gallery/36-chefchaouen-blue-moon.png"
+  },
+  {
+    "slug": "plitvice-lakes-moon",
+    "title": "Plitvice Lakes Moon",
+    "series": "Night Windows",
+    "photoNumber": 37,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "37-plitvice-lakes-moon.jpg",
+    "printSource": "gallery/37-plitvice-lakes-moon.png"
+  },
+  {
+    "slug": "neuschwanstein-castle-moon",
+    "title": "Neuschwanstein Castle Moon",
+    "series": "Night Windows",
+    "photoNumber": 38,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "38-neuschwanstein-castle-moon.jpg",
+    "printSource": "gallery/38-neuschwanstein-castle-moon.png"
+  },
+  {
+    "slug": "angkor-wat-moon",
+    "title": "Angkor Wat Moon",
+    "series": "Night Windows",
+    "photoNumber": 39,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "39-angkor-wat-moon.jpg",
+    "printSource": "gallery/39-angkor-wat-moon.png"
+  },
+  {
+    "slug": "faroe-gasadalur-moon",
+    "title": "Faroe Gásadalur Moon",
+    "series": "Night Windows",
+    "photoNumber": 40,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "40-faroe-gasadalur-moon.jpg",
+    "printSource": "gallery/40-faroe-gasadalur-moon.png"
   }
 ]

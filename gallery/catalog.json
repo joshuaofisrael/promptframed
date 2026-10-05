@@ -943,5 +943,140 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "36-chefchaouen-blue-moon",
+    "slug": "chefchaouen-blue-moon",
+    "title": "Chefchaouen Blue Moon",
+    "photoNumber": 36,
+    "source": "ChatGPT",
+    "file": "36-chefchaouen-blue-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Chefchaouen stairway alley of blue-washed stone walls with magenta bougainvillea, potted plants, glowing lanterns, and the hillside town and Rif mountains under a full moon",
+    "description": "Blue-washed stairs climb through bougainvillea and lantern glow while a full moon rises over the Rif mountains and a quiet Chefchaouen night.",
+    "keywords": [
+      "Chefchaouen night",
+      "Morocco blue city moonlight",
+      "blue alley wall art",
+      "Rif mountains print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "37-plitvice-lakes-moon",
+    "slug": "plitvice-lakes-moon",
+    "title": "Plitvice Lakes Moon",
+    "photoNumber": 37,
+    "source": "ChatGPT",
+    "file": "37-plitvice-lakes-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Plitvice Lakes with turquoise terraced pools, cascading waterfalls, a lantern-lit wooden boardwalk, forested cliffs, and a full moon in a cloudy night sky",
+    "description": "Turquoise lakes spill over terraced falls while a lit boardwalk threads the forest and moonlight silvers a quiet Plitvice night.",
+    "keywords": [
+      "Plitvice Lakes night",
+      "Croatia waterfall moonlight",
+      "turquoise lake wall art",
+      "waterfall print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "38-neuschwanstein-castle-moon",
+    "slug": "neuschwanstein-castle-moon",
+    "title": "Neuschwanstein Castle Moon",
+    "photoNumber": 38,
+    "source": "ChatGPT",
+    "file": "38-neuschwanstein-castle-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Neuschwanstein Castle with glowing windows on a forested crag above a misty valley and moonlit lake, snowy Alps beyond, wildflowers in the foreground, and a full moon",
+    "description": "Neuschwanstein’s white towers glow on their forested crag while mist fills the valley and a full moon rises over the Bavarian Alps.",
+    "keywords": [
+      "Neuschwanstein night",
+      "Bavaria castle moonlight",
+      "fairytale castle wall art",
+      "Alps castle print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "39-angkor-wat-moon",
+    "slug": "angkor-wat-moon",
+    "title": "Angkor Wat Moon",
+    "photoNumber": 39,
+    "source": "ChatGPT",
+    "file": "39-angkor-wat-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Angkor Wat temple towers with warm lights mirrored in a lotus pond of pink lotus flowers, framed by palms, with a full moon reflected in the still water",
+    "description": "Angkor Wat’s towers glow warm above a lotus pond while palms frame the water and a full moon floats in its reflection.",
+    "keywords": [
+      "Angkor Wat night",
+      "Cambodia temple moonlight",
+      "lotus pond wall art",
+      "temple reflection print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "40-faroe-gasadalur-moon",
+    "slug": "faroe-gasadalur-moon",
+    "title": "Faroe Gásadalur Moon",
+    "photoNumber": 40,
+    "source": "ChatGPT",
+    "file": "40-faroe-gasadalur-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
+    "alt": "Moonlit Múlafossur waterfall pouring off green sea cliffs into the ocean at Gásadalur, a tiny clifftop village with warm windows, wildflowers, dramatic clouds, and a full moon",
+    "description": "Múlafossur falls from green sea cliffs into the Atlantic while Gásadalur’s few warm windows keep watch under a full Faroese moon.",
+    "keywords": [
+      "Faroe Islands night",
+      "Gásadalur Múlafossur moonlight",
+      "sea cliff waterfall wall art",
+      "Nordic coast print",
+      "AI wall art",
+      "ChatGPT art print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]
