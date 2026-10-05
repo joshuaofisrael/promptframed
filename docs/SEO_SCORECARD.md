@@ -94,6 +94,8 @@ Skip if you cannot add original practical value beyond what already ranks.
 
 | 2 Oct 2026 BST | Added Product+Offer+ImageObject+BreadcrumbList JSON-LD to all 35 piece pages (public assets/*.jpg only); sitemap + how-to guide URL; created docs/SEO_LOG.md with scorecard stub | First SEO-operator fire: piece pages lacked commerce schema while titles/meta/alt already unique — highest EV vs speculative content on a zero-impression young gallery | Pushed; GSC/GA4 numbers pending browser session |
 
+| 2026-10-05 BST | Added thematic **“More windows like this”** internal links between related pieces in both directions (Chefchaouen ↔ Moroccan Kasbah / Amalfi; Plitvice ↔ Banff Lake Louise / Hallstatt; Neuschwanstein ↔ Hallstatt / Matterhorn; Angkor Wat ↔ Bagan / Bali; Faroe Gásadalur ↔ Iceland Black Sand / Norwegian stave church), so 9 already-crawled piece pages now link contextually to the 5 new URLs. Hub `night-windows.html` refreshed to forty windows with a unique intro, a “Find your window” themed section (castles & old towns / temples / waterfalls & coasts), and CollectionPage + ItemList JSON-LD (40 items); `buy.html` hero/meta updated to forty. New pages ship with Product/Offer/Breadcrumb JSON-LD + GA4. | Piece pages previously only linked “next window” in a single chain, so a new URL got one inbound link from a page plus the hub; contextual links from topically related, already-indexed pages are the cheapest real signal for discovery/relevance on a young gallery, and ItemList gives the hub structured parity with piece-page schema | Shipped with pieces 36–40 drop (`scripts/publish_pieces_36_40.py`, idempotent) |
+
 Update this log when an SEO action ships. Prefer improving existing piece pages over speculative new URLs.
 
 ## 2026-10-02 afternoon update

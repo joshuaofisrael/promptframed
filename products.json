@@ -990,9 +990,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/bJeeVed6E585aVV7Mcb3q1N",
+      "framedUrl": "https://buy.stripe.com/4gM6oI9Us2ZXaVVd6wb3q1O",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VNslOp8TURlBtM",
+      "posterPriceId": "price_1UN703K3OWN3aipgf1TPNff2",
+      "posterPaymentLinkId": "plink_1UN70qK3OWN3aipgV3CKRlzQ",
+      "framedProductId": "prod_VNsl5q6dEJEWQC",
+      "framedPriceId": "price_1UN70AK3OWN3aipgmT8iMRRE",
+      "framedPaymentLinkId": "plink_1UN710K3OWN3aipg2YYm5z8l"
     },
     "asset": "36-chefchaouen-blue-moon.jpg",
     "printSource": "gallery/36-chefchaouen-blue-moon.png"
@@ -1008,9 +1018,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/5kQ3cwfeM9old43d6wb3q1P",
+      "framedUrl": "https://buy.stripe.com/9B69AU5Ec8kh9RRgiIb3q1Q",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VNslKq9xBiF7lG",
+      "posterPriceId": "price_1UN70EK3OWN3aipgC7cubNXQ",
+      "posterPaymentLinkId": "plink_1UN714K3OWN3aipgCI8NxaHA",
+      "framedProductId": "prod_VNslbOk7vWrGFi",
+      "framedPriceId": "price_1UN70HK3OWN3aipgv4Gkxmvh",
+      "framedPaymentLinkId": "plink_1UN718K3OWN3aipgvNzoMUP2"
     },
     "asset": "37-plitvice-lakes-moon.jpg",
     "printSource": "gallery/37-plitvice-lakes-moon.png"
@@ -1026,9 +1046,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/cNi5kE0jS6c90hh9Ukb3q1R",
+      "framedUrl": "https://buy.stripe.com/3cI9AU8Qo441bZZ9Ukb3q1S",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VNslBdiPESN6HR",
+      "posterPriceId": "price_1UN70LK3OWN3aipgEQMwtxQi",
+      "posterPaymentLinkId": "plink_1UN71CK3OWN3aipgdfSS2Y7R",
+      "framedProductId": "prod_VNslF2DfpUxheQ",
+      "framedPriceId": "price_1UN70PK3OWN3aipgKWeBvnXN",
+      "framedPaymentLinkId": "plink_1UN71GK3OWN3aipg4cHaUUAP"
     },
     "asset": "38-neuschwanstein-castle-moon.jpg",
     "printSource": "gallery/38-neuschwanstein-castle-moon.png"
@@ -1044,9 +1074,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/7sY3cwd6EgQNbZZfeEb3q1T",
+      "framedUrl": "https://buy.stripe.com/14A5kEgiQgQNbZZ9Ukb3q1U",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VNsmAPYpgzMGb3",
+      "posterPriceId": "price_1UN70SK3OWN3aipg2g2o3wIH",
+      "posterPaymentLinkId": "plink_1UN71KK3OWN3aipggIvvDMEm",
+      "framedProductId": "prod_VNsmgpkeotLPFB",
+      "framedPriceId": "price_1UN70WK3OWN3aipgNNK3RANy",
+      "framedPaymentLinkId": "plink_1UN71NK3OWN3aipgncx8aveM"
     },
     "asset": "39-angkor-wat-moon.jpg",
     "printSource": "gallery/39-angkor-wat-moon.png"
@@ -1062,9 +1102,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/3cI8wQeaIbwt9RRgiIb3q1V",
+      "framedUrl": "https://buy.stripe.com/7sY00k3w4bwt0hh7Mcb3q1W",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VNsmdePz11YyOC",
+      "posterPriceId": "price_1UN70ZK3OWN3aipgHlFpocqm",
+      "posterPaymentLinkId": "plink_1UN71RK3OWN3aipgcOn07fp3",
+      "framedProductId": "prod_VNsmWNt8x00XFH",
+      "framedPriceId": "price_1UN70cK3OWN3aipg4dzS1Y06",
+      "framedPaymentLinkId": "plink_1UN71VK3OWN3aipgJVsjpTmP"
     },
     "asset": "40-faroe-gasadalur-moon.jpg",
     "printSource": "gallery/40-faroe-gasadalur-moon.png"
