@@ -12,8 +12,8 @@
 
 ## Watermark policy (owner rule)
 
-- **Advertised** (Instagram, ads, social, public previews): always watermarked with the Night Shade Art brand logo (`gallery/social/*.jpg` via `scripts/watermark_for_social.py`).
-- **Paid deliverables** (print fulfillment, Stripe/POD uploads, customer files): clean masters only — logo removed / never watermarked (`gallery/print-masters/*.png` and canonical `gallery/*.png`).
+- **Advertised** (website, og/twitter, Instagram, ads, public previews): always watermarked with the Night Shade Art corner mark (`assets/brand/watermark-corner.png`, 72% opacity, 42% of the image width, 3.5% padding). `scripts/watermark_for_social.py` writes `assets/NN-*.jpg`, `assets/night-windows-contact-sheet.jpg` (every panel), and `gallery/social/*.jpg`. Publish scripts call the same exporter and must not save a clean JPEG into `assets/`.
+- **Paid deliverables** (print fulfillment, POD uploads, customer files): clean masters only. The script byte-copies `gallery/NN-*.png` to `gallery/print-masters/` and never composites the logo onto a PNG. Those PNGs are gitignored so GitHub Pages does not serve them. Fulfillment uses the local files, not the website.
 
 
 ## Voice

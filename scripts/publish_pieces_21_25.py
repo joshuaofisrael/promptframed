@@ -239,21 +239,15 @@ def check_pngs() -> None:
 
 
 def convert_jpg(piece: dict) -> tuple[int, int, str]:
+    """PNG → watermarked website JPG in assets/. Print masters stay clean."""
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import watermark_for_social as wm
+
     src = GALLERY / piece["file"]
     dst = ASSETS / piece["asset"]
-    with Image.open(src) as im:
-        im = im.convert("RGB")
-        w, h = im.size
-        max_w = 1200
-        if w > max_w:
-            ratio = max_w / float(w)
-            new_size = (max_w, max(1, int(round(h * ratio))))
-            im = im.resize(new_size, Image.Resampling.LANCZOS)
-            w, h = im.size
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        im.save(dst, "JPEG", quality=85, optimize=True, progressive=True)
+    w, h = wm.export_website_jpg(src, dst)
     orientation = "portrait" if h >= w else "landscape"
-    print(f"  JPG {dst.relative_to(ROOT)} ({w}x{h}, {orientation})")
+    print(f"  JPG {dst.relative_to(ROOT)} ({w}x{h}, {orientation}, watermarked)")
     return w, h, orientation
 
 

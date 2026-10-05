@@ -2,6 +2,13 @@
 # Local secrets — do not publish
 docs/INSTAGRAM_ACCOUNT.md
 
+# Clean print masters. Keep these on the fulfillment machine only.
+# GitHub Pages serves the repo root, so a tracked PNG is a public download.
+# See gallery/README.md.
+gallery/[0-9][0-9]-*.png
+gallery/print-masters/*.png
+gallery/night-windows-contact-sheet.png
+
 # Reels pipeline: licensed music must not be redistributed standalone; raw clips are un-watermarked
 assets/music/*.mp3
 gallery/reels/*-raw.mp4
