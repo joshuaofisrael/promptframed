@@ -13,9 +13,10 @@
 | 7d (as of 2026-10-02 ~14:35 BST) | processing | processing | processing | processing | n/a yet | GSC: “Processing data, please check again in a day or so.” |
 | 28d / ~3mo GSC default | processing | processing | processing | processing | n/a yet | Same processing banner; no queries/pages table yet. |
 | 90d | processing | processing | processing | processing | n/a yet | Custom domain + property verified early Oct 2026. |
+| 7d/28d/90d (as of 2026-10-05 ~14:35 BST) | not checked | not checked | not checked | not checked | not checked | Box Chrome Google session signed out; data step skipped (no guessing). |
 
 **GSC property:** `https://moonlitwindows.com/` (URL-prefix, joshuaofisrael@gmail.com)  
-**Sitemap:** `https://moonlitwindows.com/sitemap.xml` — Success (read/submitted 2 Oct 2026); **42 discovered pages**, 0 videos. Not resubmitted (already current).  
+**Sitemap:** `https://moonlitwindows.com/sitemap.xml` — Success (read/submitted 2 Oct 2026); **42 discovered pages** then; local file now lists 47 URLs (40 pieces + public pages) after 5 Oct cleanup. Resubmit next signed-in run, 0 videos. Not resubmitted (already current).  
 **Indexing requests:** none this run (inspection UI unavailable while performance data processing).  
 **Top queries / pages (GSC):** not available yet (processing).  
 **GA4 property:** Moonlit Windows · measurement ID `G-663R8VD62L` (confirmed in live HTML; UI label may truncate).  
@@ -62,3 +63,34 @@ Why highest EV for a brand-new product gallery:
 - Stripe live charges: still none.
 - Flag for later (not changed today): public page `how-to-turn-chatgpt-art-into-a-framed-poster.html` still names ChatGPT in the URL/title path — conflicts with public-copy rule; rewrite/redirect on a future high-EV day.
 
+
+---
+
+## 2026-10-05 (BST) — scheduled SEO operator fire
+
+### Hygiene
+- `python3 scripts/inject_head_tags.py` → updated 0 pages (GA4 tag + homepage GSC meta already present).
+- All 40 `pieces/*.html` in sitemap; all have Product/Offer/ImageObject/BreadcrumbList JSON-LD (incl. pieces 36–40). No print-master or clean `gallery/*.png` URLs in sitemap or public markup.
+- No new Stripe Payment Links created.
+
+### Data review
+- **Blocked:** box Chrome is signed out of Google (Search Console redirected to the account chooser). GSC and GA4 not checked; no URL Inspection / indexing requests sent. No numbers recorded rather than guessed.
+- Stripe commerce check: Stripe connector needs re-authentication, so no charge check this run.
+
+### Opportunity chosen (and why)
+**Retire `how-to-turn-chatgpt-art-into-a-framed-poster.html` into `guide-print-sizes.html`.**
+1. It broke the public-copy rule (named ChatGPT in URL, title, H1 and body), flagged on 2 Oct.
+2. Wrong intent for a print shop: it was a seller how-to (Printful, products.json, captions), not a buyer page, so it diluted topical focus.
+3. Outdated/false: said the buy button "does not pretend to charge anyone" until a shop link exists; live Stripe checkout has existed since 28 Sep.
+4. Overlapped the buyer-facing print-size guide. Consolidating is the guide's own advice (consolidate weak overlaps, avoid misleading content).
+
+### Shipped (commit c2614fb)
+- Old URL now a thin stub with canonical → `guide-print-sizes.html` and an instant meta refresh (GitHub Pages has no server 301; Google treats an instant meta refresh as a permanent redirect).
+- Removed the retired URL from `sitemap.xml` (47 URLs).
+- `how-it-works.html`: guide link now points to the print-size guide; checkout steps rewritten to match reality ($29 poster / $69 framed, 12×18, shipping included, Stripe checkout).
+- Live check: `/`, `how-it-works.html`, `guide-print-sizes.html`, the stub and `sitemap.xml` all return 200; live sitemap no longer lists the retired URL.
+
+### Next signed-in run
+- Resubmit sitemap (changed today). Check Page indexing report and request indexing for homepage, `night-windows.html`, `buy.html` (max 3).
+- Pull first GSC/GA4 numbers into the scorecard.
+- Candidate next action if data stays thin: titles on the 7 early pieces lack "print" (e.g. "Lakeside Cabin — Night Windows"); align them with the "— Night Windows print" pattern.
