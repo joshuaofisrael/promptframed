@@ -94,3 +94,33 @@ Why highest EV for a brand-new product gallery:
 - Resubmit sitemap (changed today). Check Page indexing report and request indexing for homepage, `night-windows.html`, `buy.html` (max 3).
 - Pull first GSC/GA4 numbers into the scorecard.
 - Candidate next action if data stays thin: titles on the 7 early pieces lack "print" (e.g. "Lakeside Cabin — Night Windows"); align them with the "— Night Windows print" pattern.
+
+---
+
+## 2026-10-06 (BST) — SEO action with the pieces 41–45 drop
+
+### Hygiene
+- Pieces 41–45 (Dolomites Tre Cime, Lofoten Reine, Cinque Terre Manarola, Lake Bled Island, Guilin Li River) shipped via `scripts/publish_pieces_41_45.py` with unique title/meta/OG/alt, Product/Offer/ImageObject/BreadcrumbList JSON-LD and GA4. Sitemap now 52 URLs (45 piece pages included).
+- Public images are the watermarked `assets/NN-*.jpg` / `gallery/social/NN-*.jpg` only; clean PNG masters and `gallery/print-masters/` stay local and gitignored.
+- Hub `night-windows.html` refreshed to forty-five windows (intro, themed “Find your window” links, CollectionPage + ItemList with 45 items); `buy.html` hero/meta updated to forty-five.
+- Internal links: each new piece has 2 thematic “More windows like this” links, and 10 older, already-crawled pages link back to the new URLs. Piece 40 “Next window” now points to piece 41; piece 45 loops to the first window.
+
+### Data review
+- GSC / GA4 not opened this run (no signed-in session used); no numbers recorded rather than guessed.
+
+### Opportunity chosen (and why)
+**Align titles/meta on the 10 earliest piece pages (01–10) with the 11+ template.** (Flagged as the next candidate on 5 Oct.)
+1. Pieces 01–10 were built before the template settled: titles read “{Title} — Night Windows | Prompt Framed” with no “print”, and the meta description was only the mood line, with no mention of poster/framed options.
+2. These are the oldest, most-crawled URLs, so improving their snippet relevance for “… print / poster” intent is cheap and low-risk, unlike a speculative new page.
+3. Consistency: all 45 piece pages now share one title/meta pattern, and the Product JSON-LD description matches the meta description.
+
+### Shipped
+- `python3 scripts/seo_align_early_piece_titles.py` → updated 10/10 early piece pages (`<title>`, `<meta name="description">`, Product JSON-LD `description`). og:/twitter: tags left as the mood line, matching 11+.
+
+### Intentionally not done
+- No new articles or collection pages.
+- No commit of print masters, PNGs, reels staging/logs, music, Instagram kit, or `.night-windows-*` JSON.
+
+### Next signed-in run
+- Resubmit sitemap (52 URLs). Request indexing for `night-windows.html` and two new piece pages (max 3).
+- Pull first GSC/GA4 numbers into the scorecard.

@@ -1118,5 +1118,95 @@
     },
     "asset": "40-faroe-gasadalur-moon.jpg",
     "printSource": "gallery/40-faroe-gasadalur-moon.png"
+  },
+  {
+    "slug": "dolomites-tre-cime-moon",
+    "title": "Dolomites Tre Cime Moon",
+    "series": "Night Windows",
+    "photoNumber": 41,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "41-dolomites-tre-cime-moon.jpg",
+    "printSource": "gallery/41-dolomites-tre-cime-moon.png"
+  },
+  {
+    "slug": "lofoten-reine-moon",
+    "title": "Lofoten Reine Moon",
+    "series": "Night Windows",
+    "photoNumber": 42,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "42-lofoten-reine-moon.jpg",
+    "printSource": "gallery/42-lofoten-reine-moon.png"
+  },
+  {
+    "slug": "cinque-terre-manarola-moon",
+    "title": "Cinque Terre Manarola Moon",
+    "series": "Night Windows",
+    "photoNumber": 43,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "43-cinque-terre-manarola-moon.jpg",
+    "printSource": "gallery/43-cinque-terre-manarola-moon.png"
+  },
+  {
+    "slug": "lake-bled-island-moon",
+    "title": "Lake Bled Island Moon",
+    "series": "Night Windows",
+    "photoNumber": 44,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "44-lake-bled-island-moon.jpg",
+    "printSource": "gallery/44-lake-bled-island-moon.png"
+  },
+  {
+    "slug": "guilin-li-river-moon",
+    "title": "Guilin Li River Moon",
+    "series": "Night Windows",
+    "photoNumber": 45,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "45-guilin-li-river-moon.jpg",
+    "printSource": "gallery/45-guilin-li-river-moon.png"
   }
 ]
