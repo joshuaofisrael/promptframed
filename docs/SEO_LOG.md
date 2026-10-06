@@ -124,3 +124,37 @@ Why highest EV for a brand-new product gallery:
 ### Next signed-in run
 - Resubmit sitemap (52 URLs). Request indexing for `night-windows.html` and two new piece pages (max 3).
 - Pull first GSC/GA4 numbers into the scorecard.
+
+---
+
+## 2026-10-06 (BST) — scheduled SEO operator fire (14:35)
+
+### Hygiene
+- `python3 scripts/inject_head_tags.py` → updated 0 pages (GA4 + homepage GSC meta present).
+- Sitemap: 52 URLs, all 45 `pieces/*.html` listed; only `thanks.html` and the retired ChatGPT-guide stub are excluded (intentional). No print-master, clean PNG or github.io URLs.
+- No new Stripe Payment Links. Stripe check: no Night Windows checkouts (the only completed live session on the account is a $0 NamedScan promo-code order, not this site).
+
+### Data review
+- **Blocked again (2nd run in a row):** box Chrome's Google account joshuaofisrael@gmail.com shows "Signed out" at the account chooser. GSC and GA4 not checked; no sitemap resubmit or indexing requests. No numbers recorded rather than guessed. Joshua asked to sign back in.
+
+### Opportunity chosen (and why)
+**Page speed on the two heaviest pages: responsive grid thumbnails for `index.html` and `buy.html`.**
+1. Both grids loaded the full 1024–1536px watermarked JPGs (~380 KB each, ~17 MB for all 45 cards) into cards that render ~250–400px wide. The first card is eager-loaded, so it is the homepage's LCP image.
+2. Technical/page-experience fixes rank above new content in the operator priority list, and with no Search Console data there's no page-level signal to act on yet; this helps every visitor and crawler regardless.
+3. Thumbnails are downscaled from the same watermarked `assets/NN-*.jpg` (watermark verified visible); print masters untouched.
+
+### Shipped
+- New `scripts/build_grid_thumbs.py` (idempotent): builds `assets/thumbs/NN-*.jpg` at 600px wide (~118 KB avg, ~5.3 MB total vs ~17 MB) and adds `srcset`/`sizes`/`decoding="async"` to grid images, keeping the full image as the 2x candidate. Run it in future hygiene so new daily pieces get thumbs.
+- Piece pages, OG/Twitter images and JSON-LD ImageObject still point at the full watermarked image (image SEO unchanged).
+
+### Next signed-in run
+- Resubmit sitemap (52 URLs); request indexing for `night-windows.html`, `pieces/dolomites-tre-cime-moon.html`, `pieces/lofoten-reine-moon.html`.
+- Pull first GSC/GA4 numbers into the scorecard.
+
+### Scorecard
+| Metric | Value |
+|---|---|
+| Impressions / clicks / CTR / position (7/28/90d) | not available (Google signed out) |
+| Indexed pages | not available |
+| GA4 page views | not available |
+| Public URLs in sitemap | 52 |
