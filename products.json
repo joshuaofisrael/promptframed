@@ -1130,9 +1130,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/aFa9AUd6E585ggfc2sb3q1Z",
+      "framedUrl": "https://buy.stripe.com/28EaEYaYw4412pp7Mcb3q20",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VOFruiAEDETBL8",
+      "posterPriceId": "price_1UNTLSK3OWN3aipgUfFi8SQY",
+      "posterPaymentLinkId": "plink_1UNTMQK3OWN3aipgZZEb7BuD",
+      "framedProductId": "prod_VOFr7D8rNzZBxJ",
+      "framedPriceId": "price_1UNTLfK3OWN3aipg9BXsbNg2",
+      "framedPaymentLinkId": "plink_1UNTMYK3OWN3aipgLScDef0Y"
     },
     "asset": "41-dolomites-tre-cime-moon.jpg",
     "printSource": "gallery/41-dolomites-tre-cime-moon.png"
@@ -1148,9 +1158,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/eVq14oc2A7gd5BBgiIb3q21",
+      "framedUrl": "https://buy.stripe.com/14A7sM4A80RP2pp9Ukb3q22",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VOFr4kyLr42LTa",
+      "posterPriceId": "price_1UNTLjK3OWN3aipgfC6vTYXN",
+      "posterPaymentLinkId": "plink_1UNTMbK3OWN3aipgHPIbjtmg",
+      "framedProductId": "prod_VOFrLFrotjwEtW",
+      "framedPriceId": "price_1UNTLmK3OWN3aipg87vL0ZSu",
+      "framedPaymentLinkId": "plink_1UNTMfK3OWN3aipgO28AKaG8"
     },
     "asset": "42-lofoten-reine-moon.jpg",
     "printSource": "gallery/42-lofoten-reine-moon.png"
@@ -1166,9 +1186,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/8x28wQd6E2ZXd436I8b3q23",
+      "framedUrl": "https://buy.stripe.com/aFaeVeeaI7gdbZZ0jKb3q24",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VOFrH9GP0enhXm",
+      "posterPriceId": "price_1UNTLvK3OWN3aipgNqYDhXNJ",
+      "posterPaymentLinkId": "plink_1UNTMjK3OWN3aipg8WNcyBqa",
+      "framedProductId": "prod_VOFrIfjIycGfMD",
+      "framedPriceId": "price_1UNTLzK3OWN3aipgpLYSbdig",
+      "framedPaymentLinkId": "plink_1UNTMnK3OWN3aipgTl4QuGfL"
     },
     "asset": "43-cinque-terre-manarola-moon.jpg",
     "printSource": "gallery/43-cinque-terre-manarola-moon.png"
@@ -1184,9 +1214,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/14A00k6Igbwte87giIb3q25",
+      "framedUrl": "https://buy.stripe.com/fZu5kEgiQ5858NNgiIb3q26",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VOFrdP273XyKDx",
+      "posterPriceId": "price_1UNTM3K3OWN3aipgKWbrdFQL",
+      "posterPaymentLinkId": "plink_1UNTMqK3OWN3aipgClUwgGqj",
+      "framedProductId": "prod_VOFr4jrWVZpf8O",
+      "framedPriceId": "price_1UNTM6K3OWN3aipgWyyPYOq6",
+      "framedPaymentLinkId": "plink_1UNTMuK3OWN3aipg8ln7aA4c"
     },
     "asset": "44-lake-bled-island-moon.jpg",
     "printSource": "gallery/44-lake-bled-island-moon.png"
@@ -1202,9 +1242,19 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/bJecN6aYw8khaVV7Mcb3q27",
+      "framedUrl": "https://buy.stripe.com/8x24gA7Mk4412ppfeEb3q28",
+      "status": "live",
+      "posterPrice": 2900,
+      "framedPrice": 6900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VOFr68DI6rKMRQ",
+      "posterPriceId": "price_1UNTM9K3OWN3aipgPkJWuNHw",
+      "posterPaymentLinkId": "plink_1UNTMyK3OWN3aipgm4UOH74E",
+      "framedProductId": "prod_VOFryjnN0yVWAr",
+      "framedPriceId": "price_1UNTMCK3OWN3aipgMCGUceHC",
+      "framedPaymentLinkId": "plink_1UNTN1K3OWN3aipg8mpvxv52"
     },
     "asset": "45-guilin-li-river-moon.jpg",
     "printSource": "gallery/45-guilin-li-river-moon.png"
