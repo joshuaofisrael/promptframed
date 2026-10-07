@@ -207,3 +207,11 @@ Why highest EV for a brand-new product gallery:
 - TODO (needs Joshua/Search Console UI): resubmit sitemap.xml in GSC and request indexing of /, /buy.html.
 - Script: scripts/seo_commercial_pass.py (idempotent).
 - Keyword pass (same day, scripts/seo_keywords_pass.py): buyer terms only for real products (poster $29, framed print $69; no canvas/wallpaper): wall art poster, art print, framed print, framed wall art, moon poster, night/moonlit landscape wall art, home decor print, <place> poster. Applied to titles, meta, sale lines, piece + buy-grid alt text, og:image:alt, Product/Offer JSON-LD names/descriptions.
+
+## 2026-10-07 — Peel & stick wall murals ($149) + owner footer
+- New product on all 50 pieces: Peel & Stick Wall Mural 4×6 ft (48×72 in), peel-and-stick polyester, $149, shipping included, printed to order (1–2 weeks). 50 Stripe products/prices/Payment Links (redirect thanks.html?piece=<slug>&variant=mural; shipping+phone; promo codes on). products.json stripe.muralUrl.
+- Site via scripts/apply_mural_links.py (idempotent; re-run after apply_stripe_links.py): mural button + info note on piece pages and buy.html, $149 #offer-mural in Product JSON-LD, mural price line.
+- Keywords: wall mural, peel and stick wall mural, peel and stick wallpaper / removable wallpaper in titles (pieces "<Piece> Poster, Framed Print & Wall Mural", buy.html, homepage), meta/OG/Twitter descriptions and Product descriptions.
+- Nav/footer: "Shop Posters, Prints & Wall Murals". Every HTML page footer: "Operated by Joshua Israel Ventures LLC".
+- thanks.html handles variant=mural. sitemap lastmod → 2026-10-07. Poster/framed links still pass apply_stripe_links.py --check (50/50).
+- Next: track queries "peel and stick wall mural <place>", "moon wall mural", "removable wallpaper mural"; consider a /wall-murals.html collection page.
