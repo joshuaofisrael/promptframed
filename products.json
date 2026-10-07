@@ -1258,5 +1258,95 @@
     },
     "asset": "45-guilin-li-river-moon.jpg",
     "printSource": "gallery/45-guilin-li-river-moon.png"
+  },
+  {
+    "slug": "meteora-monasteries-moon",
+    "title": "Meteora Monasteries Moon",
+    "series": "Night Windows",
+    "photoNumber": 46,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "46-meteora-monasteries-moon.jpg",
+    "printSource": "gallery/46-meteora-monasteries-moon.png"
+  },
+  {
+    "slug": "lauterbrunnen-valley-moon",
+    "title": "Lauterbrunnen Valley Moon",
+    "series": "Night Windows",
+    "photoNumber": 47,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "47-lauterbrunnen-valley-moon.jpg",
+    "printSource": "gallery/47-lauterbrunnen-valley-moon.png"
+  },
+  {
+    "slug": "mount-fuji-pagoda-moon",
+    "title": "Mount Fuji Pagoda Moon",
+    "series": "Night Windows",
+    "photoNumber": 48,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "48-mount-fuji-pagoda-moon.jpg",
+    "printSource": "gallery/48-mount-fuji-pagoda-moon.png"
+  },
+  {
+    "slug": "iguazu-falls-moon",
+    "title": "Iguazu Falls Moon",
+    "series": "Night Windows",
+    "photoNumber": 49,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "49-iguazu-falls-moon.jpg",
+    "printSource": "gallery/49-iguazu-falls-moon.png"
+  },
+  {
+    "slug": "isle-of-skye-storr-moon",
+    "title": "Isle of Skye Storr Moon",
+    "series": "Night Windows",
+    "photoNumber": 50,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "50-isle-of-skye-storr-moon.jpg",
+    "printSource": "gallery/50-isle-of-skye-storr-moon.png"
   }
 ]

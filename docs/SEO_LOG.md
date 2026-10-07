@@ -158,3 +158,38 @@ Why highest EV for a brand-new product gallery:
 | Indexed pages | not available |
 | GA4 page views | not available |
 | Public URLs in sitemap | 52 |
+
+## 6 Oct 2026 15:00 London (manual follow-up after Google re-sign-in)
+- Sitemap resubmitted: Success, 52 discovered pages.
+- night-windows.html: already indexed.
+- pieces/lofoten-reine-moon.html: indexing requested (priority crawl queue).
+- pieces/dolomites-tre-cime-moon.html: unknown to Google; request failed (Oops), retry next run.
+- Performance 28d: 0 clicks, 1 impression, avg position 5 (retired how-to page). Page indexing report still processing.
+
+---
+
+## 2026-10-07 (BST) — SEO action with the pieces 46–50 drop
+
+### Hygiene
+- Pieces 46–50 (Meteora Monasteries, Lauterbrunnen Valley, Mount Fuji Pagoda, Iguazu Falls, Isle of Skye Storr) shipped via `scripts/publish_pieces_46_50.py` with unique title/meta/OG/alt, Product/Offer/ImageObject/BreadcrumbList JSON-LD and GA4. Sitemap now 57 URLs (50 piece pages).
+- Public images are the watermarked `assets/NN-*.jpg`, `assets/thumbs/NN-*.jpg` and `gallery/social/NN-*.jpg` only; clean PNG masters and `gallery/print-masters/` stay local and gitignored.
+- Hub `night-windows.html` refreshed to fifty windows (intro, themed “Find your window” links incl. a new “Temples, pagodas and monasteries” group, CollectionPage + ItemList with 50 items); `buy.html` hero/meta updated to fifty. Grid thumbnails built for 46–50 (`scripts/build_grid_thumbs.py`).
+- Internal links: each new piece has 2 thematic “More windows like this” links, and 10 older pages link back. Piece 45 “Next window” now points to piece 46; piece 50 loops to the first window.
+
+### Data review
+- GSC / GA4 not opened this run (no browser session used); no numbers recorded rather than guessed.
+
+### Opportunity chosen (and why)
+**Image sitemap for all piece pages.**
+1. Google Images is a primary discovery surface for wall art, and nothing in the sitemap told Google about our 50 images; they could only be found by rendering pages.
+2. One change improves every existing URL, not just today's five, and costs nothing at runtime.
+3. Uses only the watermarked `assets/NN-*.jpg` previews; the script refuses to write `.png` or `print-masters` URLs.
+
+### Shipped
+- New `scripts/seo_image_sitemap.py` (idempotent): adds `xmlns:image` and one `<image:image><image:loc>` per piece URL (plus the contact sheet on the hub) → 51 image entries. Called automatically at the end of `scripts/publish_pieces_46_50.py`.
+
+### Next signed-in run
+- Resubmit sitemap (57 URLs, 51 images) and confirm GSC reads the image entries.
+- Request indexing for `pieces/dolomites-tre-cime-moon.html` (failed 6 Oct) and two of 46–50 (max 3).
+- Pull first GSC/GA4 numbers into the scorecard.
+
