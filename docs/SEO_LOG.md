@@ -234,3 +234,4 @@ Why highest EV for a brand-new product gallery:
 ### Next
 - Signed-in GSC: resubmit sitemap; request indexing for /mountain-wall-art.html, /buy.html, pieces/dolomites-tre-cime-moon.html.
 - If the template earns impressions, repeat for the next theme clusters: castles, Japan, lakes/waterfalls, Mediterranean coast, Scotland.
+- GSC follow-up (14:38): not done. `sc-domain:moonlitwindows.com` says joshuaofisrael@gmail.com has no access (the 6 Oct resubmit must have used the URL-prefix property). The URL-prefix property couldn't be checked because Chrome tabs kept crashing: the box had ~170 MB free while a realesrgan upscale of gallery/04 was running. Next run: retry https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fmoonlitwindows.com%2F once memory is free, then resubmit the sitemap and request indexing for mountain-wall-art.html, buy.html and dolomites-tre-cime-moon.html.
