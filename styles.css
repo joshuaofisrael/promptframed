@@ -286,3 +286,6 @@ input, textarea {
 }
 .thanks { max-width: 640px; margin: 0 auto; text-align: center; padding: 3rem 0 2rem; }
 .thanks img { max-width: 320px; width: 100%; border-radius: 12px; margin: 1.2rem auto 0; display: block; }
+
+.sale-line{font-weight:560;color:#f3d98b;margin:.4rem 0 .8rem}
+.footer-shop{margin-bottom:.4rem;font-weight:560}

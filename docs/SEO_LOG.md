@@ -193,3 +193,16 @@ Why highest EV for a brand-new product gallery:
 - Request indexing for `pieces/dolomites-tre-cime-moon.html` (failed 6 Oct) and two of 46–50 (max 3).
 - Pull first GSC/GA4 numbers into the scorecard.
 
+
+## 2026-10-07 — Commercial-intent pass (make it obvious the site sells prints)
+- Why: GSC shows ~1 impression/28d; pages read as a gallery, not a shop. Titles/meta/schema now state product + price so results match "poster"/"framed print" queries.
+- Audited offers: only 2 products per piece, 50 pieces, all Stripe Payment Links live — 12×18 poster $29, 12×18 black framed print $69, shipping included (products.json + `apply_stripe_links.py --check` 50/50).
+- 50 piece pages: title "<Piece> Poster & Framed Print | Moonlit Windows", price-led meta description, OG/Twitter (watermarked assets/), sale line under H1 with #buy link, Product JSON-LD now has url, free-shipping OfferShippingDetails, seller Moonlit Windows (BreadcrumbList kept).
+- Homepage: commercial title/meta, sale line, CTA "Shop Posters & Framed Prints"; Organization + WebSite + ItemList JSON-LD.
+- buy.html: H1 "Shop Posters & Framed Prints", CollectionPage/ItemList + BreadcrumbList JSON-LD, Twitter tags.
+- night-windows.html: commercial title/meta, sale line, BreadcrumbList.
+- Nav label "Buy" → "Shop Posters & Framed Prints" and footer shop link on all pages.
+- sitemap.xml: lastmod on the 57 changed URLs.
+- Validation: 55 JSON-LD blocks parse; sitemap XML parses; no AI/ChatGPT/Higgsfield/github.io in new copy.
+- TODO (needs Joshua/Search Console UI): resubmit sitemap.xml in GSC and request indexing of /, /buy.html.
+- Script: scripts/seo_commercial_pass.py (idempotent).
