@@ -215,3 +215,22 @@ Why highest EV for a brand-new product gallery:
 - Nav/footer: "Shop Posters, Prints & Wall Murals". Every HTML page footer: "Operated by Joshua Israel Ventures LLC".
 - thanks.html handles variant=mural. sitemap lastmod → 2026-10-07. Poster/framed links still pass apply_stripe_links.py --check (50/50).
 - Next: track queries "peel and stick wall mural <place>", "moon wall mural", "removable wallpaper mural"; consider a /wall-murals.html collection page.
+
+## 2026-10-07 14:30 London — Scheduled run: mountain wall art collection page
+### Data review
+- Stripe: no Night Windows sales (only checkout in the list is a NamedScan $0 promo session).
+- GSC: last read 6 Oct (28d: 0 clicks, 1 impression). Too little query data to double down on any term yet, so today's action builds a new buyer-intent entry point instead.
+
+### Opportunity chosen (and why)
+**New collection page `/mountain-wall-art.html`.** "Mountain wall art" / "mountain poster" are high-volume buyer searches that no single piece page can rank for, and buy.html (all 50, every theme) is too broad to match them. A themed collection with real buying help is the format that ranks for these queries (Etsy/Desenio-style category pages), and it doesn't cannibalise buy.html or the piece pages.
+
+### Shipped
+- `mountain-wall-art.html`: title "Mountain Wall Art Posters, Framed Prints & Wall Murals", price-led meta/OG/Twitter, H1 "Mountain Wall Art: Moonlit Mountain Posters & Framed Prints", 13 mountain pieces (Matterhorn, Dolomites, Mount Fuji, Lauterbrunnen, Isle of Skye, Yosemite, Banff Lake Louise, Patagonia, Zhangjiajie, Machu Picchu, Scottish Highlands, Snowy Peaks, Alpine Meadow) with live poster/framed/mural Stripe buttons, a "how to choose mountain wall art for your room" guide (bedroom, living room/feature wall, office, trip keepsake, pairs), and an FAQ (formats, mural lead time, real places, checkout). CollectionPage + ItemList + BreadcrumbList JSON-LD. Watermarked `assets/` + `assets/thumbs/` only.
+- Internal links: all 13 mountain piece pages link to the collection; night-windows.html "Mountains and river valleys" paragraph links to it; buy.html hero "Browse by theme" link.
+- sitemap.xml: new URL with image entry (58 URLs). styles.css: `.card h3` matches `.card h2`.
+- Script: `scripts/build_collection_mountain.py` (idempotent).
+- Checks: JSON-LD parses, sitemap parses, no banned words (AI/ChatGPT/Higgsfield/github.io/canvas), no broken relative links, `apply_stripe_links.py --check` 50/50, mural check 50/50.
+
+### Next
+- Signed-in GSC: resubmit sitemap; request indexing for /mountain-wall-art.html, /buy.html, pieces/dolomites-tre-cime-moon.html.
+- If the template earns impressions, repeat for the next theme clusters: castles, Japan, lakes/waterfalls, Mediterranean coast, Scotland.

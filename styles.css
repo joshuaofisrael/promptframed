@@ -123,8 +123,8 @@ a:hover { color: #f0cb86; }
 }
 .card.landscape img { aspect-ratio: 11 / 10; }
 .card .meta { padding: 0.95rem 1rem 1.15rem; }
-.card h2 { margin: 0 0 0.35rem; font-size: 1.35rem; }
-.card h2 a { color: var(--ink); text-decoration: none; }
+.card h2, .card h3 { margin: 0 0 0.35rem; font-size: 1.35rem; }
+.card h2 a, .card h3 a { color: var(--ink); text-decoration: none; }
 .card p { margin: 0; color: var(--muted); }
 .btn {
   display: inline-flex;
