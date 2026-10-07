@@ -1,9 +1,10 @@
 {
-  "date": "2026-10-02",
-  "slug": "mont-saint-michel-moon",
-  "title": "Mont Saint-Michel Moon",
-  "socialPath": "gallery/social/31-mont-saint-michel-moon.jpg",
-  "photoNumber": 31,
-  "captionHint": "The abbey rises from silver tidal water while moonlight and warm windows hush a quiet Mont Saint-Michel night. Want a poster? Buy at the link. moonlitwindows.com",
-  "posted": false
+  "date": "2026-10-07",
+  "status": "queued",
+  "slug": "48-mount-fuji-pagoda-moon",
+  "title": "Mount Fuji Pagoda Moon",
+  "social": "gallery/social/48-mount-fuji-pagoda-moon.jpg",
+  "piece": "https://moonlitwindows.com/pieces/mount-fuji-pagoda-moon.html",
+  "runnerUp": "gallery/social/47-lauterbrunnen-valley-moon.jpg",
+  "note": "Queued by the 7 Oct daily drop. Not posted; the Reels routine decides (reuse-before-new rule still applies)."
 }
