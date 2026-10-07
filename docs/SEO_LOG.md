@@ -206,3 +206,4 @@ Why highest EV for a brand-new product gallery:
 - Validation: 55 JSON-LD blocks parse; sitemap XML parses; no AI/ChatGPT/Higgsfield/github.io in new copy.
 - TODO (needs Joshua/Search Console UI): resubmit sitemap.xml in GSC and request indexing of /, /buy.html.
 - Script: scripts/seo_commercial_pass.py (idempotent).
+- Keyword pass (same day, scripts/seo_keywords_pass.py): buyer terms only for real products (poster $29, framed print $69; no canvas/wallpaper): wall art poster, art print, framed print, framed wall art, moon poster, night/moonlit landscape wall art, home decor print, <place> poster. Applied to titles, meta, sale lines, piece + buy-grid alt text, og:image:alt, Product/Offer JSON-LD names/descriptions.
