@@ -251,3 +251,9 @@ Why highest EV for a brand-new product gallery:
 - scripts/build_collection_mountain.py now renders the FAQPage JSON-LD; regenerated output is byte-identical to the live page.
 - (untracked) scripts/publish_pieces_51_55.py: new piece sale-line includes the $149 mural; keeps the "50" counts in index answer-first, buy sale-line, about.html and llms.txt in step; saves new + changed URLs to promptframed-private/publish_51_55_urls.json; new `--ping` mode (run after commit+push) waits for the new pages to return 200, then IndexNow-pings. Dry-run tested in a throwaway copy with placeholder images only.
 - sitemap lastmod 2026-10-08 on the four changed pages.
+
+## 2026-10-08 London — Public-copy cleanup (no tool/generator mentions)
+- gallery/catalog.json (public): removed `source` and `stylePrompt` from all 50 rows and dropped 2 tool-name keywords per row. Nothing in site.js or scripts reads those fields (only the publish scripts write them). Originals moved to /workspace/promptframed-private/catalog_private.json (keyed by slug, incl. removedKeywords).
+- (untracked) scripts/publish_pieces_51_55.py: tool-name keywords removed; catalog rows no longer get source/stylePrompt (written to the private file instead); keywords are now checked against the banned list; verify flags private fields or banned words in catalog.json. Dry-run tested in a /tmp copy.
+- about.html title/og:title now end "| Moonlit Windows".
+- Public-file grep (tracked HTML/JSON/txt/xml/md outside scripts/ and docs/): fixed README.md (bio suggestion, two disclosure lines) and instagram-kit/first-posts/CAPTIONS.md. Only remaining hit: `User-agent: ChatGPT-User` in robots.txt (intentional).

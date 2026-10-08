@@ -1,7 +1,7 @@
 Instagram: [@moonnightshadeart](https://www.instagram.com/moonnightshadeart/)
 
 # Night Shade Art — Instagram captions
-# Always include FULL buy URL + hashtag block. No AI jargon.
+# Always include FULL buy URL + hashtag block. No technical jargon.
 
 Buy URL:
 https://moonlitwindows.com/buy.html

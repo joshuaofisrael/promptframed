@@ -18,7 +18,7 @@ Want a poster? Buy at the link:
 https://moonlitwindows.com/pieces/SLUG.html
 ```
 
-Or, in a bio: poster link in bio. Suggested bio: `Night Windows · AI landscapes as posters · Link buys the print`. Keep “AI” and “ChatGPT” out of captions and out of the site hero. The disclosure stays in the footer and on About. The style prompt stays internal.
+Or, in a bio: poster link in bio. Suggested bio: `Night Windows · moonlit landscapes as posters · Link buys the print`. Keep tool names and production details out of captions and off the site. The style prompt stays internal.
 
 Drop formats: one window (art, short mood, CTA); which window tonight (two or three pieces, then the buy link); detail crop into a full reveal; room mockup; day/night twins when they exist. Cadence: 3–5 posts a week inside this series before a new style line.
 
@@ -93,7 +93,7 @@ git ls-tree -r --name-only a91f807 gallery \
 
 GitHub Pages serves the current `main` tree only, so `https://moonlitwindows.com/gallery/01-moonlit-alpine-meadow.png` stops resolving once this is on `main`. Older commits on GitHub still contain the blobs until history is rewritten; that rewrite is a separate force-push and is not part of this change.
 
-Keep piece titles in the Night Windows voice. The AI disclosure stays in the footer and on About.
+Keep piece titles in the Night Windows voice.
 
 ## Pages
 
@@ -110,7 +110,7 @@ If the URL 404s, open https://github.com/joshuaofisrael/promptframed/settings/pa
 | `/pieces/moonlit-alpine-meadow.html` | Photo 1, Buy Poster, caption |
 | `/pieces/moonlit-mediterranean-village.html` | Photo 2 |
 | `/buy.html` | All ten, poster and framed buttons |
-| `/about.html` | Studio and AI disclosure |
+| `/about.html` | Studio, brand and Instagram |
 | `/how-it-works.html` | Gallery → Instagram → poster shipped |
 | `/contact.html` | Email the studio |
 | `products.json` | Printful URLs per slug |

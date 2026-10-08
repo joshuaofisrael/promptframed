@@ -4,7 +4,6 @@
     "slug": "moonlit-alpine-meadow",
     "title": "Moonlit Alpine Meadow",
     "photoNumber": 1,
-    "source": "ChatGPT",
     "file": "01-moonlit-alpine-meadow.png",
     "width": 1024,
     "height": 1536,
@@ -15,37 +14,30 @@
       "alpine night",
       "moonlit landscape",
       "mountain village art",
-      "wildflower meadow print",
-      "AI wall art",
-      "ChatGPT art print"
+      "wildflower meadow print"
     ],
     "products": [
       "poster",
       "framed_print"
     ],
-    "status": "ready",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting."
+    "status": "ready"
   },
   {
     "id": "02-moonlit-mediterranean-village",
     "slug": "moonlit-mediterranean-village",
     "title": "Moonlit Mediterranean Village",
     "photoNumber": 2,
-    "source": "ChatGPT",
     "file": "02-moonlit-mediterranean-village.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Mediterranean lakeside village with pink flowers, warm lantern light, bell tower, sailboat, and full moon reflecting on the water",
     "description": "Romantic nighttime lakeside village: stone walls and pink blossoms in the foreground, warm-lit campanile and cypress trees along the shore, a sailboat on still water under a full moon.",
     "keywords": [
       "Mediterranean night",
       "moonlit village",
       "lakeside wall art",
-      "romantic landscape print",
-      "AI wall art",
-      "ChatGPT art print"
+      "romantic landscape print"
     ],
     "products": [
       "poster",
@@ -58,21 +50,17 @@
     "slug": "snowy-peaks-above-clouds",
     "title": "Snowy Peaks Above Clouds",
     "photoNumber": 3,
-    "source": "ChatGPT",
     "file": "03-snowy-peaks-above-clouds.png",
     "width": 1312,
     "height": 1199,
     "orientation": "landscape",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Snowy peaks rising above a cloud inversion under a full moon",
     "description": "Snow-covered mountain peaks rise above a sea of clouds beneath a luminous full moon, with warm valley lights and wildflowers in the foreground.",
     "keywords": [
       "snowy peaks",
       "cloud inversion",
       "full moon landscape",
-      "mountain wall art",
-      "AI wall art",
-      "ChatGPT art print"
+      "mountain wall art"
     ],
     "products": [
       "poster",
@@ -85,12 +73,10 @@
     "slug": "coastal-cliffside-town",
     "title": "Coastal Cliffside Town",
     "photoNumber": 4,
-    "source": "ChatGPT",
     "file": "04-coastal-cliffside-town.png",
     "width": 1312,
     "height": 1199,
     "orientation": "landscape",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Coastal cliffside town with purple flowers and a moonlit path",
     "description": "A romantic cliffside coastal town framed by purple flowers, with a winding path glowing under moonlight and the sea beyond.",
     "keywords": [
@@ -98,8 +84,7 @@
       "cliffside path",
       "purple flowers",
       "moonlit sea",
-      "landscape wall art",
-      "AI wall art"
+      "landscape wall art"
     ],
     "products": [
       "poster",
@@ -112,21 +97,17 @@
     "slug": "lakeside-cabin",
     "title": "Lakeside Cabin",
     "photoNumber": 5,
-    "source": "ChatGPT",
     "file": "05-lakeside-cabin.png",
     "width": 1312,
     "height": 1199,
     "orientation": "landscape",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Cozy lakeside cabin with moon reflection and pine trees",
     "description": "A warm, cozy cabin glows beside a quiet lake, its moonlit reflection framed by dark pine trees and misty nighttime atmosphere.",
     "keywords": [
       "lakeside cabin",
       "moon reflection",
       "pine forest",
-      "cozy night landscape",
-      "AI wall art",
-      "ChatGPT art print"
+      "cozy night landscape"
     ],
     "products": [
       "poster",
@@ -139,12 +120,10 @@
     "slug": "hilltop-path-village",
     "title": "Hilltop Path to Village",
     "photoNumber": 6,
-    "source": "ChatGPT",
     "file": "06-hilltop-path-village.png",
     "width": 1312,
     "height": 1199,
     "orientation": "landscape",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Hilltop path with wooden fences leading to a glowing village",
     "description": "A moonlit hilltop path winds between rustic wooden fences toward a warmly glowing village, surrounded by lush nighttime vegetation.",
     "keywords": [
@@ -152,8 +131,7 @@
       "wooden fence",
       "glowing village",
       "moonlit countryside",
-      "landscape wall art",
-      "AI wall art"
+      "landscape wall art"
     ],
     "products": [
       "poster",
@@ -166,21 +144,17 @@
     "slug": "moonlit-waterfall",
     "title": "Moonlit Waterfall",
     "photoNumber": 7,
-    "source": "ChatGPT",
     "file": "07-moonlit-waterfall.png",
     "width": 1312,
     "height": 1199,
     "orientation": "landscape",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit waterfall descending through a misty gorge",
     "description": "A luminous waterfall pours through a deep, misty gorge under moonlight, surrounded by lush vegetation and atmospheric haze.",
     "keywords": [
       "moonlit waterfall",
       "misty gorge",
       "night waterfall",
-      "fantasy landscape",
-      "AI wall art",
-      "ChatGPT art print"
+      "fantasy landscape"
     ],
     "products": [
       "poster",
@@ -193,12 +167,10 @@
     "slug": "wildflower-meadow-cabin",
     "title": "Wildflower Meadow Cabin",
     "photoNumber": 8,
-    "source": "ChatGPT",
     "file": "08-wildflower-meadow-cabin.png",
     "width": 1312,
     "height": 1199,
     "orientation": "landscape",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Cabin in a purple wildflower meadow with rocky mountain peaks",
     "description": "A warmly lit cabin rests in a purple wildflower meadow beneath moonlit rocky peaks and dramatic clouds.",
     "keywords": [
@@ -206,8 +178,7 @@
       "cabin landscape",
       "rocky peaks",
       "purple flowers",
-      "romantic wall art",
-      "AI wall art"
+      "romantic wall art"
     ],
     "products": [
       "poster",
@@ -220,12 +191,10 @@
     "slug": "northern-lights-fjord",
     "title": "Northern Lights Fjord",
     "photoNumber": 9,
-    "source": "ChatGPT",
     "file": "09-northern-lights-fjord.png",
     "width": 1312,
     "height": 1199,
     "orientation": "landscape",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Northern lights over a fjord with snowy mountains",
     "description": "Auroral ribbons shimmer above a tranquil fjord framed by snowy mountains, with deep blue-green night tones and distant warm lights.",
     "keywords": [
@@ -233,8 +202,7 @@
       "fjord landscape",
       "snowy mountains",
       "aurora night",
-      "landscape wall art",
-      "AI wall art"
+      "landscape wall art"
     ],
     "products": [
       "poster",
@@ -247,12 +215,10 @@
     "slug": "mediterranean-lantern-walk",
     "title": "Mediterranean Lantern Walk",
     "photoNumber": 10,
-    "source": "ChatGPT",
     "file": "10-mediterranean-lantern-walk.png",
     "width": 1312,
     "height": 1199,
     "orientation": "landscape",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Mediterranean lantern-lit stone walk leading to a moonlit sea",
     "description": "A warm lantern-lit stone walkway winds through Mediterranean architecture and vegetation toward a moonlit sea.",
     "keywords": [
@@ -260,8 +226,7 @@
       "stone walkway",
       "moonlit sea",
       "coastal night",
-      "romantic landscape print",
-      "AI wall art"
+      "romantic landscape print"
     ],
     "products": [
       "poster",
@@ -274,21 +239,17 @@
     "slug": "moonlit-rice-terraces",
     "title": "Moonlit Rice Terraces",
     "photoNumber": 11,
-    "source": "ChatGPT",
     "file": "11-moonlit-rice-terraces.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit rice terraces cascading down a misty hillside with warm village lights and a full moon reflected in flooded paddies",
     "description": "Cascading moonlit rice terraces and warm village lights glow under a full moon, with mist, wildflowers, and deep blue-green night tones.",
     "keywords": [
       "rice terraces",
       "moonlit paddies",
       "Asian night landscape",
-      "village lights print",
-      "AI wall art",
-      "ChatGPT art print"
+      "village lights print"
     ],
     "products": [
       "poster",
@@ -301,21 +262,17 @@
     "slug": "venetian-canal-moonrise",
     "title": "Venetian Canal Moonrise",
     "photoNumber": 12,
-    "source": "ChatGPT",
     "file": "12-venetian-canal-moonrise.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Venetian canal with ornate bridges, warm windows reflecting on still water, a quiet gondola, and hanging flowers",
     "description": "A quiet Venetian canal under moonlight: stone bridges, warm windows on the water, a lone gondola, and flowers along the walls.",
     "keywords": [
       "Venice canal",
       "moonlit gondola",
       "Italian night landscape",
-      "bridge wall art",
-      "AI wall art",
-      "ChatGPT art print"
+      "bridge wall art"
     ],
     "products": [
       "poster",
@@ -328,21 +285,17 @@
     "slug": "japanese-temple-pond",
     "title": "Japanese Temple Pond",
     "photoNumber": 13,
-    "source": "ChatGPT",
     "file": "13-japanese-temple-pond.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Japanese temple garden with a still pond reflecting a full moon, stone lanterns, maple and pine trees",
     "description": "A still temple pond mirrors the full moon while stone lanterns warm the misty garden path beneath pines and maples.",
     "keywords": [
       "Japanese temple",
       "moonlit pond",
       "stone lantern garden",
-      "Zen landscape print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Zen landscape print"
     ],
     "products": [
       "poster",
@@ -355,21 +308,17 @@
     "slug": "moroccan-kasbah-night",
     "title": "Moroccan Kasbah Night",
     "photoNumber": 14,
-    "source": "ChatGPT",
     "file": "14-moroccan-kasbah-night.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Moroccan kasbah at the edge of desert dunes with warm lantern light, palms, and wildflowers in an oasis",
     "description": "A moonlit kasbah glows at the desert’s edge, lantern light in adobe windows, palms and wildflowers framing the dunes.",
     "keywords": [
       "Moroccan kasbah",
       "desert night",
       "oasis landscape",
-      "lantern adobe print",
-      "AI wall art",
-      "ChatGPT art print"
+      "lantern adobe print"
     ],
     "products": [
       "poster",
@@ -382,21 +331,17 @@
     "slug": "scottish-highlands-loch",
     "title": "Scottish Highlands Loch",
     "photoNumber": 15,
-    "source": "ChatGPT",
     "file": "15-scottish-highlands-loch.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Scottish Highlands loch with castle ruins glowing on a distant shore, heather and wildflowers in the foreground",
     "description": "Mist drifts over a Highlands loch as castle ruins glow on the far shore beneath a luminous moon and heather meadows.",
     "keywords": [
       "Scottish Highlands",
       "moonlit loch",
       "castle ruins",
-      "heather landscape print",
-      "AI wall art",
-      "ChatGPT art print"
+      "heather landscape print"
     ],
     "products": [
       "poster",
@@ -409,21 +354,17 @@
     "slug": "provence-lavender-moon",
     "title": "Provence Lavender Moon",
     "photoNumber": 16,
-    "source": "ChatGPT",
     "file": "16-provence-lavender-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Provence lavender fields in long purple rows under a full moon, distant stone farmhouse with warm window lights, wildflowers in the foreground",
     "description": "Rows of moonlit lavender stretch toward a warm stone farmhouse while a full moon glows through dramatic clouds over the Provence fields.",
     "keywords": [
       "Provence lavender",
       "moonlit fields",
       "French countryside night",
-      "lavender wall art",
-      "AI wall art",
-      "ChatGPT art print"
+      "lavender wall art"
     ],
     "products": [
       "poster",
@@ -436,21 +377,17 @@
     "slug": "amalfi-terrace-night",
     "title": "Amalfi Terrace Night",
     "photoNumber": 17,
-    "source": "ChatGPT",
     "file": "17-amalfi-terrace-night.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Cliffside Amalfi coast terraces at night with warm glowing windows, lemon trees, and a silver moonlight path across the Mediterranean sea",
     "description": "Stacked Amalfi terraces glow with warm windows above a moonlit sea path, lemon trees and wildflowers lining the cliffside stone.",
     "keywords": [
       "Amalfi coast",
       "Italian terrace night",
       "Mediterranean moonlight",
-      "cliffside wall art",
-      "AI wall art",
-      "ChatGPT art print"
+      "cliffside wall art"
     ],
     "products": [
       "poster",
@@ -463,21 +400,17 @@
     "slug": "patagonia-lake-peaks",
     "title": "Patagonia Lake Peaks",
     "photoNumber": 18,
-    "source": "ChatGPT",
     "file": "18-patagonia-lake-peaks.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Turquoise glacial lake in Patagonia under moonlight with jagged snow-dusted peaks, moon haze, and wildflowers along the shore",
     "description": "A turquoise Patagonian lake mirrors jagged moonlit peaks while haze and wildflowers soften the glacial shore.",
     "keywords": [
       "Patagonia lake",
       "glacial peaks",
       "moonlit mountains",
-      "turquoise lake print",
-      "AI wall art",
-      "ChatGPT art print"
+      "turquoise lake print"
     ],
     "products": [
       "poster",
@@ -490,21 +423,17 @@
     "slug": "bali-jungle-temple",
     "title": "Bali Jungle Temple",
     "photoNumber": 19,
-    "source": "ChatGPT",
     "file": "19-bali-jungle-temple.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Mossy Balinese temple stone steps in jungle mist at night with soft lantern light and moonlight through a dense canopy",
     "description": "Mossy temple steps climb through jungle mist as lanterns and moonbeams filter through the canopy in a quiet Balinese night.",
     "keywords": [
       "Bali temple",
       "jungle night",
       "lantern stone steps",
-      "tropical temple print",
-      "AI wall art",
-      "ChatGPT art print"
+      "tropical temple print"
     ],
     "products": [
       "poster",
@@ -517,21 +446,17 @@
     "slug": "iceland-black-sand-moon",
     "title": "Iceland Black Sand Moon",
     "photoNumber": 20,
-    "source": "ChatGPT",
     "file": "20-iceland-black-sand-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Iceland black sand beach at night with basalt sea stacks and northern moonlight gleaming on wet sand under dramatic clouds",
     "description": "Northern moonlight gleams across wet black sand and basalt stacks while dramatic clouds sweep an Icelandic shore.",
     "keywords": [
       "Iceland black sand",
       "basalt stacks",
       "northern moonlight",
-      "beach night print",
-      "AI wall art",
-      "ChatGPT art print"
+      "beach night print"
     ],
     "products": [
       "poster",
@@ -544,21 +469,17 @@
     "slug": "cappadocia-fairy-chimneys",
     "title": "Cappadocia Fairy Chimneys",
     "photoNumber": 21,
-    "source": "ChatGPT",
     "file": "21-cappadocia-fairy-chimneys.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Cappadocia fairy chimney rock dwellings with warm cave-house windows, wildflowers on the hillside, and a full moon through dramatic night clouds",
     "description": "Fairy chimney rock dwellings glow with warm windows while moonlight and haze sweep a quiet Cappadocia valley.",
     "keywords": [
       "Cappadocia night",
       "fairy chimneys",
       "moonlit Turkey",
-      "cave house wall art",
-      "AI wall art",
-      "ChatGPT art print"
+      "cave house wall art"
     ],
     "products": [
       "poster",
@@ -571,21 +492,17 @@
     "slug": "santorini-caldera-moon",
     "title": "Santorini Caldera Moon",
     "photoNumber": 22,
-    "source": "ChatGPT",
     "file": "22-santorini-caldera-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Santorini cliffside with whitewashed buildings and blue domes, bougainvillea, and a silver moonlight path across the caldera sea",
     "description": "Whitewashed Santorini terraces and blue domes overlook a moonlit caldera path while bougainvillea softens the stone steps.",
     "keywords": [
       "Santorini night",
       "caldera moonlight",
       "Greek island wall art",
-      "blue dome print",
-      "AI wall art",
-      "ChatGPT art print"
+      "blue dome print"
     ],
     "products": [
       "poster",
@@ -598,21 +515,17 @@
     "slug": "tuscany-cypress-hills",
     "title": "Tuscany Cypress Hills",
     "photoNumber": 23,
-    "source": "ChatGPT",
     "file": "23-tuscany-cypress-hills.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Tuscan hills with a cypress-lined road, distant stone villa with warm windows, olive groves and wildflowers under dramatic night clouds",
     "description": "A cypress-lined road winds through moonlit Tuscan hills toward a warm stone villa while olive groves and wildflowers soften the night.",
     "keywords": [
       "Tuscany night",
       "cypress hills",
       "Italian countryside moonlight",
-      "villa wall art",
-      "AI wall art",
-      "ChatGPT art print"
+      "villa wall art"
     ],
     "products": [
       "poster",
@@ -625,21 +538,17 @@
     "slug": "machu-picchu-mist",
     "title": "Machu Picchu Mist",
     "photoNumber": 24,
-    "source": "ChatGPT",
     "file": "24-machu-picchu-mist.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Machu Picchu stone terraces emerging from Andean mist with lush vegetation and silver moonlight on ancient walls",
     "description": "Ancient stone terraces rise through Andean mist as moonlight silvers the walls of a quiet Machu Picchu night.",
     "keywords": [
       "Machu Picchu",
       "Andean moonlight",
       "misty ruins print",
-      "Peru wall art",
-      "AI wall art",
-      "ChatGPT art print"
+      "Peru wall art"
     ],
     "products": [
       "poster",
@@ -652,21 +561,17 @@
     "slug": "ha-long-bay-moon",
     "title": "Ha Long Bay Moon",
     "photoNumber": 25,
-    "source": "ChatGPT",
     "file": "25-ha-long-bay-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Ha Long Bay limestone karsts rising from calm reflective water with lantern-lit junk boats and volumetric night haze",
     "description": "Limestone karsts rise from a mirror-calm bay while lantern-lit junks and moonlight haze soften a quiet Ha Long night.",
     "keywords": [
       "Ha Long Bay",
       "moonlit karsts",
       "Vietnam seascape",
-      "junk boat night print",
-      "AI wall art",
-      "ChatGPT art print"
+      "junk boat night print"
     ],
     "products": [
       "poster",
@@ -679,21 +584,17 @@
     "slug": "banff-lake-louise-moon",
     "title": "Banff Lake Louise Moon",
     "photoNumber": 26,
-    "source": "ChatGPT",
     "file": "26-banff-lake-louise-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Lake Louise in Banff with turquoise glacial water reflecting snowy peaks, pine shore, wildflowers, and a full moon through dramatic night clouds",
     "description": "Turquoise glacial water mirrors snowy Rockies peaks while moonlight and pine hush settle over a quiet Lake Louise night.",
     "keywords": [
       "Banff night",
       "Lake Louise moonlight",
       "Canadian Rockies wall art",
-      "glacial lake print",
-      "AI wall art",
-      "ChatGPT art print"
+      "glacial lake print"
     ],
     "products": [
       "poster",
@@ -706,21 +607,17 @@
     "slug": "petra-treasury-night",
     "title": "Petra Treasury Night",
     "photoNumber": 27,
-    "source": "ChatGPT",
     "file": "27-petra-treasury-night.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Petra Treasury carved into rose-red sandstone with lantern glow in the Siq, classical facade columns, and volumetric night haze",
     "description": "Rose-red sandstone of the Treasury glows under moonlight while lantern haze softens the quiet Siq approach to Petra.",
     "keywords": [
       "Petra night",
       "Al-Khazneh moonlight",
       "Jordan desert wall art",
-      "Treasury print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Treasury print"
     ],
     "products": [
       "poster",
@@ -733,21 +630,17 @@
     "slug": "kyoto-bamboo-moon",
     "title": "Kyoto Bamboo Moon",
     "photoNumber": 28,
-    "source": "ChatGPT",
     "file": "28-kyoto-bamboo-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Kyoto Arashiyama bamboo grove with tall green stalks, a mossy stone path, mist, and silver moonlight filtering through the canopy",
     "description": "Tall bamboo glows green under filtered moonlight while mist and moss soften a quiet Kyoto grove path.",
     "keywords": [
       "Kyoto night",
       "Arashiyama bamboo",
       "moonlit Japan wall art",
-      "bamboo grove print",
-      "AI wall art",
-      "ChatGPT art print"
+      "bamboo grove print"
     ],
     "products": [
       "poster",
@@ -760,21 +653,17 @@
     "slug": "yosemite-half-dome-moon",
     "title": "Yosemite Half Dome Moon",
     "photoNumber": 29,
-    "source": "ChatGPT",
     "file": "29-yosemite-half-dome-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Yosemite Valley with Half Dome rising above mist, Merced River reflection, meadow wildflowers, and dramatic night clouds",
     "description": "Half Dome rises through valley mist as moonlight silvers the Merced and wildflower meadows of a quiet Yosemite night.",
     "keywords": [
       "Yosemite night",
       "Half Dome moonlight",
       "California national park wall art",
-      "granite cliff print",
-      "AI wall art",
-      "ChatGPT art print"
+      "granite cliff print"
     ],
     "products": [
       "poster",
@@ -787,21 +676,17 @@
     "slug": "norwegian-stave-church-fjord",
     "title": "Norwegian Stave Church Fjord",
     "photoNumber": 30,
-    "source": "ChatGPT",
     "file": "30-norwegian-stave-church-fjord.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Norwegian wooden stave church on a hillside above a deep fjord with warm window glow, meadows, pines, and steep moonlit mountains",
     "description": "A wooden stave church glows above a deep fjord while moonlight and mist soften steep mountain walls of a quiet Norwegian night.",
     "keywords": [
       "Norwegian fjord night",
       "stave church moonlight",
       "Scandinavia wall art",
-      "fjord landscape print",
-      "AI wall art",
-      "ChatGPT art print"
+      "fjord landscape print"
     ],
     "products": [
       "poster",
@@ -814,21 +699,17 @@
     "slug": "mont-saint-michel-moon",
     "title": "Mont Saint-Michel Moon",
     "photoNumber": 31,
-    "source": "ChatGPT",
     "file": "31-mont-saint-michel-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Mont Saint-Michel abbey rising from reflective tidal flats, warm window glow on stone walls, wildflowers on the shore, and a full moon through dramatic night clouds",
     "description": "The abbey rises from silver tidal water while moonlight and warm windows hush a quiet Mont Saint-Michel night.",
     "keywords": [
       "Mont Saint-Michel night",
       "Normandy moonlight",
       "tidal island wall art",
-      "abbey print",
-      "AI wall art",
-      "ChatGPT art print"
+      "abbey print"
     ],
     "products": [
       "poster",
@@ -841,21 +722,17 @@
     "slug": "hallstatt-lake-moon",
     "title": "Hallstatt Lake Moon",
     "photoNumber": 32,
-    "source": "ChatGPT",
     "file": "32-hallstatt-lake-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Hallstatt lakeside village with church steeple reflected in still alpine water, timber houses, sheer mountains, and a full moon through dramatic night clouds",
     "description": "Hallstatt’s steeple mirrors in still alpine water while moonlight and warm windows settle over a quiet lakeside night.",
     "keywords": [
       "Hallstatt night",
       "Austrian lake moonlight",
       "alpine village wall art",
-      "lakeside print",
-      "AI wall art",
-      "ChatGPT art print"
+      "lakeside print"
     ],
     "products": [
       "poster",
@@ -868,21 +745,17 @@
     "slug": "zhangjiajie-pillars-moon",
     "title": "Zhangjiajie Pillars Moon",
     "photoNumber": 33,
-    "source": "ChatGPT",
     "file": "33-zhangjiajie-pillars-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Zhangjiajie sandstone pillars rising from misty forest valleys with lush cliff vegetation, volumetric haze, and a full moon through dramatic night clouds",
     "description": "Sandstone pillars rise through forest mist as moonlight and blue-green haze soften a quiet Zhangjiajie night.",
     "keywords": [
       "Zhangjiajie night",
       "Avatar mountains moonlight",
       "sandstone pillar wall art",
-      "China landscape print",
-      "AI wall art",
-      "ChatGPT art print"
+      "China landscape print"
     ],
     "products": [
       "poster",
@@ -895,21 +768,17 @@
     "slug": "bagan-temples-night",
     "title": "Bagan Temples Night",
     "photoNumber": 34,
-    "source": "ChatGPT",
     "file": "34-bagan-temples-night.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Bagan temple plain with countless brick stupas and pagodas across misty fields, soft warm temple lights, and a full moon through dramatic night clouds",
     "description": "Brick stupas scatter across a misty plain while moonlight and soft temple glow hush a quiet Bagan night.",
     "keywords": [
       "Bagan night",
       "Myanmar temples moonlight",
       "pagoda plain wall art",
-      "stupa print",
-      "AI wall art",
-      "ChatGPT art print"
+      "stupa print"
     ],
     "products": [
       "poster",
@@ -922,21 +791,17 @@
     "slug": "matterhorn-alpine-moon",
     "title": "Matterhorn Alpine Moon",
     "photoNumber": 35,
-    "source": "ChatGPT",
     "file": "35-matterhorn-alpine-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Matterhorn peak above alpine meadows with snow ridges reflected in a still lake, wildflowers, pines, and a full moon through dramatic night clouds",
     "description": "The Matterhorn’s pyramid rises over a still alpine lake while moonlight silvers snow ridges and wildflower meadows.",
     "keywords": [
       "Matterhorn night",
       "Zermatt moonlight",
       "Swiss Alps wall art",
-      "alpine peak print",
-      "AI wall art",
-      "ChatGPT art print"
+      "alpine peak print"
     ],
     "products": [
       "poster",
@@ -949,21 +814,17 @@
     "slug": "chefchaouen-blue-moon",
     "title": "Chefchaouen Blue Moon",
     "photoNumber": 36,
-    "source": "ChatGPT",
     "file": "36-chefchaouen-blue-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Chefchaouen stairway alley of blue-washed stone walls with magenta bougainvillea, potted plants, glowing lanterns, and the hillside town and Rif mountains under a full moon",
     "description": "Blue-washed stairs climb through bougainvillea and lantern glow while a full moon rises over the Rif mountains and a quiet Chefchaouen night.",
     "keywords": [
       "Chefchaouen night",
       "Morocco blue city moonlight",
       "blue alley wall art",
-      "Rif mountains print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Rif mountains print"
     ],
     "products": [
       "poster",
@@ -976,21 +837,17 @@
     "slug": "plitvice-lakes-moon",
     "title": "Plitvice Lakes Moon",
     "photoNumber": 37,
-    "source": "ChatGPT",
     "file": "37-plitvice-lakes-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Plitvice Lakes with turquoise terraced pools, cascading waterfalls, a lantern-lit wooden boardwalk, forested cliffs, and a full moon in a cloudy night sky",
     "description": "Turquoise lakes spill over terraced falls while a lit boardwalk threads the forest and moonlight silvers a quiet Plitvice night.",
     "keywords": [
       "Plitvice Lakes night",
       "Croatia waterfall moonlight",
       "turquoise lake wall art",
-      "waterfall print",
-      "AI wall art",
-      "ChatGPT art print"
+      "waterfall print"
     ],
     "products": [
       "poster",
@@ -1003,21 +860,17 @@
     "slug": "neuschwanstein-castle-moon",
     "title": "Neuschwanstein Castle Moon",
     "photoNumber": 38,
-    "source": "ChatGPT",
     "file": "38-neuschwanstein-castle-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Neuschwanstein Castle with glowing windows on a forested crag above a misty valley and moonlit lake, snowy Alps beyond, wildflowers in the foreground, and a full moon",
     "description": "Neuschwanstein’s white towers glow on their forested crag while mist fills the valley and a full moon rises over the Bavarian Alps.",
     "keywords": [
       "Neuschwanstein night",
       "Bavaria castle moonlight",
       "fairytale castle wall art",
-      "Alps castle print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Alps castle print"
     ],
     "products": [
       "poster",
@@ -1030,21 +883,17 @@
     "slug": "angkor-wat-moon",
     "title": "Angkor Wat Moon",
     "photoNumber": 39,
-    "source": "ChatGPT",
     "file": "39-angkor-wat-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Angkor Wat temple towers with warm lights mirrored in a lotus pond of pink lotus flowers, framed by palms, with a full moon reflected in the still water",
     "description": "Angkor Wat’s towers glow warm above a lotus pond while palms frame the water and a full moon floats in its reflection.",
     "keywords": [
       "Angkor Wat night",
       "Cambodia temple moonlight",
       "lotus pond wall art",
-      "temple reflection print",
-      "AI wall art",
-      "ChatGPT art print"
+      "temple reflection print"
     ],
     "products": [
       "poster",
@@ -1057,21 +906,17 @@
     "slug": "faroe-gasadalur-moon",
     "title": "Faroe Gásadalur Moon",
     "photoNumber": 40,
-    "source": "ChatGPT",
     "file": "40-faroe-gasadalur-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Múlafossur waterfall pouring off green sea cliffs into the ocean at Gásadalur, a tiny clifftop village with warm windows, wildflowers, dramatic clouds, and a full moon",
     "description": "Múlafossur falls from green sea cliffs into the Atlantic while Gásadalur’s few warm windows keep watch under a full Faroese moon.",
     "keywords": [
       "Faroe Islands night",
       "Gásadalur Múlafossur moonlight",
       "sea cliff waterfall wall art",
-      "Nordic coast print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Nordic coast print"
     ],
     "products": [
       "poster",
@@ -1084,21 +929,17 @@
     "slug": "dolomites-tre-cime-moon",
     "title": "Dolomites Tre Cime Moon",
     "photoNumber": 41,
-    "source": "ChatGPT",
     "file": "41-dolomites-tre-cime-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Tre Cime di Lavaredo peaks in the Dolomites above a wildflower alpine meadow, a small wooden hut with glowing windows, mist in the valley, and a full moon",
     "description": "The three peaks of Tre Cime rise over a wildflower meadow while a lone hut keeps its windows lit and valley mist drifts under a full Dolomites moon.",
     "keywords": [
       "Dolomites night",
       "Tre Cime di Lavaredo moonlight",
       "alpine hut wall art",
-      "Italian Alps print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Italian Alps print"
     ],
     "products": [
       "poster",
@@ -1111,21 +952,17 @@
     "slug": "lofoten-reine-moon",
     "title": "Lofoten Reine Moon",
     "photoNumber": 42,
-    "source": "ChatGPT",
     "file": "42-lofoten-reine-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Reine fishing village in the Lofoten Islands with red rorbu cabins on stilts and warm lights over a mirror-still fjord, jagged peaks behind, and the full moon reflected in the water",
     "description": "Red rorbu cabins on stilts glow along a mirror-still Lofoten fjord while jagged peaks stand over Reine and the full moon lays its reflection on the water.",
     "keywords": [
       "Lofoten Islands night",
       "Reine Norway moonlight",
       "red fishing cabin wall art",
-      "Nordic fjord print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Nordic fjord print"
     ],
     "products": [
       "poster",
@@ -1138,21 +975,17 @@
     "slug": "cinque-terre-manarola-moon",
     "title": "Cinque Terre Manarola Moon",
     "photoNumber": 43,
-    "source": "ChatGPT",
     "file": "43-cinque-terre-manarola-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Manarola in the Cinque Terre with pastel cliffside houses and lit windows above the sea, magenta bougainvillea and a lantern-lit path in the foreground, and a full moon over the Ligurian Sea",
     "description": "Manarola’s pastel houses stack up the cliff with their windows lit while magenta bougainvillea frames a glowing path and a full moon silvers the Ligurian Sea.",
     "keywords": [
       "Cinque Terre night",
       "Manarola moonlight",
       "Italian coast wall art",
-      "Liguria cliffside village print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Liguria cliffside village print"
     ],
     "products": [
       "poster",
@@ -1165,21 +998,17 @@
     "slug": "lake-bled-island-moon",
     "title": "Lake Bled Island Moon",
     "photoNumber": 44,
-    "source": "ChatGPT",
     "file": "44-lake-bled-island-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Lake Bled with the island church and its tall bell tower, Bled Castle on its cliff, snowy Julian Alps beyond, a covered wooden pletna boat with lanterns, and wildflowers on the shore",
     "description": "Bled’s island church and bell tower glow on the moonlit lake while the castle keeps watch from its cliff and a lantern-lit pletna boat waits by the flowered shore.",
     "keywords": [
       "Lake Bled night",
       "Slovenia island church moonlight",
       "alpine lake wall art",
-      "Julian Alps print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Julian Alps print"
     ],
     "products": [
       "poster",
@@ -1192,21 +1021,17 @@
     "slug": "guilin-li-river-moon",
     "title": "Guilin Li River Moon",
     "photoNumber": 45,
-    "source": "ChatGPT",
     "file": "45-guilin-li-river-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Li River near Guilin with misty karst peaks, a bamboo raft carrying a glowing lantern, bamboo groves along the banks, and a full moon in the night sky",
     "description": "Karst peaks fade into mist along the Li River while a lantern glows on a bamboo raft and a full moon rises over the bamboo banks near Guilin.",
     "keywords": [
       "Guilin Li River night",
       "karst mountains moonlight",
       "bamboo raft wall art",
-      "China river landscape print",
-      "AI wall art",
-      "ChatGPT art print"
+      "China river landscape print"
     ],
     "products": [
       "poster",
@@ -1219,21 +1044,17 @@
     "slug": "meteora-monasteries-moon",
     "title": "Meteora Monasteries Moon",
     "photoNumber": 46,
-    "source": "ChatGPT",
     "file": "46-meteora-monasteries-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Meteora in Greece with lit monasteries perched on sheer sandstone pillars, mist filling the valley below, village lights along the river plain, and a full moon over the mountains",
     "description": "Meteora’s monasteries glow on top of sheer stone pillars while mist pools in the valley below and a full moon rises over the mountains of Thessaly.",
     "keywords": [
       "Meteora Greece night",
       "Meteora monasteries moonlight",
       "Greek monastery wall art",
-      "Thessaly rock pillars print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Thessaly rock pillars print"
     ],
     "products": [
       "poster",
@@ -1246,21 +1067,17 @@
     "slug": "lauterbrunnen-valley-moon",
     "title": "Lauterbrunnen Valley Moon",
     "photoNumber": 47,
-    "source": "ChatGPT",
     "file": "47-lauterbrunnen-valley-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Lauterbrunnen Valley in Switzerland with Staubbach Falls pouring off a sheer cliff, a white church steeple and lit chalets in the village, a stream under a stone bridge, wildflowers by a wooden fence, and snowy Alps under a full moon",
     "description": "Staubbach Falls pours down the cliff above Lauterbrunnen while chalet windows and the church glow in the valley and snowy Alps shine under a full moon.",
     "keywords": [
       "Lauterbrunnen night",
       "Staubbach Falls moonlight",
       "Swiss village wall art",
-      "Swiss Alps valley print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Swiss Alps valley print"
     ],
     "products": [
       "poster",
@@ -1273,21 +1090,17 @@
     "slug": "mount-fuji-pagoda-moon",
     "title": "Mount Fuji Pagoda Moon",
     "photoNumber": 48,
-    "source": "ChatGPT",
     "file": "48-mount-fuji-pagoda-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Mount Fuji behind the red five-story Chureito Pagoda with lantern-lit stairs, cherry blossoms in bloom, a lake town glowing below, and a full moon in the night sky",
     "description": "The red Chureito Pagoda glows among cherry blossoms while lake-town lights shimmer below and snow-capped Mount Fuji rises under a full moon.",
     "keywords": [
       "Mount Fuji night",
       "Chureito Pagoda moonlight",
       "cherry blossom wall art",
-      "Japan landscape print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Japan landscape print"
     ],
     "products": [
       "poster",
@@ -1300,21 +1113,17 @@
     "slug": "iguazu-falls-moon",
     "title": "Iguazu Falls Moon",
     "photoNumber": 49,
-    "source": "ChatGPT",
     "file": "49-iguazu-falls-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Iguazu Falls on the Argentina and Brazil border with tiers of waterfalls pouring through lush rainforest, mist rising from the gorge, and a full moon above the river",
     "description": "Tier after tier of Iguazu’s waterfalls thunders into a misty gorge while the rainforest stays dark and green under a bright full moon.",
     "keywords": [
       "Iguazu Falls night",
       "Iguazu waterfalls moonlight",
       "rainforest waterfall wall art",
-      "Argentina Brazil landscape print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Argentina Brazil landscape print"
     ],
     "products": [
       "poster",
@@ -1327,21 +1136,17 @@
     "slug": "isle-of-skye-storr-moon",
     "title": "Isle of Skye Storr Moon",
     "photoNumber": 50,
-    "source": "ChatGPT",
     "file": "50-isle-of-skye-storr-moon.png",
     "width": 1024,
     "height": 1536,
     "orientation": "portrait",
-    "stylePrompt": "Dreamy cinematic fantasy realism, photorealistic landscape photography, ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, realistic natural textures, volumetric haze, dramatic but believable lighting.",
     "alt": "Moonlit Old Man of Storr on the Isle of Skye with jagged rock pinnacles above green slopes, small lochans and a sea loch catching the moonlight, heather in the foreground, and a full moon over the Scottish Highlands",
     "description": "The Old Man of Storr stands over green Skye slopes while lochans and the sea loch catch silver light under a full Highland moon.",
     "keywords": [
       "Isle of Skye night",
       "Old Man of Storr moonlight",
       "Scottish Highlands wall art",
-      "Scotland landscape print",
-      "AI wall art",
-      "ChatGPT art print"
+      "Scotland landscape print"
     ],
     "products": [
       "poster",
