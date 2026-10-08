@@ -113,6 +113,5 @@ If the URL 404s, open https://github.com/joshuaofisrael/promptframed/settings/pa
 | `/about.html` | Studio and AI disclosure |
 | `/how-it-works.html` | Gallery → Instagram → poster shipped |
 | `/contact.html` | Email the studio |
-| `/how-to-turn-chatgpt-art-into-a-framed-poster.html` | Evergreen poster guide |
 | `products.json` | Printful URLs per slug |
 | `docs/WAKE_UP.md` | Morning checklist |

@@ -92,7 +92,7 @@ s=s.replace('<h1>Night Windows</h1>','<h1>Night Windows</h1>\n    <p class="sale
 s=setld(s,{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":SITE+"/"},{"@type":"ListItem","position":2,"name":"Night Windows","item":SITE+"/night-windows.html"}]},"crumb")
 if s!=o: open("night-windows.html","w").write(s); changed.append("night-windows.html")
 # other pages: nav + footer
-for f in ["about.html","contact.html","how-it-works.html","guide-print-sizes.html","thanks.html","how-to-turn-chatgpt-art-into-a-framed-poster.html"]:
+for f in ["about.html","contact.html","how-it-works.html","guide-print-sizes.html","thanks.html"]:
     s=o=open(f).read(); s=nav(s); s=footer(s,"./")
     if s!=o: open(f,"w").write(s); changed.append(f)
 # sitemap lastmod (real last-commit date or today if changed now)

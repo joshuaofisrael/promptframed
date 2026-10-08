@@ -63,6 +63,21 @@ def ld(items):
             {"@type": "ListItem", "position": 3, "name": "Mountain Wall Art", "item": URL}]}]}
     return json.dumps(g, ensure_ascii=False, indent=2)
 
+# FAQPage JSON-LD: must mirror the visible "Questions about these mountain prints" section word for word.
+FAQ = [
+    ("What sizes and formats are available?",
+     "A 12×18 inch enhanced matte poster ($29), the same 12×18 print in a black frame ($69), and a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
+    ("How long does a mural take?", "Murals are printed to order and ship in 1–2 weeks."),
+    ("Are these real places?",
+     "Most are named landmarks, reimagined at night. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Moonlit Alpine Meadow and Snowy Peaks Above Clouds are imagined alpine scenes."),
+    ("How do I pay?", "Every button opens secure Stripe checkout, and your receipt arrives by email."),
+]
+
+def faq_ld():
+    return json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQ]},
+        ensure_ascii=False, indent=2)
+
 def page(items, bl):
     cards = "\n".join(card(it, bl[it["slug"]]) for it in items)
     og = "https://moonlitwindows.com/assets/" + items[0]["asset"]
@@ -94,6 +109,9 @@ def page(items, bl):
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json" data-ld="collection-mountain">
 {ld(items)}
+  </script>
+  <script type="application/ld+json" data-ld="faq-mountain">
+{faq_ld()}
   </script>
 </head>
 <body data-products="products.json">

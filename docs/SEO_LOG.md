@@ -242,3 +242,12 @@ Why highest EV for a brand-new product gallery:
 - scripts/ai_search_pass.py (idempotent, `--check`): answer-first opener on homepage + about.html; buy.html, night-windows.html and all 50 piece sale-lines now include the $149 4×6 ft wall mural; about.html title/meta rewritten; homepage first JSON-LD WebSite node unified with #website/#org (was a second "Prompt Framed" WebSite); FAQPage JSON-LD on mountain-wall-art.html mirroring its visible FAQ.
 - JSON-LD parses on every page. Hosting: GitHub Pages (no Cloudflare). Changed URLs + /llms.txt + /robots.txt re-pinged via IndexNow.
 - Gaps: guide-print-sizes.html discusses 20×30 / 24×36 framed sizes that aren't sold (only 12×18 + 4×6 ft mural); how-it-works.html doesn't mention murals; rerunning build_collection_mountain.py may drop the FAQPage block.
+
+## 2026-10-08 London — AI search follow-up (gaps from the morning pass)
+- guide-print-sizes.html rewritten to the formats actually sold: 12×18 poster ($29), 12×18 black-framed print ($69), 4×6 ft peel-and-stick wall mural ($149). Removed 20×30 / 24×36 advice, wood/white/gold frame suggestions (frame is black only) and the pixel-size note. Answer-first opener, new title/meta/OG, WebPage + BreadcrumbList JSON-LD.
+- how-it-works.html: step 5 for the $149 mural (printed to order, shipped by post in 1–2 weeks); "Five steps"; new title/meta/OG; WebPage + BreadcrumbList JSON-LD.
+- contact.html: title "Contact Moonlit Windows | …"; ContactPage + BreadcrumbList JSON-LD. about.html: AboutPage + BreadcrumbList JSON-LD.
+- Deleted how-to-turn-chatgpt-art-into-a-framed-poster.html (redirect stub, no inbound links, not in sitemap); removed it from README and from the page list in seo_commercial_pass.py (that script would otherwise crash on the missing file).
+- scripts/build_collection_mountain.py now renders the FAQPage JSON-LD; regenerated output is byte-identical to the live page.
+- (untracked) scripts/publish_pieces_51_55.py: new piece sale-line includes the $149 mural; keeps the "50" counts in index answer-first, buy sale-line, about.html and llms.txt in step; saves new + changed URLs to promptframed-private/publish_51_55_urls.json; new `--ping` mode (run after commit+push) waits for the new pages to return 200, then IndexNow-pings. Dry-run tested in a throwaway copy with placeholder images only.
+- sitemap lastmod 2026-10-08 on the four changed pages.
