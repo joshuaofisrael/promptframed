@@ -267,3 +267,26 @@ Why highest EV for a brand-new product gallery:
 - Gap fixed: site.js rewrote mural buttons to the poster Stripe link after products.json loaded (buy.html, mountain page, older piece pages). Mural buttons now keep muralUrl.
 - Generators: scripts/legal_pass.py (idempotent, --check); build_collection_mountain.py renders the new footer (output byte-identical to live); untracked publish_pieces_51_55.py renders the new footer + LLC seller/brand (template test: skeleton matches piece 50).
 - 2026-10-08 14:30: governing law corrected Michigan to Florida (Joshua Israel Ventures LLC is a Florida LLC) in terms.html, llms.txt, legal_pass.py.
+
+## 2026-10-08 14:32 London — Scheduled run: peel-and-stick wall murals collection page
+### Data review
+- Stripe: no Night Windows sales. One $29 Lakeside Cabin poster checkout (7 Oct 13:49 London) expired unpaid.
+- GSC: blocked. Box Chrome shows joshuaofisrael@gmail.com as "Signed out" at the Google account chooser, so the sitemap was not resubmitted, no indexing was requested and no numbers were read. Last real numbers are from 6 Oct (28d: 0 clicks, 1 impression).
+
+### Opportunity chosen (and why)
+**New collection page `/peel-and-stick-wall-murals.html`.** The $149 mural is the highest-ticket product (live on all 50 pieces since 7 Oct), but no page could rank for "peel and stick wall mural", "moon wall mural", "landscape wall mural", "removable wallpaper mural" or "<place> wall mural". This was the planned next step from the 7 Oct entry.
+
+### Shipped (commit 86383fb)
+- Title "Peel and Stick Wall Murals: Moonlit Landscape Murals, $149 | Moonlit Windows"; price-led meta/OG/Twitter; H1 "Peel and Stick Wall Murals: Moonlit Landscapes for a Feature Wall"; answer-first opener.
+- 19 pieces in tall 2:3 shape (matches the portrait 48×72 in mural) in 5 groups: mountains, lakes and waterfalls, coasts and fjords, forests, castles. Mural button first, plus poster $29 / framed $69, from products.json.
+- Buying help: measuring a 48×72 in panel, which walls suit it, general prep/hanging/removal, mural vs framed vs poster; 7-question FAQ mirrored in FAQPage JSON-LD. CollectionPage + ItemList + BreadcrumbList JSON-LD. No invented specs, reviews or vendor names.
+- Internal links: all 50 piece pages (under the mural note), buy.html "Browse by theme", night-windows.html, guide-print-sizes.html, how-it-works.html, mountain-wall-art.html. llms.txt Shop line. sitemap.xml now 63 URLs, 53 image entries.
+- Generator `scripts/build_collection_murals.py` (idempotent, `--check`); `build_collection_mountain.py` updated to keep its new link.
+- Checks: JSON-LD parses, sitemap parses, no broken links, no banned words, `apply_stripe_links.py --check` 50/50, mural check 50/50. Live 200 at 14:48 London; IndexNow 200 for 58 URLs.
+
+### Known issue
+- `scripts/apply_stripe_links.py` run WITHOUT `--check` rebuilds the buy.html grid in an old format (drops thumbnails, alt text and the $149 mural from the price line), which then breaks both collection builders (KeyError). Pre-existing. Use `--check` only until fixed.
+
+### Next signed-in run
+- Resubmit sitemap (63 URLs); request indexing for /peel-and-stick-wall-murals.html, /mountain-wall-art.html, /buy.html (dolomites piece after that).
+- Pull 7/28d GSC numbers into the scorecard. If either collection page earns impressions, build the next theme (castles, Japan, lakes/waterfalls, coasts).
