@@ -63,7 +63,9 @@
 
   function shopUrlFor(item, sku) {
     var stripe = item.stripe || {};
-    return sku === "framed" ? stripe.framedUrl || null : stripe.posterUrl || null;
+    if (sku === "framed") return stripe.framedUrl || null;
+    if (sku === "mural") return stripe.muralUrl || null;
+    return stripe.posterUrl || null;
   }
 
   function isShopUrl(url) {

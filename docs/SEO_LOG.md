@@ -257,3 +257,12 @@ Why highest EV for a brand-new product gallery:
 - (untracked) scripts/publish_pieces_51_55.py: tool-name keywords removed; catalog rows no longer get source/stylePrompt (written to the private file instead); keywords are now checked against the banned list; verify flags private fields or banned words in catalog.json. Dry-run tested in a /tmp copy.
 - about.html title/og:title now end "| Moonlit Windows".
 - Public-file grep (tracked HTML/JSON/txt/xml/md outside scripts/ and docs/): fixed README.md (bio suggestion, two disclosure lines) and instagram-kit/first-posts/CAPTIONS.md. Only remaining hit: `User-agent: ChatGPT-User` in robots.txt (intentional).
+
+## 2026-10-08 London — Brand/legal pass (owner rule: Moonlit Windows is a brand of Joshua Israel Ventures LLC, not a DBA)
+- Every page footer: "© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC." + Terms · Privacy · Disclaimer · Contact links (readable ink colour, ~1rem). Old "Operated by…" and "© … Prompt Framed" lines removed. Class `operated-by` kept on the new block so existing markers/checks still match.
+- New pages: terms.html (Terms of Use and Sale, Michigan law), privacy.html (controller Joshua Israel Ventures LLC, joshuaofisrael@gmail.com; Stripe, print partner, GA4, Google Fonts, GitHub Pages, mailto form), disclaimer.html (colour accuracy, watermarked previews, general info, creator promo code commission). WebPage + BreadcrumbList JSON-LD; added to sitemap (62 URLs) and llms.txt (## Legal).
+- Refund wording: the site stated no returns/refund policy, so terms use the default: damaged or misprinted items replaced or refunded if reported within 30 days of delivery with a photo.
+- JSON-LD: Organization/publisher/seller = Joshua Israel Ventures LLC (@id #org) with brand Moonlit Windows; Product brand = Moonlit Windows (was Night Shade Art); all poster/framed/mural offers' seller = the LLC.
+- about.html: "Moonlit Windows is a brand of Joshua Israel Ventures LLC." llms.txt summary says the same.
+- Gap fixed: site.js rewrote mural buttons to the poster Stripe link after products.json loaded (buy.html, mountain page, older piece pages). Mural buttons now keep muralUrl.
+- Generators: scripts/legal_pass.py (idempotent, --check); build_collection_mountain.py renders the new footer (output byte-identical to live); untracked publish_pieces_51_55.py renders the new footer + LLC seller/brand (template test: skeleton matches piece 50).

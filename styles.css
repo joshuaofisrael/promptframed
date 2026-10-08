@@ -289,3 +289,11 @@ input, textarea {
 
 .sale-line{font-weight:560;color:#f3d98b;margin:.4rem 0 .8rem}
 .footer-shop{margin-bottom:.4rem;font-weight:560}
+
+/* legal footer (brand of Joshua Israel Ventures LLC) */
+.site-footer .footer-legal { width: min(var(--max), calc(100% - 2rem)); margin: 1.1rem auto 0; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--ink); font-size: 0.98rem; line-height: 1.6; }
+.site-footer .footer-legal p { margin: 0.2rem 0; }
+.site-footer .footer-legal a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.site-footer .footer-legal a:hover { color: var(--accent); }
+.legal ul { padding-left: 1.2rem; }
+.legal li { margin: 0.5rem 0; }

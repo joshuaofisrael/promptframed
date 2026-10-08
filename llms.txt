@@ -1,6 +1,6 @@
 # Moonlit Windows
 
-> Moonlit Windows (moonlitwindows.com) sells Night Windows, a series of 50 moonlit landscape pictures, as wall art: $29 posters and $69 black-framed prints (both 12×18 in) and $149 peel-and-stick wall murals (4×6 ft, removable polyester). Shipping is included, everything is printed to order, and checkout is through Stripe. Murals ship in 1–2 weeks. The series is also published as Prompt Framed and shared on Instagram as Night Shade Art (@moonnightshadeart). Operated by Joshua Israel Ventures LLC.
+> Moonlit Windows (moonlitwindows.com) sells Night Windows, a series of 50 moonlit landscape pictures, as wall art: $29 posters and $69 black-framed prints (both 12×18 in) and $149 peel-and-stick wall murals (4×6 ft, removable polyester). Shipping is included, everything is printed to order, and checkout is through Stripe. Murals ship in 1–2 weeks. Moonlit Windows is a brand, not a separate company: the shop is owned and operated by Joshua Israel Ventures LLC, which handles every order. Night Windows, Night Shade Art (Instagram @moonnightshadeart) and Prompt Framed are also brands of Joshua Israel Ventures LLC.
 
 ## Shop
 
@@ -28,3 +28,9 @@
 
 - [About](https://moonlitwindows.com/about.html): Who runs the shop (Joshua Israel Ventures LLC) and the Night Shade Art Instagram
 - [Contact](https://moonlitwindows.com/contact.html): Email the studio about a print, a piece or an order
+
+## Legal
+
+- [Terms of Use and Sale](https://moonlitwindows.com/terms.html): Orders are contracts with Joshua Israel Ventures LLC; Stripe checkout, made-to-order printing, USD pricing, damaged or misprinted items, Michigan law
+- [Privacy Policy](https://moonlitwindows.com/privacy.html): What is collected (Stripe checkout, fulfilment, Google Analytics, email) and how to make a privacy request
+- [Disclaimer](https://moonlitwindows.com/disclaimer.html): Colour and screen accuracy, watermarked previews, creator promo code commissions
