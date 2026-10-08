@@ -290,3 +290,4 @@ Why highest EV for a brand-new product gallery:
 ### Next signed-in run
 - Resubmit sitemap (63 URLs); request indexing for /peel-and-stick-wall-murals.html, /mountain-wall-art.html, /buy.html (dolomites piece after that).
 - Pull 7/28d GSC numbers into the scorecard. If either collection page earns impressions, build the next theme (castles, Japan, lakes/waterfalls, coasts).
+- 2026-10-08 15:05 GSC (Joshua re-signed in): sitemap resubmitted, Success, 59 discovered. Indexing requested: peel-and-stick-wall-murals, mountain-wall-art, buy (all unknown to Google), / (indexed). Performance 28d: 0 clicks, 4 impressions, avg pos 6.8.
