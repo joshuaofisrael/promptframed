@@ -1,0 +1,30 @@
+# Moonlit Windows
+
+> Moonlit Windows (moonlitwindows.com) sells Night Windows, a series of 50 moonlit landscape pictures, as wall art: $29 posters and $69 black-framed prints (both 12×18 in) and $149 peel-and-stick wall murals (4×6 ft, removable polyester). Shipping is included, everything is printed to order, and checkout is through Stripe. Murals ship in 1–2 weeks. The series is also published as Prompt Framed and shared on Instagram as Night Shade Art (@moonnightshadeart). Operated by Joshua Israel Ventures LLC.
+
+## Shop
+
+- [Home](https://moonlitwindows.com/): Gallery of all 50 Night Windows pieces with prices and links to each piece page
+- [Shop posters, prints & wall murals](https://moonlitwindows.com/buy.html): Every piece with poster ($29), framed ($69) and wall mural ($149) checkout buttons
+- [Mountain wall art](https://moonlitwindows.com/mountain-wall-art.html): 13 moonlit mountain pieces (Matterhorn, Dolomites, Mount Fuji, Yosemite, Isle of Skye and more) with a room guide and FAQ
+- [The Night Windows series](https://moonlitwindows.com/night-windows.html): Overview of the series and an index of all 50 pieces
+
+## Representative pieces
+
+- [Matterhorn Alpine Moon](https://moonlitwindows.com/pieces/matterhorn-alpine-moon.html): The Matterhorn over a still alpine lake under moonlight; poster, framed print or wall mural
+- [Mount Fuji Pagoda Moon](https://moonlitwindows.com/pieces/mount-fuji-pagoda-moon.html): The Chureito Pagoda among cherry blossoms with Mount Fuji under a full moon
+- [Isle of Skye Storr Moon](https://moonlitwindows.com/pieces/isle-of-skye-storr-moon.html): The Old Man of Storr above Skye's slopes and lochans under a Highland moon
+- [Meteora Monasteries Moon](https://moonlitwindows.com/pieces/meteora-monasteries-moon.html): Meteora's monasteries on stone pillars with mist in the valley and a rising moon
+- [Santorini Caldera Moon](https://moonlitwindows.com/pieces/santorini-caldera-moon.html): Whitewashed terraces and blue domes above a moonlit caldera
+- [Northern Lights Fjord](https://moonlitwindows.com/pieces/northern-lights-fjord.html): Aurora above a quiet fjord framed by snowy mountains
+- [Lakeside Cabin](https://moonlitwindows.com/pieces/lakeside-cabin.html): A warm cabin beside a quiet lake with a moon reflection and dark pines
+
+## Buying help
+
+- [Print size guide](https://moonlitwindows.com/guide-print-sizes.html): How to choose a print size and frame colour for a room
+- [How it works](https://moonlitwindows.com/how-it-works.html): From piece page to Stripe checkout to a print mailed to you
+
+## About
+
+- [About](https://moonlitwindows.com/about.html): Who runs the shop (Joshua Israel Ventures LLC) and the Night Shade Art Instagram
+- [Contact](https://moonlitwindows.com/contact.html): Email the studio about a print, a piece or an order
