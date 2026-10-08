@@ -266,3 +266,4 @@ Why highest EV for a brand-new product gallery:
 - about.html: "Moonlit Windows is a brand of Joshua Israel Ventures LLC." llms.txt summary says the same.
 - Gap fixed: site.js rewrote mural buttons to the poster Stripe link after products.json loaded (buy.html, mountain page, older piece pages). Mural buttons now keep muralUrl.
 - Generators: scripts/legal_pass.py (idempotent, --check); build_collection_mountain.py renders the new footer (output byte-identical to live); untracked publish_pieces_51_55.py renders the new footer + LLC seller/brand (template test: skeleton matches piece 50).
+- 2026-10-08 14:30: governing law corrected Michigan to Florida (Joshua Israel Ventures LLC is a Florida LLC) in terms.html, llms.txt, legal_pass.py.

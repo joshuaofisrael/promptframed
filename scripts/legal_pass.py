@@ -125,7 +125,7 @@ TERMS = dict(
         section("9. Limitation of liability",
                 f"To the fullest extent permitted by law, {LLC} will not be liable for any indirect, incidental, special, consequential or punitive damages, or for lost profits or data, arising from your use of the site or any product. Our total liability for any claim relating to an order is limited to the amount you paid for that order."),
         section("10. Governing law",
-                "These terms are governed by the laws of the State of Michigan, USA, without regard to its conflict-of-law rules. Any dispute will be handled by the state or federal courts located in Michigan, unless the consumer laws of your country require otherwise."),
+                "These terms are governed by the laws of the State of Florida, USA, without regard to its conflict-of-law rules. Any dispute will be handled by the state or federal courts located in Florida, unless the consumer laws of your country require otherwise."),
         section("11. Changes",
                 "We may update these terms from time to time. The date at the top shows the latest version, and the terms in force when you place an order apply to that order."),
         section("12. Contact",
@@ -295,7 +295,7 @@ def main():
                      "Moonlit Windows is a brand, not a separate company: the shop is owned and operated by Joshua Israel Ventures LLC, which handles every order. Night Windows, Night Shade Art (Instagram @moonnightshadeart) and Prompt Framed are also brands of Joshua Israel Ventures LLC.")
     if "## Legal" not in n:
         n = n.rstrip("\n") + ("\n\n## Legal\n\n"
-             f"- [Terms of Use and Sale]({SITE}/terms.html): Orders are contracts with Joshua Israel Ventures LLC; Stripe checkout, made-to-order printing, USD pricing, damaged or misprinted items, Michigan law\n"
+             f"- [Terms of Use and Sale]({SITE}/terms.html): Orders are contracts with Joshua Israel Ventures LLC; Stripe checkout, made-to-order printing, USD pricing, damaged or misprinted items, Florida law\n"
              f"- [Privacy Policy]({SITE}/privacy.html): What is collected (Stripe checkout, fulfilment, Google Analytics, email) and how to make a privacy request\n"
              f"- [Disclaimer]({SITE}/disclaimer.html): Colour and screen accuracy, watermarked previews, creator promo code commissions\n")
     write("llms.txt", n)

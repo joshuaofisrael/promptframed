@@ -31,6 +31,6 @@
 
 ## Legal
 
-- [Terms of Use and Sale](https://moonlitwindows.com/terms.html): Orders are contracts with Joshua Israel Ventures LLC; Stripe checkout, made-to-order printing, USD pricing, damaged or misprinted items, Michigan law
+- [Terms of Use and Sale](https://moonlitwindows.com/terms.html): Orders are contracts with Joshua Israel Ventures LLC; Stripe checkout, made-to-order printing, USD pricing, damaged or misprinted items, Florida law
 - [Privacy Policy](https://moonlitwindows.com/privacy.html): What is collected (Stripe checkout, fulfilment, Google Analytics, email) and how to make a privacy request
 - [Disclaimer](https://moonlitwindows.com/disclaimer.html): Colour and screen accuracy, watermarked previews, creator promo code commissions
