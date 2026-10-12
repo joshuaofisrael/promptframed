@@ -21,7 +21,7 @@ Replace `<slug>`, `<Title>`, `<NN>` below. Do both the poster and framed variant
   "url": "https://moonlitwindows.com/pieces/<slug>.html",
   "shippable": true,
   "metadata": {"slug": "<slug>", "variant": "poster", "series": "night-windows", "size": "12x18"},
-  "default_price_data": {"currency": "usd", "unit_amount": 2900, "metadata": {"slug": "<slug>", "variant": "poster"}}
+  "default_price_data": {"currency": "usd", "unit_amount": 3500, "metadata": {"slug": "<slug>", "variant": "poster"}}
 }
 ```
 
@@ -57,7 +57,7 @@ In `products.json` for the slug:
 ```json
 "stripe": {
   "posterUrl": "https://buy.stripe.com/...", "framedUrl": "https://buy.stripe.com/...",
-  "status": "live", "posterPrice": 2900, "framedPrice": 6900, "currency": "usd", "size": "12x18",
+  "status": "live", "posterPrice": 3500, "framedPrice": 6900, "currency": "usd", "size": "12x18",
   "posterProductId": "prod_...", "posterPriceId": "price_...", "posterPaymentLinkId": "plink_...",
   "framedProductId": "prod_...", "framedPriceId": "price_...", "framedPaymentLinkId": "plink_..."
 }

@@ -14,8 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 items = json.loads((ROOT / "products.json").read_text())
 live = lambda u: isinstance(u, str) and u.startswith("https://buy.stripe.com/")
 LABEL = "Peel &amp; Stick Wall Mural · $149"
-PL_OLD = "$29 poster · $69 framed (12×18)"
-PL_NEW = "$29 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)"
+PL_OLD = "$35 poster · $69 framed (12×18)"
+PL_NEW = "$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)"
 NOTE = ('<p class="note mural-note">Peel &amp; stick wall mural: 4×6 ft (48×72 in) removable wallpaper on '
         'peel-and-stick polyester. No paste; removes cleanly from most smooth painted walls. Each mural is printed to order and '
         'ships in 1–2 weeks, shipping included.</p>')

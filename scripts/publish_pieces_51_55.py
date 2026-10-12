@@ -292,8 +292,8 @@ GA_TAG = f"""  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA_ID}');</script>"""
 IG = '<a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a>'
-PRICE_LINE = "$29 poster · $69 framed (12×18)"
-PRICE_LINE_MURAL = "$29 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)"
+PRICE_LINE = "$35 poster · $69 framed (12×18)"
+PRICE_LINE_MURAL = "$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)"
 PIECE_NOTE = ("Enhanced matte poster or black-framed print, 12×18 in. Shipping included. "
               "Secure checkout by Stripe; your receipt arrives by email.")
 MURAL_NOTE = ('<p class="note mural-note">Peel &amp; stick wall mural: 4×6 ft (48×72 in) removable wallpaper on '
@@ -500,9 +500,9 @@ def wall_alt(alt: str) -> str:  # same as seo_keywords_pass
 
 def meta_description(t: str, d: str) -> str:
     """Reproduces commercial pass -> keyword pass -> mural pass on <meta name=description>."""
-    s = html.escape(trim(f"Buy {t} as a 12×18 poster ($29) or black framed print ($69), shipping included. {d}"), quote=True)
-    s = re.sub(r"^Buy (.*?) as a 12×18 poster \(\$29\) or black framed print \(\$69\), shipping included\.",
-               r"Moon poster wall art: buy \1 as a 12×18 art print poster ($29) or framed print ($69), shipping included.", s)
+    s = html.escape(trim(f"Buy {t} as a 12×18 poster ($35) or black framed print ($69), shipping included. {d}"), quote=True)
+    s = re.sub(r"^Buy (.*?) as a 12×18 poster \(\$35\) or black framed print \(\$69\), shipping included\.",
+               r"Moon poster wall art: buy \1 as a 12×18 art print poster ($35) or framed print ($69), shipping included.", s)
     return s.replace("shipping included.", "shipping included, or a $149 peel and stick wall mural (removable wallpaper).", 1)
 
 
@@ -515,7 +515,7 @@ def buy_block(slug: str, ind: str = "        ") -> str:
         lines += [
             f'{i2}<p class="price-line">{PRICE_LINE_MURAL if mural else PRICE_LINE}</p>',
             f'{i2}<div class="actions buy-actions">',
-            f'{i2}  <a class="btn" data-buy="{slug}" data-sku="poster" href="{st["posterUrl"]}">Buy this print · Poster $29</a>',
+            f'{i2}  <a class="btn" data-buy="{slug}" data-sku="poster" href="{st["posterUrl"]}">Buy this print · Poster $35</a>',
             f'{i2}  <a class="btn secondary" data-buy="{slug}" data-sku="framed" href="{st["framedUrl"]}">Buy framed · $69</a>',
         ]
         if mural:
@@ -559,7 +559,7 @@ def product_jsonld(piece: dict) -> str:
                 "name": f"{t} Wall Art Print (Poster or Framed Print, 12x18)",
                 "description": (
                     f"{t} moonlit night landscape wall art from the Night Windows series, sold as a 12×18 art print "
-                    f"poster ($29) or framed wall art print ($69), shipping included. A home decor print for living "
+                    f"poster ($35) or framed wall art print ($69), shipping included. A home decor print for living "
                     f"rooms and bedrooms. {d} Also available as a 4×6 ft peel and stick wall mural ($149): removable "
                     f"wallpaper, printed to order."
                 ),
@@ -572,7 +572,7 @@ def product_jsonld(piece: dict) -> str:
                 "image": [{"@type": "ImageObject", "@id": f"{page}#image", "url": img, "contentUrl": img,
                            "caption": piece["alt"], "name": t, "representativeOfPage": True}],
                 "offers": [
-                    offer("poster", f"{t} wall art poster 12x18", "29.00"),
+                    offer("poster", f"{t} wall art poster 12x18", "35.00"),
                     offer("framed", f"{t} framed wall art print 12x18", "69.00"),
                     {"@type": "Offer", "@id": f"{page}#offer-mural",
                      "name": f"{t} peel and stick wall mural 4x6 ft (48x72 in), removable wallpaper",
@@ -610,7 +610,7 @@ def piece_html(piece: dict, aw: int, ah: int, tt: dict[str, str]) -> str:
     slug, t, d = piece["slug"], piece["title"], piece["description"]
     t_esc = html.escape(t, quote=True)
     head_title = f"{t_esc} Poster, Framed Print &amp; Wall Mural | Moonlit Windows"
-    social_desc = html.escape(f"{t}: Night Windows poster $29 · framed print $69 (12×18, shipping included). {d}", quote=True)
+    social_desc = html.escape(f"{t}: Night Windows poster $35 · framed print $69 (12×18, shipping included). {d}", quote=True)
     dw, dh = (900, 1350) if ah >= aw else (900, 822)
     img = f"{BASE_URL}/assets/{piece['asset']}"
     alt = wall_alt(piece["alt"])
@@ -658,7 +658,7 @@ def piece_html(piece: dict, aw: int, ah: int, tt: dict[str, str]) -> str:
       <div>
         <div class="kicker">Night Windows · {piece['photoNumber']:02d}</div>
         <h1>{t}</h1>
-        <p class="sale-line">Moonlit wall art poster, framed print and peel &amp; stick wall mural for sale · $29 poster · $69 framed · 12×18 · $149 wall mural (4×6 ft) · shipping included · <a href="#buy">Buy now</a></p>
+        <p class="sale-line">Moonlit wall art poster, framed print and peel &amp; stick wall mural for sale · $35 poster · $69 framed · 12×18 · $149 wall mural (4×6 ft) · shipping included · <a href="#buy">Buy now</a></p>
         <p class="desc">{d}</p>
         {buy_block(slug)}
         {MURALS_PIECE_LINK}
@@ -668,7 +668,7 @@ def piece_html(piece: dict, aw: int, ah: int, tt: dict[str, str]) -> str:
       </div>
     </article>
   </div>
-  <footer class="site-footer"><div class="wrap"><div class="footer-shop"><a href="../buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $29 poster · $69 framed · 12×18 · shipping included</div><div><a href="../">Back to gallery</a> · {IG}</div></div>  <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="../terms.html">Terms</a> · <a href="../privacy.html">Privacy</a> · <a href="../disclaimer.html">Disclaimer</a> · <a href="../contact.html">Contact</a></p></div>
+  <footer class="site-footer"><div class="wrap"><div class="footer-shop"><a href="../buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div><div><a href="../">Back to gallery</a> · {IG}</div></div>  <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="../terms.html">Terms</a> · <a href="../privacy.html">Privacy</a> · <a href="../disclaimer.html">Disclaimer</a> · <a href="../contact.html">Contact</a></p></div>
   </footer>
 </body>
 </html>
@@ -781,7 +781,7 @@ def buy_card(piece: dict, landscape: bool) -> str:
         lines += [
             f'{ind}<p class="price-line">{PRICE_LINE_MURAL if mural else PRICE_LINE}</p>',
             f'{ind}<div class="actions buy-actions">',
-            f'{ind}  <a class="btn" data-buy="{s}" data-sku="poster" href="{st["posterUrl"]}">Buy this print · Poster $29</a>',
+            f'{ind}  <a class="btn" data-buy="{s}" data-sku="poster" href="{st["posterUrl"]}">Buy this print · Poster $35</a>',
             f'{ind}  <a class="btn secondary" data-buy="{s}" data-sku="framed" href="{st["framedUrl"]}">Buy framed · $69</a>',
         ]
         if mural:

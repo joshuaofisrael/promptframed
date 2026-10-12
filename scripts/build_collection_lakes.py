@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build lake-wall-art.html: a buyer-intent collection page for lake and waterfall wall art
-(posters $29, framed prints $69, 4x6 ft peel and stick wall murals $149), and wire internal
+(posters $35, framed prints $69, 4x6 ft peel and stick wall murals $149), and wire internal
 links to it. Idempotent. Modelled on build_collection_murals.py.
 
 Cards reuse the live Stripe links from products.json and the card blurbs already on buy.html.
@@ -49,13 +49,13 @@ N = len(SLUGS)
 
 TITLE = "Lake Wall Art & Waterfall Posters, Framed Prints | Moonlit Windows"
 DESC = (f"Lake and waterfall wall art: {N} moonlit lake posters and framed prints, from Lake Como, Lake Bled, "
-        "Hallstatt and Lake Louise to Plitvice and Iguazu Falls. 12×18 poster $29, framed $69, "
+        "Hallstatt and Lake Louise to Plitvice and Iguazu Falls. 12×18 poster $35, framed $69, "
         "4×6 ft wall mural $149, shipping included.")
 H1 = "Lake &amp; Waterfall Wall Art: Moonlit Lake Posters and Framed Prints"
 
 FAQ = [
     ("What sizes and formats are available?",
-     "Every piece comes as a 12×18 in enhanced matte poster ($29), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
+     "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
      "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Plitvice, Iguazu, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
     ("Will the watermark be on my print?",
@@ -81,9 +81,9 @@ def card(it, alt, suffix, info):
         <div class="meta">
           <h3><a href="./pieces/{s}.html">{t}</a></h3>
           <p>{blurb}</p>
-          <p class="price-line">$29 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>
+          <p class="price-line">$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>
           <div class="actions buy-actions">
-            <a class="btn" data-buy="{s}" data-sku="poster" href="{st['posterUrl']}">Poster · $29</a>
+            <a class="btn" data-buy="{s}" data-sku="poster" href="{st['posterUrl']}">Poster · $35</a>
             <a class="btn secondary" data-buy="{s}" data-sku="framed" href="{st['framedUrl']}">Framed · $69</a>
             <a class="btn secondary" data-buy="{s}" data-sku="mural" href="{st['muralUrl']}">Wall mural · $149</a>
           </div>
@@ -182,8 +182,8 @@ def page(by_slug, bl):
     <section class="hero left">
       <div class="kicker">Collection</div>
       <h1>{H1}</h1>
-      <p class="sale-line">{N} lake and waterfall art prints · $29 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
-      <p class="answer-first">These are {N} moonlit lake and waterfall prints, each sold as a 12×18 in poster for $29, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real places at night, among them Lake Como, Lake Bled, Hallstatt, Lake Louise, Plitvice and Iguazu Falls, with a full moon on the water and a few warm windows on the shore.</p>
+      <p class="sale-line">{N} lake and waterfall art prints · $35 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
+      <p class="answer-first">These are {N} moonlit lake and waterfall prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real places at night, among them Lake Como, Lake Bled, Hallstatt, Lake Louise, Plitvice and Iguazu Falls, with a full moon on the water and a few warm windows on the shore.</p>
       <p>Water is what makes a night scene glow: the moon doubles in a still lake, and mist over a waterfall catches its light. That makes these the softest, most restful pieces in the Night Windows series, a natural fit for a bedroom, a lake house or a cabin.</p>
       <p class="note">Jump to: <a href="#lakes">Lakes</a> · <a href="#waterfalls">Waterfalls</a> · <a href="#choose">Choosing a piece</a> · <a href="#faq">FAQ</a></p>
     </section>
@@ -207,7 +207,7 @@ def page(by_slug, bl):
     </section>
   </div>
   <footer class="site-footer">
-    <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $29 poster · $69 framed · 12×18 · shipping included</div>
+    <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
       <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
     <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
@@ -246,7 +246,7 @@ def edits():
     rel = "llms.txt"; src = (ROOT / rel).read_text(encoding="utf-8")
     if URL not in src:
         m = re.search(r"- \[Peel and stick wall murals\]\([^)]*\):[^\n]*\n", src)
-        line = (f"- [Lake and waterfall wall art]({URL}): {N} moonlit lake and waterfall posters ($29), framed prints ($69) "
+        line = (f"- [Lake and waterfall wall art]({URL}): {N} moonlit lake and waterfall posters ($35), framed prints ($69) "
                 "and wall murals ($149), from Lake Como, Lake Bled, Hallstatt and Lake Louise to Plitvice and Iguazu Falls, with a room guide and FAQ\n")
         if m: put(rel, src, src[:m.end()] + line + src[m.end():])
         else: print("WARN llms.txt anchor not found")

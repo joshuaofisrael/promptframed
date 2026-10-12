@@ -82,7 +82,7 @@ FAQ = [
     ("What if it arrives damaged or misprinted?",
      "Email joshuaofisrael@gmail.com within 30 days of delivery with your order details and a photo of the problem, and we will replace it or refund it."),
     ("Is there a smaller size?",
-     "The mural comes in one size. For a smaller wall, every piece is also sold as a 12×18 in poster ($29) or the same print in a black frame ($69)."),
+     "The mural comes in one size. For a smaller wall, every piece is also sold as a 12×18 in poster ($35) or the same print in a black frame ($69)."),
     ("How do I pay?",
      "Every button opens secure Stripe checkout, and your receipt arrives by email."),
 ]
@@ -102,10 +102,10 @@ def card(it, alt, info):
         <div class="meta">
           <h3><a href="./pieces/{s}.html">{t}</a></h3>
           <p>{blurb}</p>
-          <p class="price-line">$149 peel &amp; stick wall mural (4×6 ft) · or $29 poster · $69 framed (12×18)</p>
+          <p class="price-line">$149 peel &amp; stick wall mural (4×6 ft) · or $35 poster · $69 framed (12×18)</p>
           <div class="actions buy-actions">
             <a class="btn" data-buy="{s}" data-sku="mural" href="{st['muralUrl']}">Wall mural · $149</a>
-            <a class="btn secondary" data-buy="{s}" data-sku="poster" href="{st['posterUrl']}">Poster · $29</a>
+            <a class="btn secondary" data-buy="{s}" data-sku="poster" href="{st['posterUrl']}">Poster · $35</a>
             <a class="btn secondary" data-buy="{s}" data-sku="framed" href="{st['framedUrl']}">Framed · $69</a>
           </div>
         </div>
@@ -208,7 +208,7 @@ def page(by_slug, bl):
       <h1>{H1}</h1>
       <p class="sale-line">{N} wall mural designs · $149 peel &amp; stick wall mural · 4×6 ft (48×72 in) · removable · printed to order · shipping included</p>
       <p class="answer-first">Every Night Windows piece can be ordered as a 4×6 ft (48×72 in) peel and stick wall mural for $149, shipping included. It is printed to order on removable peel-and-stick polyester, needs no paste, removes cleanly from most smooth painted walls, and ships by post in 1–2 weeks. The {N} scenes below are the ones that work best at wall size: mountains, lakes and waterfalls, coasts, forests and castles, all under a full moon.</p>
-      <p>The mural is a tall panel, 48 inches wide by 72 inches high, and each piece here is composed in that same tall 2:3 proportion, so the scene reads like a window cut into the wall: a peak at the top, a lit village, lake or path below. If you would rather hang a print, every design is also a 12×18 in poster ($29) or a black-framed print ($69).</p>
+      <p>The mural is a tall panel, 48 inches wide by 72 inches high, and each piece here is composed in that same tall 2:3 proportion, so the scene reads like a window cut into the wall: a peak at the top, a lit village, lake or path below. If you would rather hang a print, every design is also a 12×18 in poster ($35) or a black-framed print ($69).</p>
       <p class="note">Jump to: <a href="#mountains">Mountains</a> · <a href="#lakes-waterfalls">Lakes &amp; waterfalls</a> · <a href="#coasts">Coasts &amp; fjords</a> · <a href="#forests">Forests</a> · <a href="#castles">Castles</a> · <a href="#measure">How to measure</a> · <a href="#faq">FAQ</a></p>
     </section>
 
@@ -242,7 +242,7 @@ def page(by_slug, bl):
       <ul>
         <li><strong>Peel &amp; stick wall mural · $149.</strong> 4×6 ft (48×72 in) on removable polyester. Choose it when you want the scene to fill a wall and be seen from across the room.</li>
         <li><strong>Framed print · $69.</strong> 12×18 in in a black frame, ready to hang above a nightstand, desk or shelf.</li>
-        <li><strong>Poster · $29.</strong> The same 12×18 in print on enhanced matte paper, for your own frame or a gallery wall of several pieces.</li>
+        <li><strong>Poster · $35.</strong> The same 12×18 in print on enhanced matte paper, for your own frame or a gallery wall of several pieces.</li>
       </ul>
       <p>All three include shipping and are printed to order. A wall-size print is meant to be seen from a few steps back; pressed close, fine detail is softer than on a 12×18 print, as with any image printed at wall size. The <a href="./guide-print-sizes.html">size guide</a> compares the formats in more detail, and <a href="./how-it-works.html">how it works</a> explains checkout and delivery.</p>
     </section>
@@ -254,7 +254,7 @@ def page(by_slug, bl):
     </section>
   </div>
   <footer class="site-footer">
-    <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $29 poster · $69 framed · 12×18 · shipping included</div>
+    <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
       <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
     <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>

@@ -24,7 +24,7 @@ PRODUCTS = ROOT / "products.json"
 BUY = ROOT / "buy.html"
 PIECES = ROOT / "pieces"
 
-PRICE_LINE = "$29 poster · $69 framed (12×18)"
+PRICE_LINE = "$35 poster · $69 framed (12×18)"
 START, END = "<!-- buy:start -->", "<!-- buy:end -->"
 
 
@@ -51,7 +51,7 @@ def buttons(item, indent: str) -> str:
         return (
             f'{indent}<p class="price-line">{PRICE_LINE}</p>\n'
             f'{indent}<div class="actions buy-actions">\n'
-            f'{indent}  <a class="btn" data-buy="{slug}" data-sku="poster" href="{s["posterUrl"]}">Buy this print · Poster $29</a>\n'
+            f'{indent}  <a class="btn" data-buy="{slug}" data-sku="poster" href="{s["posterUrl"]}">Buy this print · Poster $35</a>\n'
             f'{indent}  <a class="btn secondary" data-buy="{slug}" data-sku="framed" href="{s["framedUrl"]}">Buy framed · $69</a>\n'
             f'{indent}</div>\n'
         )

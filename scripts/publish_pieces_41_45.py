@@ -248,7 +248,7 @@ HUB_THEMES = [
 ]
 BUY_META_DESC = (
     "Buy Night Windows moonlit landscape prints — forty-five windows including the Dolomites, "
-    "Lofoten, Cinque Terre, Lake Bled, and Guilin’s Li River. $29 poster or $69 framed, 12×18, "
+    "Lofoten, Cinque Terre, Lake Bled, and Guilin’s Li River. $35 poster or $69 framed, 12×18, "
     "shipping included. Stripe checkout."
 )
 BUY_HERO = (
@@ -487,7 +487,7 @@ def product_jsonld(piece: dict, meta_desc: str) -> str:
                     }
                 ],
                 "offers": [
-                    offer("poster", "poster", "29.00"),
+                    offer("poster", "poster", "35.00"),
                     offer("framed", "framed print", "69.00"),
                 ],
             },

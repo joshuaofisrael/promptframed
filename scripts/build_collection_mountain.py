@@ -20,7 +20,7 @@ SLUGS = [  # order = how they appear on the page
 ]
 TITLE = "Mountain Wall Art Posters, Framed Prints &amp; Wall Murals | Moonlit Windows"
 DESC = ("Mountain wall art for sale: 13 moonlit mountain posters and framed prints, from the "
-        "Matterhorn, Dolomites and Mount Fuji to Yosemite and the Isle of Skye. 12×18 poster $29, "
+        "Matterhorn, Dolomites and Mount Fuji to Yosemite and the Isle of Skye. 12×18 poster $35, "
         "framed print $69, 4×6 ft peel and stick wall mural $149, shipping included.")
 LINK_MARK = 'data-collection="mountain"'
 
@@ -40,9 +40,9 @@ def card(it, info):
         <div class="meta">
           <h3><a href="./pieces/{s}.html">{t}</a></h3>
           <p>{blurb}</p>
-          <p class="price-line">$29 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>
+          <p class="price-line">$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>
           <div class="actions buy-actions">
-            <a class="btn" data-buy="{s}" data-sku="poster" href="{st['posterUrl']}">Poster · $29</a>
+            <a class="btn" data-buy="{s}" data-sku="poster" href="{st['posterUrl']}">Poster · $35</a>
             <a class="btn secondary" data-buy="{s}" data-sku="framed" href="{st['framedUrl']}">Framed · $69</a>
             <a class="btn secondary" data-buy="{s}" data-sku="mural" href="{st['muralUrl']}">Wall mural · $149</a>
           </div>
@@ -66,7 +66,7 @@ def ld(items):
 # FAQPage JSON-LD: must mirror the visible "Questions about these mountain prints" section word for word.
 FAQ = [
     ("What sizes and formats are available?",
-     "A 12×18 inch enhanced matte poster ($29), the same 12×18 print in a black frame ($69), and a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
+     "A 12×18 inch enhanced matte poster ($35), the same 12×18 print in a black frame ($69), and a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("How long does a mural take?", "Murals are printed to order and ship in 1–2 weeks."),
     ("Are these real places?",
      "Most are named landmarks, reimagined at night. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Moonlit Alpine Meadow and Snowy Peaks Above Clouds are imagined alpine scenes."),
@@ -133,7 +133,7 @@ def page(items, bl):
     <section class="hero left">
       <div class="kicker">Collection</div>
       <h1>Mountain Wall Art: Moonlit Mountain Posters &amp; Framed Prints</h1>
-      <p class="sale-line">13 mountain art prints · $29 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
+      <p class="sale-line">13 mountain art prints · $35 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
       <p>Every piece in this collection is a mountain scene at night: real peaks you can find on a map, seen under a full moon, often with a few warm windows glowing in the valley. The Matterhorn over a still alpine lake, the three towers of the Dolomites’ Tre Cime, Mount Fuji behind the Chureito Pagoda, Yosemite’s Half Dome, Lake Louise in the Canadian Rockies, and the Old Man of Storr on the Isle of Skye are all here, along with quieter scenes like a wildflower meadow above an alpine village and snowy peaks above the clouds.</p>
       <p>Each one comes three ways: a 12×18 inch enhanced matte poster, the same print in a black frame, or a 4×6 ft peel and stick wall mural for a whole feature wall.</p>
     </section>
@@ -155,7 +155,7 @@ def page(items, bl):
 
     <section class="prose">
       <h2>Questions about these mountain prints</h2>
-      <p><strong>What sizes and formats are available?</strong> A 12×18 inch enhanced matte poster ($29), the same 12×18 print in a black frame ($69), and a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three.</p>
+      <p><strong>What sizes and formats are available?</strong> A 12×18 inch enhanced matte poster ($35), the same 12×18 print in a black frame ($69), and a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three.</p>
       <p><strong>How long does a mural take?</strong> Murals are printed to order and ship in 1–2 weeks.</p>
       <p><strong>Are these real places?</strong> Most are named landmarks, reimagined at night. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and <a href="./pieces/moonlit-alpine-meadow.html">Moonlit Alpine Meadow</a> and <a href="./pieces/snowy-peaks-above-clouds.html">Snowy Peaks Above Clouds</a> are imagined alpine scenes.</p>
       <p><strong>How do I pay?</strong> Every button opens secure Stripe checkout, and your receipt arrives by email.</p>
@@ -163,7 +163,7 @@ def page(items, bl):
     </section>
   </div>
   <footer class="site-footer">
-    <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $29 poster · $69 framed · 12×18 · shipping included</div>
+    <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
       <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
     <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
@@ -194,7 +194,7 @@ def wire_links():
     # buy.html hero: after the mural note
     buy = ROOT / "buy.html"; src = buy.read_text()
     if LINK_MARK not in src:
-        anchor = '</p>\n      <p class="price-line">$29 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>\n    </section>'
+        anchor = '</p>\n      <p class="price-line">$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>\n    </section>'
         src2 = src.replace(anchor, anchor[:-len('\n    </section>')] + '\n      <p class="note" ' + LINK_MARK + '>Browse by theme: <a href="./mountain-wall-art.html">Mountain wall art</a></p>\n    </section>', 1)
         if src2 != src: buy.write_text(src2); n += 1
         else: print("WARN buy hero anchor not found")

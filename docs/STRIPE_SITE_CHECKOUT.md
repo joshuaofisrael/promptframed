@@ -9,14 +9,14 @@ static: no server, no API keys in the repo. Each Buy button is a plain `<a href>
 
 | Variant | Spec | Price |
 | --- | --- | --- |
-| `poster` | 12×18 in, enhanced matte | $29.00 (`2900`) |
+| `poster` | 12×18 in, enhanced matte | $35.00 (`2900`) |
 | `framed` | 12×18 in poster, black frame | $69.00 (`6900`) |
 
-Visible copy on the site: **$29 poster · $69 framed (12×18)**.
+Visible copy on the site: **$35 poster · $69 framed (12×18)**.
 
 ## Flow
 
-1. Customer clicks **Buy this print · Poster $29** or **Buy framed · $69** on `buy.html` or a piece page.
+1. Customer clicks **Buy this print · Poster $35** or **Buy framed · $69** on `buy.html` or a piece page.
 2. The link opens that piece's Stripe Payment Link (quantity 1–5, shipping address + phone collected).
 3. After payment Stripe redirects to `thanks.html?piece=<slug>&variant=<poster|framed>` and emails a receipt.
 4. Joshua fulfils manually (Gelato / Printful) from the Stripe order email or dashboard, uploading the

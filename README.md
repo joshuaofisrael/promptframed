@@ -72,7 +72,7 @@ Use a real `https://` link. Leave the value `null` until the product is public. 
 2. Run `python3 scripts/watermark_for_social.py NN-short-name`. That writes the watermarked website JPEG `assets/NN-short-name.jpg` and the watermarked social JPEG `gallery/social/NN-short-name.jpg`, and copies the clean PNG into `gallery/print-masters/` without altering a single pixel of the master.
 3. Add the piece to `gallery/catalog.json` and `products.json` (`posterUrl` and `framedUrl` null). `printSource` stays the local path `gallery/NN-short-name.png`.
 4. Add a card on `index.html`, a page at `pieces/short-name.html` (copy a neighbor), and a line in `sitemap.xml`. The publish scripts (`scripts/publish_new_pieces.py` and the later drop scripts) call the same watermark exporter, so they cannot write a clean JPEG into `assets/`.
-5. Create its Stripe Products, Prices and Payment Links (poster $29 + framed $69) following `scripts/create_stripe_links.md`, paste the URLs into `products.json`, then run `python3 scripts/apply_stripe_links.py` (writes the buy buttons into `buy.html` and the piece page). See `docs/STRIPE_SITE_CHECKOUT.md`. Stripe product images use `gallery/social/`, which is watermarked.
+5. Create its Stripe Products, Prices and Payment Links (poster $35 + framed $69) following `scripts/create_stripe_links.md`, paste the URLs into `products.json`, then run `python3 scripts/apply_stripe_links.py` (writes the buy buttons into `buy.html` and the piece page). See `docs/STRIPE_SITE_CHECKOUT.md`. Stripe product images use `gallery/social/`, which is watermarked.
 6. Push to `main`. Pages republishes from that branch. Only the watermarked JPEGs go out.
 
 ## Fulfillment copies

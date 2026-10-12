@@ -407,7 +407,7 @@ def product_jsonld(piece: dict, meta_desc: str) -> str:
                     }
                 ],
                 "offers": [
-                    offer("poster", "poster", "29.00"),
+                    offer("poster", "poster", "35.00"),
                     offer("framed", "framed print", "69.00"),
                 ],
             },
@@ -584,7 +584,7 @@ def update_buy(pieces_meta: list[tuple[dict, str]]) -> None:
     html = re.sub(
         r'<meta name="description" content="Buy Night Windows moonlit landscape prints[^"]*">',
         '<meta name="description" content="Buy Night Windows moonlit landscape prints — forty windows including '
-        'Chefchaouen, Plitvice Lakes, Neuschwanstein, Angkor Wat, and the Faroe Islands. $29 poster or $69 framed, '
+        'Chefchaouen, Plitvice Lakes, Neuschwanstein, Angkor Wat, and the Faroe Islands. $35 poster or $69 framed, '
         '12×18, shipping included. Stripe checkout.">',
         html,
         count=1,

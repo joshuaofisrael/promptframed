@@ -1,14 +1,14 @@
 # Moonlit Windows
 
-> Moonlit Windows (moonlitwindows.com) sells Night Windows, a series of 55 moonlit landscape pictures, as wall art: $29 posters and $69 black-framed prints (both 12×18 in) and $149 peel-and-stick wall murals (4×6 ft, removable polyester). Shipping is included, everything is printed to order, and checkout is through Stripe. Murals ship in 1–2 weeks. Moonlit Windows is a brand, not a separate company: the shop is owned and operated by Joshua Israel Ventures LLC, which handles every order. Night Windows, Night Shade Art (Instagram @moonnightshadeart) and Prompt Framed are also brands of Joshua Israel Ventures LLC.
+> Moonlit Windows (moonlitwindows.com) sells Night Windows, a series of 55 moonlit landscape pictures, as wall art: $35 posters and $69 black-framed prints (both 12×18 in) and $149 peel-and-stick wall murals (4×6 ft, removable polyester). Shipping is included, everything is printed to order, and checkout is through Stripe. Murals ship in 1–2 weeks. Moonlit Windows is a brand, not a separate company: the shop is owned and operated by Joshua Israel Ventures LLC, which handles every order. Night Windows, Night Shade Art (Instagram @moonnightshadeart) and Prompt Framed are also brands of Joshua Israel Ventures LLC.
 
 ## Shop
 
 - [Home](https://moonlitwindows.com/): Gallery of all 55 Night Windows pieces with prices and links to each piece page
-- [Shop posters, prints & wall murals](https://moonlitwindows.com/buy.html): Every piece with poster ($29), framed ($69) and wall mural ($149) checkout buttons
+- [Shop posters, prints & wall murals](https://moonlitwindows.com/buy.html): Every piece with poster ($35), framed ($69) and wall mural ($149) checkout buttons
 - [Mountain wall art](https://moonlitwindows.com/mountain-wall-art.html): 13 moonlit mountain pieces (Matterhorn, Dolomites, Mount Fuji, Yosemite, Isle of Skye and more) with a room guide and FAQ
 - [Peel and stick wall murals](https://moonlitwindows.com/peel-and-stick-wall-murals.html): 24 moonlit scenes picked for a feature wall as 4×6 ft (48×72 in) removable peel-and-stick wall murals ($149, shipping included), with measuring, wall prep and FAQ
-- [Lake and waterfall wall art](https://moonlitwindows.com/lake-wall-art.html): 14 moonlit lake and waterfall posters ($29), framed prints ($69) and wall murals ($149), from Lake Como, Lake Bled, Hallstatt and Lake Louise to Plitvice and Iguazu Falls, with a room guide and FAQ
+- [Lake and waterfall wall art](https://moonlitwindows.com/lake-wall-art.html): 14 moonlit lake and waterfall posters ($35), framed prints ($69) and wall murals ($149), from Lake Como, Lake Bled, Hallstatt and Lake Louise to Plitvice and Iguazu Falls, with a room guide and FAQ
 - [The Night Windows series](https://moonlitwindows.com/night-windows.html): Overview of the series and an index of all 55 pieces
 
 ## Representative pieces
