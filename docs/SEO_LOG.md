@@ -297,3 +297,26 @@ Why highest EV for a brand-new product gallery:
 - SEO action: all 5 added to `peel-and-stick-wall-murals.html` (24 pieces; “Mountain and canyon wall murals”; meta names canyons); new piece pages carry the murals collection link; hub canyons/coasts paragraph keeps the murals link. `publish_pieces_51_55.py` now renders the murals markup itself so re-runs no longer strip it.
 - Gotcha: `build_collection_mountain.py` has no `--check` mode; running it rewrites mountain-wall-art.html from its template and reverts the series-count line (re-run the publish script after it).
 - Next signed-in run: request indexing for the 5 new piece URLs and the murals page.
+
+## 2026-10-12 05:20 London — Scheduled run: lake and waterfall wall art collection page
+### Data review
+- Stripe: no Night Windows sales since the last run (only checkout session since 8 Oct was an expired, unpaid $5 tip on another project).
+- GSC: not checked this run (the daily drop was publishing pieces 51–55 on the shared desktop/repo at the same time). Last numbers: 8 Oct, 28d 0 clicks, 4 impressions, avg pos 6.8. Too little data to pick winners, so the planned theme-cluster expansion continues.
+
+### Opportunity chosen (and why)
+**New collection page `/lake-wall-art.html`** targeting "lake wall art", "lake house wall art", "lake poster", "waterfall wall art", "waterfall poster" and place variants (Lake Como, Lake Bled, Hallstatt, Lake Louise, Plitvice, Iguazu). Lakes and waterfalls are the biggest themed group in the catalogue (14 of 55) with no page that could rank for them; it was the next cluster on the plan after mountains and murals.
+
+### Shipped (commit 5412c44)
+- Title "Lake Wall Art & Waterfall Posters, Framed Prints | Moonlit Windows"; price-led meta/OG; H1 "Lake & Waterfall Wall Art: Moonlit Lake Posters and Framed Prints"; answer-first opener.
+- 14 pieces in two groups (9 lakes, 5 waterfalls); poster $29 / framed $69 / mural $149 buttons from products.json; place-named alt text.
+- Room guide (lake house or cabin, bedroom, living room/feature wall, office/hallway, trip souvenir pairs); 5-question FAQ mirrored in FAQPage JSON-LD, including an honest real-vs-imagined places answer. CollectionPage + ItemList + BreadcrumbList JSON-LD.
+- Internal links: the 14 piece pages, buy.html "Browse by theme", night-windows.html lakes/coasts paragraph, murals page ("Looking for something else", via build_collection_murals.py, which also dropped a stale "all fifty"). llms.txt Shop line (and murals count 19 → 24). sitemap.xml + lake page.
+- Generator `scripts/build_collection_lakes.py` (idempotent, `--check`). Checks: JSON-LD parses, sitemap parses, no broken relative links, both collection builders `--check` up to date, `apply_stripe_links.py --check` 55/55. Live 200; IndexNow 200 for 20 URLs.
+
+### Notes
+- `publish_pieces_51_55.py` re-renders Lake Como Bellagio; if it is ever re-run, re-run `build_collection_lakes.py` afterwards to restore the lakes link.
+- Mountain page still says "all fifty" and isn't linked to the lakes page (its builder has no --check; left alone).
+
+### Next
+- Signed-in GSC: request indexing for /lake-wall-art.html, the 5 new piece URLs (51–55) and /peel-and-stick-wall-murals.html; pull 7/28d numbers.
+- Next clusters if these earn impressions: coasts (Amalfi, Santorini, Cinque Terre, Lofoten, Cliffs of Moher, Big Sur), Asia temples (Kyoto, Fuji, Angkor, Bagan), castles once there are more than 3.
