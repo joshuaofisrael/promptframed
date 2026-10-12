@@ -26,12 +26,13 @@ MARK = 'data-collection="murals"'
 
 # Only pieces composed in the 2:3 proportion of the 48x72 in mural (1024x1536 previews).
 GROUPS = [
-    ("mountains", "Mountain wall murals", "Tall peaks suit a tall panel, with the summit high on the wall and the valley, lake or meadow below.", [
+    ("mountains", "Mountain and canyon wall murals", "Tall peaks and deep canyons suit a tall panel, with the summit or rim high on the wall and the valley, river or meadow below.", [
         ("matterhorn-alpine-moon", "The Matterhorn above a still alpine lake and wildflower meadow under moonlight"),
         ("dolomites-tre-cime-moon", "The three peaks of Tre Cime over a meadow with a lit mountain hut and a full moon"),
         ("mount-fuji-pagoda-moon", "Mount Fuji under a full moon behind the red Chureito Pagoda and cherry blossoms"),
         ("yosemite-half-dome-moon", "Half Dome rising through valley mist above the moonlit Merced River in Yosemite"),
         ("isle-of-skye-storr-moon", "The Old Man of Storr above green Isle of Skye slopes and lochans under a full moon"),
+        ("grand-canyon-rim-moon", "A twisted juniper on the Grand Canyon’s South Rim above layered red walls and the Colorado River under a full moon"),
     ]),
     ("lakes-waterfalls", "Lake and waterfall wall murals", "Water scenes are the calmest choice for a bedroom wall: still reflections, falling water and soft mist.", [
         ("banff-lake-louise-moon", "Turquoise Lake Louise mirroring snowy Rocky Mountain peaks under moonlight"),
@@ -40,12 +41,15 @@ GROUPS = [
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring into the Lauterbrunnen valley with lit chalets and snowy Alps"),
         ("iguazu-falls-moon", "Tiers of Iguazu waterfalls falling into a misty rainforest gorge under a full moon"),
         ("plitvice-lakes-moon", "Plitvice’s turquoise lakes and terraced falls with a lit boardwalk through the forest"),
+        ("lake-como-bellagio-moon", "Bellagio’s pastel villas and cypresses glowing along Lake Como below moonlit mountains"),
     ]),
     ("coasts", "Coastal and fjord wall murals", "Cliffs, harbours and sea light for a living room or a hallway you want to open up.", [
         ("santorini-caldera-moon", "Whitewashed Santorini terraces and blue domes above the moonlit caldera"),
         ("cinque-terre-manarola-moon", "Manarola’s pastel cliffside houses with lit windows above a moonlit sea"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from green sea cliffs at Gásadalur under a full moon"),
         ("lofoten-reine-moon", "Red fishing cabins along a still Lofoten fjord below jagged peaks and a full moon"),
+        ("cliffs-of-moher-moon", "O’Brien’s Tower on the green Cliffs of Moher above Atlantic surf and a sea stack under a full moon"),
+        ("big-sur-bixby-bridge-moon", "Bixby Creek Bridge arching over a Big Sur cove with Pacific surf and pink wildflowers under moonlight"),
     ]),
     ("forests", "Forest wall murals", "Vertical trunks and stone pillars that fill a tall panel naturally.", [
         ("kyoto-bamboo-moon", "A Kyoto bamboo grove path softened by mist and filtered moonlight"),
@@ -54,13 +58,14 @@ GROUPS = [
     ("castles", "Castle wall murals", "Storybook landmarks for a child’s room, a reading corner or a dramatic end wall.", [
         ("neuschwanstein-castle-moon", "Neuschwanstein Castle’s white towers on a forested crag under a full moon"),
         ("mont-saint-michel-moon", "Mont Saint-Michel abbey rising from silver tidal water under moonlight"),
+        ("sintra-pena-palace-moon", "Pena Palace glowing gold on a misty forested hill above Sintra under a full moon"),
     ]),
 ]
 SLUGS = [s for _, _, _, items in GROUPS for s, _ in items]
 N = len(SLUGS)
 
 TITLE = "Peel and Stick Wall Murals: Moonlit Landscape Murals, $149 | Moonlit Windows"
-DESC = (f"Peel and stick wall murals, $149: {N} moonlit mountain, lake, waterfall, coast and castle scenes "
+DESC = (f"Peel and stick wall murals, $149: {N} moonlit mountain, canyon, lake, waterfall, coast and castle scenes "
         "as 4×6 ft (48×72 in) removable wallpaper murals. Printed to order, shipping included.")
 H1 = "Peel and Stick Wall Murals: Moonlit Landscapes for a Feature Wall"
 

@@ -291,3 +291,9 @@ Why highest EV for a brand-new product gallery:
 - Resubmit sitemap (63 URLs); request indexing for /peel-and-stick-wall-murals.html, /mountain-wall-art.html, /buy.html (dolomites piece after that).
 - Pull 7/28d GSC numbers into the scorecard. If either collection page earns impressions, build the next theme (castles, Japan, lakes/waterfalls, coasts).
 - 2026-10-08 15:05 GSC (Joshua re-signed in): sitemap resubmitted, Success, 59 discovered. Indexing requested: peel-and-stick-wall-murals, mountain-wall-art, buy (all unknown to Google), / (indexed). Performance 28d: 0 clicks, 4 impressions, avg pos 6.8.
+
+## 2026-10-12 London — Pieces 51–55 drop + murals collection
+- Published Sintra Pena Palace Moon, Lake Como Bellagio Moon, Grand Canyon Rim Moon, Cliffs of Moher Moon, Big Sur Bixby Bridge Moon (`scripts/publish_pieces_51_55.py`), with live Stripe poster/framed/mural Payment Links (15 products, 15 prices, 15 links).
+- SEO action: all 5 added to `peel-and-stick-wall-murals.html` (24 pieces; “Mountain and canyon wall murals”; meta names canyons); new piece pages carry the murals collection link; hub canyons/coasts paragraph keeps the murals link. `publish_pieces_51_55.py` now renders the murals markup itself so re-runs no longer strip it.
+- Gotcha: `build_collection_mountain.py` has no `--check` mode; running it rewrites mountain-wall-art.html from its template and reverts the series-count line (re-run the publish script after it).
+- Next signed-in run: request indexing for the 5 new piece URLs and the murals page.

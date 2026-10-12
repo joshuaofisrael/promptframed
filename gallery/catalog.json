@@ -1153,5 +1153,120 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "51-sintra-pena-palace-moon",
+    "slug": "sintra-pena-palace-moon",
+    "title": "Sintra Pena Palace Moon",
+    "photoNumber": 51,
+    "file": "51-sintra-pena-palace-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Pena Palace in Sintra, Portugal, glowing gold on a misty forested hilltop, with distant town lights, lavender flowers on mossy rocks in the foreground and a full moon behind wispy clouds",
+    "description": "Pena Palace glows gold above misty Sintra forests while lavender blooms on mossy rocks under a cloud-veiled full moon.",
+    "keywords": [
+      "Sintra Pena Palace night",
+      "Pena Palace moonlight",
+      "Portugal palace wall art",
+      "Sintra landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "52-lake-como-bellagio-moon",
+    "slug": "lake-como-bellagio-moon",
+    "title": "Lake Como Bellagio Moon",
+    "photoNumber": 52,
+    "file": "52-lake-como-bellagio-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Bellagio on Lake Como, Italy, with pastel lakeside villas and cypress trees, glowing reflections on turquoise water, mountains behind and magenta bougainvillea in the foreground",
+    "description": "Bellagio’s pastel villas and cypresses glow along Lake Como, their lights rippling on turquoise water under a mountain moon.",
+    "keywords": [
+      "Lake Como night",
+      "Bellagio moonlight",
+      "Italian lake wall art",
+      "Lake Como landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "53-grand-canyon-rim-moon",
+    "slug": "grand-canyon-rim-moon",
+    "title": "Grand Canyon Rim Moon",
+    "photoNumber": 53,
+    "file": "53-grand-canyon-rim-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Grand Canyon from the South Rim with a twisted juniper on the rocky edge, layered red canyon walls, the turquoise Colorado River far below and a full moon among pink clouds",
+    "description": "A twisted juniper clings to the South Rim as layered canyon walls fall to the Colorado River under a pink-clouded Arizona moon.",
+    "keywords": [
+      "Grand Canyon night",
+      "Grand Canyon moonlight",
+      "Arizona desert wall art",
+      "Grand Canyon landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "54-cliffs-of-moher-moon",
+    "slug": "cliffs-of-moher-moon",
+    "title": "Cliffs of Moher Moon",
+    "photoNumber": 54,
+    "file": "54-cliffs-of-moher-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Cliffs of Moher in Ireland with O’Brien’s Tower on the green clifftop, a sea stack in the Atlantic surf, a silver moon path on the water and pink sea flowers in the foreground",
+    "description": "O’Brien’s Tower crowns the green Cliffs of Moher as Atlantic surf breaks around a sea stack beneath a bright Irish moon.",
+    "keywords": [
+      "Cliffs of Moher night",
+      "Cliffs of Moher moonlight",
+      "Irish coast wall art",
+      "Ireland landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "55-big-sur-bixby-bridge-moon",
+    "slug": "big-sur-bixby-bridge-moon",
+    "title": "Big Sur Bixby Bridge Moon",
+    "photoNumber": 55,
+    "file": "55-big-sur-bixby-bridge-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Bixby Creek Bridge on the Big Sur coast of California, its lit arch spanning a canyon above a small beach, Pacific surf and sea rocks below and pink wildflowers in the foreground",
+    "description": "Bixby Creek Bridge arches above a Big Sur cove as Pacific surf glows silver beneath green hills and a full California moon.",
+    "keywords": [
+      "Big Sur night",
+      "Bixby Bridge moonlight",
+      "California coast wall art",
+      "Big Sur landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]
