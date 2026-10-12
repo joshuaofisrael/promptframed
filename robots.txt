@@ -1,20 +1,16 @@
+# moonlitwindows.com: all crawlers welcome, including AI search, answer
+# and training crawlers. No paths are blocked.
 User-agent: *
 Allow: /
 
-# Search and answer engine crawlers: explicitly allowed
+# AI crawlers (search, user-triggered fetch and model training): explicitly allowed
+User-agent: GPTBot
+Allow: /
+
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
 Allow: /
 
 User-agent: ClaudeBot
@@ -26,6 +22,15 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
 User-agent: Google-Extended
 Allow: /
 
@@ -35,13 +40,25 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-User-agent: Bingbot
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: cohere-ai
 Allow: /
 
 User-agent: DuckAssistBot
 Allow: /
 
-User-agent: Amazonbot
+User-agent: Bingbot
 Allow: /
 
 Sitemap: https://moonlitwindows.com/sitemap.xml
