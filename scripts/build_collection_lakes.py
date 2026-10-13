@@ -18,7 +18,7 @@ FILE = "lake-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-12"
+TODAY = "2026-10-13"
 OG_SLUG = "lake-bled-island-moon"
 MARK = 'data-collection="lakes"'
 
@@ -34,11 +34,13 @@ GROUPS = [
         ("lakeside-cabin", "A warm-lit cabin beside a quiet lake, reflected in the water between dark pines at night"),
         ("moonlit-mediterranean-village", "A lakeside village with a lit bell tower, cypresses and a sailboat on still water under a full moon"),
         ("japanese-temple-pond", "A still temple pond mirroring the full moon beside stone lanterns, pines and maples"),
+        ("salar-de-uyuni-moon", "Bolivia’s Salar de Uyuni salt flat under a thin layer of water, mirroring distant mountains and a full moon"),
     ]),
     ("waterfalls", "Waterfall wall art", "waterfall wall art poster and framed print",
-     "Falling water and mist catching the moonlight, from Swiss valleys to South American rainforest.", [
+     "Falling water and mist catching the moonlight, from Swiss valleys to South American rainforest and the Zambezi.", [
         ("plitvice-lakes-moon", "Plitvice’s turquoise lakes and terraced falls with a lit boardwalk through the forest"),
         ("iguazu-falls-moon", "Tiers of Iguazu waterfalls falling into a misty rainforest gorge under a full moon"),
+        ("victoria-falls-moon", "Victoria Falls pouring into a misty gorge on the Zambezi with a moonbow in the spray under a full moon"),
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring into the Lauterbrunnen valley with lit chalets and snowy Alps"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from green sea cliffs at Gásadalur under a full moon"),
         ("moonlit-waterfall", "A luminous waterfall pouring through a deep, misty gorge under moonlight"),
@@ -49,7 +51,7 @@ N = len(SLUGS)
 
 TITLE = "Lake Wall Art & Waterfall Posters, Framed Prints | Moonlit Windows"
 DESC = (f"Lake and waterfall wall art: {N} moonlit lake posters and framed prints, from Lake Como, Lake Bled, "
-        "Hallstatt and Lake Louise to Plitvice and Iguazu Falls. 12×18 poster $35, framed $69, "
+        "Hallstatt and Lake Louise to Plitvice, Iguazu and Victoria Falls. 12×18 poster $35, framed $69, "
         "4×6 ft wall mural $149, shipping included.")
 H1 = "Lake &amp; Waterfall Wall Art: Moonlit Lake Posters and Framed Prints"
 
@@ -57,7 +59,7 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Plitvice, Iguazu, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
+     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Plitvice, Iguazu, Victoria Falls, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands, plus the Salar de Uyuni salt flat in Bolivia, mirrored after rain. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
     ("Will the watermark be on my print?",
      "No. The previews on this site carry a small Night Shade Art watermark to discourage copying; your print is made from a clean file without it."),
     ("How long does delivery take?",
@@ -73,9 +75,23 @@ def blurbs():
         out[m.group(2)] = (m.group(1), m.group(3), m.group(4))
     return out
 
+def is_live(st):
+    return st.get("status") == "live" and all(str(st.get(k) or "").startswith("https://buy.stripe.com/")
+                                              for k in ("posterUrl", "framedUrl", "muralUrl"))
+
 def card(it, alt, suffix, info):
     cls, w, blurb = info
     s, t, st, a = it["slug"], html.escape(it["title"]), it["stripe"], it["asset"]
+    if not is_live(st):  # new drop before its Stripe links exist: same 'soon' note as buy.html
+        return f'''      <article class="{cls}" id="{s}">
+        <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{html.escape(alt)}, {t} {suffix}" loading="lazy"></a>
+        <div class="meta">
+          <h3><a href="./pieces/{s}.html">{t}</a></h3>
+          <p>{blurb}</p>
+          <p class="price-line">$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>
+          <p class="note">This window opens for orders soon.</p>
+        </div>
+      </article>'''
     return f'''      <article class="{cls}" id="{s}">
         <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{html.escape(alt)}, {t} {suffix}" loading="lazy"></a>
         <div class="meta">
@@ -183,7 +199,7 @@ def page(by_slug, bl):
       <div class="kicker">Collection</div>
       <h1>{H1}</h1>
       <p class="sale-line">{N} lake and waterfall art prints · $35 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
-      <p class="answer-first">These are {N} moonlit lake and waterfall prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real places at night, among them Lake Como, Lake Bled, Hallstatt, Lake Louise, Plitvice and Iguazu Falls, with a full moon on the water and a few warm windows on the shore.</p>
+      <p class="answer-first">These are {N} moonlit lake and waterfall prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real places at night, among them Lake Como, Lake Bled, Hallstatt, Lake Louise, Plitvice, Iguazu and Victoria Falls, with a full moon on the water and a few warm windows on the shore.</p>
       <p>Water is what makes a night scene glow: the moon doubles in a still lake, and mist over a waterfall catches its light. That makes these the softest, most restful pieces in the Night Windows series, a natural fit for a bedroom, a lake house or a cabin.</p>
       <p class="note">Jump to: <a href="#lakes">Lakes</a> · <a href="#waterfalls">Waterfalls</a> · <a href="#choose">Choosing a piece</a> · <a href="#faq">FAQ</a></p>
     </section>
@@ -193,9 +209,9 @@ def page(by_slug, bl):
     <section class="prose">
       <h2 id="choose">How to choose lake wall art for your room</h2>
       <p><strong>Lake house or cabin.</strong> If the room already looks out on water, pick a scene that echoes it rather than competes with it: {P("lakeside-cabin", "Lakeside Cabin")} with its glowing window between the pines, or the misty {P("scottish-highlands-loch", "Scottish Highlands Loch")}. A framed 12×18 print suits a mantel, an entryway or the wall above a bunk.</p>
-      <p><strong>Bedroom.</strong> The stillest water reads calmest: {P("banff-lake-louise-moon", "Lake Louise")} and {P("patagonia-lake-peaks", "Patagonia Lake Peaks")}, where turquoise water mirrors the mountains, or {P("japanese-temple-pond", "Japanese Temple Pond")} with the moon reflected among stone lanterns.</p>
+      <p><strong>Bedroom.</strong> The stillest water reads calmest: {P("banff-lake-louise-moon", "Lake Louise")} and {P("patagonia-lake-peaks", "Patagonia Lake Peaks")}, where turquoise water mirrors the mountains, {P("japanese-temple-pond", "Japanese Temple Pond")} with the moon reflected among stone lanterns, or {P("salar-de-uyuni-moon", "Salar de Uyuni")}, where a salt flat turns to a mirror after rain.</p>
       <p><strong>Living room or a feature wall.</strong> Lit villages carry well across a room: {P("lake-como-bellagio-moon", "Bellagio on Lake Como")}, {P("hallstatt-lake-moon", "Hallstatt")} and {P("lake-bled-island-moon", "Lake Bled’s island church")}. To make the lake fill the wall, the same artwork comes as a 4×6 ft (48×72 in) peel and stick wall mural; the <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> covers measuring and wall prep.</p>
-      <p><strong>Office or hallway.</strong> Waterfalls bring movement to a narrow wall: {P("iguazu-falls-moon", "Iguazu Falls")} tier after tier, {P("lauterbrunnen-valley-moon", "Staubbach Falls above Lauterbrunnen")}, or {P("plitvice-lakes-moon", "Plitvice’s terraced lakes")}.</p>
+      <p><strong>Office or hallway.</strong> Waterfalls bring movement to a narrow wall: {P("iguazu-falls-moon", "Iguazu Falls")} tier after tier, {P("victoria-falls-moon", "Victoria Falls")} with a moonbow in its spray, {P("lauterbrunnen-valley-moon", "Staubbach Falls above Lauterbrunnen")}, or {P("plitvice-lakes-moon", "Plitvice’s terraced lakes")}.</p>
       <p><strong>A trip to remember.</strong> If you rowed out to Bled’s island, took the ferry to Bellagio or walked the Plitvice boardwalks, the place-named prints are made for that. Pairs work well too: Hallstatt with Lake Bled for an Alpine lakes wall, or Iguazu with Plitvice for waterfalls.</p>
       <p>Looking for peaks rather than water? The <a href="./mountain-wall-art.html">mountain wall art collection</a> has the Matterhorn, the Dolomites and Mount Fuji, and the <a href="./coastal-wall-art.html">coastal wall art collection</a> has the Amalfi Coast, Santorini and the Cliffs of Moher. Not sure about size? The <a href="./guide-print-sizes.html">print size guide</a> compares the poster, framed print and mural.</p>
     </section>
@@ -244,10 +260,15 @@ def edits():
         if a in src: put(rel, src, src.replace(a, a[:-4] + f' The lakes and waterfalls are gathered in the <a {MARK} href="./lake-wall-art.html">lake and waterfall wall art collection</a>.</p>', 1))
         else: print("WARN night-windows anchor not found")
     rel = "llms.txt"; src = (ROOT / rel).read_text(encoding="utf-8")
-    if URL not in src:
+    if URL in src:  # keep count + place names in step
+        put(rel, src, re.sub(rf"(- \[Lake and waterfall wall art\]\({re.escape(URL)}\): )\d+ (.*?) to Plitvice and Iguazu Falls,",
+                             lambda m: m.group(1) + f"{N} " + m.group(2) + " to Plitvice, Iguazu and Victoria Falls,", src, count=1)
+            if " to Plitvice and Iguazu Falls," in src else
+            re.sub(rf"(- \[Lake and waterfall wall art\]\({re.escape(URL)}\): )\d+ ", rf"\g<1>{N} ", src, count=1))
+    else:
         m = re.search(r"- \[Peel and stick wall murals\]\([^)]*\):[^\n]*\n", src)
         line = (f"- [Lake and waterfall wall art]({URL}): {N} moonlit lake and waterfall posters ($35), framed prints ($69) "
-                "and wall murals ($149), from Lake Como, Lake Bled, Hallstatt and Lake Louise to Plitvice and Iguazu Falls, with a room guide and FAQ\n")
+                "and wall murals ($149), from Lake Como, Lake Bled, Hallstatt and Lake Louise to Plitvice, Iguazu and Victoria Falls, with a room guide and FAQ\n")
         if m: put(rel, src, src[:m.end()] + line + src[m.end():])
         else: print("WARN llms.txt anchor not found")
     return out
@@ -272,9 +293,12 @@ def main():
     items = {p["slug"]: p for p in json.loads((ROOT / "products.json").read_text())}
     assert len(set(SLUGS)) == N
     for s in SLUGS:
-        st = items[s]["stripe"]; assert st["status"] == "live", s
-        for k in ("muralUrl", "posterUrl", "framedUrl"):
-            assert str(st.get(k, "")).startswith("https://buy.stripe.com/"), (s, k)
+        st = items[s]["stripe"]
+        if st.get("status") == "live":  # placeholder rows (new drop, Stripe pending) render a 'soon' card
+            for k in ("muralUrl", "posterUrl", "framedUrl"):
+                assert str(st.get(k, "")).startswith("https://buy.stripe.com/"), (s, k)
+        else:
+            print("note: Stripe not live yet, card shows 'opens for orders soon':", s)
         a = items[s]["asset"]
         assert re.fullmatch(r"\d\d-[a-z0-9-]+\.jpg", a) and (ROOT / "assets" / a).exists() and (ROOT / "assets" / "thumbs" / a).exists(), a
     new_page = page(items, blurbs())

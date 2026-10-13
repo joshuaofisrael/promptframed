@@ -20,7 +20,7 @@ FILE = "peel-and-stick-wall-murals.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-08"
+TODAY = "2026-10-13"
 OG_SLUG = "dolomites-tre-cime-moon"
 MARK = 'data-collection="murals"'
 
@@ -33,8 +33,9 @@ GROUPS = [
         ("yosemite-half-dome-moon", "Half Dome rising through valley mist above the moonlit Merced River in Yosemite"),
         ("isle-of-skye-storr-moon", "The Old Man of Storr above green Isle of Skye slopes and lochans under a full moon"),
         ("grand-canyon-rim-moon", "A twisted juniper on the Grand Canyon’s South Rim above layered red walls and the Colorado River under a full moon"),
+        ("great-wall-mutianyu-moon", "The Great Wall of China winding over forested Mutianyu ridges with lit watchtowers under a full moon"),
     ]),
-    ("lakes-waterfalls", "Lake and waterfall wall murals", "Water scenes are the calmest choice for a bedroom wall: still reflections, falling water and soft mist.", [
+    ("lakes-waterfalls", "Lake, salt flat and waterfall wall murals", "Water scenes are the calmest choice for a bedroom wall: still reflections, falling water and soft mist.", [
         ("banff-lake-louise-moon", "Turquoise Lake Louise mirroring snowy Rocky Mountain peaks under moonlight"),
         ("lake-bled-island-moon", "Lake Bled’s island church and clifftop castle on the moonlit lake"),
         ("hallstatt-lake-moon", "Hallstatt’s church steeple and lit houses reflected in a still alpine lake at night"),
@@ -42,6 +43,8 @@ GROUPS = [
         ("iguazu-falls-moon", "Tiers of Iguazu waterfalls falling into a misty rainforest gorge under a full moon"),
         ("plitvice-lakes-moon", "Plitvice’s turquoise lakes and terraced falls with a lit boardwalk through the forest"),
         ("lake-como-bellagio-moon", "Bellagio’s pastel villas and cypresses glowing along Lake Como below moonlit mountains"),
+        ("salar-de-uyuni-moon", "Bolivia’s Salar de Uyuni salt flat mirroring distant mountains and a full moon after rain"),
+        ("victoria-falls-moon", "Victoria Falls pouring into a misty gorge on the Zambezi with a moonbow in the spray under a full moon"),
     ]),
     ("coasts", "Coastal and fjord wall murals", "Cliffs, harbours and sea light for a living room or a hallway you want to open up.", [
         ("santorini-caldera-moon", "Whitewashed Santorini terraces and blue domes above the moonlit caldera"),
@@ -55,17 +58,19 @@ GROUPS = [
         ("kyoto-bamboo-moon", "A Kyoto bamboo grove path softened by mist and filtered moonlight"),
         ("zhangjiajie-pillars-moon", "Zhangjiajie’s sandstone pillars rising through forest mist at night"),
     ]),
-    ("castles", "Castle wall murals", "Storybook landmarks for a child’s room, a reading corner or a dramatic end wall.", [
+    ("castles", "Castle and landmark wall murals", "Castles, bridges and storybook landmarks for a child’s room, a reading corner or a dramatic end wall.", [
         ("neuschwanstein-castle-moon", "Neuschwanstein Castle’s white towers on a forested crag under a full moon"),
         ("mont-saint-michel-moon", "Mont Saint-Michel abbey rising from silver tidal water under moonlight"),
         ("sintra-pena-palace-moon", "Pena Palace glowing gold on a misty forested hill above Sintra under a full moon"),
+        ("prague-charles-bridge-moon", "Charles Bridge’s statues and Gothic towers over the Vltava with Prague Castle lit on the hill under a full moon"),
+        ("taj-mahal-moon", "The white marble Taj Mahal and its long reflecting pool in Agra, India, under a full moon"),
     ]),
 ]
 SLUGS = [s for _, _, _, items in GROUPS for s, _ in items]
 N = len(SLUGS)
 
 TITLE = "Peel and Stick Wall Murals: Moonlit Landscape Murals, $149 | Moonlit Windows"
-DESC = (f"Peel and stick wall murals, $149: {N} moonlit mountain, canyon, lake, waterfall, coast and castle scenes "
+DESC = (f"Peel and stick wall murals, $149: {N} moonlit mountain, canyon, lake, waterfall, coast, castle and landmark scenes "
         "as 4×6 ft (48×72 in) removable wallpaper murals. Printed to order, shipping included.")
 H1 = "Peel and Stick Wall Murals: Moonlit Landscapes for a Feature Wall"
 
@@ -94,9 +99,23 @@ def blurbs():
         out[m.group(2)] = (m.group(1), m.group(3), m.group(4))
     return out
 
+def is_live(st):
+    return st.get("status") == "live" and all(str(st.get(k) or "").startswith("https://buy.stripe.com/")
+                                              for k in ("muralUrl", "posterUrl", "framedUrl"))
+
 def card(it, alt, info):
     cls, w, blurb = info
     s, t, st, a = it["slug"], html.escape(it["title"]), it["stripe"], it["asset"]
+    if not is_live(st):  # new drop before its Stripe links exist: same 'soon' note as buy.html
+        return f'''      <article class="{cls}" id="{s}">
+        <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{html.escape(alt)}, {t} peel and stick wall mural design" loading="lazy"></a>
+        <div class="meta">
+          <h3><a href="./pieces/{s}.html">{t}</a></h3>
+          <p>{blurb}</p>
+          <p class="price-line">$149 peel &amp; stick wall mural (4×6 ft) · or $35 poster · $69 framed (12×18)</p>
+          <p class="note">This window opens for orders soon.</p>
+        </div>
+      </article>'''
     return f'''      <article class="{cls}" id="{s}">
         <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{html.escape(alt)}, {t} peel and stick wall mural design" loading="lazy"></a>
         <div class="meta">
@@ -207,9 +226,9 @@ def page(by_slug, bl):
       <div class="kicker">Collection</div>
       <h1>{H1}</h1>
       <p class="sale-line">{N} wall mural designs · $149 peel &amp; stick wall mural · 4×6 ft (48×72 in) · removable · printed to order · shipping included</p>
-      <p class="answer-first">Every Night Windows piece can be ordered as a 4×6 ft (48×72 in) peel and stick wall mural for $149, shipping included. It is printed to order on removable peel-and-stick polyester, needs no paste, removes cleanly from most smooth painted walls, and ships by post in 1–2 weeks. The {N} scenes below are the ones that work best at wall size: mountains, lakes and waterfalls, coasts, forests and castles, all under a full moon.</p>
+      <p class="answer-first">Every Night Windows piece can be ordered as a 4×6 ft (48×72 in) peel and stick wall mural for $149, shipping included. It is printed to order on removable peel-and-stick polyester, needs no paste, removes cleanly from most smooth painted walls, and ships by post in 1–2 weeks. The {N} scenes below are the ones that work best at wall size: mountains, lakes and waterfalls, coasts, forests, castles and landmarks, all under a full moon.</p>
       <p>The mural is a tall panel, 48 inches wide by 72 inches high, and each piece here is composed in that same tall 2:3 proportion, so the scene reads like a window cut into the wall: a peak at the top, a lit village, lake or path below. If you would rather hang a print, every design is also a 12×18 in poster ($35) or a black-framed print ($69).</p>
-      <p class="note">Jump to: <a href="#mountains">Mountains</a> · <a href="#lakes-waterfalls">Lakes &amp; waterfalls</a> · <a href="#coasts">Coasts &amp; fjords</a> · <a href="#forests">Forests</a> · <a href="#castles">Castles</a> · <a href="#measure">How to measure</a> · <a href="#faq">FAQ</a></p>
+      <p class="note">Jump to: <a href="#mountains">Mountains</a> · <a href="#lakes-waterfalls">Lakes &amp; waterfalls</a> · <a href="#coasts">Coasts &amp; fjords</a> · <a href="#forests">Forests</a> · <a href="#castles">Castles &amp; landmarks</a> · <a href="#measure">How to measure</a> · <a href="#faq">FAQ</a></p>
     </section>
 
 {grids}
@@ -323,7 +342,9 @@ def edits():
 
     # llms.txt Shop section
     rel = "llms.txt"; src = (ROOT / rel).read_text(encoding="utf-8")
-    if URL not in src:
+    if URL in src:
+        put(rel, src, re.sub(rf"(- \[Peel and stick wall murals\]\({re.escape(URL)}\): )\d+ ", rf"\g<1>{N} ", src, count=1))
+    else:
         a = "with a room guide and FAQ\n"
         line = (f"- [Peel and stick wall murals]({URL}): {N} moonlit scenes picked for a feature wall as 4×6 ft (48×72 in) "
                 "removable peel-and-stick wall murals ($149, shipping included), with measuring, wall prep and FAQ\n")
@@ -363,9 +384,11 @@ def main():
     for s in SLUGS:
         it = items[s]
         st = it["stripe"]
-        assert st["status"] == "live", s
-        for k in ("muralUrl", "posterUrl", "framedUrl"):
-            assert str(st.get(k, "")).startswith("https://buy.stripe.com/"), (s, k)
+        if st.get("status") == "live":  # placeholder rows (new drop, Stripe pending) render a 'soon' card
+            for k in ("muralUrl", "posterUrl", "framedUrl"):
+                assert str(st.get(k, "")).startswith("https://buy.stripe.com/"), (s, k)
+        else:
+            print("note: Stripe not live yet, card shows 'opens for orders soon':", s)
         assert re.fullmatch(r"\d\d-[a-z0-9-]+\.jpg", it["asset"]), it["asset"]
         assert (ROOT / "assets" / it["asset"]).exists() and (ROOT / "assets" / "thumbs" / it["asset"]).exists(), it["asset"]
     bl = blurbs()

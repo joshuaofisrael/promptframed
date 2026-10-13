@@ -4,23 +4,35 @@ framed prints, wall murals) and wire internal links to it. Idempotent.
 
 Cards reuse the live Stripe links from products.json and the card blurbs already on buy.html.
 Images are the public watermarked previews (assets/thumbs + assets), never masters.
+A piece whose Stripe links are still placeholders (new drop) gets a card with the same
+'opens for orders soon' note as buy.html; re-run after its links land.
+
+  python3 scripts/build_collection_mountain.py          # write page + wire links + sitemap/llms.txt
+  python3 scripts/build_collection_mountain.py --check  # dry run: exit 1 if anything would change
 """
 import html, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+CHECK = "--check" in sys.argv
+TODAY = "2026-10-13"
 PAGE = ROOT / "mountain-wall-art.html"
 URL = "https://moonlitwindows.com/mountain-wall-art.html"
 SLUGS = [  # order = how they appear on the page
     "matterhorn-alpine-moon", "dolomites-tre-cime-moon", "mount-fuji-pagoda-moon",
     "lauterbrunnen-valley-moon", "isle-of-skye-storr-moon", "yosemite-half-dome-moon",
     "banff-lake-louise-moon", "patagonia-lake-peaks", "zhangjiajie-pillars-moon",
-    "machu-picchu-mist", "scottish-highlands-loch", "snowy-peaks-above-clouds",
+    "great-wall-mutianyu-moon", "machu-picchu-mist", "scottish-highlands-loch", "snowy-peaks-above-clouds",
     "moonlit-alpine-meadow",
 ]
+N = len(SLUGS)
+_WORDS = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+_TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+def words(n):  # 60 -> "sixty", 65 -> "sixty-five" (series count in the closing line)
+    return _WORDS[n] if n < 20 else _TENS[n // 10] + ("-" + _WORDS[n % 10] if n % 10 else "")
 TITLE = "Mountain Wall Art Posters, Framed Prints &amp; Wall Murals | Moonlit Windows"
-DESC = ("Mountain wall art for sale: 13 moonlit mountain posters and framed prints, from the "
-        "Matterhorn, Dolomites and Mount Fuji to Yosemite and the Isle of Skye. 12×18 poster $35, "
+DESC = (f"Mountain wall art for sale: {N} moonlit mountain posters and framed prints, from the "
+        "Matterhorn, Dolomites and Mount Fuji to Yosemite, Skye and the Great Wall. 12×18 poster $35, "
         "framed print $69, 4×6 ft peel and stick wall mural $149, shipping included.")
 LINK_MARK = 'data-collection="mountain"'
 
@@ -31,10 +43,24 @@ def blurbs():
         out[m.group(2)] = (m.group(1), m.group(3), m.group(4))
     return out
 
+def is_live(st):
+    return st.get("status") == "live" and all(str(st.get(k) or "").startswith("https://buy.stripe.com/")
+                                              for k in ("posterUrl", "framedUrl", "muralUrl"))
+
 def card(it, info):
     cls, w, blurb = info
     s, t, st = it["slug"], html.escape(it["title"]), it["stripe"]
     a = it["asset"]
+    if not is_live(st):
+        return f'''      <article class="{cls}" id="{s}">
+        <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{t} mountain wall art poster and framed print" loading="lazy"></a>
+        <div class="meta">
+          <h3><a href="./pieces/{s}.html">{t}</a></h3>
+          <p>{blurb}</p>
+          <p class="price-line">$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>
+          <p class="note">This window opens for orders soon.</p>
+        </div>
+      </article>'''
     return f'''      <article class="{cls}" id="{s}">
         <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{t} mountain wall art poster and framed print" loading="lazy"></a>
         <div class="meta">
@@ -78,7 +104,7 @@ def faq_ld():
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQ]},
         ensure_ascii=False, indent=2)
 
-def page(items, bl):
+def page(items, bl, total):
     cards = "\n".join(card(it, bl[it["slug"]]) for it in items)
     og = "https://moonlitwindows.com/assets/" + items[0]["asset"]
     return f'''<!DOCTYPE html>
@@ -133,8 +159,8 @@ def page(items, bl):
     <section class="hero left">
       <div class="kicker">Collection</div>
       <h1>Mountain Wall Art: Moonlit Mountain Posters &amp; Framed Prints</h1>
-      <p class="sale-line">13 mountain art prints · $35 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
-      <p>Every piece in this collection is a mountain scene at night: real peaks you can find on a map, seen under a full moon, often with a few warm windows glowing in the valley. The Matterhorn over a still alpine lake, the three towers of the Dolomites’ Tre Cime, Mount Fuji behind the Chureito Pagoda, Yosemite’s Half Dome, Lake Louise in the Canadian Rockies, and the Old Man of Storr on the Isle of Skye are all here, along with quieter scenes like a wildflower meadow above an alpine village and snowy peaks above the clouds.</p>
+      <p class="sale-line">{N} mountain art prints · $35 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
+      <p>Every piece in this collection is a mountain scene at night: real peaks you can find on a map, seen under a full moon, often with a few warm windows glowing in the valley. The Matterhorn over a still alpine lake, the three towers of the Dolomites’ Tre Cime, Mount Fuji behind the Chureito Pagoda, Yosemite’s Half Dome, Lake Louise in the Canadian Rockies, the Old Man of Storr on the Isle of Skye, and the Great Wall of China climbing the forested ridges at Mutianyu are all here, along with quieter scenes like a wildflower meadow above an alpine village and snowy peaks above the clouds.</p>
       <p>Each one comes three ways: a 12×18 inch enhanced matte poster, the same print in a black frame, or a 4×6 ft peel and stick wall mural for a whole feature wall.</p>
     </section>
 
@@ -142,7 +168,7 @@ def page(items, bl):
       <h2>How to choose mountain wall art for your room</h2>
       <p><strong>Bedroom.</strong> Moonlit scenes are dark and blue by nature, so they sit well where you want the room to feel calm. The stillest pieces are the lake scenes: <a href="./pieces/banff-lake-louise-moon.html">Banff Lake Louise Moon</a> and <a href="./pieces/patagonia-lake-peaks.html">Patagonia Lake Peaks</a>, where turquoise water mirrors the peaks, and the misty <a href="./pieces/scottish-highlands-loch.html">Scottish Highlands Loch</a>. A framed 12×18 print fits above a nightstand or a small dresser.</p>
       <p><strong>Living room or a feature wall.</strong> Big, recognisable silhouettes read best from across a room: <a href="./pieces/matterhorn-alpine-moon.html">the Matterhorn</a>, <a href="./pieces/mount-fuji-pagoda-moon.html">Mount Fuji</a> and <a href="./pieces/yosemite-half-dome-moon.html">Half Dome</a>. If you want the mountain to fill the wall rather than hang on it, the 4×6 ft (48×72 in) peel and stick wall mural uses the same artwork, needs no paste, and comes off most smooth painted walls cleanly. The <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> gathers the scenes that work best at wall size, with tips on measuring and wall prep.</p>
-      <p><strong>Office or hallway.</strong> Detailed scenes reward a closer look: <a href="./pieces/lauterbrunnen-valley-moon.html">Lauterbrunnen Valley</a> with its waterfall, <a href="./pieces/zhangjiajie-pillars-moon.html">Zhangjiajie’s stone pillars</a>, and <a href="./pieces/machu-picchu-mist.html">Machu Picchu in the mist</a>.</p>
+      <p><strong>Office or hallway.</strong> Detailed scenes reward a closer look: <a href="./pieces/lauterbrunnen-valley-moon.html">Lauterbrunnen Valley</a> with its waterfall, <a href="./pieces/zhangjiajie-pillars-moon.html">Zhangjiajie’s stone pillars</a>, <a href="./pieces/great-wall-mutianyu-moon.html">the Great Wall’s lit watchtowers at Mutianyu</a>, and <a href="./pieces/machu-picchu-mist.html">Machu Picchu in the mist</a>.</p>
       <p><strong>A place you have been.</strong> Many people buy mountain art to remember a trip. If you hiked the Dolomites, skied near Zermatt or drove the Skye loop, the place-named prints are meant for exactly that. Pairs work well too: the Matterhorn with the Dolomites for an Alps wall, or Skye with the Highlands loch for Scotland.</p>
       <p>Not sure which size suits your wall? The <a href="./guide-print-sizes.html">print size guide</a> walks through 12×18 placement, and every piece page has larger previews.</p>
     </section>
@@ -159,7 +185,7 @@ def page(items, bl):
       <p><strong>How long does a mural take?</strong> Murals are printed to order and ship in 1–2 weeks.</p>
       <p><strong>Are these real places?</strong> Most are named landmarks, reimagined at night. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and <a href="./pieces/moonlit-alpine-meadow.html">Moonlit Alpine Meadow</a> and <a href="./pieces/snowy-peaks-above-clouds.html">Snowy Peaks Above Clouds</a> are imagined alpine scenes.</p>
       <p><strong>How do I pay?</strong> Every button opens secure Stripe checkout, and your receipt arrives by email.</p>
-      <p>Looking for something other than mountains? Browse <a href="./night-windows.html">all fifty Night Windows</a> or the <a href="./buy.html">full shop</a>.</p>
+      <p>Looking for something other than mountains? Browse <a href="./night-windows.html">all {words(total)} Night Windows</a> or the <a href="./buy.html">full shop</a>.</p>
     </section>
   </div>
   <footer class="site-footer">
@@ -172,50 +198,86 @@ def page(items, bl):
 </html>
 '''
 
-def wire_links():
-    n = 0
-    # piece pages: one line after "More windows like this"
+PIECE_LINK = (f'<p class="note collection-link" {LINK_MARK}>Part of the <a href="../mountain-wall-art.html">'
+              'mountain wall art collection</a>: moonlit mountain posters, framed prints and wall murals.</p>')
+
+def edits():
+    """Return {relpath: new_text} for files whose content would change."""
+    out = {}
+    def put(rel, old, new):
+        if new != old: out[rel] = new
+    # piece pages: one line after "More windows like this" (no count, so it never goes stale)
     for s in SLUGS:
-        p = ROOT / "pieces" / f"{s}.html"; src = p.read_text()
-        if LINK_MARK in src: continue
-        line = f'\n        <p class="note collection-link" {LINK_MARK}>Part of the <a href="../mountain-wall-art.html">mountain wall art collection</a>: 13 moonlit mountain posters, framed prints and wall murals.</p>'
-        new, k = re.subn(r'(<p class="note related-windows">.*?</p>)', r'\1' + line.replace('\\', r'\\'), src, count=1, flags=re.S)
-        if not k:  # older pages: put it right under the mural note in the buy box
-            new, k = re.subn(r'(<p class="note mural-note">.*?</p>)', lambda m: m.group(1) + line.replace('\n        ', '\n          '), src, count=1, flags=re.S)
-        if k: p.write_text(new); n += 1
-        else: print("WARN no anchor on", s)
+        rel = f"pieces/{s}.html"; src = (ROOT / rel).read_text(encoding="utf-8")
+        if LINK_MARK in src:
+            new = re.sub(rf'<p class="note collection-link" {re.escape(LINK_MARK)}>.*?</p>', lambda m: PIECE_LINK, src, count=1)
+        else:
+            line = "\n        " + PIECE_LINK
+            new, k = re.subn(r'(<p class="note related-windows">.*?</p>)', lambda m: m.group(1) + line, src, count=1, flags=re.S)
+            if not k:  # older pages: put it right under the mural note in the buy box
+                new, k = re.subn(r'(<p class="note mural-note">.*?</p>)', lambda m: m.group(1) + line.replace("\n        ", "\n          "), src, count=1, flags=re.S)
+            if not k: print("WARN no anchor on", s)
+        put(rel, src, new)
     # hub: mountains paragraph
-    hub = ROOT / "night-windows.html"; src = hub.read_text()
+    rel = "night-windows.html"; src = (ROOT / rel).read_text(encoding="utf-8")
     if LINK_MARK not in src:
-        src2 = src.replace("and <a href=\"./pieces/yosemite-half-dome-moon.html\">Yosemite’s Half Dome</a>.</p>",
-            "and <a href=\"./pieces/yosemite-half-dome-moon.html\">Yosemite’s Half Dome</a>. See them together in the <a " + LINK_MARK + " href=\"./mountain-wall-art.html\">mountain wall art collection</a>.</p>", 1)
-        if src2 != src: hub.write_text(src2); n += 1
-        else: print("WARN hub anchor not found")
+        put(rel, src, src.replace("and <a href=\"./pieces/yosemite-half-dome-moon.html\">Yosemite’s Half Dome</a>.</p>",
+            "and <a href=\"./pieces/yosemite-half-dome-moon.html\">Yosemite’s Half Dome</a>. See them together in the <a " + LINK_MARK + " href=\"./mountain-wall-art.html\">mountain wall art collection</a>.</p>", 1))
+        if rel not in out: print("WARN hub anchor not found")
     # buy.html hero: after the mural note
-    buy = ROOT / "buy.html"; src = buy.read_text()
+    rel = "buy.html"; src = (ROOT / rel).read_text(encoding="utf-8")
     if LINK_MARK not in src:
         anchor = '</p>\n      <p class="price-line">$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>\n    </section>'
-        src2 = src.replace(anchor, anchor[:-len('\n    </section>')] + '\n      <p class="note" ' + LINK_MARK + '>Browse by theme: <a href="./mountain-wall-art.html">Mountain wall art</a></p>\n    </section>', 1)
-        if src2 != src: buy.write_text(src2); n += 1
-        else: print("WARN buy hero anchor not found")
-    return n
+        put(rel, src, src.replace(anchor, anchor[:-len('\n    </section>')] + '\n      <p class="note" ' + LINK_MARK + '>Browse by theme: <a href="./mountain-wall-art.html">Mountain wall art</a></p>\n    </section>', 1))
+        if rel not in out: print("WARN buy hero anchor not found")
+    # llms.txt: keep the count in step
+    rel = "llms.txt"; src = (ROOT / rel).read_text(encoding="utf-8")
+    put(rel, src, re.sub(r"(- \[Mountain wall art\]\(" + re.escape(URL) + r"\): )\d+ moonlit mountain pieces \([^)]*\)",
+                         lambda m: m.group(1) + f"{N} moonlit mountain pieces (Matterhorn, Dolomites, Mount Fuji, Yosemite, Isle of Skye, the Great Wall and more)", src, count=1))
+    return out
 
-def sitemap():
-    sm = ROOT / "sitemap.xml"; src = sm.read_text()
-    if URL in src: return False
-    entry = (f'  <url><loc>{URL}</loc><lastmod>2026-10-07</lastmod>'
-             f'<image:image><image:loc>https://moonlitwindows.com/assets/35-matterhorn-alpine-moon.jpg</image:loc></image:image></url>\n')
-    sm.write_text(src.replace("</urlset>", entry + "</urlset>")); return True
+def sitemap(changed):
+    sm = (ROOT / "sitemap.xml").read_text(encoding="utf-8"); n = sm
+    if f"<loc>{URL}</loc>" not in n:
+        entry = (f'  <url><loc>{URL}</loc><lastmod>{TODAY}</lastmod>'
+                 f'<image:image><image:loc>https://moonlitwindows.com/assets/35-matterhorn-alpine-moon.jpg</image:loc></image:image></url>\n')
+        n = n.replace("</urlset>", entry + "</urlset>")
+    for rel in changed:
+        url = f"https://moonlitwindows.com/{rel}"
+        n = re.sub(rf"(<loc>{re.escape(url)}</loc>)(\s*)(<lastmod>[^<]*</lastmod>)?",
+                   lambda m: m.group(1) + (m.group(2) if m.group(3) else "") + f"<lastmod>{TODAY}</lastmod>", n)
+    for bad in ("print-masters", ".png<", "github.io"):
+        if bad in n: raise SystemExit(f"sitemap would expose {bad}")
+    return n if n != sm else None
 
 def main():
-    items = {p["slug"]: p for p in json.load(open(ROOT / "products.json"))}
+    products = json.load(open(ROOT / "products.json"))
+    items = {p["slug"]: p for p in products}
+    assert len(set(SLUGS)) == N
     sel = [items[s] for s in SLUGS]
     for it in sel:
-        assert it["stripe"]["status"] == "live" and it["stripe"].get("muralUrl"), it["slug"]
-        assert it["asset"].endswith(".jpg") and (ROOT / "assets" / it["asset"]).exists(), it["asset"]
-    bl = blurbs()
-    PAGE.write_text(page(sel, bl))
-    print("page written; links wired:", wire_links(), "; sitemap added:", sitemap())
+        st = it["stripe"]
+        if st.get("status") == "live":
+            assert st.get("muralUrl"), it["slug"]
+        else:
+            print("note: Stripe not live yet, card shows 'opens for orders soon':", it["slug"])
+        assert it["asset"].endswith(".jpg") and (ROOT / "assets" / it["asset"]).exists() and (ROOT / "assets" / "thumbs" / it["asset"]).exists(), it["asset"]
+    new_page = page(sel, blurbs(), len(products))
+    for bad in ("print-masters", ".png", "github.io", "ChatGPT", "Higgsfield", "canvas"):
+        assert bad.lower() not in new_page.lower(), bad
+    assert not re.search(r"\bAI\b", new_page), "AI"
+    changes = edits()
+    old = PAGE.read_text(encoding="utf-8") if PAGE.exists() else None
+    if new_page != old: changes["mountain-wall-art.html"] = new_page
+    sm = sitemap([c for c in changes if c.endswith(".html")])
+    if sm is not None: changes["sitemap.xml"] = sm
+    if CHECK:
+        print(("WOULD CHANGE: " + ", ".join(sorted(changes))) if changes else "up to date")
+        return 1 if changes else 0
+    for rel, txt in changes.items(): (ROOT / rel).write_text(txt, encoding="utf-8")
+    print(f"{N} pieces; changed {len(changes)} files:", " ".join(c for c in sorted(changes) if not c.startswith("pieces/")),
+          f"+ {sum(c.startswith('pieces/') for c in changes)} piece pages")
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())

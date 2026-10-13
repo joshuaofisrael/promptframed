@@ -45,7 +45,12 @@ What one run does (idempotent):
   * grid thumbnails + srcset for new cards (build_grid_thumbs)
 Does NOT git commit/push and never touches Stripe.
 
-Not handled here (hand-curated collection pages; update them separately if wanted):
+Collection pages are hand-curated by their own build scripts (13 Oct 2026: 56–60 were added to
+murals, Great Wall to mountain, Victoria Falls + Salar de Uyuni to lakes). Their cards show
+'opens for orders soon' while Stripe is a placeholder; after the Stripe links land, re-run
+build_collection_murals.py, build_collection_mountain.py and build_collection_lakes.py too.
+Re-runs of this script keep any lakes/coastal collection-link notes on the new piece pages.
+Original notes:
   * lake-wall-art.html (build_collection_lakes.py GROUPS) — candidates: victoria-falls-moon,
     salar-de-uyuni-moon. The hub themes paragraph keeps its lakes collection link.
   * mountain-wall-art.html (build_collection_mountain.py SLUGS) — great-wall-mutianyu-moon gets the
@@ -144,9 +149,9 @@ NEW_PIECES = [
         "slug": "victoria-falls-moon",
         "title": "Victoria Falls Moon",
         "photoNumber": 59,
-        "alt": "Moonlit Victoria Falls on the Zambezi River, a wide curtain of white water plunging into a misty gorge lined with green rainforest and a full moon behind wispy clouds",
-        "description": "The Zambezi pours over Victoria Falls in a wide moonlit curtain, its mist rising from the gorge under a cloud-veiled moon.",
-        "card_blurb": "A thundering curtain, rising mist, and a moon over Victoria Falls.",
+        "alt": "Moonlit Victoria Falls on the Zambezi River, a wide curtain of white water plunging into a misty gorge lined with green rainforest, a colorful moonbow in the spray and a full moon behind wispy clouds",
+        "description": "A moonbow arcs through the rising mist as the Zambezi pours over Victoria Falls in a wide moonlit curtain beneath a cloud-veiled moon.",
+        "card_blurb": "A thundering curtain, a misty moonbow, and a moon over Victoria Falls.",
         "keywords": [
             "Victoria Falls night",
             "Victoria Falls moonlight",
@@ -219,6 +224,10 @@ MURALS_SUFFIX = (' For a whole feature wall, see the <a data-collection="murals"
 # rewritten below, so it must be carried here or the lakes link would be dropped.
 LAKES_SUFFIX = (' The lakes and waterfalls are gathered in the <a data-collection="lakes" '
                 'href="./lake-wall-art.html">lake and waterfall wall art collection</a>.')
+# Added to the hub by build_collection_coastal.py (13 Oct 2026, right after the lakes link); carried
+# here for the same reason (the first 56–60 run dropped it).
+COASTAL_SUFFIX = (' Seaside villages, ocean cliffs and fjords are in the <a data-collection="coastal" '
+                  'href="./coastal-wall-art.html">coastal wall art collection</a>.')
 HUB_THEMES = [
     (
         "Castles and old towns",
@@ -280,7 +289,7 @@ HUB_THEMES = [
             ("banff-lake-louise-moon", "Lake Louise"),
             ("moonlit-waterfall", "a moonlit waterfall"),
         ],
-        MURALS_SUFFIX + LAKES_SUFFIX,
+        MURALS_SUFFIX + LAKES_SUFFIX + COASTAL_SUFFIX,
     ),
 ]
 
@@ -706,6 +715,16 @@ def write_piece_page(piece: dict, aw: int, ah: int, tt: dict[str, str]) -> None:
             extra = [s for s in re.findall(r'href="\./([a-z0-9-]+)\.html"', m.group(0)) if s not in RELATED[piece["slug"]]]
             if extra:
                 new = new.replace(related_para(RELATED[piece["slug"]], tt), related_para(RELATED[piece["slug"]] + extra, tt))
+        # Keep collection-link notes added by build_collection_*.py (lakes, coastal, ...) that this
+        # template does not render itself, in their old order, right after the murals note.
+        have = set(re.findall(r'<p class="note collection-link" data-collection="([a-z-]+)">', new))
+        keep = [m.group(0) for m in re.finditer(r'<p class="note collection-link" data-collection="([a-z-]+)">.*?</p>', old)
+                if m.group(1) not in have]
+        if keep:
+            anchor = re.search(r'(\n(\s*)<p class="note collection-link" data-collection="murals">.*?</p>)', new)
+            if anchor:
+                ins = "".join("\n" + anchor.group(2) + k for k in keep)
+                new = new[:anchor.end()] + ins + new[anchor.end():]
     if write_if_changed(path, new, page_url(piece["slug"])):
         print(f"  piece page: pieces/{piece['slug']}.html")
 
