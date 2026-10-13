@@ -1828,5 +1828,95 @@
     },
     "asset": "55-big-sur-bixby-bridge-moon.jpg",
     "printSource": "gallery/55-big-sur-bixby-bridge-moon.png"
+  },
+  {
+    "slug": "prague-charles-bridge-moon",
+    "title": "Prague Charles Bridge Moon",
+    "series": "Night Windows",
+    "photoNumber": 56,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "56-prague-charles-bridge-moon.jpg",
+    "printSource": "gallery/56-prague-charles-bridge-moon.png"
+  },
+  {
+    "slug": "taj-mahal-moon",
+    "title": "Taj Mahal Moon",
+    "series": "Night Windows",
+    "photoNumber": 57,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "57-taj-mahal-moon.jpg",
+    "printSource": "gallery/57-taj-mahal-moon.png"
+  },
+  {
+    "slug": "salar-de-uyuni-moon",
+    "title": "Salar de Uyuni Moon",
+    "series": "Night Windows",
+    "photoNumber": 58,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "58-salar-de-uyuni-moon.jpg",
+    "printSource": "gallery/58-salar-de-uyuni-moon.png"
+  },
+  {
+    "slug": "victoria-falls-moon",
+    "title": "Victoria Falls Moon",
+    "series": "Night Windows",
+    "photoNumber": 59,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "59-victoria-falls-moon.jpg",
+    "printSource": "gallery/59-victoria-falls-moon.png"
+  },
+  {
+    "slug": "great-wall-mutianyu-moon",
+    "title": "Great Wall Mutianyu Moon",
+    "series": "Night Windows",
+    "photoNumber": 60,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "60-great-wall-mutianyu-moon.jpg",
+    "printSource": "gallery/60-great-wall-mutianyu-moon.png"
   }
 ]

@@ -1268,5 +1268,120 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "56-prague-charles-bridge-moon",
+    "slug": "prague-charles-bridge-moon",
+    "title": "Prague Charles Bridge Moon",
+    "photoNumber": 56,
+    "file": "56-prague-charles-bridge-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Charles Bridge in Prague with its rows of stone statues and Gothic bridge towers, Prague Castle glowing on the hill across the Vltava River and a full moon behind wispy clouds",
+    "description": "Charles Bridge and its Gothic towers glow over the Vltava as Prague Castle shines on the hill beneath a cloud-veiled moon.",
+    "keywords": [
+      "Prague Charles Bridge night",
+      "Charles Bridge moonlight",
+      "Prague castle wall art",
+      "Prague cityscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "57-taj-mahal-moon",
+    "slug": "taj-mahal-moon",
+    "title": "Taj Mahal Moon",
+    "photoNumber": 57,
+    "file": "57-taj-mahal-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Taj Mahal in Agra, India, its white marble dome and minarets glowing above the long reflecting pool, with cypress-lined gardens and a full moon behind wispy clouds",
+    "description": "The white marble Taj Mahal glows above its long reflecting pool and cypress gardens under a bright, cloud-veiled Agra moon.",
+    "keywords": [
+      "Taj Mahal night",
+      "Taj Mahal moonlight",
+      "India landmark wall art",
+      "Taj Mahal landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "58-salar-de-uyuni-moon",
+    "slug": "salar-de-uyuni-moon",
+    "title": "Salar de Uyuni Moon",
+    "photoNumber": 58,
+    "file": "58-salar-de-uyuni-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Salar de Uyuni salt flat in Bolivia under a thin layer of water, mirroring the glowing sky, distant mountains and a full moon behind wispy clouds",
+    "description": "Bolivia’s Salar de Uyuni turns to a mirror after rain, doubling distant peaks and a cloud-veiled moon across the salt flat.",
+    "keywords": [
+      "Salar de Uyuni night",
+      "Uyuni salt flat moonlight",
+      "Bolivia landscape wall art",
+      "salt flat mirror print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "59-victoria-falls-moon",
+    "slug": "victoria-falls-moon",
+    "title": "Victoria Falls Moon",
+    "photoNumber": 59,
+    "file": "59-victoria-falls-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Victoria Falls on the Zambezi River, a wide curtain of white water plunging into a misty gorge lined with green rainforest and a full moon behind wispy clouds",
+    "description": "The Zambezi pours over Victoria Falls in a wide moonlit curtain, its mist rising from the gorge under a cloud-veiled moon.",
+    "keywords": [
+      "Victoria Falls night",
+      "Victoria Falls moonlight",
+      "African waterfall wall art",
+      "Victoria Falls landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "60-great-wall-mutianyu-moon",
+    "slug": "great-wall-mutianyu-moon",
+    "title": "Great Wall Mutianyu Moon",
+    "photoNumber": 60,
+    "file": "60-great-wall-mutianyu-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Great Wall of China at Mutianyu winding along forested mountain ridges, its stone watchtowers glowing with warm light and a full moon behind wispy clouds",
+    "description": "The Great Wall winds over forested Mutianyu ridges, its stone watchtowers glowing warm beneath a cloud-veiled Beijing moon.",
+    "keywords": [
+      "Great Wall of China night",
+      "Mutianyu Great Wall moonlight",
+      "China landmark wall art",
+      "Great Wall landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]
