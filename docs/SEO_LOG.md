@@ -320,3 +320,23 @@ Why highest EV for a brand-new product gallery:
 ### Next
 - Signed-in GSC: request indexing for /lake-wall-art.html, the 5 new piece URLs (51–55) and /peel-and-stick-wall-murals.html; pull 7/28d numbers.
 - Next clusters if these earn impressions: coasts (Amalfi, Santorini, Cinque Terre, Lofoten, Cliffs of Moher, Big Sur), Asia temples (Kyoto, Fuji, Angkor, Bagan), castles once there are more than 3.
+
+## 2026-10-13 04:55 London — Scheduled run: coastal wall art collection page
+### Data review
+- Stripe: no Night Windows sales. Only checkout since the last run is an open, unpaid $35 Lakeside Cabin poster session (12 Oct 08:44 London, the $35 price-change check). The `joshua-israel-ventures-llc` Stripe connector needs re-auth; the `stripe` connector (same LLC account) works.
+- GSC: not checked. The daily drop was using the shared desktop browser to make pieces 56–60 at the same time. Last numbers: 8 Oct, 28d 0 clicks, 4 impressions, avg pos 6.8. Still too little data to pick winners, so the theme-cluster plan continues.
+- Price raise check: no stale $29 left in public HTML/JSON/txt; `apply_stripe_links.py --check` 55/55.
+
+### Opportunity chosen (and why)
+**New collection page `/coastal-wall-art.html`** targeting "coastal wall art", "ocean wall art", "seaside poster", "fjord wall art" and place variants (Amalfi Coast, Santorini, Cinque Terre, Cliffs of Moher, Big Sur, Lofoten, Mont Saint-Michel, Ha Long Bay). Coasts were the next cluster on the plan after mountains, murals and lakes; 14 of 55 pieces fit and no page could rank for them.
+
+### Shipped (commit d0ad58a)
+- Title "Coastal Wall Art: Moonlit Ocean & Seaside Posters, Framed Prints | Moonlit Windows"; price-led meta/OG; H1 "Coastal Wall Art: Moonlit Ocean, Seaside and Fjord Prints"; answer-first opener.
+- 14 pieces in three groups (Mediterranean coast 5, ocean cliffs and wild shores 5, fjords and bays 4); poster $35 / framed $69 / mural $149 buttons from products.json; place-named alt text.
+- Room guide (beach house, bedroom, living room/feature wall, office, trip pairs); 6-question FAQ mirrored in FAQPage JSON-LD, including honest real-vs-imagined and "is this beach decor?" answers. CollectionPage + ItemList + BreadcrumbList JSON-LD.
+- Internal links: the 14 piece pages (after their last collection link), buy.html "Browse by theme", night-windows.html coasts paragraph, lake page ("Looking for peaks rather than water?") and murals page ("Looking for something else") via their builders. Lake/murals page footers carry the new link. llms.txt Shop line. sitemap.xml 70 URLs (lake + murals lastmod 13 Oct).
+- Generator `scripts/build_collection_coastal.py` (idempotent, `--check`). Checks: JSON-LD parses, sitemap parses, no broken relative links, no banned words, coastal/lakes/murals builders `--check` up to date, `apply_stripe_links.py --check` 55/55. Live 200 at 04:59 London; IndexNow 200 for 21 URLs.
+
+### Next
+- Signed-in GSC: request indexing for /coastal-wall-art.html, /lake-wall-art.html, pieces 51–55, /peel-and-stick-wall-murals.html, and today's drop (56–60); pull 7/28d numbers.
+- Next cluster if these earn impressions: Asia temples (Kyoto, Fuji, Angkor, Bagan, Bali), or a "moon poster for bedroom" buyer guide.
