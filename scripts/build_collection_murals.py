@@ -250,7 +250,7 @@ def page(by_slug, bl):
     <section class="prose" id="faq">
       <h2>Wall mural questions</h2>
 {faq_html()}
-      <p>Looking for something else? Browse <a href="./mountain-wall-art.html">mountain wall art</a>, <a href="./lake-wall-art.html">lake and waterfall wall art</a>, <a href="./night-windows.html">every Night Windows piece</a> or the <a href="./buy.html">full shop</a>, where every piece has a wall mural button.</p>
+      <p>Looking for something else? Browse <a href="./mountain-wall-art.html">mountain wall art</a>, <a href="./lake-wall-art.html">lake and waterfall wall art</a>, <a href="./coastal-wall-art.html">coastal wall art</a>, <a href="./night-windows.html">every Night Windows piece</a> or the <a href="./buy.html">full shop</a>, where every piece has a wall mural button.</p>
     </section>
   </div>
   <footer class="site-footer">
