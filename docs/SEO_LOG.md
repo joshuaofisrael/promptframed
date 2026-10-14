@@ -340,3 +340,28 @@ Why highest EV for a brand-new product gallery:
 ### Next
 - Signed-in GSC: request indexing for /coastal-wall-art.html, /lake-wall-art.html, pieces 51–55, /peel-and-stick-wall-murals.html, and today's drop (56–60); pull 7/28d numbers.
 - Next cluster if these earn impressions: Asia temples (Kyoto, Fuji, Angkor, Bagan, Bali), or a "moon poster for bedroom" buyer guide.
+
+## 2026-10-14 04:55 London — Scheduled run: Asian wall art collection page
+### Data review
+- Stripe: no Night Windows sales. No new checkout sessions since the 12 Oct $35 Lakeside Cabin price-check session (now expired, unpaid).
+- GSC: not checked. The daily drop was using the shared desktop browser to make the next pieces (Bruges) at the same time. Last numbers: 8 Oct, 28d 0 clicks, 4 impressions, avg pos 6.8. Still too little data to pick winners, so the theme-cluster plan continues.
+- News post: none (no genuinely relevant news for the niche today).
+- Outreach: no emails sent. This routine's saved instruction doesn't name outreach sends, so the 5/day allotment needs the parent/Joshua to authorise it (or the routine prompt updated) before any go out.
+
+### Opportunity chosen (and why)
+**New collection page `/asian-wall-art.html`** targeting "asian wall art", "japanese wall art", "japan poster", "temple wall art" and place variants (Mount Fuji, Kyoto, Great Wall, Guilin, Taj Mahal, Angkor Wat, Bagan, Ha Long Bay). Asia was the next cluster on the plan after mountains, murals, lakes and coasts; 12 of 60 pieces fit and no page could rank for them. "Japanese wall art" is a large buyer-intent term.
+
+### Shipped (commit 5d1ee23)
+- Title "Asian Wall Art: Japanese & Temple Posters, Framed Prints | Moonlit Windows"; price-led meta/OG; H1 "Asian Wall Art: Moonlit Japanese, Chinese and Temple Prints"; answer-first opener.
+- 12 pieces in three groups (Japan 3, China 3, Southeast Asia and India 6); poster $35 / framed $69 / mural $149 buttons from products.json; place-named alt text.
+- Room guide (bedroom, living room/feature wall, meditation corner/study, office/hallway, trip pairs); 6-question FAQ mirrored in FAQPage JSON-LD, including honest real-vs-imagined and "Japanese wall art for a bedroom" answers. CollectionPage + ItemList + BreadcrumbList JSON-LD.
+- Internal links: the 12 piece pages (after their last collection link), buy.html "Browse by theme", night-windows.html (after the coastal sentence). llms.txt Shop line. sitemap.xml (+ lastmod 14 Oct on changed URLs).
+- Generator `scripts/build_collection_asian.py` (idempotent, `--check`). Checks: JSON-LD parses, sitemap parses, no broken relative links, no banned words, asian/coastal/lakes/murals builders `--check` up to date, `apply_stripe_links.py --check` 60/60. Live 200 at 04:59 London; IndexNow 200 for 17 URLs.
+
+### Notes
+- Taj Mahal and Great Wall pages are rendered by `publish_pieces_56_60.py`; if it's re-run, re-run `build_collection_asian.py` afterwards to restore the Asian link.
+- Lake, coastal and murals pages don't link to the new page yet (their builders own those templates); add it next time one is touched.
+
+### Next
+- Signed-in GSC: request indexing for /asian-wall-art.html, /coastal-wall-art.html, /lake-wall-art.html, pieces 51–60 and today's drop; pull 7/28d numbers. GSC has now gone unchecked since 8 Oct because the desktop is busy during this slot — consider checking it from a later run.
+- Next: cross-link the Asian page from the other collection builders; then a "moon poster for bedroom" buyer guide or a European cities/castles cluster.
