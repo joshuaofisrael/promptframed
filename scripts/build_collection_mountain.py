@@ -15,14 +15,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CHECK = "--check" in sys.argv
-TODAY = "2026-10-13"
+TODAY = "2026-10-14"
 PAGE = ROOT / "mountain-wall-art.html"
 URL = "https://moonlitwindows.com/mountain-wall-art.html"
 SLUGS = [  # order = how they appear on the page
     "matterhorn-alpine-moon", "dolomites-tre-cime-moon", "mount-fuji-pagoda-moon",
     "lauterbrunnen-valley-moon", "isle-of-skye-storr-moon", "yosemite-half-dome-moon",
     "banff-lake-louise-moon", "patagonia-lake-peaks", "zhangjiajie-pillars-moon",
-    "great-wall-mutianyu-moon", "machu-picchu-mist", "scottish-highlands-loch", "snowy-peaks-above-clouds",
+    "great-wall-mutianyu-moon", "kirkjufell-waterfall-moon", "lake-tekapo-church-moon",
+    "machu-picchu-mist", "scottish-highlands-loch", "snowy-peaks-above-clouds",
     "moonlit-alpine-meadow",
 ]
 N = len(SLUGS)
@@ -32,7 +33,7 @@ def words(n):  # 60 -> "sixty", 65 -> "sixty-five" (series count in the closing 
     return _WORDS[n] if n < 20 else _TENS[n // 10] + ("-" + _WORDS[n % 10] if n % 10 else "")
 TITLE = "Mountain Wall Art Posters, Framed Prints &amp; Wall Murals | Moonlit Windows"
 DESC = (f"Mountain wall art for sale: {N} moonlit mountain posters and framed prints, from the "
-        "Matterhorn, Dolomites and Mount Fuji to Yosemite, Skye and the Great Wall. 12×18 poster $35, "
+        "Matterhorn, Dolomites and Mount Fuji to Yosemite, Skye, Kirkjufell and Lake Tekapo. 12×18 poster $35, "
         "framed print $69, 4×6 ft peel and stick wall mural $149, shipping included.")
 LINK_MARK = 'data-collection="mountain"'
 

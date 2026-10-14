@@ -20,7 +20,7 @@ FILE = "peel-and-stick-wall-murals.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-13"
+TODAY = "2026-10-14"
 OG_SLUG = "dolomites-tre-cime-moon"
 MARK = 'data-collection="murals"'
 
@@ -34,10 +34,12 @@ GROUPS = [
         ("isle-of-skye-storr-moon", "The Old Man of Storr above green Isle of Skye slopes and lochans under a full moon"),
         ("grand-canyon-rim-moon", "A twisted juniper on the Grand Canyon’s South Rim above layered red walls and the Colorado River under a full moon"),
         ("great-wall-mutianyu-moon", "The Great Wall of China winding over forested Mutianyu ridges with lit watchtowers under a full moon"),
+        ("kirkjufell-waterfall-moon", "Kirkjufellsfoss cascading below cone-shaped Kirkjufell on a moonlit Icelandic fjord"),
     ]),
     ("lakes-waterfalls", "Lake, salt flat and waterfall wall murals", "Water scenes are the calmest choice for a bedroom wall: still reflections, falling water and soft mist.", [
         ("banff-lake-louise-moon", "Turquoise Lake Louise mirroring snowy Rocky Mountain peaks under moonlight"),
         ("lake-bled-island-moon", "Lake Bled’s island church and clifftop castle on the moonlit lake"),
+        ("lake-tekapo-church-moon", "The Church of the Good Shepherd above purple lupins on turquoise Lake Tekapo under a full moon"),
         ("hallstatt-lake-moon", "Hallstatt’s church steeple and lit houses reflected in a still alpine lake at night"),
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring into the Lauterbrunnen valley with lit chalets and snowy Alps"),
         ("iguazu-falls-moon", "Tiers of Iguazu waterfalls falling into a misty rainforest gorge under a full moon"),
@@ -53,6 +55,7 @@ GROUPS = [
         ("lofoten-reine-moon", "Red fishing cabins along a still Lofoten fjord below jagged peaks and a full moon"),
         ("cliffs-of-moher-moon", "O’Brien’s Tower on the green Cliffs of Moher above Atlantic surf and a sea stack under a full moon"),
         ("big-sur-bixby-bridge-moon", "Bixby Creek Bridge arching over a Big Sur cove with Pacific surf and pink wildflowers under moonlight"),
+        ("na-pali-coast-moon", "Emerald Na Pali Coast cliffs on Kauai above turquoise Pacific surf under a full moon"),
     ]),
     ("forests", "Forest wall murals", "Vertical trunks and stone pillars that fill a tall panel naturally.", [
         ("kyoto-bamboo-moon", "A Kyoto bamboo grove path softened by mist and filtered moonlight"),
@@ -63,6 +66,8 @@ GROUPS = [
         ("mont-saint-michel-moon", "Mont Saint-Michel abbey rising from silver tidal water under moonlight"),
         ("sintra-pena-palace-moon", "Pena Palace glowing gold on a misty forested hill above Sintra under a full moon"),
         ("prague-charles-bridge-moon", "Charles Bridge’s statues and Gothic towers over the Vltava with Prague Castle lit on the hill under a full moon"),
+        ("bruges-canal-moon", "Bruges’ Rozenhoedkaai canal reflecting Flemish gables and the medieval Belfry under a full moon"),
+        ("bibury-arlington-row-moon", "Honey-stone Arlington Row cottages beside the River Coln in Bibury under a full moon"),
         ("taj-mahal-moon", "The white marble Taj Mahal and its long reflecting pool in Agra, India, under a full moon"),
     ]),
 ]

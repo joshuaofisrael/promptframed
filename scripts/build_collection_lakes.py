@@ -18,7 +18,7 @@ FILE = "lake-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-13"
+TODAY = "2026-10-14"
 OG_SLUG = "lake-bled-island-moon"
 MARK = 'data-collection="lakes"'
 
@@ -27,6 +27,7 @@ GROUPS = [
      "Still water, mirrored peaks and a few warm windows on the shore: the calmest scenes in the series.", [
         ("lake-como-bellagio-moon", "Bellagio’s pastel villas and cypresses glowing along Lake Como below moonlit mountains"),
         ("lake-bled-island-moon", "Lake Bled’s island church and clifftop castle on the moonlit lake"),
+        ("lake-tekapo-church-moon", "Lake Tekapo’s Church of the Good Shepherd above purple lupins and turquoise water under a full moon"),
         ("hallstatt-lake-moon", "Hallstatt’s church steeple and lit houses reflected in a still alpine lake at night"),
         ("banff-lake-louise-moon", "Turquoise Lake Louise mirroring snowy Rocky Mountain peaks under moonlight"),
         ("patagonia-lake-peaks", "A turquoise Patagonian lake mirroring jagged moonlit peaks above a wildflower shore"),
@@ -41,6 +42,7 @@ GROUPS = [
         ("plitvice-lakes-moon", "Plitvice’s turquoise lakes and terraced falls with a lit boardwalk through the forest"),
         ("iguazu-falls-moon", "Tiers of Iguazu waterfalls falling into a misty rainforest gorge under a full moon"),
         ("victoria-falls-moon", "Victoria Falls pouring into a misty gorge on the Zambezi with a moonbow in the spray under a full moon"),
+        ("kirkjufell-waterfall-moon", "Kirkjufellsfoss pouring over mossy rocks with cone-shaped Kirkjufell and a moonlit Icelandic fjord beyond"),
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring into the Lauterbrunnen valley with lit chalets and snowy Alps"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from green sea cliffs at Gásadalur under a full moon"),
         ("moonlit-waterfall", "A luminous waterfall pouring through a deep, misty gorge under moonlight"),
@@ -59,7 +61,7 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Plitvice, Iguazu, Victoria Falls, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands, plus the Salar de Uyuni salt flat in Bolivia, mirrored after rain. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
+     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Lake Tekapo, Plitvice, Iguazu, Victoria Falls, Kirkjufellsfoss, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands, plus the Salar de Uyuni salt flat in Bolivia, mirrored after rain. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
     ("Will the watermark be on my print?",
      "No. The previews on this site carry a small Night Shade Art watermark to discourage copying; your print is made from a clean file without it."),
     ("How long does delivery take?",

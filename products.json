@@ -1288,7 +1288,7 @@
   },
   {
     "slug": "faroe-gasadalur-moon",
-    "title": "Faroe G\u00e1sadalur Moon",
+    "title": "Faroe Gásadalur Moon",
     "series": "Night Windows",
     "photoNumber": 40,
     "printful": {
@@ -1993,5 +1993,95 @@
     },
     "asset": "60-great-wall-mutianyu-moon.jpg",
     "printSource": "gallery/60-great-wall-mutianyu-moon.png"
+  },
+  {
+    "slug": "lake-tekapo-church-moon",
+    "title": "Lake Tekapo Church Moon",
+    "series": "Night Windows",
+    "photoNumber": 61,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "61-lake-tekapo-church-moon.jpg",
+    "printSource": "gallery/61-lake-tekapo-church-moon.png"
+  },
+  {
+    "slug": "bruges-canal-moon",
+    "title": "Bruges Canal Moon",
+    "series": "Night Windows",
+    "photoNumber": 62,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "62-bruges-canal-moon.jpg",
+    "printSource": "gallery/62-bruges-canal-moon.png"
+  },
+  {
+    "slug": "kirkjufell-waterfall-moon",
+    "title": "Kirkjufell Waterfall Moon",
+    "series": "Night Windows",
+    "photoNumber": 63,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "63-kirkjufell-waterfall-moon.jpg",
+    "printSource": "gallery/63-kirkjufell-waterfall-moon.png"
+  },
+  {
+    "slug": "bibury-arlington-row-moon",
+    "title": "Bibury Arlington Row Moon",
+    "series": "Night Windows",
+    "photoNumber": 64,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "64-bibury-arlington-row-moon.jpg",
+    "printSource": "gallery/64-bibury-arlington-row-moon.png"
+  },
+  {
+    "slug": "na-pali-coast-moon",
+    "title": "Na Pali Coast Moon",
+    "series": "Night Windows",
+    "photoNumber": 65,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "65-na-pali-coast-moon.jpg",
+    "printSource": "gallery/65-na-pali-coast-moon.png"
   }
 ]

@@ -18,7 +18,7 @@ FILE = "coastal-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-13"
+TODAY = "2026-10-14"
 OG_SLUG = "amalfi-terrace-night"
 MARK = 'data-collection="coastal"'
 
@@ -35,6 +35,7 @@ GROUPS = [
      "Surf, sea stacks and tidal water under a full moon, from the west of Ireland to the California coast.", [
         ("cliffs-of-moher-moon", "O’Brien’s Tower on the Cliffs of Moher above moonlit Atlantic surf and a sea stack"),
         ("big-sur-bixby-bridge-moon", "Bixby Creek Bridge above a Big Sur cove with silver Pacific surf under a full moon"),
+        ("na-pali-coast-moon", "Emerald Na Pali Coast cliffs on Kauai plunging into a turquoise Pacific under a full moon"),
         ("iceland-black-sand-moon", "Moonlight on wet black sand and basalt sea stacks on an Icelandic shore"),
         ("mont-saint-michel-moon", "Mont Saint-Michel abbey rising from silver tidal water with warm windows at night"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from Gásadalur’s green sea cliffs into the moonlit Atlantic"),
@@ -60,7 +61,7 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named coasts reimagined at night: the Amalfi Coast, Santorini, Manarola in the Cinque Terre, the Cliffs of Moher, Bixby Creek Bridge on Big Sur, Mont Saint-Michel, Gásadalur in the Faroe Islands, Reine in Lofoten and Ha Long Bay. Iceland Black Sand Moon and Norwegian Stave Church Fjord evoke those coastlines rather than one exact viewpoint, and Coastal Cliffside Town, Mediterranean Lantern Walk and Northern Lights Fjord are imagined scenes."),
+     "Most are named coasts reimagined at night: the Amalfi Coast, Santorini, Manarola in the Cinque Terre, the Cliffs of Moher, Bixby Creek Bridge on Big Sur, the Na Pali Coast on Kauai, Mont Saint-Michel, Gásadalur in the Faroe Islands, Reine in Lofoten and Ha Long Bay. Iceland Black Sand Moon and Norwegian Stave Church Fjord evoke those coastlines rather than one exact viewpoint, and Coastal Cliffside Town, Mediterranean Lantern Walk and Northern Lights Fjord are imagined scenes."),
     ("Is this beach decor?",
      "These are night scenes of seaside towns, ocean cliffs and fjords rather than sunny sand-and-palm beach prints; Iceland Black Sand Moon shows a black-sand shore. If you want coastal decor that still feels calm in a bedroom, the moonlight keeps the palette soft and deep blue."),
     ("Will the watermark be on my print?",

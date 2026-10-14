@@ -90,7 +90,9 @@ STYLE = (
     "deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, "
     "romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, "
     "realistic natural textures, volumetric haze, dramatic but believable lighting. "
-    "Very bright neon-lit night, glowing almost like daylight, otherworldly yet recognizably real place, "
+    "Idyllic, calm, natural moonlit night that invites the viewer to step into the scene: soft silvery moonlight, "
+    "gentle cool night tones, warm natural window and lantern light, true-to-life colours, recognizably real place. "
+    "No neon, no magenta/purple/cyan glow, no glowing or fluorescent lights, no daylight-bright night, not oversaturated. "
     "thin wispy clouds veiling the moon without dimming the moonlight."
 )
 

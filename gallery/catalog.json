@@ -1383,5 +1383,120 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "61-lake-tekapo-church-moon",
+    "slug": "lake-tekapo-church-moon",
+    "title": "Lake Tekapo Church Moon",
+    "photoNumber": 61,
+    "file": "61-lake-tekapo-church-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Church of the Good Shepherd on Lake Tekapo in New Zealand, a small stone chapel above purple and pink lupins, turquoise water mirroring the moon and snowy Southern Alps under a full moon behind wispy clouds",
+    "description": "The stone Church of the Good Shepherd stands above purple lupins as Lake Tekapo mirrors a cloud-veiled moon and snowy Southern Alps.",
+    "keywords": [
+      "Lake Tekapo night",
+      "Church of the Good Shepherd moonlight",
+      "New Zealand lake wall art",
+      "Lake Tekapo landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "62-bruges-canal-moon",
+    "slug": "bruges-canal-moon",
+    "title": "Bruges Canal Moon",
+    "photoNumber": 62,
+    "file": "62-bruges-canal-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Rozenhoedkaai canal in Bruges, Belgium, with stepped Flemish gables, a weeping willow, pink hydrangeas and the medieval Belfry reflected in still water under a full moon behind wispy clouds",
+    "description": "Bruges’ Rozenhoedkaai mirrors stepped gables, a willow and the medieval Belfry on still canal water beneath a cloud-veiled moon.",
+    "keywords": [
+      "Bruges canal night",
+      "Rozenhoedkaai moonlight",
+      "Bruges Belfry wall art",
+      "Belgium cityscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "63-kirkjufell-waterfall-moon",
+    "slug": "kirkjufell-waterfall-moon",
+    "title": "Kirkjufell Waterfall Moon",
+    "photoNumber": 63,
+    "file": "63-kirkjufell-waterfall-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Kirkjufell mountain and Kirkjufellsfoss waterfall on Iceland’s Snæfellsnes Peninsula, silky white falls cascading over mossy rocks with the cone-shaped peak and moonlit fjord beyond under a full moon behind wispy clouds",
+    "description": "Kirkjufellsfoss pours silky white over mossy rocks as cone-shaped Kirkjufell rises above a moonlit Icelandic fjord under a cloud-veiled moon.",
+    "keywords": [
+      "Kirkjufell night",
+      "Kirkjufellsfoss moonlight",
+      "Iceland mountain wall art",
+      "Snæfellsnes landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "64-bibury-arlington-row-moon",
+    "slug": "bibury-arlington-row-moon",
+    "title": "Bibury Arlington Row Moon",
+    "photoNumber": 64,
+    "file": "64-bibury-arlington-row-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Arlington Row in Bibury in the Cotswolds, England, a line of honey-stone cottages with steep roofs and warm windows beside the quiet River Coln, white wildflowers, a weeping willow and a full moon behind wispy clouds",
+    "description": "Honey-stone cottages of Arlington Row glow beside the quiet River Coln in Bibury under a cloud-veiled Cotswolds moon.",
+    "keywords": [
+      "Bibury Arlington Row night",
+      "Cotswolds moonlight",
+      "Bibury cottage wall art",
+      "England village landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "65-na-pali-coast-moon",
+    "slug": "na-pali-coast-moon",
+    "title": "Na Pali Coast Moon",
+    "photoNumber": 65,
+    "file": "65-na-pali-coast-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Na Pali Coast on Kauai, Hawaii, towering emerald sea cliffs plunging into a turquoise Pacific with secluded beaches, tropical foliage in the foreground and a full moon behind wispy clouds",
+    "description": "Kauai’s Na Pali Coast rises in green sea cliffs above turquoise Pacific surf under a bright, cloud-veiled Hawaiian moon.",
+    "keywords": [
+      "Na Pali Coast night",
+      "Kauai coastline moonlight",
+      "Hawaii coastal wall art",
+      "Na Pali landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]
