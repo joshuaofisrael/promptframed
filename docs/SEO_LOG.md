@@ -365,3 +365,22 @@ Why highest EV for a brand-new product gallery:
 ### Next
 - Signed-in GSC: request indexing for /asian-wall-art.html, /coastal-wall-art.html, /lake-wall-art.html, pieces 51–60 and today's drop; pull 7/28d numbers. GSC has now gone unchecked since 8 Oct because the desktop is busy during this slot — consider checking it from a later run.
 - Next: cross-link the Asian page from the other collection builders; then a "moon poster for bedroom" buyer guide or a European cities/castles cluster.
+
+## 2026-10-14 ~05:05 London — Night Windows daily drop 61–65 + collection wiring
+### Data review
+- Stripe: no sales since last check; created 15 live products + 15 payment links for pieces 61–65 (poster $35 / framed $69 / mural $149).
+- GSC: not rechecked this run (desktop busy during drop).
+- News post: none (no genuinely relevant news).
+
+### Opportunity chosen (and why)
+**Wire pieces 61–65 into lakes, mountain, coastal and murals collection pages** so the new Tekapo / Kirkjufell / Na Pali / Bruges / Bibury windows rank with existing buyer-intent hubs instead of only as orphan piece pages. Highest EV after the Asian collection page shipped earlier this morning.
+
+### Shipped
+- Night Windows 61–65 live: Lake Tekapo Church Moon, Bruges Canal Moon, Kirkjufell Waterfall Moon, Bibury Arlington Row Moon, Na Pali Coast Moon (piece pages, buy.html, night-windows hub, sitemap, IndexNow list).
+- Collections: lake-wall-art.html (+Tekapo, Kirkjufellsfoss), mountain-wall-art.html (+Tekapo, Kirkjufell), coastal-wall-art.html (+Na Pali), peel-and-stick-wall-murals.html (all five). Piece-page collection-link notes for lakes/coastal/mountain.
+- apply_stripe_links.py --check and apply_mural_links.py --check: 65/65 live.
+- Instagram candidate queued (not posted): Lake Tekapo Church Moon.
+
+### Next
+- Signed-in GSC: request indexing for pieces 61–65 and updated collection hubs.
+- Cross-link Asian page from other collection builders when next touched.

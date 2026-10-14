@@ -32,6 +32,10 @@ Fill the first real row the day after GSC + Cloudflare Web Analytics are connect
 
 ---
 
+
+### 2026-10-14 — Drop 61–65 + lakes/mountain/coastal/murals wiring
+Published five new Night Windows pieces with live Stripe (15 payment links). Added Tekapo + Kirkjufell to lakes & mountain hubs, Na Pali to coastal, all five to murals. Series count 65. See SEO_LOG.md.
+
 ## Topic cluster (seed — do not mass-publish)
 
 - AI art prints / ChatGPT wall art / framed AI posters (category intent)
