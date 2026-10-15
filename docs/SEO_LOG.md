@@ -384,3 +384,28 @@ Why highest EV for a brand-new product gallery:
 ### Next
 - Signed-in GSC: request indexing for pieces 61–65 and updated collection hubs.
 - Cross-link Asian page from other collection builders when next touched.
+
+## 2026-10-15 04:55 London — Scheduled run: European wall art collection page
+### Data review
+- Stripe: no Night Windows sales. No checkout sessions or charges since the 14 Oct run (checked via the `stripe` connector, Joshua Israel Ventures LLC live account).
+- GSC: not checked. The daily drop (pieces 66–70) was running in this slot again. Last numbers: 8 Oct, 28d 0 clicks, 4 impressions, avg pos 6.8. GSC has now gone a week unchecked; it needs a run outside the 04:45–05:15 drop window.
+- News post: none (no genuinely relevant news for the niche today).
+- Outreach: no emails sent; this routine's saved instruction doesn't name outreach sends, so the daily allotment (now 3/day) still needs Joshua's go-ahead or a routine update.
+
+### Opportunity chosen (and why)
+**New collection page `/european-wall-art.html`** targeting "european wall art", "castle wall art", "castle poster", "European city wall art" and place variants (Neuschwanstein, Venice, Prague, Bruges, Dubrovnik, Hallstatt, Provence, Tuscany, Mont Saint-Michel). European castles and old towns were the next cluster on the plan; 14 of 70 pieces fit, and most of them (Neuschwanstein, Venice, Prague, Bruges, Rothenburg, Sintra, Meteora, Provence, Tuscany, Bibury) had no themed hub at all beyond the murals page.
+
+### Shipped (commit 15633f6)
+- Title "European Wall Art: Castle & Old Town Posters, Framed Prints | Moonlit Windows"; price-led meta/OG (Neuschwanstein image); H1 "European Wall Art: Moonlit Castles, Old Towns and Villages"; answer-first opener.
+- 14 pieces in three groups (castles 5, old towns and cities 6, countryside and villages 3); poster $35 / framed $69 / mural $149 buttons from products.json; place-named alt text drawn from the existing card blurbs.
+- Room guide (bedroom, child's room/nursery, living room/feature wall, kitchen/hallway, trip pairs); 7-question FAQ mirrored in FAQPage JSON-LD, with honest real-vs-imagined and castle-for-kids answers. CollectionPage + ItemList + BreadcrumbList JSON-LD.
+- Internal links: the 14 piece pages (after their last collection link), buy.html "Browse by theme", night-windows.html "Castles and old towns" paragraph, Asian page (room-guide sentence + footer, via build_collection_asian.py). llms.txt Shop line. sitemap.xml 87 URLs.
+- Generator `scripts/build_collection_european.py` (idempotent, `--check`). Checks: JSON-LD parses, sitemap parses, no broken relative links across hubs and all piece pages, no banned words, european/asian/coastal/lakes/murals builders `--check` up to date, `apply_stripe_links.py --check` 70/70, `apply_mural_links.py --check` 70/70. Live 200 at 05:07 London; IndexNow 200 for 20 URLs.
+
+### Notes
+- Dubrovnik, Eilean Donan and Rothenburg pages are rendered by `publish_pieces_66_70.py`; if it's re-run, re-run `build_collection_european.py` (and coastal) afterwards to restore the links.
+- Lake, coastal, mountain and murals pages still don't link to the Asian or European pages (their builders own those templates); add both next time one is touched.
+
+### Next
+- Signed-in GSC: request indexing for /european-wall-art.html, /asian-wall-art.html, /coastal-wall-art.html, /lake-wall-art.html and pieces 51–70; pull 7/28d numbers.
+- Then: cross-link Asian + European from the other collection builders; a "moon poster for bedroom" buyer guide; Friday summary tomorrow.
