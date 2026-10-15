@@ -18,7 +18,7 @@ FILE = "asian-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-14"
+TODAY = "2026-10-15"
 OG_SLUG = "mount-fuji-pagoda-moon"
 MARK = 'data-collection="asian"'
 
@@ -200,7 +200,7 @@ def page(by_slug, bl):
       <p><strong>Meditation corner, yoga room or study.</strong> The temple pieces are the most contemplative: {P("angkor-wat-moon", "Angkor Wat")} reflected in its lotus pond, the stupas of {P("bagan-temples-night", "Bagan")}, or mossy steps in {P("bali-jungle-temple", "Bali Jungle Temple")}.</p>
       <p><strong>Office or hallway.</strong> Layered mountain scenes read well from a distance: {P("guilin-li-river-moon", "the Li River near Guilin")}, {P("zhangjiajie-pillars-moon", "Zhangjiajie’s pillars")} or {P("moonlit-rice-terraces", "Moonlit Rice Terraces")}.</p>
       <p><strong>A trip to remember.</strong> If you hiked to the Chureito Pagoda, walked the wall at Mutianyu or visited Angkor, the place-named prints are made for that. Pairs work well too: Fuji with Kyoto for a Japan wall, or Guilin with Ha Long Bay for karst country.</p>
-      <p>Prefer high peaks, still lakes or the sea? See the <a href="./mountain-wall-art.html">mountain wall art collection</a>, the <a href="./lake-wall-art.html">lake and waterfall wall art collection</a> and the <a href="./coastal-wall-art.html">coastal wall art collection</a>. Not sure about size? The <a href="./guide-print-sizes.html">print size guide</a> compares the poster, framed print and mural.</p>
+      <p>Prefer high peaks, still lakes or the sea? See the <a href="./mountain-wall-art.html">mountain wall art collection</a>, the <a href="./lake-wall-art.html">lake and waterfall wall art collection</a> and the <a href="./coastal-wall-art.html">coastal wall art collection</a>. For castles, canals and old towns, see the <a data-collection="european" href="./european-wall-art.html">European wall art collection</a>. Not sure about size? The <a href="./guide-print-sizes.html">print size guide</a> compares the poster, framed print and mural.</p>
     </section>
 
     <section class="prose" id="faq">
@@ -211,7 +211,7 @@ def page(by_slug, bl):
   </div>
   <footer class="site-footer">
     <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
-      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./asian-wall-art.html">Asian wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
+      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./asian-wall-art.html">Asian wall art</a> · <a href="./european-wall-art.html">European wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
     <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
   </footer>
