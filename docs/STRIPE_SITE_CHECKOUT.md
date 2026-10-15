@@ -9,16 +9,18 @@ static: no server, no API keys in the repo. Each Buy button is a plain `<a href>
 
 | Variant | Spec | Price |
 | --- | --- | --- |
-| `poster` | 12×18 in, enhanced matte | $35.00 (`2900`) |
+| `poster` | 12×18 in, enhanced matte | $35.00 (`3500`) |
 | `framed` | 12×18 in poster, black frame | $69.00 (`6900`) |
+| `mural` | 4×6 ft (48×72 in) peel & stick removable wall mural, printed to order, ships in 1–2 weeks | $149.00 (`14900`) |
 
-Visible copy on the site: **$35 poster · $69 framed (12×18)**.
+Visible copy on the site: **$35 poster · $69 framed (12×18) · $149 peel & stick wall mural (4×6 ft)**.
+(The poster price moved from $29 to $35 on 12 Oct 2026.)
 
 ## Flow
 
-1. Customer clicks **Buy this print · Poster $35** or **Buy framed · $69** on `buy.html` or a piece page.
+1. Customer clicks **Buy this print · Poster $35**, **Buy framed · $69** or **Peel & Stick Wall Mural · $149** on `buy.html` or a piece page.
 2. The link opens that piece's Stripe Payment Link (quantity 1–5, shipping address + phone collected).
-3. After payment Stripe redirects to `thanks.html?piece=<slug>&variant=<poster|framed>` and emails a receipt.
+3. After payment Stripe redirects to `thanks.html?piece=<slug>&variant=<poster|framed|mural>` and emails a receipt.
 4. Joshua fulfils manually (Gelato / Printful) from the Stripe order email or dashboard, uploading the
    **clean print master** from the local `gallery/print-masters/` folder (never a watermarked
    `gallery/social/` or `assets/` JPEG, and never a file downloaded from the public site).
@@ -26,13 +28,14 @@ Visible copy on the site: **$35 poster · $69 framed (12×18)**.
    Metadata `slug` + `variant` is on the Payment Link, the Checkout Session, and the PaymentIntent,
    so every order says which piece and size to print.
 
-## What exists in Stripe (per piece × 2 variants)
+## What exists in Stripe (per piece × 3 variants)
 
 - **Product** `"<Title> – Night Windows Poster 12×18"` / `"<Title> – Night Windows Framed Poster 12×18"`
-  - metadata: `slug`, `variant` (`poster|framed`), `series=night-windows`, `size=12x18`
+  - mural: `"<Title> Peel & Stick Wall Mural (4×6 ft)"`, metadata `size=48x72`
+  - metadata: `slug`, `variant` (`poster|framed|mural`), `series=night-windows`, `size=12x18`
   - image: the **watermarked** preview `https://moonlitwindows.com/gallery/social/NN-slug.jpg` (never a print master)
   - `url`: the piece page; `shippable: true`
-- **Price**: one-time USD default price (`2900` or `6900`), metadata `slug`, `variant`
+- **Price**: one-time USD default price (`3500`, `6900` or `14900`), metadata `slug`, `variant`
 - **Payment Link**:
   - `line_items[0]`: that price, quantity 1, `adjustable_quantity` enabled, min 1, max 5
   - `shipping_address_collection.allowed_countries`: US, GB, CA, AU, NZ, IE, FR, DE, NL, BE, LU, AT,
@@ -42,11 +45,11 @@ Visible copy on the site: **$35 poster · $69 framed (12×18)**.
   - metadata `slug`, `variant`, `series`; `payment_intent_data.metadata` `slug`, `variant`
 
 All IDs are recorded in `products.json` under `stripe` (`posterProductId`, `posterPriceId`,
-`posterPaymentLinkId`, same for `framed`), alongside `posterUrl`, `framedUrl`, `status: "live"`.
+`posterPaymentLinkId`, same for `framed` and `mural`), alongside `posterUrl`, `framedUrl`, `muralUrl`, `status: "live"`.
 
 ## Adding new pieces (daily drop checklist)
 
-A new piece is **not sellable** until it has its own two Products, Prices and Payment Links.
+A new piece is **not sellable** until it has its own three Products, Prices and Payment Links (poster, framed, mural).
 
 1. Publish the piece as usual (clean print master kept locally in `gallery/print-masters/`,
    watermarked display JPEG in `assets/` and watermarked `gallery/social/NN-slug.jpg` via
@@ -55,8 +58,10 @@ A new piece is **not sellable** until it has its own two Products, Prices and Pa
 2. Push once so the watermarked social JPEG is public (Stripe fetches the product image by URL).
 3. Create the Stripe objects exactly as in `scripts/create_stripe_links.md` (Stripe MCP connector or
    Dashboard). **Search first** (`metadata['slug']:'<slug>'`) so nothing is duplicated.
-4. Paste the two `https://buy.stripe.com/...` URLs + IDs into `products.json`, set `status: "live"`.
-5. Run `python3 scripts/apply_stripe_links.py`. It rewrites the buy block on every piece page and the
+4. Paste the three `https://buy.stripe.com/...` URLs + IDs into `products.json`, set `status: "live"`.
+5. Re-run that drop's `scripts/publish_pieces_NN_MM.py` to rewire the new buy blocks (since mid-October the
+   write modes of `apply_stripe_links.py` / `apply_mural_links.py` would revert newer page edits; use only their
+   `--check` modes). Legacy: `python3 scripts/apply_stripe_links.py` rewrites the buy block on every piece page and the
    whole `buy.html` grid from `products.json` (idempotent; pieces without links show "opens for orders soon").
    `python3 scripts/apply_stripe_links.py --check` exits 1 if any piece is missing live links.
 6. Commit + push to `main`, then check the live page: `curl -s <piece url> | grep buy.stripe.com`.
