@@ -36,6 +36,9 @@ Fill the first real row the day after GSC + Cloudflare Web Analytics are connect
 ### 2026-10-14 — Drop 61–65 + lakes/mountain/coastal/murals wiring
 Published five new Night Windows pieces with live Stripe (15 payment links). Added Tekapo + Kirkjufell to lakes & mountain hubs, Na Pali to coastal, all five to murals. Series count 65. See SEO_LOG.md.
 
+### 2026-10-15 — Drop 66–70 + collection placement + Asian link restored on the series hub
+Published five new Night Windows pieces (Eilean Donan Castle, Dubrovnik Old Town, Pamukkale Terraces, Rothenburg Old Town, Bora Bora Lagoon) with live Stripe (15 payment links; 70/70 pieces live with poster, framed and mural). Collection placement: all five added to the **peel and stick wall murals** page (Eilean Donan, Dubrovnik, Rothenburg in castles and landmarks; Pamukkale in lakes, salt flats and waterfalls; Bora Bora in coasts); Dubrovnik (Mediterranean), Bora Bora (ocean shores) and Eilean Donan (fjords and bays: Loch Duich is a sea loch) added to **coastal wall art**, with meta, group intros and FAQ naming them; Pamukkale added to **lake and waterfall wall art** (lakes group + FAQ). Mountain collection left alone on purpose: Eilean Donan's mountains are background, not the subject. **Restored the Asian wall art collection link** in the hub's "Find your window" themes (the 61–65 publish run had dropped it; `publish_pieces_66_70.py` now carries it on every re-run). Alt text checked against the real images (heather, bougainvillea, frangipani, pink flowers, town lights added; Rothenburg wording softened to what is visible, no named towers). All five `build_collection_*.py --check`, `apply_stripe_links.py --check`, `apply_mural_links.py --check` and `publish_pieces_66_70.py --check` clean. Series count 70. IndexNow pinged after deploy.
+
 ## Topic cluster (seed — do not mass-publish)
 
 - AI art prints / ChatGPT wall art / framed AI posters (category intent)

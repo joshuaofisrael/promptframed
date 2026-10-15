@@ -18,34 +18,37 @@ FILE = "coastal-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-14"
+TODAY = "2026-10-15"
 OG_SLUG = "amalfi-terrace-night"
 MARK = 'data-collection="coastal"'
 
 GROUPS = [
     ("mediterranean", "Mediterranean coast wall art", "coastal wall art poster and framed print",
-     "Cliffside villages stacked above a silver sea, with lit windows, bougainvillea and lemon trees.", [
+     "Cliffside villages and a walled old town above a silver sea, with lit windows, bougainvillea and lemon trees.", [
         ("amalfi-terrace-night", "Amalfi Coast terraces with warm windows and lemon trees above a moonlit sea"),
         ("santorini-caldera-moon", "Santorini’s whitewashed terraces and blue domes above the moonlit caldera"),
         ("cinque-terre-manarola-moon", "Manarola’s pastel cliffside houses in the Cinque Terre above the moonlit Ligurian Sea"),
+        ("dubrovnik-old-town-moon", "Dubrovnik’s medieval city walls and terracotta roofs above the moonlit Adriatic, with Fort Lovrijenac on its cliff"),
         ("coastal-cliffside-town", "A cliffside seaside town framed by purple flowers, with a glowing path down to the moonlit sea"),
         ("mediterranean-lantern-walk", "A lantern-lit stone walkway through Mediterranean houses toward a moonlit sea"),
     ]),
     ("atlantic-pacific", "Ocean cliffs and wild shores", "ocean wall art poster and framed print",
-     "Surf, sea stacks and tidal water under a full moon, from the west of Ireland to the California coast.", [
+     "Surf, sea stacks, tidal water and a South Pacific lagoon under a full moon, from the west of Ireland to Kauai and Bora Bora.", [
         ("cliffs-of-moher-moon", "O’Brien’s Tower on the Cliffs of Moher above moonlit Atlantic surf and a sea stack"),
         ("big-sur-bixby-bridge-moon", "Bixby Creek Bridge above a Big Sur cove with silver Pacific surf under a full moon"),
         ("na-pali-coast-moon", "Emerald Na Pali Coast cliffs on Kauai plunging into a turquoise Pacific under a full moon"),
+        ("bora-bora-lagoon-moon", "Overwater bungalows on Bora Bora’s turquoise lagoon, with palms and Mount Otemanu under a full moon"),
         ("iceland-black-sand-moon", "Moonlight on wet black sand and basalt sea stacks on an Icelandic shore"),
         ("mont-saint-michel-moon", "Mont Saint-Michel abbey rising from silver tidal water with warm windows at night"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from Gásadalur’s green sea cliffs into the moonlit Atlantic"),
     ]),
     ("fjords-bays", "Fjord and bay wall art", "fjord wall art poster and framed print",
-     "Sheltered northern water and a calm Asian bay: mirror-still reflections between steep walls of rock.", [
+     "Sheltered northern water, a Highland sea loch and a calm Asian bay: mirror-still reflections between steep walls of rock.", [
         ("lofoten-reine-moon", "Red rorbu cabins on stilts along a mirror-still Lofoten fjord at Reine under a full moon"),
         ("norwegian-stave-church-fjord", "A wooden stave church glowing above a deep, misty Norwegian fjord at night"),
         ("northern-lights-fjord", "Northern lights over a calm fjord framed by snowy mountains and distant warm lights"),
         ("ha-long-bay-moon", "Limestone karsts and lantern-lit junks on calm, moonlit Ha Long Bay"),
+        ("eilean-donan-castle-moon", "Eilean Donan Castle on its islet in Loch Duich, a Highland sea loch, with an arched stone bridge under a full moon"),
     ]),
 ]
 SLUGS = [s for _, _, _, _, items in GROUPS for s, _ in items]
@@ -53,7 +56,7 @@ N = len(SLUGS)
 
 TITLE = "Coastal Wall Art: Moonlit Ocean & Seaside Posters, Framed Prints | Moonlit Windows"
 DESC = (f"Coastal wall art: {N} moonlit ocean, seaside and fjord posters and framed prints, from the Amalfi Coast, "
-        "Santorini and Cinque Terre to the Cliffs of Moher, Big Sur and Lofoten. 12×18 poster $35, framed $69, "
+        "Santorini and Dubrovnik to the Cliffs of Moher, Big Sur and Bora Bora. 12×18 poster $35, framed $69, "
         "4×6 ft wall mural $149, shipping included.")
 H1 = "Coastal Wall Art: Moonlit Ocean, Seaside and Fjord Prints"
 
@@ -61,9 +64,9 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named coasts reimagined at night: the Amalfi Coast, Santorini, Manarola in the Cinque Terre, the Cliffs of Moher, Bixby Creek Bridge on Big Sur, the Na Pali Coast on Kauai, Mont Saint-Michel, Gásadalur in the Faroe Islands, Reine in Lofoten and Ha Long Bay. Iceland Black Sand Moon and Norwegian Stave Church Fjord evoke those coastlines rather than one exact viewpoint, and Coastal Cliffside Town, Mediterranean Lantern Walk and Northern Lights Fjord are imagined scenes."),
+     "Most are named coasts reimagined at night: the Amalfi Coast, Santorini, Manarola in the Cinque Terre, Dubrovnik on the Adriatic, the Cliffs of Moher, Bixby Creek Bridge on Big Sur, the Na Pali Coast on Kauai, the lagoon of Bora Bora, Mont Saint-Michel, Gásadalur in the Faroe Islands, Reine in Lofoten, Eilean Donan Castle on Loch Duich and Ha Long Bay. Iceland Black Sand Moon and Norwegian Stave Church Fjord evoke those coastlines rather than one exact viewpoint, and Coastal Cliffside Town, Mediterranean Lantern Walk and Northern Lights Fjord are imagined scenes."),
     ("Is this beach decor?",
-     "These are night scenes of seaside towns, ocean cliffs and fjords rather than sunny sand-and-palm beach prints; Iceland Black Sand Moon shows a black-sand shore. If you want coastal decor that still feels calm in a bedroom, the moonlight keeps the palette soft and deep blue."),
+     "These are night scenes of seaside towns, ocean cliffs and fjords rather than sunny beach prints; Bora Bora Lagoon Moon comes closest to tropical decor, with palms and overwater bungalows on a moonlit lagoon, and Iceland Black Sand Moon shows a black-sand shore. If you want coastal decor that still feels calm in a bedroom, the moonlight keeps the palette soft and deep blue."),
     ("Will the watermark be on my print?",
      "No. The previews on this site carry a small Night Shade Art watermark to discourage copying; your print is made from a clean file without it."),
     ("How long does delivery take?",

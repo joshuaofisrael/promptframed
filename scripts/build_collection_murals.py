@@ -20,7 +20,7 @@ FILE = "peel-and-stick-wall-murals.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-14"
+TODAY = "2026-10-15"
 OG_SLUG = "dolomites-tre-cime-moon"
 MARK = 'data-collection="murals"'
 
@@ -46,6 +46,7 @@ GROUPS = [
         ("plitvice-lakes-moon", "Plitvice’s turquoise lakes and terraced falls with a lit boardwalk through the forest"),
         ("lake-como-bellagio-moon", "Bellagio’s pastel villas and cypresses glowing along Lake Como below moonlit mountains"),
         ("salar-de-uyuni-moon", "Bolivia’s Salar de Uyuni salt flat mirroring distant mountains and a full moon after rain"),
+        ("pamukkale-terraces-moon", "Pamukkale’s white travertine terraces and turquoise pools mirroring a full moon in Turkey"),
         ("victoria-falls-moon", "Victoria Falls pouring into a misty gorge on the Zambezi with a moonbow in the spray under a full moon"),
     ]),
     ("coasts", "Coastal and fjord wall murals", "Cliffs, harbours and sea light for a living room or a hallway you want to open up.", [
@@ -56,6 +57,7 @@ GROUPS = [
         ("cliffs-of-moher-moon", "O’Brien’s Tower on the green Cliffs of Moher above Atlantic surf and a sea stack under a full moon"),
         ("big-sur-bixby-bridge-moon", "Bixby Creek Bridge arching over a Big Sur cove with Pacific surf and pink wildflowers under moonlight"),
         ("na-pali-coast-moon", "Emerald Na Pali Coast cliffs on Kauai above turquoise Pacific surf under a full moon"),
+        ("bora-bora-lagoon-moon", "Overwater bungalows on Bora Bora’s turquoise lagoon below Mount Otemanu under a full moon"),
     ]),
     ("forests", "Forest wall murals", "Vertical trunks and stone pillars that fill a tall panel naturally.", [
         ("kyoto-bamboo-moon", "A Kyoto bamboo grove path softened by mist and filtered moonlight"),
@@ -68,6 +70,9 @@ GROUPS = [
         ("prague-charles-bridge-moon", "Charles Bridge’s statues and Gothic towers over the Vltava with Prague Castle lit on the hill under a full moon"),
         ("bruges-canal-moon", "Bruges’ Rozenhoedkaai canal reflecting Flemish gables and the medieval Belfry under a full moon"),
         ("bibury-arlington-row-moon", "Honey-stone Arlington Row cottages beside the River Coln in Bibury under a full moon"),
+        ("eilean-donan-castle-moon", "Eilean Donan Castle on its islet in Loch Duich, reached by an arched stone bridge under a full moon"),
+        ("dubrovnik-old-town-moon", "Dubrovnik’s medieval walls and terracotta roofs above the moonlit Adriatic, with Fort Lovrijenac on its cliff"),
+        ("rothenburg-old-town-moon", "Half-timbered houses and wet, lamplit cobblestones in Rothenburg ob der Tauber’s old town under a full moon"),
         ("taj-mahal-moon", "The white marble Taj Mahal and its long reflecting pool in Agra, India, under a full moon"),
     ]),
 ]

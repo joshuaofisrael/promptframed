@@ -18,7 +18,7 @@ FILE = "lake-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-14"
+TODAY = "2026-10-15"
 OG_SLUG = "lake-bled-island-moon"
 MARK = 'data-collection="lakes"'
 
@@ -36,6 +36,7 @@ GROUPS = [
         ("moonlit-mediterranean-village", "A lakeside village with a lit bell tower, cypresses and a sailboat on still water under a full moon"),
         ("japanese-temple-pond", "A still temple pond mirroring the full moon beside stone lanterns, pines and maples"),
         ("salar-de-uyuni-moon", "Bolivia’s Salar de Uyuni salt flat under a thin layer of water, mirroring distant mountains and a full moon"),
+        ("pamukkale-terraces-moon", "Pamukkale’s white travertine terraces in Turkey, their turquoise pools mirroring a full moon"),
     ]),
     ("waterfalls", "Waterfall wall art", "waterfall wall art poster and framed print",
      "Falling water and mist catching the moonlight, from Swiss valleys to South American rainforest and the Zambezi.", [
@@ -61,7 +62,7 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Lake Tekapo, Plitvice, Iguazu, Victoria Falls, Kirkjufellsfoss, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands, plus the Salar de Uyuni salt flat in Bolivia, mirrored after rain. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
+     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Lake Tekapo, Plitvice, Iguazu, Victoria Falls, Kirkjufellsfoss, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands, plus the Salar de Uyuni salt flat in Bolivia, mirrored after rain, and the travertine pools of Pamukkale in Turkey. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
     ("Will the watermark be on my print?",
      "No. The previews on this site carry a small Night Shade Art watermark to discourage copying; your print is made from a clean file without it."),
     ("How long does delivery take?",
