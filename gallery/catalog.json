@@ -1498,5 +1498,120 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "66-eilean-donan-castle-moon",
+    "slug": "eilean-donan-castle-moon",
+    "title": "Eilean Donan Castle Moon",
+    "photoNumber": 66,
+    "file": "66-eilean-donan-castle-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Eilean Donan Castle on its rocky islet in Loch Duich in the Scottish Highlands, Scotland, with its arched stone bridge, warm castle windows reflected in still water, misty mountains beyond, purple heather and wildflowers among the rocks in the foreground and a full moon behind wispy clouds",
+    "description": "Eilean Donan Castle glows on its islet in Loch Duich, its arched stone bridge crossing still water below a cloud-veiled Highland moon.",
+    "keywords": [
+      "Eilean Donan Castle night",
+      "Loch Duich moonlight",
+      "Scottish castle wall art",
+      "Scottish Highlands landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "67-dubrovnik-old-town-moon",
+    "slug": "dubrovnik-old-town-moon",
+    "title": "Dubrovnik Old Town Moon",
+    "photoNumber": 67,
+    "file": "67-dubrovnik-old-town-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Old Town of Dubrovnik, Croatia, ringed by medieval stone city walls with terracotta roofs and warm windows, Fort Lovrijenac on its sea cliff, the calm Adriatic Sea and pink bougainvillea in the foreground under a full moon behind wispy clouds",
+    "description": "Dubrovnik’s medieval walls wrap terracotta roofs above the calm Adriatic, with Fort Lovrijenac on its cliff beneath a cloud-veiled moon.",
+    "keywords": [
+      "Dubrovnik night",
+      "Dubrovnik city walls moonlight",
+      "Croatia coastal wall art",
+      "Adriatic old town print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "68-pamukkale-terraces-moon",
+    "slug": "pamukkale-terraces-moon",
+    "title": "Pamukkale Terraces Moon",
+    "photoNumber": 68,
+    "file": "68-pamukkale-terraces-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Pamukkale travertine terraces in Denizli, Turkey, tiers of white mineral pools filled with turquoise water that mirrors the moon, the ancient ruins of Hierapolis on the ridge above, town lights in the valley, pink flowers in the foreground and a full moon behind wispy clouds",
+    "description": "Pamukkale’s white travertine terraces cradle turquoise pools that mirror a cloud-veiled moon, with Hierapolis ruins on the ridge above.",
+    "keywords": [
+      "Pamukkale night",
+      "Pamukkale travertines moonlight",
+      "Turkey landscape wall art",
+      "Pamukkale terraces print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "69-rothenburg-old-town-moon",
+    "slug": "rothenburg-old-town-moon",
+    "title": "Rothenburg Old Town Moon",
+    "photoNumber": 69,
+    "file": "69-rothenburg-old-town-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit old town of Rothenburg ob der Tauber, Bavaria, Germany, a rain-wet, lamplit cobblestone street forking around a half-timbered house with flower boxes, stone gate towers at the end of each lane and a full moon behind wispy clouds",
+    "description": "Wet, lamplit cobblestones fork around a half-timbered house in Rothenburg’s old town, gate towers beyond, beneath a cloud-veiled Bavarian moon.",
+    "keywords": [
+      "Rothenburg ob der Tauber night",
+      "Rothenburg cobblestone street moonlight",
+      "Bavaria old town wall art",
+      "Germany village landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "70-bora-bora-lagoon-moon",
+    "slug": "bora-bora-lagoon-moon",
+    "title": "Bora Bora Lagoon Moon",
+    "photoNumber": 70,
+    "file": "70-bora-bora-lagoon-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Bora Bora lagoon in French Polynesia, thatched overwater bungalows with warm lights over calm turquoise water, palm trees, red tropical flowers and white frangipani in the foreground and the dark peak of Mount Otemanu beyond under a full moon behind wispy clouds",
+    "description": "Overwater bungalows glow on Bora Bora’s turquoise lagoon as palms frame Mount Otemanu beneath a bright, cloud-veiled Pacific moon.",
+    "keywords": [
+      "Bora Bora night",
+      "Bora Bora lagoon moonlight",
+      "tropical island wall art",
+      "French Polynesia landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]

@@ -2158,5 +2158,95 @@
     },
     "asset": "65-na-pali-coast-moon.jpg",
     "printSource": "gallery/65-na-pali-coast-moon.png"
+  },
+  {
+    "slug": "eilean-donan-castle-moon",
+    "title": "Eilean Donan Castle Moon",
+    "series": "Night Windows",
+    "photoNumber": 66,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "66-eilean-donan-castle-moon.jpg",
+    "printSource": "gallery/66-eilean-donan-castle-moon.png"
+  },
+  {
+    "slug": "dubrovnik-old-town-moon",
+    "title": "Dubrovnik Old Town Moon",
+    "series": "Night Windows",
+    "photoNumber": 67,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "67-dubrovnik-old-town-moon.jpg",
+    "printSource": "gallery/67-dubrovnik-old-town-moon.png"
+  },
+  {
+    "slug": "pamukkale-terraces-moon",
+    "title": "Pamukkale Terraces Moon",
+    "series": "Night Windows",
+    "photoNumber": 68,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "68-pamukkale-terraces-moon.jpg",
+    "printSource": "gallery/68-pamukkale-terraces-moon.png"
+  },
+  {
+    "slug": "rothenburg-old-town-moon",
+    "title": "Rothenburg Old Town Moon",
+    "series": "Night Windows",
+    "photoNumber": 69,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "69-rothenburg-old-town-moon.jpg",
+    "printSource": "gallery/69-rothenburg-old-town-moon.png"
+  },
+  {
+    "slug": "bora-bora-lagoon-moon",
+    "title": "Bora Bora Lagoon Moon",
+    "series": "Night Windows",
+    "photoNumber": 70,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "70-bora-bora-lagoon-moon.jpg",
+    "printSource": "gallery/70-bora-bora-lagoon-moon.png"
   }
 ]
