@@ -18,7 +18,7 @@ FILE = "lake-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-15"
+TODAY = "2026-10-16"
 OG_SLUG = "lake-bled-island-moon"
 MARK = 'data-collection="lakes"'
 
@@ -37,6 +37,7 @@ GROUPS = [
         ("japanese-temple-pond", "A still temple pond mirroring the full moon beside stone lanterns, pines and maples"),
         ("salar-de-uyuni-moon", "Bolivia’s Salar de Uyuni salt flat under a thin layer of water, mirroring distant mountains and a full moon"),
         ("pamukkale-terraces-moon", "Pamukkale’s white travertine terraces in Turkey, their turquoise pools mirroring a full moon"),
+        ("cradle-mountain-dove-lake-moon", "Cradle Mountain mirrored in still Dove Lake beside the old timber boatshed in Tasmania under a full moon"),
     ]),
     ("waterfalls", "Waterfall wall art", "waterfall wall art poster and framed print",
      "Falling water and mist catching the moonlight, from Swiss valleys to South American rainforest and the Zambezi.", [
@@ -62,7 +63,7 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Lake Tekapo, Plitvice, Iguazu, Victoria Falls, Kirkjufellsfoss, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands, plus the Salar de Uyuni salt flat in Bolivia, mirrored after rain, and the travertine pools of Pamukkale in Turkey. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
+     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Lake Tekapo, Plitvice, Iguazu, Victoria Falls, Kirkjufellsfoss, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands, plus the Salar de Uyuni salt flat in Bolivia, mirrored after rain, the travertine pools of Pamukkale in Turkey, and Dove Lake below Cradle Mountain in Tasmania. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
     ("Will the watermark be on my print?",
      "No. The previews on this site carry a small Night Shade Art watermark to discourage copying; your print is made from a clean file without it."),
     ("How long does delivery take?",
@@ -216,7 +217,7 @@ def page(by_slug, bl):
       <p><strong>Living room or a feature wall.</strong> Lit villages carry well across a room: {P("lake-como-bellagio-moon", "Bellagio on Lake Como")}, {P("hallstatt-lake-moon", "Hallstatt")} and {P("lake-bled-island-moon", "Lake Bled’s island church")}. To make the lake fill the wall, the same artwork comes as a 4×6 ft (48×72 in) peel and stick wall mural; the <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> covers measuring and wall prep.</p>
       <p><strong>Office or hallway.</strong> Waterfalls bring movement to a narrow wall: {P("iguazu-falls-moon", "Iguazu Falls")} tier after tier, {P("victoria-falls-moon", "Victoria Falls")} with a moonbow in its spray, {P("lauterbrunnen-valley-moon", "Staubbach Falls above Lauterbrunnen")}, or {P("plitvice-lakes-moon", "Plitvice’s terraced lakes")}.</p>
       <p><strong>A trip to remember.</strong> If you rowed out to Bled’s island, took the ferry to Bellagio or walked the Plitvice boardwalks, the place-named prints are made for that. Pairs work well too: Hallstatt with Lake Bled for an Alpine lakes wall, or Iguazu with Plitvice for waterfalls.</p>
-      <p>Looking for peaks rather than water? The <a href="./mountain-wall-art.html">mountain wall art collection</a> has the Matterhorn, the Dolomites and Mount Fuji, and the <a href="./coastal-wall-art.html">coastal wall art collection</a> has the Amalfi Coast, Santorini and the Cliffs of Moher. Not sure about size? The <a href="./guide-print-sizes.html">print size guide</a> compares the poster, framed print and mural.</p>
+      <p>Looking for peaks rather than water? The <a href="./mountain-wall-art.html">mountain wall art collection</a> has the Matterhorn, the Dolomites and Mount Fuji, and the <a href="./coastal-wall-art.html">coastal wall art collection</a> has the Amalfi Coast, Santorini and the Cliffs of Moher. For castles, canals and old towns, see the <a href="./european-wall-art.html">European wall art collection</a>; for Mount Fuji, Kyoto, the Taj Mahal and Angkor Wat, the <a href="./asian-wall-art.html">Asian wall art collection</a>. Not sure about size? The <a href="./guide-print-sizes.html">print size guide</a> compares the poster, framed print and mural.</p>
     </section>
 
     <section class="prose" id="faq">
@@ -227,7 +228,7 @@ def page(by_slug, bl):
   </div>
   <footer class="site-footer">
     <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
-      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
+      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./asian-wall-art.html">Asian wall art</a> · <a href="./european-wall-art.html">European wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
     <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
   </footer>

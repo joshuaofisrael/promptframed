@@ -20,7 +20,7 @@ FILE = "peel-and-stick-wall-murals.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-15"
+TODAY = "2026-10-16"
 OG_SLUG = "dolomites-tre-cime-moon"
 MARK = 'data-collection="murals"'
 
@@ -33,6 +33,7 @@ GROUPS = [
         ("yosemite-half-dome-moon", "Half Dome rising through valley mist above the moonlit Merced River in Yosemite"),
         ("isle-of-skye-storr-moon", "The Old Man of Storr above green Isle of Skye slopes and lochans under a full moon"),
         ("grand-canyon-rim-moon", "A twisted juniper on the Grand Canyon’s South Rim above layered red walls and the Colorado River under a full moon"),
+        ("monument-valley-moon", "Red sandstone buttes rising from the desert floor of Monument Valley on the Arizona–Utah border under a full moon"),
         ("great-wall-mutianyu-moon", "The Great Wall of China winding over forested Mutianyu ridges with lit watchtowers under a full moon"),
         ("kirkjufell-waterfall-moon", "Kirkjufellsfoss cascading below cone-shaped Kirkjufell on a moonlit Icelandic fjord"),
     ]),
@@ -47,6 +48,7 @@ GROUPS = [
         ("lake-como-bellagio-moon", "Bellagio’s pastel villas and cypresses glowing along Lake Como below moonlit mountains"),
         ("salar-de-uyuni-moon", "Bolivia’s Salar de Uyuni salt flat mirroring distant mountains and a full moon after rain"),
         ("pamukkale-terraces-moon", "Pamukkale’s white travertine terraces and turquoise pools mirroring a full moon in Turkey"),
+        ("cradle-mountain-dove-lake-moon", "Cradle Mountain’s jagged peaks mirrored in still Dove Lake beside the old timber boatshed in Tasmania under a full moon"),
         ("victoria-falls-moon", "Victoria Falls pouring into a misty gorge on the Zambezi with a moonbow in the spray under a full moon"),
     ]),
     ("coasts", "Coastal and fjord wall murals", "Cliffs, harbours and sea light for a living room or a hallway you want to open up.", [
@@ -73,7 +75,10 @@ GROUPS = [
         ("eilean-donan-castle-moon", "Eilean Donan Castle on its islet in Loch Duich, reached by an arched stone bridge under a full moon"),
         ("dubrovnik-old-town-moon", "Dubrovnik’s medieval walls and terracotta roofs above the moonlit Adriatic, with Fort Lovrijenac on its cliff"),
         ("rothenburg-old-town-moon", "Half-timbered houses and wet, lamplit cobblestones in Rothenburg ob der Tauber’s old town under a full moon"),
+        ("colmar-petite-venise-moon", "Half-timbered houses with flower boxes mirrored in the canal of Colmar’s Petite Venise in Alsace under a full moon"),
+        ("glenfinnan-viaduct-moon", "The curving stone arches of the Glenfinnan Viaduct across a Highland glen toward Loch Shiel under a full moon"),
         ("taj-mahal-moon", "The white marble Taj Mahal and its long reflecting pool in Agra, India, under a full moon"),
+        ("sigiriya-rock-moon", "Sigiriya’s flat-topped Lion Rock rising above Sri Lankan jungle and terraced water gardens under a full moon"),
     ]),
 ]
 SLUGS = [s for _, _, _, items in GROUPS for s, _ in items]
@@ -279,12 +284,12 @@ def page(by_slug, bl):
     <section class="prose" id="faq">
       <h2>Wall mural questions</h2>
 {faq_html()}
-      <p>Looking for something else? Browse <a href="./mountain-wall-art.html">mountain wall art</a>, <a href="./lake-wall-art.html">lake and waterfall wall art</a>, <a href="./coastal-wall-art.html">coastal wall art</a>, <a href="./night-windows.html">every Night Windows piece</a> or the <a href="./buy.html">full shop</a>, where every piece has a wall mural button.</p>
+      <p>Looking for something else? Browse <a href="./mountain-wall-art.html">mountain wall art</a>, <a href="./lake-wall-art.html">lake and waterfall wall art</a>, <a href="./coastal-wall-art.html">coastal wall art</a>, <a href="./european-wall-art.html">European wall art</a>, <a href="./asian-wall-art.html">Asian wall art</a>, <a href="./night-windows.html">every Night Windows piece</a> or the <a href="./buy.html">full shop</a>, where every piece has a wall mural button.</p>
     </section>
   </div>
   <footer class="site-footer">
     <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
-      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
+      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./asian-wall-art.html">Asian wall art</a> · <a href="./european-wall-art.html">European wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
     <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
   </footer>

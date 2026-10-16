@@ -15,13 +15,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CHECK = "--check" in sys.argv
-TODAY = "2026-10-14"
+TODAY = "2026-10-16"
 PAGE = ROOT / "mountain-wall-art.html"
 URL = "https://moonlitwindows.com/mountain-wall-art.html"
 SLUGS = [  # order = how they appear on the page
     "matterhorn-alpine-moon", "dolomites-tre-cime-moon", "mount-fuji-pagoda-moon",
     "lauterbrunnen-valley-moon", "isle-of-skye-storr-moon", "yosemite-half-dome-moon",
-    "banff-lake-louise-moon", "patagonia-lake-peaks", "zhangjiajie-pillars-moon",
+    "monument-valley-moon", "banff-lake-louise-moon", "cradle-mountain-dove-lake-moon",
+    "patagonia-lake-peaks", "zhangjiajie-pillars-moon",
     "great-wall-mutianyu-moon", "kirkjufell-waterfall-moon", "lake-tekapo-church-moon",
     "machu-picchu-mist", "scottish-highlands-loch", "snowy-peaks-above-clouds",
     "moonlit-alpine-meadow",
@@ -33,7 +34,7 @@ def words(n):  # 60 -> "sixty", 65 -> "sixty-five" (series count in the closing 
     return _WORDS[n] if n < 20 else _TENS[n // 10] + ("-" + _WORDS[n % 10] if n % 10 else "")
 TITLE = "Mountain Wall Art Posters, Framed Prints &amp; Wall Murals | Moonlit Windows"
 DESC = (f"Mountain wall art for sale: {N} moonlit mountain posters and framed prints, from the "
-        "Matterhorn, Dolomites and Mount Fuji to Yosemite, Skye, Kirkjufell and Lake Tekapo. 12×18 poster $35, "
+        "Matterhorn, Dolomites and Mount Fuji to Yosemite, Monument Valley, Skye and Cradle Mountain. 12×18 poster $35, "
         "framed print $69, 4×6 ft peel and stick wall mural $149, shipping included.")
 LINK_MARK = 'data-collection="mountain"'
 
@@ -167,10 +168,11 @@ def page(items, bl, total):
 
     <section class="prose">
       <h2>How to choose mountain wall art for your room</h2>
-      <p><strong>Bedroom.</strong> Moonlit scenes are dark and blue by nature, so they sit well where you want the room to feel calm. The stillest pieces are the lake scenes: <a href="./pieces/banff-lake-louise-moon.html">Banff Lake Louise Moon</a> and <a href="./pieces/patagonia-lake-peaks.html">Patagonia Lake Peaks</a>, where turquoise water mirrors the peaks, and the misty <a href="./pieces/scottish-highlands-loch.html">Scottish Highlands Loch</a>. A framed 12×18 print fits above a nightstand or a small dresser.</p>
-      <p><strong>Living room or a feature wall.</strong> Big, recognisable silhouettes read best from across a room: <a href="./pieces/matterhorn-alpine-moon.html">the Matterhorn</a>, <a href="./pieces/mount-fuji-pagoda-moon.html">Mount Fuji</a> and <a href="./pieces/yosemite-half-dome-moon.html">Half Dome</a>. If you want the mountain to fill the wall rather than hang on it, the 4×6 ft (48×72 in) peel and stick wall mural uses the same artwork, needs no paste, and comes off most smooth painted walls cleanly. The <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> gathers the scenes that work best at wall size, with tips on measuring and wall prep.</p>
+      <p><strong>Bedroom.</strong> Moonlit scenes are dark and blue by nature, so they sit well where you want the room to feel calm. The stillest pieces are the lake scenes: <a href="./pieces/banff-lake-louise-moon.html">Banff Lake Louise Moon</a> and <a href="./pieces/patagonia-lake-peaks.html">Patagonia Lake Peaks</a>, where turquoise water mirrors the peaks, <a href="./pieces/cradle-mountain-dove-lake-moon.html">Cradle Mountain above Dove Lake</a> in Tasmania, and the misty <a href="./pieces/scottish-highlands-loch.html">Scottish Highlands Loch</a>. A framed 12×18 print fits above a nightstand or a small dresser.</p>
+      <p><strong>Living room or a feature wall.</strong> Big, recognisable silhouettes read best from across a room: <a href="./pieces/matterhorn-alpine-moon.html">the Matterhorn</a>, <a href="./pieces/mount-fuji-pagoda-moon.html">Mount Fuji</a>, <a href="./pieces/yosemite-half-dome-moon.html">Half Dome</a> and the sandstone buttes of <a href="./pieces/monument-valley-moon.html">Monument Valley</a>. If you want the mountain to fill the wall rather than hang on it, the 4×6 ft (48×72 in) peel and stick wall mural uses the same artwork, needs no paste, and comes off most smooth painted walls cleanly. The <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> gathers the scenes that work best at wall size, with tips on measuring and wall prep.</p>
       <p><strong>Office or hallway.</strong> Detailed scenes reward a closer look: <a href="./pieces/lauterbrunnen-valley-moon.html">Lauterbrunnen Valley</a> with its waterfall, <a href="./pieces/zhangjiajie-pillars-moon.html">Zhangjiajie’s stone pillars</a>, <a href="./pieces/great-wall-mutianyu-moon.html">the Great Wall’s lit watchtowers at Mutianyu</a>, and <a href="./pieces/machu-picchu-mist.html">Machu Picchu in the mist</a>.</p>
       <p><strong>A place you have been.</strong> Many people buy mountain art to remember a trip. If you hiked the Dolomites, skied near Zermatt or drove the Skye loop, the place-named prints are meant for exactly that. Pairs work well too: the Matterhorn with the Dolomites for an Alps wall, or Skye with the Highlands loch for Scotland.</p>
+      <p>Prefer water or old towns? See the <a href="./lake-wall-art.html">lake and waterfall wall art collection</a>, the <a href="./coastal-wall-art.html">coastal wall art collection</a>, the <a href="./european-wall-art.html">European wall art collection</a> for castles and canals, and the <a href="./asian-wall-art.html">Asian wall art collection</a> for Kyoto, Guilin and the temples of Angkor and Bagan.</p>
       <p>Not sure which size suits your wall? The <a href="./guide-print-sizes.html">print size guide</a> walks through 12×18 placement, and every piece page has larger previews.</p>
     </section>
 
@@ -191,7 +193,7 @@ def page(items, bl, total):
   </div>
   <footer class="site-footer">
     <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
-      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
+      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./asian-wall-art.html">Asian wall art</a> · <a href="./european-wall-art.html">European wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
     <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
   </footer>

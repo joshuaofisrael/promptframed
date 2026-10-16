@@ -18,7 +18,7 @@ FILE = "coastal-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-15"
+TODAY = "2026-10-16"
 OG_SLUG = "amalfi-terrace-night"
 MARK = 'data-collection="coastal"'
 
@@ -206,7 +206,7 @@ def page(by_slug, bl):
       <p><strong>Living room or a feature wall.</strong> Big cliffs carry across a room: {P("cliffs-of-moher-moon", "the Cliffs of Moher")}, {P("big-sur-bixby-bridge-moon", "Bixby Creek Bridge on Big Sur")} and {P("santorini-caldera-moon", "Santorini’s caldera")}. To make the coast fill the wall, the same artwork comes as a 4×6 ft (48×72 in) peel and stick wall mural; the <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> covers measuring and wall prep.</p>
       <p><strong>Office or study.</strong> The northern scenes are moodier and less busy: {P("northern-lights-fjord", "Northern Lights Fjord")}, {P("norwegian-stave-church-fjord", "Norwegian Stave Church Fjord")} or {P("iceland-black-sand-moon", "Iceland Black Sand Moon")}.</p>
       <p><strong>A trip to remember.</strong> If you drove Highway 1, walked the Cinque Terre trail or stood on the Cliffs of Moher, the place-named prints are made for that. Pairs work well too: Amalfi with Santorini for a Mediterranean wall, or Lofoten with the Faroes for the North Atlantic.</p>
-      <p>Prefer still lakes or high peaks? See the <a href="./lake-wall-art.html">lake and waterfall wall art collection</a> and the <a href="./mountain-wall-art.html">mountain wall art collection</a>. Not sure about size? The <a href="./guide-print-sizes.html">print size guide</a> compares the poster, framed print and mural.</p>
+      <p>Prefer still lakes or high peaks? See the <a href="./lake-wall-art.html">lake and waterfall wall art collection</a> and the <a href="./mountain-wall-art.html">mountain wall art collection</a>. Castles, canals and old towns are in the <a href="./european-wall-art.html">European wall art collection</a>, and Mount Fuji, Kyoto and the temples of Angkor and Bagan in the <a href="./asian-wall-art.html">Asian wall art collection</a>. Not sure about size? The <a href="./guide-print-sizes.html">print size guide</a> compares the poster, framed print and mural.</p>
     </section>
 
     <section class="prose" id="faq">
@@ -217,7 +217,7 @@ def page(by_slug, bl):
   </div>
   <footer class="site-footer">
     <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
-      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
+      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./asian-wall-art.html">Asian wall art</a> · <a href="./european-wall-art.html">European wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
     <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
   </footer>

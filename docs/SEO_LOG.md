@@ -409,3 +409,25 @@ Why highest EV for a brand-new product gallery:
 ### Next
 - Signed-in GSC: request indexing for /european-wall-art.html, /asian-wall-art.html, /coastal-wall-art.html, /lake-wall-art.html and pieces 51–70; pull 7/28d numbers.
 - Then: cross-link Asian + European from the other collection builders; a "moon poster for bedroom" buyer guide; Friday summary tomorrow.
+
+## 2026-10-16 05:30 London — Daily drop 71–75: collection placement + European/Asian links on every collection hub
+### Data review
+- Stripe: no Night Windows sales. No charges and no checkout sessions since 15 Oct 05:00 London (read-only check, Joshua Israel Ventures LLC live account). Last checkout session on the account: 12 Oct (Lakeside Cabin poster, expired unpaid).
+- GSC: not checked (drop window again).
+- News post: none.
+
+### Opportunity chosen (and why)
+1. **Collection placement for the five new pieces** (each lands on the hubs searchers reach for: murals, European, Asian, lakes, mountain).
+2. **Close the collection-hub link gap** flagged on 15 Oct: the lake, coastal, mountain and murals pages did not link to the European or Asian collections, and mountain linked to none of lake/coastal/European/Asian. Those four builders were being touched for the drop anyway, so the fix rides along with no extra churn.
+
+### Shipped
+- Pieces 71–75 (Colmar Petite Venise, Glenfinnan Viaduct, Monument Valley, Sigiriya Rock, Cradle Mountain Dove Lake): piece pages, buy cards, hub, sitemap image entries, related links, next chain; Stripe poster $35 / framed $69 / mural $149 links live (75/75).
+- murals: all five (2:3). European: Colmar (old towns), Glenfinnan (countryside), meta + FAQ + room guide. Asian: Sigiriya (South and Southeast Asian group), meta + FAQ. Lakes: Cradle Mountain + FAQ. Mountain: Monument Valley + Cradle Mountain, meta + room guide.
+- Lake, coastal, mountain, murals hubs: contextual body links to European + Asian collections (mountain also to lake + coastal), and the full six-collection footer.
+- Alt text and collection captions corrected to what is in each image before publishing (see SEO_SCORECARD).
+- Checks: all six `build_collection_*.py --check` up to date, `apply_stripe_links.py --check` 75/75, `apply_mural_links.py --check` 75/75, `publish_pieces_71_75.py --check` 0 issues, sitemap parses, JSON-LD parses, 0 broken relative links.
+- Instagram candidate queued (not posted): Monument Valley Moon (runner-up Cradle Mountain Dove Lake Moon).
+
+### Next
+- Signed-in GSC: request indexing for pieces 51–75 and the six collection hubs; pull 7/28d numbers.
+- A "moon poster for bedroom" buyer guide; Friday summary today.

@@ -18,7 +18,7 @@ FILE = "asian-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-15"
+TODAY = "2026-10-16"
 OG_SLUG = "mount-fuji-pagoda-moon"
 MARK = 'data-collection="asian"'
 
@@ -35,9 +35,10 @@ GROUPS = [
         ("guilin-li-river-moon", "Karst peaks along the Li River near Guilin with a lantern on a bamboo raft under a full moon"),
         ("zhangjiajie-pillars-moon", "Zhangjiajie’s sandstone pillars rising through forest mist in moonlight"),
     ]),
-    ("southeast-asia-india", "Southeast Asian and Indian temple wall art", "temple wall art poster and framed print",
-     "Temples, stupas, rice terraces and a lantern-lit bay, from Agra and Angkor to Bali and Ha Long.", [
+    ("southeast-asia-india", "South and Southeast Asian temple wall art", "temple wall art poster and framed print",
+     "Temples, stupas, a rock fortress, rice terraces and a lantern-lit bay, from Agra, Sigiriya and Angkor to Bali and Ha Long.", [
         ("taj-mahal-moon", "The white marble Taj Mahal above its reflecting pool and cypress gardens under a full moon"),
+        ("sigiriya-rock-moon", "Sigiriya’s flat-topped Lion Rock in Sri Lanka rising above the jungle, its terraced water gardens and pools mirroring a full moon"),
         ("angkor-wat-moon", "Angkor Wat’s towers above a lotus pond with palms and the full moon reflected in the water"),
         ("bagan-temples-night", "Brick stupas scattered across the misty plain of Bagan under moonlight"),
         ("bali-jungle-temple", "Mossy temple steps climbing through Balinese jungle mist with lanterns and moonbeams"),
@@ -50,7 +51,7 @@ N = len(SLUGS)
 
 TITLE = "Asian Wall Art: Japanese & Temple Posters, Framed Prints | Moonlit Windows"
 DESC = (f"Asian wall art: {N} moonlit Japanese, Chinese and temple posters and framed prints, from Mount Fuji, Kyoto "
-        "and the Great Wall to the Taj Mahal, Angkor Wat and Bagan. 12×18 poster $35, framed $69, "
+        "and the Great Wall to the Taj Mahal, Sigiriya, Angkor Wat and Bagan. 12×18 poster $35, framed $69, "
         "4×6 ft wall mural $149, shipping included.")
 H1 = "Asian Wall Art: Moonlit Japanese, Chinese and Temple Prints"
 
@@ -58,7 +59,7 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named places reimagined at night: the Chureito Pagoda below Mount Fuji, a Kyoto bamboo grove, the Great Wall at Mutianyu, the Li River near Guilin, Zhangjiajie, the Taj Mahal, Angkor Wat, Bagan and Ha Long Bay. Japanese Temple Pond, Bali Jungle Temple and Moonlit Rice Terraces evoke those landscapes rather than one exact viewpoint."),
+     "Most are named places reimagined at night: the Chureito Pagoda below Mount Fuji, a Kyoto bamboo grove, the Great Wall at Mutianyu, the Li River near Guilin, Zhangjiajie, the Taj Mahal, Sigiriya’s Lion Rock in Sri Lanka, Angkor Wat, Bagan and Ha Long Bay. Japanese Temple Pond, Bali Jungle Temple and Moonlit Rice Terraces evoke those landscapes rather than one exact viewpoint."),
     ("Is there Japanese wall art for a bedroom?",
      "Yes. Kyoto Bamboo Moon and Japanese Temple Pond are the calmest pieces in the collection, with soft greens, still water and mist. Mount Fuji Pagoda Moon has more colour from the cherry blossoms and pagoda, so it suits a living room or hallway as well."),
     ("Will the watermark be on my print?",
@@ -76,9 +77,24 @@ def blurbs():
         out[m.group(2)] = (m.group(1), m.group(3), m.group(4))
     return out
 
+
+def is_live(st):
+    return st.get("status") == "live" and all(str(st.get(k) or "").startswith("https://buy.stripe.com/")
+                                              for k in ("posterUrl", "framedUrl", "muralUrl"))
+
 def card(it, alt, suffix, info):
     cls, w, blurb = info
     s, t, st, a = it["slug"], html.escape(it["title"]), it["stripe"], it["asset"]
+    if not is_live(st):  # new drop before its Stripe links exist: same 'soon' note as buy.html
+        return f'''      <article class="{cls}" id="{s}">
+        <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{html.escape(alt)}, {t} {suffix}" loading="lazy"></a>
+        <div class="meta">
+          <h3><a href="./pieces/{s}.html">{t}</a></h3>
+          <p>{blurb}</p>
+          <p class="price-line">$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>
+          <p class="note">This window opens for orders soon.</p>
+        </div>
+      </article>'''
     return f'''      <article class="{cls}" id="{s}">
         <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{html.escape(alt)}, {t} {suffix}" loading="lazy"></a>
         <div class="meta">
@@ -188,7 +204,7 @@ def page(by_slug, bl):
       <p class="sale-line">{N} Asian and Japanese art prints · $35 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
       <p class="answer-first">These are {N} moonlit Asian landscape and temple prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real places at night, among them Mount Fuji, Kyoto, the Great Wall, Guilin, the Taj Mahal, Angkor Wat and Bagan, with a full moon in the sky and warm lantern light below.</p>
       <p>Mist does a lot of the work here: it softens karst peaks and bamboo, settles over temple plains and lifts off still ponds, so even the busiest scenes stay calm. That makes this the most meditative group in the Night Windows series, with deep greens and blues rather than bright colour.</p>
-      <p class="note">Jump to: <a href="#japan">Japan</a> · <a href="#china">China</a> · <a href="#southeast-asia-india">Southeast Asia and India</a> · <a href="#choose">Choosing a piece</a> · <a href="#faq">FAQ</a></p>
+      <p class="note">Jump to: <a href="#japan">Japan</a> · <a href="#china">China</a> · <a href="#southeast-asia-india">South and Southeast Asia</a> · <a href="#choose">Choosing a piece</a> · <a href="#faq">FAQ</a></p>
     </section>
 
 {grids}
@@ -277,9 +293,12 @@ def main():
     items = {p["slug"]: p for p in json.loads((ROOT / "products.json").read_text())}
     assert len(set(SLUGS)) == N
     for s in SLUGS:
-        st = items[s]["stripe"]; assert st["status"] == "live", s
-        for k in ("muralUrl", "posterUrl", "framedUrl"):
-            assert str(st.get(k, "")).startswith("https://buy.stripe.com/"), (s, k)
+        st = items[s]["stripe"]
+        if st.get("status") == "live":  # placeholder rows (new drop, Stripe pending) render a 'soon' card
+            for k in ("muralUrl", "posterUrl", "framedUrl"):
+                assert str(st.get(k, "")).startswith("https://buy.stripe.com/"), (s, k)
+        else:
+            print("note: Stripe not live yet, card shows 'opens for orders soon':", s)
         a = items[s]["asset"]
         assert re.fullmatch(r"\d\d-[a-z0-9-]+\.jpg", a) and (ROOT / "assets" / a).exists() and (ROOT / "assets" / "thumbs" / a).exists(), a
     new_page = page(items, blurbs())

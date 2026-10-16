@@ -18,7 +18,7 @@ FILE = "european-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-15"
+TODAY = "2026-10-16"
 OG_SLUG = "neuschwanstein-castle-moon"
 MARK = 'data-collection="european"'
 
@@ -32,19 +32,21 @@ GROUPS = [
         ("meteora-monasteries-moon", "Meteora’s monasteries on sheer stone pillars above a misty valley in Thessaly, Greece, under a full moon"),
     ]),
     ("old-towns", "European old town and city wall art", "European city wall art poster and framed print",
-     "Canals, bridges, walls and cobbled lanes: Venice, Prague, Bruges, Dubrovnik, Rothenburg and Hallstatt after dark.", [
+     "Canals, bridges, walls and cobbled lanes: Venice, Prague, Bruges, Colmar, Dubrovnik, Rothenburg and Hallstatt after dark.", [
         ("venetian-canal-moonrise", "A quiet Venetian canal with stone bridges, warm windows on the water and a lone gondola under moonlight"),
         ("prague-charles-bridge-moon", "Prague’s Charles Bridge and its Gothic towers over the Vltava, with Prague Castle lit on the hill beneath a cloud-veiled moon"),
         ("bruges-canal-moon", "The Rozenhoedkaai in Bruges, Belgium, with stepped gables, a willow and the Belfry mirrored in the canal beneath a cloud-veiled moon"),
         ("dubrovnik-old-town-moon", "Dubrovnik’s medieval walls and terracotta roofs above the calm Adriatic, with Fort Lovrijenac on its cliff beneath a cloud-veiled moon"),
         ("rothenburg-old-town-moon", "Lamplit cobblestones forking around a half-timbered house in Rothenburg ob der Tauber, Germany, beneath a cloud-veiled moon"),
+        ("colmar-petite-venise-moon", "Half-timbered houses and flower boxes mirrored in the canal of Colmar’s Petite Venise in Alsace, France, beneath a cloud-veiled moon"),
         ("hallstatt-lake-moon", "Hallstatt’s church steeple and lakeside houses mirrored in still alpine water in Austria under moonlight"),
     ]),
     ("countryside", "European countryside and village wall art", "countryside wall art poster and framed print",
-     "Lavender fields, cypress roads and honey-stone cottages: the gentlest, warmest scenes in the collection.", [
+     "Lavender fields, cypress roads, honey-stone cottages and a stone viaduct across a Highland glen: the gentlest scenes in the collection.", [
         ("provence-lavender-moon", "Rows of moonlit lavender in Provence, France, leading to a warm stone farmhouse under a full moon"),
         ("tuscany-cypress-hills", "A cypress-lined road winding through moonlit Tuscan hills toward a warm stone villa in Italy"),
         ("bibury-arlington-row-moon", "The honey-stone cottages of Arlington Row beside the River Coln in Bibury, England, under a cloud-veiled moon"),
+        ("glenfinnan-viaduct-moon", "The curving stone arches of the Glenfinnan Viaduct across a Highland glen toward Loch Shiel, Scotland, beneath a cloud-veiled moon"),
     ]),
 ]
 SLUGS = [s for _, _, _, _, items in GROUPS for s, _ in items]
@@ -52,7 +54,7 @@ N = len(SLUGS)
 
 TITLE = "European Wall Art: Castle & Old Town Posters, Framed Prints | Moonlit Windows"
 DESC = (f"European wall art: {N} moonlit castle, old town and village posters and framed prints, from Neuschwanstein, "
-        "Venice and Prague to Bruges, Dubrovnik, Provence and Tuscany. 12×18 poster $35, framed $69, "
+        "Venice and Prague to Bruges, Colmar, Dubrovnik, Provence and Tuscany. 12×18 poster $35, framed $69, "
         "4×6 ft wall mural $149, shipping included.")
 H1 = "European Wall Art: Moonlit Castles, Old Towns and Villages"
 
@@ -60,7 +62,7 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named places reimagined at night: Neuschwanstein, Eilean Donan, the Pena Palace in Sintra, Mont Saint-Michel, Meteora, Prague’s Charles Bridge, the Rozenhoedkaai in Bruges, Dubrovnik, Rothenburg, Hallstatt and Arlington Row in Bibury. Venetian Canal Moonrise, Provence Lavender Moon and Tuscany Cypress Hills evoke those places rather than one exact viewpoint."),
+     "Most are named places reimagined at night: Neuschwanstein, Eilean Donan, the Pena Palace in Sintra, Mont Saint-Michel, Meteora, Prague’s Charles Bridge, the Rozenhoedkaai in Bruges, Colmar’s Petite Venise, Dubrovnik, Rothenburg, Hallstatt, Arlington Row in Bibury and the Glenfinnan Viaduct in the Scottish Highlands. Venetian Canal Moonrise, Provence Lavender Moon and Tuscany Cypress Hills evoke those places rather than one exact viewpoint."),
     ("Do you have castle wall art for a child’s room?",
      "Yes. Neuschwanstein Castle Moon is the most fairy-tale piece in the series, and Eilean Donan and Mont Saint-Michel have the same storybook feel with calmer, darker water. All of them are soft night scenes with a full moon rather than anything spooky."),
     ("Which pieces work as a travel souvenir?",
@@ -80,9 +82,24 @@ def blurbs():
         out[m.group(2)] = (m.group(1), m.group(3), m.group(4))
     return out
 
+
+def is_live(st):
+    return st.get("status") == "live" and all(str(st.get(k) or "").startswith("https://buy.stripe.com/")
+                                              for k in ("posterUrl", "framedUrl", "muralUrl"))
+
 def card(it, alt, suffix, info):
     cls, w, blurb = info
     s, t, st, a = it["slug"], html.escape(it["title"]), it["stripe"], it["asset"]
+    if not is_live(st):  # new drop before its Stripe links exist: same 'soon' note as buy.html
+        return f'''      <article class="{cls}" id="{s}">
+        <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{html.escape(alt)}, {t} {suffix}" loading="lazy"></a>
+        <div class="meta">
+          <h3><a href="./pieces/{s}.html">{t}</a></h3>
+          <p>{blurb}</p>
+          <p class="price-line">$35 poster · $69 framed (12×18) · $149 peel &amp; stick wall mural (4×6 ft)</p>
+          <p class="note">This window opens for orders soon.</p>
+        </div>
+      </article>'''
     return f'''      <article class="{cls}" id="{s}">
         <a href="./pieces/{s}.html"><img src="./assets/thumbs/{a}" srcset="./assets/thumbs/{a} 600w, ./assets/{a} {w}w" sizes="(max-width: 640px) 92vw, (max-width: 1100px) 45vw, 22rem" decoding="async" alt="{html.escape(alt)}, {t} {suffix}" loading="lazy"></a>
         <div class="meta">
@@ -203,7 +220,7 @@ def page(by_slug, bl):
       <p><strong>Child’s room or nursery.</strong> Castles do the storytelling: {P("neuschwanstein-castle-moon", "Neuschwanstein")} above its misty valley, {P("eilean-donan-castle-moon", "Eilean Donan")} on its loch, or {P("mont-saint-michel-moon", "Mont Saint-Michel")} rising from the tide.</p>
       <p><strong>Living room or a feature wall.</strong> Wide, recognisable views carry across a room: {P("prague-charles-bridge-moon", "Prague’s Charles Bridge")}, {P("dubrovnik-old-town-moon", "Dubrovnik’s walled old town")} or {P("meteora-monasteries-moon", "the monasteries of Meteora")}. To make one fill the wall, the same artwork comes as a 4×6 ft (48×72 in) peel and stick wall mural; the <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> covers measuring and wall prep.</p>
       <p><strong>Kitchen, dining room or hallway.</strong> The countryside and village pieces feel homely: {P("tuscany-cypress-hills", "Tuscany Cypress Hills")}, the cottages of {P("bibury-arlington-row-moon", "Bibury’s Arlington Row")} or the lamplit lane in {P("rothenburg-old-town-moon", "Rothenburg Old Town Moon")}.</p>
-      <p><strong>A trip to remember.</strong> If you crossed the Charles Bridge, walked Dubrovnik’s walls or drove through Tuscany, the place-named prints are made for that. Pairs work well too: {P("venetian-canal-moonrise", "Venice")} with Bruges for a canal wall, Neuschwanstein with Rothenburg for Bavaria, or {P("sintra-pena-palace-moon", "Sintra’s Pena Palace")} with Mont Saint-Michel for a castles pair.</p>
+      <p><strong>A trip to remember.</strong> If you crossed the Charles Bridge, walked Dubrovnik’s walls or drove through Tuscany, the place-named prints are made for that. Pairs work well too: {P("venetian-canal-moonrise", "Venice")} with Bruges or {P("colmar-petite-venise-moon", "Colmar")} for a canal wall, Neuschwanstein with Rothenburg for Bavaria, or {P("sintra-pena-palace-moon", "Sintra’s Pena Palace")} with Mont Saint-Michel for a castles pair.</p>
       <p>Prefer wild landscapes? See the <a href="./mountain-wall-art.html">mountain wall art collection</a>, the <a href="./lake-wall-art.html">lake and waterfall wall art collection</a>, the <a href="./coastal-wall-art.html">coastal wall art collection</a> and the <a href="./asian-wall-art.html">Asian wall art collection</a>. Not sure about size? The <a href="./guide-print-sizes.html">print size guide</a> compares the poster, framed print and mural.</p>
     </section>
 
@@ -281,9 +298,12 @@ def main():
     items = {p["slug"]: p for p in json.loads((ROOT / "products.json").read_text())}
     assert len(set(SLUGS)) == N
     for s in SLUGS:
-        st = items[s]["stripe"]; assert st["status"] == "live", s
-        for k in ("muralUrl", "posterUrl", "framedUrl"):
-            assert str(st.get(k, "")).startswith("https://buy.stripe.com/"), (s, k)
+        st = items[s]["stripe"]
+        if st.get("status") == "live":  # placeholder rows (new drop, Stripe pending) render a 'soon' card
+            for k in ("muralUrl", "posterUrl", "framedUrl"):
+                assert str(st.get(k, "")).startswith("https://buy.stripe.com/"), (s, k)
+        else:
+            print("note: Stripe not live yet, card shows 'opens for orders soon':", s)
         a = items[s]["asset"]
         assert re.fullmatch(r"\d\d-[a-z0-9-]+\.jpg", a) and (ROOT / "assets" / a).exists() and (ROOT / "assets" / "thumbs" / a).exists(), a
     new_page = page(items, blurbs())
