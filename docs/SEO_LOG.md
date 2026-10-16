@@ -429,5 +429,38 @@ Why highest EV for a brand-new product gallery:
 - Instagram candidate queued (not posted): Monument Valley Moon (runner-up Cradle Mountain Dove Lake Moon).
 
 ### Next
-- Signed-in GSC: request indexing for pieces 51–75 and the six collection hubs; pull 7/28d numbers.
-- A "moon poster for bedroom" buyer guide; Friday summary today.
+- Signed-in GSC: request indexing for pieces 51–75, the six collection hubs and /moon-poster-bedroom.html; pull 7/28d numbers. Still needs a run outside 04:45–05:15 London (browser lock / drop collision).
+
+## 2026-10-16 ~05:15 London — Scheduled SEO run: moon poster bedroom guide + Friday weekly summary
+### Data review
+- Stripe: no Night Windows sales (same read as the drop entry above; 75/75 pieces now live with poster/framed/mural). Parent/drop already confirmed no charges since 15 Oct.
+- GSC: still unchecked this week. Last numbers 8 Oct (28d: 0 clicks, 4 impressions, avg pos 6.8). Signed-in browser collided with the daily Night Windows drop again; blocker remains for a run outside 04:45–05:15 London.
+- News post: none (no genuinely relevant news for the niche today).
+- Outreach: not sent (this routine does not authorise outbound outreach).
+
+### Opportunity chosen (and why)
+**A+B (cross-links + pieces 71–75 on theme hubs) already shipped in the concurrent daily-drop commit `7549422`.** Highest remaining EV for this Friday slot: ship the planned **"moon poster for bedroom" buyer guide**, fix stale llms.txt collection counts, and write the Friday weekly summary.
+
+### Shipped
+- `/moon-poster-bedroom.html`: title "Moon Poster for Bedroom: Calm Night Windows Wall Art"; answer-first opener; size/viewing-distance notes (links `guide-print-sizes.html` + murals); theme guidance (lakes/mountains, Asian, European); eight calm pieces (Lakeside Cabin, Banff Lake Louise, Japanese Temple Pond, Kyoto Bamboo, Bruges Canal, Scottish Highlands Loch, Cradle Mountain Dove Lake, Provence Lavender); 5-question FAQ mirrored in FAQPage JSON-LD; WebPage + ItemList + BreadcrumbList JSON-LD.
+- Internal links: buy.html note, night-windows.html, guide-print-sizes.html, and Bedroom paragraphs on lake/mountain/asian/european hubs (builders updated so re-runs keep the link). llms.txt Buying help + Shop counts corrected (coastal 18, asian 13 + Sigiriya, european 16 + Colmar). asian/european/coastal builders now keep llms counts in step on re-run. sitemap + lastmod 16 Oct.
+- Checks: JSON-LD parses; sitemap parses; no banned words; no broken relative links among hubs; all six `build_collection_*.py --check` up to date; `apply_stripe_links.py --check` 75/75; `apply_mural_links.py --check` 75/75.
+
+### Friday weekly summary (10–16 Oct 2026)
+- **Impressions/clicks:** Last known GSC is still 8 Oct (28d: 0 clicks, 4 impressions, avg pos 6.8). GSC was not checked Mon–Fri this week because the signed-in desktop browser is held by the daily Night Windows drop in the 04:45–05:15 London slot. Blocker: need a GSC pass outside that window.
+- **Top queries:** Unknown (no GSC pull this week).
+- **What shipped this week:**
+  - Mon 12 Oct: pieces 51–55; lake-wall-art.html; murals expanded.
+  - Tue 13 Oct: coastal-wall-art.html; pieces 56–60 wired into murals/mountain/lakes; poster price $35 confirmed site-wide.
+  - Wed 14 Oct: asian-wall-art.html; pieces 61–65 wired into lakes/mountain/coastal/murals.
+  - Thu 15 Oct: european-wall-art.html; pieces 66–70 wired; Asian link restored on series hub.
+  - Fri 16 Oct: pieces 71–75 live (75 series); collection placement on murals/European/Asian/lakes/mountain; European + Asian cross-links on lake/coastal/mountain/murals hubs; moon-poster-bedroom.html buyer guide; Stripe 75/75 live.
+- **Next week priorities:** (1) Signed-in GSC outside the drop window — resubmit sitemap, request indexing for new hubs + pieces 51–75 + bedroom guide, pull 7/28d numbers into the scorecard. (2) Watch which collection hubs earn first impressions and double down. (3) Optional: deepen bedroom guide with room photos or a second buyer guide only if GSC shows demand. (4) Keep white-hat outreach only if Joshua authorises sends for this bot.
+
+### Notes
+- A+B were completed by the daily-drop publish (commit `7549422`) before this SEO slot finished; this entry covers the bedroom guide, llms count fix and Friday summary only.
+- Digital wallpapers are still not live; murals remain the physical wallpaper product. Prices: poster $35, framed $69, mural $149.
+
+### Next
+- Signed-in GSC outside 04:45–05:15 London.
+- No further collection page planned until impression data exists.

@@ -255,6 +255,8 @@ def edits():
         if a in src: put(rel, src, src.replace(a, a[:-4] + f' Seaside villages, ocean cliffs and fjords are in the <a {MARK} href="./coastal-wall-art.html">coastal wall art collection</a>.</p>', 1))
         else: print("WARN night-windows anchor not found")
     rel = "llms.txt"; src = (ROOT / rel).read_text(encoding="utf-8")
+    if URL in src:
+        put(rel, src, re.sub(rf"(- \[Coastal\ wall\ art\]\({re.escape(URL)}\): )\d+ ", rf"\g<1>{N} ", src, count=1))
     if URL not in src:
         m = re.search(r"- \[Lake and waterfall wall art\]\([^)]*\):[^\n]*\n", src)
         line = (f"- [Coastal wall art]({URL}): {N} moonlit ocean, seaside and fjord posters ($35), framed prints ($69) "

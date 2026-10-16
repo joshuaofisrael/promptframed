@@ -211,7 +211,7 @@ def page(by_slug, bl):
 
     <section class="prose">
       <h2 id="choose">How to choose Asian wall art for your room</h2>
-      <p><strong>Bedroom.</strong> Go for stillness: {P("kyoto-bamboo-moon", "Kyoto Bamboo Moon")} with its soft green grove, {P("japanese-temple-pond", "Japanese Temple Pond")} with the moon in the water, or the lantern-lit junks of {P("ha-long-bay-moon", "Ha Long Bay")}.</p>
+      <p><strong>Bedroom.</strong> Go for stillness: {P("kyoto-bamboo-moon", "Kyoto Bamboo Moon")} with its soft green grove, {P("japanese-temple-pond", "Japanese Temple Pond")} with the moon in the water, or the lantern-lit junks of {P("ha-long-bay-moon", "Ha Long Bay")}. More bedroom picks and size tips are in the <a data-guide="bedroom" href="./moon-poster-bedroom.html">moon poster for bedroom</a> guide.</p>
       <p><strong>Living room or a feature wall.</strong> Big, recognisable scenes carry across a room: {P("mount-fuji-pagoda-moon", "Mount Fuji and the Chureito Pagoda")}, {P("great-wall-mutianyu-moon", "the Great Wall at Mutianyu")} and {P("taj-mahal-moon", "the Taj Mahal")}. To make one fill the wall, the same artwork comes as a 4×6 ft (48×72 in) peel and stick wall mural; the <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> covers measuring and wall prep.</p>
       <p><strong>Meditation corner, yoga room or study.</strong> The temple pieces are the most contemplative: {P("angkor-wat-moon", "Angkor Wat")} reflected in its lotus pond, the stupas of {P("bagan-temples-night", "Bagan")}, or mossy steps in {P("bali-jungle-temple", "Bali Jungle Temple")}.</p>
       <p><strong>Office or hallway.</strong> Layered mountain scenes read well from a distance: {P("guilin-li-river-moon", "the Li River near Guilin")}, {P("zhangjiajie-pillars-moon", "Zhangjiajie’s pillars")} or {P("moonlit-rice-terraces", "Moonlit Rice Terraces")}.</p>
@@ -265,6 +265,8 @@ def edits():
         if a in src: put(rel, src, src.replace(a, a[:-4] + f' Mount Fuji, Kyoto, the Great Wall and the temples of Angkor, Bagan and Agra are in the <a {MARK} href="./asian-wall-art.html">Asian wall art collection</a>.</p>', 1))
         else: print("WARN night-windows anchor not found")
     rel = "llms.txt"; src = (ROOT / rel).read_text(encoding="utf-8")
+    if URL in src:
+        put(rel, src, re.sub(rf"(- \[Asian\ wall\ art\]\({re.escape(URL)}\): )\d+ ", rf"\g<1>{N} ", src, count=1))
     if URL not in src:
         m = re.search(r"- \[Coastal wall art\]\([^)]*\):[^\n]*\n", src)
         line = (f"- [Asian wall art]({URL}): {N} moonlit Japanese, Chinese and temple posters ($35), framed prints ($69) "

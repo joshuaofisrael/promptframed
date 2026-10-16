@@ -216,7 +216,7 @@ def page(by_slug, bl):
 
     <section class="prose">
       <h2 id="choose">How to choose European wall art for your room</h2>
-      <p><strong>Bedroom.</strong> Go for quiet water and soft light: {P("bruges-canal-moon", "Bruges Canal Moon")} with its mirrored gables, {P("hallstatt-lake-moon", "Hallstatt")} on its still lake, or the lavender rows of {P("provence-lavender-moon", "Provence Lavender Moon")}.</p>
+      <p><strong>Bedroom.</strong> Go for quiet water and soft light: {P("bruges-canal-moon", "Bruges Canal Moon")} with its mirrored gables, {P("hallstatt-lake-moon", "Hallstatt")} on its still lake, or the lavender rows of {P("provence-lavender-moon", "Provence Lavender Moon")}. More bedroom picks and size tips are in the <a data-guide="bedroom" href="./moon-poster-bedroom.html">moon poster for bedroom</a> guide.</p>
       <p><strong>Child’s room or nursery.</strong> Castles do the storytelling: {P("neuschwanstein-castle-moon", "Neuschwanstein")} above its misty valley, {P("eilean-donan-castle-moon", "Eilean Donan")} on its loch, or {P("mont-saint-michel-moon", "Mont Saint-Michel")} rising from the tide.</p>
       <p><strong>Living room or a feature wall.</strong> Wide, recognisable views carry across a room: {P("prague-charles-bridge-moon", "Prague’s Charles Bridge")}, {P("dubrovnik-old-town-moon", "Dubrovnik’s walled old town")} or {P("meteora-monasteries-moon", "the monasteries of Meteora")}. To make one fill the wall, the same artwork comes as a 4×6 ft (48×72 in) peel and stick wall mural; the <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> covers measuring and wall prep.</p>
       <p><strong>Kitchen, dining room or hallway.</strong> The countryside and village pieces feel homely: {P("tuscany-cypress-hills", "Tuscany Cypress Hills")}, the cottages of {P("bibury-arlington-row-moon", "Bibury’s Arlington Row")} or the lamplit lane in {P("rothenburg-old-town-moon", "Rothenburg Old Town Moon")}.</p>
@@ -270,6 +270,8 @@ def edits():
         if m: put(rel, src, src[:m.end(1)] + f' See them together in the <a {MARK} href="./european-wall-art.html">European wall art collection</a>.' + src[m.end(1):])
         else: print("WARN night-windows anchor not found")
     rel = "llms.txt"; src = (ROOT / rel).read_text(encoding="utf-8")
+    if URL in src:
+        put(rel, src, re.sub(rf"(- \[European\ wall\ art\]\({re.escape(URL)}\): )\d+ ", rf"\g<1>{N} ", src, count=1))
     if URL not in src:
         m = re.search(r"- \[Asian wall art\]\([^)]*\):[^\n]*\n", src)
         line = (f"- [European wall art]({URL}): {N} moonlit castle, old town and village posters ($35), framed prints ($69) "
