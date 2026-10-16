@@ -2323,5 +2323,95 @@
     },
     "asset": "70-bora-bora-lagoon-moon.jpg",
     "printSource": "gallery/70-bora-bora-lagoon-moon.png"
+  },
+  {
+    "slug": "colmar-petite-venise-moon",
+    "title": "Colmar Petite Venise Moon",
+    "series": "Night Windows",
+    "photoNumber": 71,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "71-colmar-petite-venise-moon.jpg",
+    "printSource": "gallery/71-colmar-petite-venise-moon.png"
+  },
+  {
+    "slug": "glenfinnan-viaduct-moon",
+    "title": "Glenfinnan Viaduct Moon",
+    "series": "Night Windows",
+    "photoNumber": 72,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "72-glenfinnan-viaduct-moon.jpg",
+    "printSource": "gallery/72-glenfinnan-viaduct-moon.png"
+  },
+  {
+    "slug": "monument-valley-moon",
+    "title": "Monument Valley Moon",
+    "series": "Night Windows",
+    "photoNumber": 73,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "73-monument-valley-moon.jpg",
+    "printSource": "gallery/73-monument-valley-moon.png"
+  },
+  {
+    "slug": "sigiriya-rock-moon",
+    "title": "Sigiriya Rock Moon",
+    "series": "Night Windows",
+    "photoNumber": 74,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "74-sigiriya-rock-moon.jpg",
+    "printSource": "gallery/74-sigiriya-rock-moon.png"
+  },
+  {
+    "slug": "cradle-mountain-dove-lake-moon",
+    "title": "Cradle Mountain Dove Lake Moon",
+    "series": "Night Windows",
+    "photoNumber": 75,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "75-cradle-mountain-dove-lake-moon.jpg",
+    "printSource": "gallery/75-cradle-mountain-dove-lake-moon.png"
   }
 ]
