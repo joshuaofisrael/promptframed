@@ -333,6 +333,7 @@ def piece_html(piece: dict, width: int, height: int) -> str:
     </article>
   </div>
   <footer class="site-footer"><div class="wrap"><div>© Prompt Framed · Joshua Israel Ventures LLC</div><div><a href="../">Back to gallery</a> · <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div></div></footer>
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "899375a6262144aabf5184589abd580c"}}'></script>
 </body>
 </html>
 """

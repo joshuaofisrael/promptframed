@@ -146,6 +146,7 @@ PRIVACY = dict(
                    "<strong>Fulfilment.</strong> To make and deliver your order, we share your name, shipping address and order contents (and, where a carrier needs it, your email or phone number) with our third-party print partner and the delivery carrier.",
                    "<strong>Promo codes.</strong> If you enter a promo code at checkout, it is recorded with your order. This is how a referring creator’s commission is calculated.",
                    "<strong>Analytics (Google Analytics).</strong> Our pages load Google Analytics 4, which uses cookies to measure visits: pages viewed, approximate location, device and browser, and the site that referred you. We use this to understand which pages are useful. You can block it with your browser settings or the <a href=\"https://tools.google.com/dlpage/gaoptout\" rel=\"noopener\">Google Analytics opt-out add-on</a>. See <a href=\"https://policies.google.com/privacy\" rel=\"noopener\">Google’s privacy policy</a>.",
+                   "<strong>Analytics (Cloudflare Web Analytics).</strong> Our pages also load Cloudflare Web Analytics, a privacy-first service that does not use cookies or local storage and does not fingerprint you. It gives us aggregate visit statistics only, such as page views, referring sites, countries and page load times. See <a href=\"https://www.cloudflare.com/privacypolicy/\" rel=\"noopener\">Cloudflare’s privacy policy</a>.",
                    "<strong>Fonts.</strong> Most pages load fonts from Google Fonts, so your browser sends your IP address to Google when it fetches them.",
                    "<strong>Hosting.</strong> The site is hosted on GitHub Pages. GitHub may log visitors’ IP addresses to operate and secure the service.",
                    "<strong>Email and the contact form.</strong> The contact form does not send anything to our server; it opens your own email app with your message filled in. If you email us, we receive your email address and whatever you write, and use it only to reply and to handle your order.")),
@@ -156,7 +157,7 @@ PRIVACY = dict(
         section("How long we keep it",
                 "Order records are kept for as long as needed to fulfil the order and to meet tax, accounting and legal obligations. Emails are kept for as long as needed to handle your request. Google Analytics data is kept according to the retention settings of our Analytics account."),
         section("International transfers",
-                "Our service providers, including Stripe, Google, GitHub and our print partners, may process data in the United States and other countries."),
+                "Our service providers, including Stripe, Google, Cloudflare, GitHub and our print partners, may process data in the United States and other countries."),
         section("Your rights",
                 f"Depending on where you live (for example under the GDPR in the EU or UK, or California law), you may have the right to access, correct, delete or receive a copy of your personal data, to object to or restrict its use, and to complain to a data protection authority. To make a request, email {MAIL}."),
         section("Children",
@@ -240,6 +241,7 @@ def legal_page(cfg, header, footer):
 {body}
   </div>
   {footer}
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "899375a6262144aabf5184589abd580c"}}'></script>
 </body>
 </html>
 """
