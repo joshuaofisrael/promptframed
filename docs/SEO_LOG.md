@@ -464,3 +464,24 @@ Why highest EV for a brand-new product gallery:
 ### Next
 - Signed-in GSC outside 04:45–05:15 London.
 - No further collection page planned until impression data exists.
+
+## 2026-10-19 ~05:30 London — Daily drop 76–80 + new waterfall wall art collection page
+### Data review
+- Stripe: no Night Windows sales. No charges since 16 Oct 00:00 London (live Joshua Israel Ventures LLC account, read-only check). The only checkout sessions since then are Tax Deed Pack ones on 18 Oct: three unpaid/expired and one internal $0 QA test (100% promo code, joshuaofisrael@gmail.com); none are Moonlit Windows.
+- GSC: not checked (drop window; no browser runs in this routine).
+- News post: none.
+
+### Opportunity chosen (and why)
+1. **Collection placement for the five new pieces** (lakes, mountain, European, murals), as on prior drops.
+2. **New `waterfall-wall-art.html` collection.** With Skógafoss and Havasu Falls the series has nine waterfall pieces (Skógafoss, Kirkjufellsfoss, Múlafossur/Gásadalur, Plitvice, Staubbach/Lauterbrunnen, Iguazu, Havasu, Victoria Falls, Moonlit Waterfall). Waterfall wall art / waterfall poster is a distinct buyer query that until now only had a sub-section of lake-wall-art.html; waterfalls are also the owner’s favourite theme and the strongest Instagram content, so a dedicated landing page gives that traffic somewhere to convert. Unique copy (regional groups, room guide, moonlight/moonbow FAQ), not a thin duplicate: lake-wall-art.html keeps its waterfalls group and links to the new page.
+
+### Shipped
+- Pieces 76–80 (Skógafoss Waterfall Moon, Moraine Lake Moon, Hohenzollern Castle Moon, Havasu Falls Moon, Ponte Vecchio Florence Moon): piece pages with a new “Where it fits” room note, buy cards, home cards, hub (80 pieces), sitemap image entries, related links both ways, next chain Cradle Mountain → 76 → … → 80 → First window. Stripe poster $35 / framed $69 / mural $149 links live (80/80).
+- Collections: lakes (Moraine Lake; Skógafoss + Havasu in waterfalls; FAQ), mountain (Moraine Lake + room guide), European (Hohenzollern in castles, Ponte Vecchio in old towns; FAQ), murals (all five are 2:3: Skógafoss, Havasu, Moraine Lake in lakes-waterfalls; Hohenzollern, Ponte Vecchio in castles and landmarks).
+- `waterfall-wall-art.html` via new `scripts/build_collection_waterfalls.py`: CollectionPage + ItemList + BreadcrumbList + FAQPage JSON-LD, 9 cards with live poster/framed/mural Stripe buttons, piece-page collection notes on all nine, links from buy.html theme row, series hub, lake-wall-art.html (waterfalls intro + footer), llms.txt, sitemap.
+- Checks: all seven `build_collection_*.py --check` up to date, `publish_pieces_76_80.py --check` 0 issues (re-run idempotent); live: 5 piece pages 200 on moonlitwindows.com and github.io with 3 buy.stripe.com links each, all 15 payment links 200; IndexNow 200 (23 URLs + 6 collection/sitemap URLs), `apply_stripe_links.py --check` 80/80, `apply_mural_links.py --check` 80/80, sitemap parses, JSON-LD parses on 100 pages, 0 broken relative links.
+- Instagram candidate queued (not posted): Skógafoss Waterfall Moon (runner-up Havasu Falls Moon).
+
+### Next
+- Signed-in GSC outside 04:45–05:15 London: submit sitemap, request indexing for /waterfall-wall-art.html, pieces 76–80 and the earlier backlog (51–75, hubs, bedroom guide).
+- Watch whether waterfall-wall-art.html or lake-wall-art.html earns the waterfall impressions; if they compete, narrow the lake page title to lakes.
