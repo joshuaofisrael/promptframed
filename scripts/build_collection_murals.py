@@ -20,7 +20,7 @@ FILE = "peel-and-stick-wall-murals.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-16"
+TODAY = "2026-10-19"
 OG_SLUG = "dolomites-tre-cime-moon"
 MARK = 'data-collection="murals"'
 
@@ -50,6 +50,9 @@ GROUPS = [
         ("pamukkale-terraces-moon", "Pamukkale’s white travertine terraces and turquoise pools mirroring a full moon in Turkey"),
         ("cradle-mountain-dove-lake-moon", "Cradle Mountain’s jagged peaks mirrored in still Dove Lake beside the old timber boatshed in Tasmania under a full moon"),
         ("victoria-falls-moon", "Victoria Falls pouring into a misty gorge on the Zambezi with a moonbow in the spray under a full moon"),
+        ("skogafoss-waterfall-moon", "Skógafoss pouring a wide white curtain over mossy cliffs in south Iceland under a full moon"),
+        ("havasu-falls-moon", "Havasu Falls plunging from red canyon rock into a turquoise travertine pool in the Grand Canyon under a full moon"),
+        ("moraine-lake-moon", "Moraine Lake mirroring the Valley of the Ten Peaks beside red canoes in Banff under a full moon"),
     ]),
     ("coasts", "Coastal and fjord wall murals", "Cliffs, harbours and sea light for a living room or a hallway you want to open up.", [
         ("santorini-caldera-moon", "Whitewashed Santorini terraces and blue domes above the moonlit caldera"),
@@ -78,6 +81,8 @@ GROUPS = [
         ("colmar-petite-venise-moon", "Half-timbered houses with flower boxes mirrored in the canal of Colmar’s Petite Venise in Alsace under a full moon"),
         ("glenfinnan-viaduct-moon", "The curving stone arches of the Glenfinnan Viaduct across a Highland glen toward Loch Shiel under a full moon"),
         ("taj-mahal-moon", "The white marble Taj Mahal and its long reflecting pool in Agra, India, under a full moon"),
+        ("hohenzollern-castle-moon", "Hohenzollern Castle’s towers rising above a sea of valley mist in Germany’s Swabian Alb under a full moon"),
+        ("ponte-vecchio-florence-moon", "Florence’s Ponte Vecchio and its lit shopfronts mirrored in the calm Arno under a full moon"),
         ("sigiriya-rock-moon", "Sigiriya’s flat-topped Lion Rock rising above Sri Lankan jungle and terraced water gardens under a full moon"),
     ]),
 ]

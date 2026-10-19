@@ -1728,5 +1728,120 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "76-skogafoss-waterfall-moon",
+    "slug": "skogafoss-waterfall-moon",
+    "title": "Skógafoss Waterfall Moon",
+    "photoNumber": 76,
+    "file": "76-skogafoss-waterfall-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Skógafoss waterfall in south Iceland, a broad curtain of white water pouring over a sheer green moss-covered cliff into rising mist, a narrow staircase path with a railing climbing the slope on the right, the moonlit Skógá river running over dark rocks, mossy boulders and white wildflowers in the foreground and a full moon among thin wispy clouds",
+    "description": "Skógafoss pours a wide white curtain over mossy Icelandic cliffs, its staircase path climbing beside the spray beneath a cloud-veiled moon.",
+    "keywords": [
+      "Skógafoss waterfall night",
+      "Skógafoss moonlight",
+      "Iceland waterfall wall art",
+      "Iceland landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "77-moraine-lake-moon",
+    "slug": "moraine-lake-moon",
+    "title": "Moraine Lake Moon",
+    "photoNumber": 77,
+    "file": "77-moraine-lake-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Moraine Lake in Banff National Park, Alberta, Canada, the jagged snow-streaked Valley of the Ten Peaks mirrored in still turquoise water, red canoes at the dock on the far right shore, dark spruce trees and grey boulders in the foreground and a full moon in thin wispy clouds reflected in the lake",
+    "description": "The Valley of the Ten Peaks mirrors in Moraine Lake’s still turquoise water beside a row of red canoes, beneath a cloud-veiled Banff moon.",
+    "keywords": [
+      "Moraine Lake night",
+      "Valley of the Ten Peaks moonlight",
+      "Banff National Park wall art",
+      "Canadian Rockies lake print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "78-hohenzollern-castle-moon",
+    "slug": "hohenzollern-castle-moon",
+    "title": "Hohenzollern Castle Moon",
+    "photoNumber": 78,
+    "file": "78-hohenzollern-castle-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Hohenzollern Castle on its forested hilltop in the Swabian Alb, Baden-Württemberg, Germany, its spired towers, turrets and walls lit warm gold above rivers of mist in the valleys, rolling hills to the horizon, a mossy rock outcrop and pines in the foreground and a full moon behind thin wispy clouds",
+    "description": "Hohenzollern Castle lifts its towers and lit windows above a sea of valley mist in Germany’s Swabian Alb, beneath a cloud-veiled moon.",
+    "keywords": [
+      "Hohenzollern Castle night",
+      "Burg Hohenzollern moonlight",
+      "German castle wall art",
+      "Swabian Alb landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "79-havasu-falls-moon",
+    "slug": "havasu-falls-moon",
+    "title": "Havasu Falls Moon",
+    "photoNumber": 79,
+    "file": "79-havasu-falls-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Havasu Falls in Havasupai, Grand Canyon, Arizona, USA, a white waterfall plunging from a red rock cliff into a turquoise pool, small cascades spilling over travertine terraces in the foreground, green cottonwoods and towering red canyon walls around it and a full moon behind thin wispy clouds",
+    "description": "Havasu Falls plunges from red canyon rock into a turquoise travertine pool deep in the Grand Canyon, silvered by a cloud-veiled Arizona moon.",
+    "keywords": [
+      "Havasu Falls night",
+      "Havasupai waterfall moonlight",
+      "Grand Canyon waterfall wall art",
+      "Arizona desert landscape print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
+  },
+  {
+    "id": "80-ponte-vecchio-florence-moon",
+    "slug": "ponte-vecchio-florence-moon",
+    "title": "Ponte Vecchio Florence Moon",
+    "photoNumber": 80,
+    "file": "80-ponte-vecchio-florence-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Ponte Vecchio in Florence, Tuscany, Italy, the medieval stone bridge and its row of shops with warm lit windows spanning the calm Arno on three arches, the river mirroring the lights and the moon, more bridges and lamplit embankments beyond, a crenellated tower rising over the old town on the left, cypresses and terracotta roofs in the foreground and a full moon behind thin wispy clouds",
+    "description": "Florence’s Ponte Vecchio spans the calm Arno on stone arches, its old shopfronts lit warm and mirrored in the river beneath a cloud-veiled moon.",
+    "keywords": [
+      "Ponte Vecchio night",
+      "Florence Arno moonlight",
+      "Florence Italy wall art",
+      "Tuscany city print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]

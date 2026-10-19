@@ -15,13 +15,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CHECK = "--check" in sys.argv
-TODAY = "2026-10-16"
+TODAY = "2026-10-19"
 PAGE = ROOT / "mountain-wall-art.html"
 URL = "https://moonlitwindows.com/mountain-wall-art.html"
 SLUGS = [  # order = how they appear on the page
     "matterhorn-alpine-moon", "dolomites-tre-cime-moon", "mount-fuji-pagoda-moon",
     "lauterbrunnen-valley-moon", "isle-of-skye-storr-moon", "yosemite-half-dome-moon",
-    "monument-valley-moon", "banff-lake-louise-moon", "cradle-mountain-dove-lake-moon",
+    "monument-valley-moon", "banff-lake-louise-moon", "moraine-lake-moon", "cradle-mountain-dove-lake-moon",
     "patagonia-lake-peaks", "zhangjiajie-pillars-moon",
     "great-wall-mutianyu-moon", "kirkjufell-waterfall-moon", "lake-tekapo-church-moon",
     "machu-picchu-mist", "scottish-highlands-loch", "snowy-peaks-above-clouds",
@@ -168,7 +168,7 @@ def page(items, bl, total):
 
     <section class="prose">
       <h2>How to choose mountain wall art for your room</h2>
-      <p><strong>Bedroom.</strong> Moonlit scenes are dark and blue by nature, so they sit well where you want the room to feel calm. The stillest pieces are the lake scenes: <a href="./pieces/banff-lake-louise-moon.html">Banff Lake Louise Moon</a> and <a href="./pieces/patagonia-lake-peaks.html">Patagonia Lake Peaks</a>, where turquoise water mirrors the peaks, <a href="./pieces/cradle-mountain-dove-lake-moon.html">Cradle Mountain above Dove Lake</a> in Tasmania, and the misty <a href="./pieces/scottish-highlands-loch.html">Scottish Highlands Loch</a>. A framed 12×18 print fits above a nightstand or a small dresser. More bedroom picks and size tips are in the <a data-guide="bedroom" href="./moon-poster-bedroom.html">moon poster for bedroom</a> guide.</p>
+      <p><strong>Bedroom.</strong> Moonlit scenes are dark and blue by nature, so they sit well where you want the room to feel calm. The stillest pieces are the lake scenes: <a href="./pieces/banff-lake-louise-moon.html">Banff Lake Louise Moon</a>, <a href="./pieces/moraine-lake-moon.html">Moraine Lake Moon</a> below the Valley of the Ten Peaks and <a href="./pieces/patagonia-lake-peaks.html">Patagonia Lake Peaks</a>, where turquoise water mirrors the peaks, <a href="./pieces/cradle-mountain-dove-lake-moon.html">Cradle Mountain above Dove Lake</a> in Tasmania, and the misty <a href="./pieces/scottish-highlands-loch.html">Scottish Highlands Loch</a>. A framed 12×18 print fits above a nightstand or a small dresser. More bedroom picks and size tips are in the <a data-guide="bedroom" href="./moon-poster-bedroom.html">moon poster for bedroom</a> guide.</p>
       <p><strong>Living room or a feature wall.</strong> Big, recognisable silhouettes read best from across a room: <a href="./pieces/matterhorn-alpine-moon.html">the Matterhorn</a>, <a href="./pieces/mount-fuji-pagoda-moon.html">Mount Fuji</a>, <a href="./pieces/yosemite-half-dome-moon.html">Half Dome</a> and the sandstone buttes of <a href="./pieces/monument-valley-moon.html">Monument Valley</a>. If you want the mountain to fill the wall rather than hang on it, the 4×6 ft (48×72 in) peel and stick wall mural uses the same artwork, needs no paste, and comes off most smooth painted walls cleanly. The <a href="./peel-and-stick-wall-murals.html">peel and stick wall murals collection</a> gathers the scenes that work best at wall size, with tips on measuring and wall prep.</p>
       <p><strong>Office or hallway.</strong> Detailed scenes reward a closer look: <a href="./pieces/lauterbrunnen-valley-moon.html">Lauterbrunnen Valley</a> with its waterfall, <a href="./pieces/zhangjiajie-pillars-moon.html">Zhangjiajie’s stone pillars</a>, <a href="./pieces/great-wall-mutianyu-moon.html">the Great Wall’s lit watchtowers at Mutianyu</a>, and <a href="./pieces/machu-picchu-mist.html">Machu Picchu in the mist</a>.</p>
       <p><strong>A place you have been.</strong> Many people buy mountain art to remember a trip. If you hiked the Dolomites, skied near Zermatt or drove the Skye loop, the place-named prints are meant for exactly that. Pairs work well too: the Matterhorn with the Dolomites for an Alps wall, or Skye with the Highlands loch for Scotland.</p>

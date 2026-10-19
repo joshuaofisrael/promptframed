@@ -18,7 +18,7 @@ FILE = "lake-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-16"
+TODAY = "2026-10-19"
 OG_SLUG = "lake-bled-island-moon"
 MARK = 'data-collection="lakes"'
 
@@ -38,13 +38,16 @@ GROUPS = [
         ("salar-de-uyuni-moon", "Bolivia’s Salar de Uyuni salt flat under a thin layer of water, mirroring distant mountains and a full moon"),
         ("pamukkale-terraces-moon", "Pamukkale’s white travertine terraces in Turkey, their turquoise pools mirroring a full moon"),
         ("cradle-mountain-dove-lake-moon", "Cradle Mountain mirrored in still Dove Lake beside the old timber boatshed in Tasmania under a full moon"),
+        ("moraine-lake-moon", "Moraine Lake’s turquoise water mirroring the Valley of the Ten Peaks beside red canoes in Banff under a full moon"),
     ]),
     ("waterfalls", "Waterfall wall art", "waterfall wall art poster and framed print",
-     "Falling water and mist catching the moonlight, from Swiss valleys to South American rainforest and the Zambezi.", [
+     "Falling water and mist catching the moonlight, from Iceland and Swiss valleys to the Grand Canyon, South American rainforest and the Zambezi. See them all in the <a href=\"./waterfall-wall-art.html\">waterfall wall art collection</a>.", [
         ("plitvice-lakes-moon", "Plitvice’s turquoise lakes and terraced falls with a lit boardwalk through the forest"),
         ("iguazu-falls-moon", "Tiers of Iguazu waterfalls falling into a misty rainforest gorge under a full moon"),
         ("victoria-falls-moon", "Victoria Falls pouring into a misty gorge on the Zambezi with a moonbow in the spray under a full moon"),
         ("kirkjufell-waterfall-moon", "Kirkjufellsfoss pouring over mossy rocks with cone-shaped Kirkjufell and a moonlit Icelandic fjord beyond"),
+        ("skogafoss-waterfall-moon", "Skógafoss pouring a wide white curtain over mossy cliffs in south Iceland beside its staircase path"),
+        ("havasu-falls-moon", "Havasu Falls plunging from red canyon rock into a turquoise travertine pool in the Grand Canyon"),
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring into the Lauterbrunnen valley with lit chalets and snowy Alps"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from green sea cliffs at Gásadalur under a full moon"),
         ("moonlit-waterfall", "A luminous waterfall pouring through a deep, misty gorge under moonlight"),
@@ -63,7 +66,7 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Lake Tekapo, Plitvice, Iguazu, Victoria Falls, Kirkjufellsfoss, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands, plus the Salar de Uyuni salt flat in Bolivia, mirrored after rain, the travertine pools of Pamukkale in Turkey, and Dove Lake below Cradle Mountain in Tasmania. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
+     "Most are named lakes and waterfalls, reimagined at night: Lake Como, Lake Bled, Hallstatt, Lake Louise, Lake Tekapo, Moraine Lake, Plitvice, Iguazu, Victoria Falls, Kirkjufellsfoss, Skógafoss, Havasu Falls, Staubbach Falls in Lauterbrunnen and Múlafossur in the Faroe Islands, plus the Salar de Uyuni salt flat in Bolivia, mirrored after rain, the travertine pools of Pamukkale in Turkey, and Dove Lake below Cradle Mountain in Tasmania. Patagonia Lake Peaks and Scottish Highlands Loch evoke those regions rather than one exact viewpoint, and Lakeside Cabin, Moonlit Waterfall, Moonlit Mediterranean Village and Japanese Temple Pond are imagined scenes."),
     ("Will the watermark be on my print?",
      "No. The previews on this site carry a small Night Shade Art watermark to discourage copying; your print is made from a clean file without it."),
     ("How long does delivery take?",
@@ -228,7 +231,7 @@ def page(by_slug, bl):
   </div>
   <footer class="site-footer">
     <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
-      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./asian-wall-art.html">Asian wall art</a> · <a href="./european-wall-art.html">European wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
+      <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./waterfall-wall-art.html">Waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./asian-wall-art.html">Asian wall art</a> · <a href="./european-wall-art.html">European wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
     <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
   </footer>

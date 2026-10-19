@@ -18,7 +18,7 @@ FILE = "european-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-16"
+TODAY = "2026-10-19"
 OG_SLUG = "neuschwanstein-castle-moon"
 MARK = 'data-collection="european"'
 
@@ -26,14 +26,16 @@ GROUPS = [
     ("castles", "Castle wall art", "castle wall art poster and framed print",
      "Fairy-tale towers, island strongholds and clifftop monasteries, each lit from within under a full moon.", [
         ("neuschwanstein-castle-moon", "Neuschwanstein Castle’s white towers on a forested crag above a misty valley, with a full moon over the Bavarian Alps"),
+        ("hohenzollern-castle-moon", "Hohenzollern Castle’s towers and lit windows rising above a sea of valley mist in the Swabian Alb, Germany, beneath a cloud-veiled moon"),
         ("eilean-donan-castle-moon", "Eilean Donan Castle on its islet in Loch Duich, an arched stone bridge over still water below a cloud-veiled moon"),
         ("sintra-pena-palace-moon", "The golden Pena Palace above misty Sintra forests in Portugal under a cloud-veiled full moon"),
         ("mont-saint-michel-moon", "The abbey of Mont Saint-Michel rising from silver tidal water with warm windows under moonlight"),
         ("meteora-monasteries-moon", "Meteora’s monasteries on sheer stone pillars above a misty valley in Thessaly, Greece, under a full moon"),
     ]),
     ("old-towns", "European old town and city wall art", "European city wall art poster and framed print",
-     "Canals, bridges, walls and cobbled lanes: Venice, Prague, Bruges, Colmar, Dubrovnik, Rothenburg and Hallstatt after dark.", [
+     "Canals, bridges, walls and cobbled lanes: Venice, Florence, Prague, Bruges, Colmar, Dubrovnik, Rothenburg and Hallstatt after dark.", [
         ("venetian-canal-moonrise", "A quiet Venetian canal with stone bridges, warm windows on the water and a lone gondola under moonlight"),
+        ("ponte-vecchio-florence-moon", "Florence’s Ponte Vecchio and its lit shopfronts spanning the calm Arno on stone arches, Tuscany, Italy, beneath a cloud-veiled moon"),
         ("prague-charles-bridge-moon", "Prague’s Charles Bridge and its Gothic towers over the Vltava, with Prague Castle lit on the hill beneath a cloud-veiled moon"),
         ("bruges-canal-moon", "The Rozenhoedkaai in Bruges, Belgium, with stepped gables, a willow and the Belfry mirrored in the canal beneath a cloud-veiled moon"),
         ("dubrovnik-old-town-moon", "Dubrovnik’s medieval walls and terracotta roofs above the calm Adriatic, with Fort Lovrijenac on its cliff beneath a cloud-veiled moon"),
@@ -62,7 +64,7 @@ FAQ = [
     ("What sizes and formats are available?",
      "Every piece comes as a 12×18 in enhanced matte poster ($35), the same 12×18 print in a black frame ($69), or a 4×6 ft (48×72 in) peel and stick wall mural on removable polyester ($149). Shipping is included on all three."),
     ("Are these real places?",
-     "Most are named places reimagined at night: Neuschwanstein, Eilean Donan, the Pena Palace in Sintra, Mont Saint-Michel, Meteora, Prague’s Charles Bridge, the Rozenhoedkaai in Bruges, Colmar’s Petite Venise, Dubrovnik, Rothenburg, Hallstatt, Arlington Row in Bibury and the Glenfinnan Viaduct in the Scottish Highlands. Venetian Canal Moonrise, Provence Lavender Moon and Tuscany Cypress Hills evoke those places rather than one exact viewpoint."),
+     "Most are named places reimagined at night: Neuschwanstein, Hohenzollern Castle in the Swabian Alb, Eilean Donan, the Pena Palace in Sintra, Mont Saint-Michel, Meteora, Prague’s Charles Bridge, Florence’s Ponte Vecchio, the Rozenhoedkaai in Bruges, Colmar’s Petite Venise, Dubrovnik, Rothenburg, Hallstatt, Arlington Row in Bibury and the Glenfinnan Viaduct in the Scottish Highlands. Venetian Canal Moonrise, Provence Lavender Moon and Tuscany Cypress Hills evoke those places rather than one exact viewpoint."),
     ("Do you have castle wall art for a child’s room?",
      "Yes. Neuschwanstein Castle Moon is the most fairy-tale piece in the series, and Eilean Donan and Mont Saint-Michel have the same storybook feel with calmer, darker water. All of them are soft night scenes with a full moon rather than anything spooky."),
     ("Which pieces work as a travel souvenir?",

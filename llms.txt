@@ -1,18 +1,19 @@
 # Moonlit Windows
 
-> Moonlit Windows (moonlitwindows.com) sells Night Windows, a series of 75 moonlit landscape pictures, as wall art: $35 posters and $69 black-framed prints (both 12×18 in) and $149 peel-and-stick wall murals (4×6 ft, removable polyester). Shipping is included, everything is printed to order, and checkout is through Stripe. Murals ship in 1–2 weeks. Moonlit Windows is a brand, not a separate company: the shop is owned and operated by Joshua Israel Ventures LLC, which handles every order. Night Windows, Night Shade Art (Instagram @moonnightshadeart) and Prompt Framed are also brands of Joshua Israel Ventures LLC.
+> Moonlit Windows (moonlitwindows.com) sells Night Windows, a series of 80 moonlit landscape pictures, as wall art: $35 posters and $69 black-framed prints (both 12×18 in) and $149 peel-and-stick wall murals (4×6 ft, removable polyester). Shipping is included, everything is printed to order, and checkout is through Stripe. Murals ship in 1–2 weeks. Moonlit Windows is a brand, not a separate company: the shop is owned and operated by Joshua Israel Ventures LLC, which handles every order. Night Windows, Night Shade Art (Instagram @moonnightshadeart) and Prompt Framed are also brands of Joshua Israel Ventures LLC.
 
 ## Shop
 
-- [Home](https://moonlitwindows.com/): Gallery of all 75 Night Windows pieces with prices and links to each piece page
+- [Home](https://moonlitwindows.com/): Gallery of all 80 Night Windows pieces with prices and links to each piece page
 - [Shop posters, prints & wall murals](https://moonlitwindows.com/buy.html): Every piece with poster ($35), framed ($69) and wall mural ($149) checkout buttons
-- [Mountain wall art](https://moonlitwindows.com/mountain-wall-art.html): 18 moonlit mountain pieces (Matterhorn, Dolomites, Mount Fuji, Yosemite, Isle of Skye, the Great Wall and more) with a room guide and FAQ
-- [Peel and stick wall murals](https://moonlitwindows.com/peel-and-stick-wall-murals.html): 44 moonlit scenes picked for a feature wall as 4×6 ft (48×72 in) removable peel-and-stick wall murals ($149, shipping included), with measuring, wall prep and FAQ
-- [Lake and waterfall wall art](https://moonlitwindows.com/lake-wall-art.html): 20 moonlit lake and waterfall posters ($35), framed prints ($69) and wall murals ($149), from Lake Como, Lake Bled, Hallstatt and Lake Louise to Plitvice, Iguazu and Victoria Falls, with a room guide and FAQ
+- [Mountain wall art](https://moonlitwindows.com/mountain-wall-art.html): 19 moonlit mountain pieces (Matterhorn, Dolomites, Mount Fuji, Yosemite, Isle of Skye, the Great Wall and more) with a room guide and FAQ
+- [Peel and stick wall murals](https://moonlitwindows.com/peel-and-stick-wall-murals.html): 49 moonlit scenes picked for a feature wall as 4×6 ft (48×72 in) removable peel-and-stick wall murals ($149, shipping included), with measuring, wall prep and FAQ
+- [Lake and waterfall wall art](https://moonlitwindows.com/lake-wall-art.html): 23 moonlit lake and waterfall posters ($35), framed prints ($69) and wall murals ($149), from Lake Como, Lake Bled, Hallstatt and Lake Louise to Plitvice, Iguazu and Victoria Falls, with a room guide and FAQ
+- [Waterfall wall art](https://moonlitwindows.com/waterfall-wall-art.html): 9 moonlit waterfall posters ($35), framed prints ($69) and wall murals ($149), from Skógafoss, Kirkjufellsfoss and Plitvice to Iguazu, Havasu Falls and Victoria Falls, with a room guide and FAQ
 - [Coastal wall art](https://moonlitwindows.com/coastal-wall-art.html): 18 moonlit ocean, seaside and fjord posters ($35), framed prints ($69) and wall murals ($149), from the Amalfi Coast, Santorini and Cinque Terre to the Cliffs of Moher, Big Sur and Lofoten, with a room guide and FAQ
 - [Asian wall art](https://moonlitwindows.com/asian-wall-art.html): 13 moonlit Japanese, Chinese and temple posters ($35), framed prints ($69) and wall murals ($149), from Mount Fuji, Kyoto and the Great Wall to the Taj Mahal, Sigiriya, Angkor Wat and Bagan, with a room guide and FAQ
-- [European wall art](https://moonlitwindows.com/european-wall-art.html): 16 moonlit castle, old town and village posters ($35), framed prints ($69) and wall murals ($149), from Neuschwanstein, Venice and Prague to Bruges, Colmar, Dubrovnik, Provence and Tuscany, with a room guide and FAQ
-- [The Night Windows series](https://moonlitwindows.com/night-windows.html): Overview of the series and an index of all 75 pieces
+- [European wall art](https://moonlitwindows.com/european-wall-art.html): 18 moonlit castle, old town and village posters ($35), framed prints ($69) and wall murals ($149), from Neuschwanstein, Venice and Prague to Bruges, Colmar, Dubrovnik, Provence and Tuscany, with a room guide and FAQ
+- [The Night Windows series](https://moonlitwindows.com/night-windows.html): Overview of the series and an index of all 80 pieces
 
 ## Representative pieces
 

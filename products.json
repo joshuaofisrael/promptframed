@@ -2488,5 +2488,170 @@
     },
     "asset": "75-cradle-mountain-dove-lake-moon.jpg",
     "printSource": "gallery/75-cradle-mountain-dove-lake-moon.png"
+  },
+  {
+    "slug": "skogafoss-waterfall-moon",
+    "title": "Skógafoss Waterfall Moon",
+    "series": "Night Windows",
+    "photoNumber": 76,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": "https://buy.stripe.com/00w3cw8QofMJaVV2rSb3r1v",
+      "framedUrl": "https://buy.stripe.com/aFa5kEaYweIFggf9Ukb3r1w",
+      "muralUrl": "https://buy.stripe.com/eVq28sfeMfMJ0hhaYob3r1x",
+      "status": "live",
+      "posterPrice": 3500,
+      "framedPrice": 6900,
+      "muralPrice": 14900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VT3ySeJwSWgFdt",
+      "posterPriceId": "price_1US7qkK3OWN3aipgqdcOFOLp",
+      "posterPaymentLinkId": "plink_1US7sAK3OWN3aipgImJxH0OI",
+      "framedProductId": "prod_VT3yo1WQYhzOMy",
+      "framedPriceId": "price_1US7quK3OWN3aipg1oPNjrhb",
+      "framedPaymentLinkId": "plink_1US7sEK3OWN3aipgaCxMlQg7",
+      "muralProductId": "prod_VT3yMMyyUrNJhI",
+      "muralPriceId": "price_1US7qyK3OWN3aipg3sUMtYbG",
+      "muralPaymentLinkId": "plink_1US7sHK3OWN3aipg83wypAyf"
+    },
+    "asset": "76-skogafoss-waterfall-moon.jpg",
+    "printSource": "gallery/76-skogafoss-waterfall-moon.png"
+  },
+  {
+    "slug": "moraine-lake-moon",
+    "title": "Moraine Lake Moon",
+    "series": "Night Windows",
+    "photoNumber": 77,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": "https://buy.stripe.com/cNi00kc2AdEBe878Qgb3r1y",
+      "framedUrl": "https://buy.stripe.com/dRm7sM4A86c9ggfc2sb3r1z",
+      "muralUrl": "https://buy.stripe.com/7sY3cw0jSgQN1llfeEb3r1A",
+      "status": "live",
+      "posterPrice": 3500,
+      "framedPrice": 6900,
+      "muralPrice": 14900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VT3yFBKTsWDYfU",
+      "posterPriceId": "price_1US7r1K3OWN3aipg0mi6gwlJ",
+      "posterPaymentLinkId": "plink_1US7sKK3OWN3aipgXM7q8TjR",
+      "framedProductId": "prod_VT3ze4EKATohI7",
+      "framedPriceId": "price_1US7r4K3OWN3aipgsANZfbBD",
+      "framedPaymentLinkId": "plink_1US7sPK3OWN3aipgboiGnzQJ",
+      "muralProductId": "prod_VT3zTxhR32gfkv",
+      "muralPriceId": "price_1US7r7K3OWN3aipgtqLs1G9I",
+      "muralPaymentLinkId": "plink_1US7sbK3OWN3aipgpgGb407i"
+    },
+    "asset": "77-moraine-lake-moon.jpg",
+    "printSource": "gallery/77-moraine-lake-moon.png"
+  },
+  {
+    "slug": "hohenzollern-castle-moon",
+    "title": "Hohenzollern Castle Moon",
+    "series": "Night Windows",
+    "photoNumber": 78,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": "https://buy.stripe.com/eVqcN62s0gQN2ppd6wb3r1B",
+      "framedUrl": "https://buy.stripe.com/dRm00k7Mk7gd4xxfeEb3r1C",
+      "muralUrl": "https://buy.stripe.com/bJe28s0jS441fcb4A0b3r1D",
+      "status": "live",
+      "posterPrice": 3500,
+      "framedPrice": 6900,
+      "muralPrice": 14900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VT3zx4NlIGdpTo",
+      "posterPriceId": "price_1US7rKK3OWN3aipgIJPDt961",
+      "posterPaymentLinkId": "plink_1US7sgK3OWN3aipgreJGNFt1",
+      "framedProductId": "prod_VT3zu0Cqu6h1dw",
+      "framedPriceId": "price_1US7rOK3OWN3aipgRfjsxMbV",
+      "framedPaymentLinkId": "plink_1US7siK3OWN3aipg7fcT1YJA",
+      "muralProductId": "prod_VT3zqNW5Pb43wV",
+      "muralPriceId": "price_1US7rSK3OWN3aipgnYhE2sKA",
+      "muralPaymentLinkId": "plink_1US7slK3OWN3aipgx84KSjUz"
+    },
+    "asset": "78-hohenzollern-castle-moon.jpg",
+    "printSource": "gallery/78-hohenzollern-castle-moon.png"
+  },
+  {
+    "slug": "havasu-falls-moon",
+    "title": "Havasu Falls Moon",
+    "series": "Night Windows",
+    "photoNumber": 79,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": "https://buy.stripe.com/dRmeVe5Ec4418NN4A0b3r1E",
+      "framedUrl": "https://buy.stripe.com/bJe5kE4A84410hh6I8b3r1F",
+      "muralUrl": "https://buy.stripe.com/dRmaEYgiQgQNbZZeaAb3r1G",
+      "status": "live",
+      "posterPrice": 3500,
+      "framedPrice": 6900,
+      "muralPrice": 14900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VT3z0AQTFJN6lx",
+      "posterPriceId": "price_1US7rUK3OWN3aipgS39EaE7r",
+      "posterPaymentLinkId": "plink_1US7spK3OWN3aipgt9S4dVzV",
+      "framedProductId": "prod_VT3z6i2msQ0Oav",
+      "framedPriceId": "price_1US7rZK3OWN3aipg1oxU7fVS",
+      "framedPaymentLinkId": "plink_1US7t1K3OWN3aipgBnH4Psfq",
+      "muralProductId": "prod_VT3zojM6H6l84O",
+      "muralPriceId": "price_1US7rbK3OWN3aipg2PfKulq1",
+      "muralPaymentLinkId": "plink_1US7t4K3OWN3aipgBRfrAdli"
+    },
+    "asset": "79-havasu-falls-moon.jpg",
+    "printSource": "gallery/79-havasu-falls-moon.png"
+  },
+  {
+    "slug": "ponte-vecchio-florence-moon",
+    "title": "Ponte Vecchio Florence Moon",
+    "series": "Night Windows",
+    "photoNumber": 80,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": "https://buy.stripe.com/5kQ14oc2Abwt1llc2sb3r1H",
+      "framedUrl": "https://buy.stripe.com/7sYbJ2eaIasp5BB3vWb3r1I",
+      "muralUrl": "https://buy.stripe.com/bJeaEY6Ig1VT7JJ8Qgb3r1J",
+      "status": "live",
+      "posterPrice": 3500,
+      "framedPrice": 6900,
+      "muralPrice": 14900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VT3zzEfL3gewZe",
+      "posterPriceId": "price_1US7rpK3OWN3aipgnxogslUK",
+      "posterPaymentLinkId": "plink_1US7t8K3OWN3aipg2A4CyFWS",
+      "framedProductId": "prod_VT3zfcjRlvZ25g",
+      "framedPriceId": "price_1US7rqK3OWN3aipgC5mjX8rB",
+      "framedPaymentLinkId": "plink_1US7tCK3OWN3aipgAsF5JPrA",
+      "muralProductId": "prod_VT3zwmurEnHfD5",
+      "muralPriceId": "price_1US7rtK3OWN3aipgKuiQveMH",
+      "muralPaymentLinkId": "plink_1US7tGK3OWN3aipg1m1EOiBj"
+    },
+    "asset": "80-ponte-vecchio-florence-moon.jpg",
+    "printSource": "gallery/80-ponte-vecchio-florence-moon.png"
   }
 ]
