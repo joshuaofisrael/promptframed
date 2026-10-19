@@ -485,3 +485,24 @@ Why highest EV for a brand-new product gallery:
 ### Next
 - Signed-in GSC outside 04:45–05:15 London: submit sitemap, request indexing for /waterfall-wall-art.html, pieces 76–80 and the earlier backlog (51–75, hubs, bedroom guide).
 - Watch whether waterfall-wall-art.html or lake-wall-art.html earns the waterfall impressions; if they compete, narrow the lake page title to lakes.
+
+## 2026-10-19 ~05:20 London — Scheduled SEO run: snippet-length meta descriptions on all 80 piece pages
+### Data review
+- Stripe: no Night Windows sales. No charges since 16 Oct 05:00 London (live Joshua Israel Ventures LLC account, read-only). The only checkout sessions are Tax Deed Pack ones on 18 Oct (unpaid/expired plus an internal $0 QA test); none are Moonlit Windows.
+- GSC: not checked. The browser lock was held by the daily drop for the whole slot (since 04:50), the fifth weekday in a row this has blocked the GSC pass. Last numbers still 8 Oct (28d: 0 clicks, 4 impressions, avg pos 6.8).
+- Cloudflare Web Analytics: no moonlitwindows.com rows yet for 17–18 Oct (beacon only went live 18 Oct 09:42).
+- News post: none (nothing genuinely relevant for the niche). Outreach: none (not authorised for this routine).
+
+### Opportunity chosen (and why)
+On-page audit of all 101 pages: no duplicate titles or descriptions, one H1 each, canonical/OG/Twitter in place, but every piece page's meta description ran ~235–245 characters and opened with the same 175-character boilerplate ("Moon poster wall art: buy X as a 12×18 art print poster ($35) or framed print ($69), shipping included, or a $149 peel and stick wall mural (removable wallpaper)."). Google cuts snippets at ~155–160 characters, so the part that makes each piece unique (the place and scene) never showed in results, and the repeated opener read as boilerplate across 80 pages. With almost no impressions yet, indexing is the real bottleneck, but this is the highest-value change that does not need the browser, and it improves CTR on every piece page as impressions arrive.
+
+### Shipped
+- New `scripts/seo_piece_snippets.py` (idempotent, `--check`): rewrites `<meta name="description">` on every fully-live piece page to `<Title> [moon ]poster $35, framed print $69, wall mural $149, shipping included. <scene clause>`, ≤158 characters, trimmed at a clause boundary (62 of 80 end on a full stop, 18 on an ellipsis). OG/Twitter descriptions unchanged. Example: "Kirkjufell Waterfall Moon poster $35, framed print $69, wall mural $149, shipping included. Kirkjufellsfoss pours silky white over mossy rocks."
+- `publish_pieces_76_80.py` `meta_description()` now calls the same builder, so the next publish script (copied from it) emits the short format for new pieces.
+- 80 piece pages updated, commit `8260a5c`, live 05:12 London; IndexNow 200 for 80 piece URLs.
+- Checks: `seo_piece_snippets.py --check` 0 to change, `publish_pieces_76_80.py --check` 0 issues, `apply_stripe_links.py --check` 80/80, `apply_mural_links.py --check` 80/80 (new text contains "mural", so it is not re-expanded), all seven `build_collection_*.py --check` up to date.
+
+### Next
+- GSC still needs a browser pass outside the drop window (submit sitemap, request indexing for waterfall-wall-art.html, pieces 51–80, hubs, bedroom guide; pull 7/28d numbers).
+- Collection hub descriptions are also 237–270 characters; shorten them in the builders (keep the place-name tails the publish scripts maintain) on a non-drop day.
+- Piece titles run 70–86 characters; consider dropping the "| Moonlit Windows" suffix on piece pages once GSC shows which title words earn impressions.
