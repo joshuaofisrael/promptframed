@@ -576,11 +576,9 @@ def wall_alt(alt: str) -> str:  # same as seo_keywords_pass
 
 
 def meta_description(t: str, d: str) -> str:
-    """Reproduces commercial pass -> keyword pass -> mural pass on <meta name=description>."""
-    s = html.escape(trim(f"Buy {t} as a 12×18 poster ($35) or black framed print ($69), shipping included. {d}"), quote=True)
-    s = re.sub(r"^Buy (.*?) as a 12×18 poster \(\$35\) or black framed print \(\$69\), shipping included\.",
-               r"Moon poster wall art: buy \1 as a 12×18 art print poster ($35) or framed print ($69), shipping included.", s)
-    return s.replace("shipping included.", "shipping included, or a $149 peel and stick wall mural (removable wallpaper).", 1)
+    """Snippet-length piece meta (~155 chars); same output as scripts/seo_piece_snippets.py (19 Oct 2026)."""
+    from seo_piece_snippets import build
+    return html.escape(build(t, d), quote=True)
 
 
 def buy_block(slug: str, ind: str = "        ") -> str:
