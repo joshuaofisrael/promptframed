@@ -615,8 +615,8 @@ def product_jsonld(piece: dict) -> str:
     page = page_url(slug)
     img = f"{BASE_URL}/assets/{piece['asset']}"
     sku = f"nw-{piece['photoNumber']:02d}-{slug}"
-    ship = {"@type": "OfferShippingDetails",
-            "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "USD"}}
+    from shipping_schema import shipping_details
+    ship = shipping_details("poster")  # mural/framed handling times set by shipping_schema.apply_all()
     # seller = the LLC (Moonlit Windows is only a brand of Joshua Israel Ventures LLC)
     mw = {"@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "Joshua Israel Ventures LLC", "url": f"{BASE_URL}/"}
 
@@ -1211,6 +1211,8 @@ def main() -> int:
     print(f"  grid thumbs: built {made}; srcset added on {pages or 'none'}")
     import build_categories  # tag new pieces (region/country/scenes), rebuild category pages, nav, crumbs, sitemap
     build_categories.main([])
+    import shipping_schema  # full OfferShippingDetails (destinations + delivery times) on every Offer
+    print(f"  shipping schema: {len(shipping_schema.apply_all())} files")
     print()
     verify()
     print("\nNo git commit/push done. Stripe untouched.")

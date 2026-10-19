@@ -37,7 +37,7 @@ def offer(slug, title):
             "name": f"{title} peel and stick wall mural 4x6 ft (48x72 in), removable wallpaper",
             "price": "149.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock",
             "itemCondition": "https://schema.org/NewCondition", "url": u,
-            "shippingDetails": {"@type": "OfferShippingDetails", "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "USD"}},
+            "shippingDetails": __import__("shipping_schema").shipping_details("mural"),
             "seller": {"@type": "Organization", "name": "Joshua Israel Ventures LLC", "url": "https://moonlitwindows.com/"}}
 
 def fix_ld(src, slug, title):

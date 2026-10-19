@@ -605,8 +605,8 @@ def product_jsonld(piece: dict) -> str:
     page = page_url(slug)
     img = f"{BASE_URL}/assets/{piece['asset']}"
     sku = f"nw-{piece['photoNumber']:02d}-{slug}"
-    ship = {"@type": "OfferShippingDetails",
-            "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "USD"}}
+    from shipping_schema import shipping_details
+    ship = shipping_details("poster")  # mural/framed handling times set by shipping_schema.apply_all()
     # seller = the LLC (Moonlit Windows is only a brand of Joshua Israel Ventures LLC)
     mw = {"@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "Joshua Israel Ventures LLC", "url": f"{BASE_URL}/"}
 

@@ -53,7 +53,7 @@ for f in sorted(glob.glob("pieces/*.html")):
     url=f"{SITE}/pieces/{slug}.html"; prod["url"]=url
     prod["description"]=f"{t} from the Night Windows series, for sale as a 12×18 enhanced matte poster ($35) or black framed print ($69), shipping included. {d}"
     prod["offers"]=[{**of,"url":url,"seller":{"@type":"Organization","name":"Moonlit Windows","url":SITE+"/"},
-        "shippingDetails":{"@type":"OfferShippingDetails","shippingRate":{"@type":"MonetaryAmount","value":"0","currency":"USD"}}} for of in prod["offers"]]
+        "shippingDetails":__import__("shipping_schema").shipping_details("framed")} for of in prod["offers"]]
     for of,kind in zip(prod["offers"],["poster","framed"]):
         assert of["price"]==("35.00" if kind=="poster" else "69.00") and p["stripe"][kind+"Price"]==(2900 if kind=="poster" else 6900)
     s=s[:m.start(2)]+"\n"+json.dumps(ld,indent=2)+"\n  "+s[m.end(2):]
