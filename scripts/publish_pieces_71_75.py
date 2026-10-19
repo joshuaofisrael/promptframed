@@ -96,12 +96,14 @@ TODAY = datetime.date.today().isoformat()
 STYLE = (
     "Dreamy cinematic fantasy realism, photorealistic landscape photography, "
     "ethereal moonlight, dramatic clouds, lush vegetation and wildflowers, "
-    "deep atmospheric perspective, rich blue-green nighttime tones, subtle warm lights, "
+    "deep atmospheric perspective, natural cool silver-blue and grey nighttime tones, subtle warm amber lights, "
     "romantic landscape aesthetic, peaceful dreamlike atmosphere, highly detailed, "
     "realistic natural textures, volumetric haze, dramatic but believable lighting. "
     "Idyllic, calm, natural moonlit night that invites the viewer to step into the scene: soft silvery moonlight, "
     "gentle cool night tones, warm natural window and lantern light, true-to-life colours, recognizably real place. "
-    "No neon, no magenta/purple/cyan glow, no glowing or fluorescent lights, no daylight-bright night, not oversaturated. "
+    "No purple, no magenta, no violet: no purple, magenta or violet casts anywhere in the sky, water, mist, rocks or foliage "
+    "(lavender fields stay muted and natural, never a purple-tinted scene). Natural silver-blue moonlight only. "
+    "No neon, no cyan glow, no glowing or fluorescent lights, no daylight-bright night, not oversaturated. "
     "thin wispy clouds veiling the moon without dimming the moonlight."
 )
 
