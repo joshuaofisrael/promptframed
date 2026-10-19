@@ -30,6 +30,15 @@
       "previousPosterPaymentLinkIds": [
         "plink_1UKydIK3OWN3aipgFeBqKKID"
       ]
+    },
+    "categories": {
+      "region": "imagined",
+      "country": null,
+      "place": "An imagined alpine valley",
+      "scenes": [
+        "mountains",
+        "countryside"
+      ]
     }
   },
   {
@@ -62,6 +71,15 @@
       "muralPrice": 14900,
       "previousPosterPaymentLinkIds": [
         "plink_1UKygbK3OWN3aipgQpKw8Irr"
+      ]
+    },
+    "categories": {
+      "region": "imagined",
+      "country": null,
+      "place": "An imagined Mediterranean lake village",
+      "scenes": [
+        "lakes",
+        "villages"
       ]
     }
   },
@@ -96,6 +114,14 @@
       "previousPosterPaymentLinkIds": [
         "plink_1UKygjK3OWN3aipg3VYsaWAO"
       ]
+    },
+    "categories": {
+      "region": "imagined",
+      "country": null,
+      "place": "Imagined peaks above the clouds",
+      "scenes": [
+        "mountains"
+      ]
     }
   },
   {
@@ -128,6 +154,15 @@
       "muralPrice": 14900,
       "previousPosterPaymentLinkIds": [
         "plink_1UKygrK3OWN3aipg3y4bviNl"
+      ]
+    },
+    "categories": {
+      "region": "imagined",
+      "country": null,
+      "place": "An imagined cliffside town",
+      "scenes": [
+        "coastal",
+        "villages"
       ]
     }
   },
@@ -162,6 +197,15 @@
       "previousPosterPaymentLinkIds": [
         "plink_1UKygyK3OWN3aipgb3Rxe5NU"
       ]
+    },
+    "categories": {
+      "region": "imagined",
+      "country": null,
+      "place": "An imagined lakeside cabin",
+      "scenes": [
+        "lakes",
+        "countryside"
+      ]
     }
   },
   {
@@ -194,6 +238,15 @@
       "muralPrice": 14900,
       "previousPosterPaymentLinkIds": [
         "plink_1UKyhKK3OWN3aipgLbt9EEOd"
+      ]
+    },
+    "categories": {
+      "region": "imagined",
+      "country": null,
+      "place": "An imagined hilltop village",
+      "scenes": [
+        "villages",
+        "countryside"
       ]
     }
   },
@@ -228,6 +281,15 @@
       "previousPosterPaymentLinkIds": [
         "plink_1UKyhRK3OWN3aipg7C0jyCrI"
       ]
+    },
+    "categories": {
+      "region": "imagined",
+      "country": null,
+      "place": "An imagined gorge waterfall",
+      "scenes": [
+        "waterfalls",
+        "lakes"
+      ]
     }
   },
   {
@@ -260,6 +322,14 @@
       "muralPrice": 14900,
       "previousPosterPaymentLinkIds": [
         "plink_1UKyhZK3OWN3aipgR2f7m5A0"
+      ]
+    },
+    "categories": {
+      "region": "imagined",
+      "country": null,
+      "place": "An imagined mountain meadow",
+      "scenes": [
+        "countryside"
       ]
     }
   },
@@ -294,6 +364,14 @@
       "previousPosterPaymentLinkIds": [
         "plink_1UKyhgK3OWN3aipgD8i4Dz0k"
       ]
+    },
+    "categories": {
+      "region": "nordic",
+      "country": "Norway",
+      "place": "A Norwegian fjord",
+      "scenes": [
+        "coastal"
+      ]
     }
   },
   {
@@ -326,6 +404,15 @@
       "muralPrice": 14900,
       "previousPosterPaymentLinkIds": [
         "plink_1UKyi1K3OWN3aipg5hJDOOZg"
+      ]
+    },
+    "categories": {
+      "region": "imagined",
+      "country": null,
+      "place": "An imagined Mediterranean seaside walk",
+      "scenes": [
+        "coastal",
+        "villages"
       ]
     }
   },
@@ -360,6 +447,14 @@
       "previousPosterPaymentLinkIds": [
         "plink_1UKyi8K3OWN3aipgEzSifIea"
       ]
+    },
+    "categories": {
+      "region": "asia",
+      "country": null,
+      "place": "Asian rice terraces",
+      "scenes": [
+        "countryside"
+      ]
     }
   },
   {
@@ -392,6 +487,15 @@
       "muralPrice": 14900,
       "previousPosterPaymentLinkIds": [
         "plink_1UKyiGK3OWN3aipgOlYEPS1l"
+      ]
+    },
+    "categories": {
+      "region": "southern-europe",
+      "country": "Italy",
+      "place": "Venice",
+      "scenes": [
+        "canals-bridges",
+        "villages"
       ]
     }
   },
@@ -426,6 +530,15 @@
       "previousPosterPaymentLinkIds": [
         "plink_1UKyiOK3OWN3aipgG6wNTxKq"
       ]
+    },
+    "categories": {
+      "region": "asia",
+      "country": "Japan",
+      "place": "A Japanese temple garden",
+      "scenes": [
+        "temples",
+        "lakes"
+      ]
     }
   },
   {
@@ -458,6 +571,15 @@
       "muralPrice": 14900,
       "previousPosterPaymentLinkIds": [
         "plink_1UKyiiK3OWN3aipgsDMIO2Zd"
+      ]
+    },
+    "categories": {
+      "region": "africa-middle-east",
+      "country": "Morocco",
+      "place": "A Saharan kasbah oasis",
+      "scenes": [
+        "deserts",
+        "villages"
       ]
     }
   },
@@ -492,6 +614,16 @@
       "previousPosterPaymentLinkIds": [
         "plink_1UKyiqK3OWN3aipg9b3kE3F7"
       ]
+    },
+    "categories": {
+      "region": "british-isles",
+      "country": "Scotland",
+      "place": "Scottish Highlands",
+      "scenes": [
+        "lakes",
+        "mountains",
+        "castles"
+      ]
     }
   },
   {
@@ -525,7 +657,15 @@
       ]
     },
     "asset": "16-provence-lavender-moon.jpg",
-    "printSource": "gallery/16-provence-lavender-moon.png"
+    "printSource": "gallery/16-provence-lavender-moon.png",
+    "categories": {
+      "region": "western-europe",
+      "country": "France",
+      "place": "Provence",
+      "scenes": [
+        "countryside"
+      ]
+    }
   },
   {
     "slug": "amalfi-terrace-night",
@@ -558,7 +698,16 @@
       ]
     },
     "asset": "17-amalfi-terrace-night.jpg",
-    "printSource": "gallery/17-amalfi-terrace-night.png"
+    "printSource": "gallery/17-amalfi-terrace-night.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Italy",
+      "place": "Amalfi Coast",
+      "scenes": [
+        "coastal",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "patagonia-lake-peaks",
@@ -591,7 +740,16 @@
       ]
     },
     "asset": "18-patagonia-lake-peaks.jpg",
-    "printSource": "gallery/18-patagonia-lake-peaks.png"
+    "printSource": "gallery/18-patagonia-lake-peaks.png",
+    "categories": {
+      "region": "south-america",
+      "country": "Chile & Argentina",
+      "place": "Patagonia",
+      "scenes": [
+        "lakes",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "bali-jungle-temple",
@@ -624,7 +782,16 @@
       ]
     },
     "asset": "19-bali-jungle-temple.jpg",
-    "printSource": "gallery/19-bali-jungle-temple.png"
+    "printSource": "gallery/19-bali-jungle-temple.png",
+    "categories": {
+      "region": "asia",
+      "country": "Indonesia",
+      "place": "Bali",
+      "scenes": [
+        "temples",
+        "countryside"
+      ]
+    }
   },
   {
     "slug": "iceland-black-sand-moon",
@@ -657,7 +824,15 @@
       ]
     },
     "asset": "20-iceland-black-sand-moon.jpg",
-    "printSource": "gallery/20-iceland-black-sand-moon.png"
+    "printSource": "gallery/20-iceland-black-sand-moon.png",
+    "categories": {
+      "region": "nordic",
+      "country": "Iceland",
+      "place": "South Iceland black sand beach",
+      "scenes": [
+        "coastal"
+      ]
+    }
   },
   {
     "slug": "cappadocia-fairy-chimneys",
@@ -690,7 +865,16 @@
       ]
     },
     "asset": "21-cappadocia-fairy-chimneys.jpg",
-    "printSource": "gallery/21-cappadocia-fairy-chimneys.png"
+    "printSource": "gallery/21-cappadocia-fairy-chimneys.png",
+    "categories": {
+      "region": "africa-middle-east",
+      "country": "Turkey",
+      "place": "Cappadocia",
+      "scenes": [
+        "deserts",
+        "temples"
+      ]
+    }
   },
   {
     "slug": "santorini-caldera-moon",
@@ -723,7 +907,16 @@
       ]
     },
     "asset": "22-santorini-caldera-moon.jpg",
-    "printSource": "gallery/22-santorini-caldera-moon.png"
+    "printSource": "gallery/22-santorini-caldera-moon.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Greece",
+      "place": "Santorini",
+      "scenes": [
+        "coastal",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "tuscany-cypress-hills",
@@ -756,7 +949,15 @@
       ]
     },
     "asset": "23-tuscany-cypress-hills.jpg",
-    "printSource": "gallery/23-tuscany-cypress-hills.png"
+    "printSource": "gallery/23-tuscany-cypress-hills.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Italy",
+      "place": "Tuscany",
+      "scenes": [
+        "countryside"
+      ]
+    }
   },
   {
     "slug": "machu-picchu-mist",
@@ -789,7 +990,16 @@
       ]
     },
     "asset": "24-machu-picchu-mist.jpg",
-    "printSource": "gallery/24-machu-picchu-mist.png"
+    "printSource": "gallery/24-machu-picchu-mist.png",
+    "categories": {
+      "region": "south-america",
+      "country": "Peru",
+      "place": "Machu Picchu",
+      "scenes": [
+        "temples",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "ha-long-bay-moon",
@@ -822,7 +1032,15 @@
       ]
     },
     "asset": "25-ha-long-bay-moon.jpg",
-    "printSource": "gallery/25-ha-long-bay-moon.png"
+    "printSource": "gallery/25-ha-long-bay-moon.png",
+    "categories": {
+      "region": "asia",
+      "country": "Vietnam",
+      "place": "Ha Long Bay",
+      "scenes": [
+        "coastal"
+      ]
+    }
   },
   {
     "slug": "banff-lake-louise-moon",
@@ -855,7 +1073,16 @@
       ]
     },
     "asset": "26-banff-lake-louise-moon.jpg",
-    "printSource": "gallery/26-banff-lake-louise-moon.png"
+    "printSource": "gallery/26-banff-lake-louise-moon.png",
+    "categories": {
+      "region": "north-america",
+      "country": "Canada",
+      "place": "Lake Louise, Banff",
+      "scenes": [
+        "lakes",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "petra-treasury-night",
@@ -888,7 +1115,16 @@
       ]
     },
     "asset": "27-petra-treasury-night.jpg",
-    "printSource": "gallery/27-petra-treasury-night.png"
+    "printSource": "gallery/27-petra-treasury-night.png",
+    "categories": {
+      "region": "africa-middle-east",
+      "country": "Jordan",
+      "place": "Petra",
+      "scenes": [
+        "temples",
+        "deserts"
+      ]
+    }
   },
   {
     "slug": "kyoto-bamboo-moon",
@@ -921,7 +1157,15 @@
       ]
     },
     "asset": "28-kyoto-bamboo-moon.jpg",
-    "printSource": "gallery/28-kyoto-bamboo-moon.png"
+    "printSource": "gallery/28-kyoto-bamboo-moon.png",
+    "categories": {
+      "region": "asia",
+      "country": "Japan",
+      "place": "Arashiyama, Kyoto",
+      "scenes": [
+        "countryside"
+      ]
+    }
   },
   {
     "slug": "yosemite-half-dome-moon",
@@ -954,7 +1198,15 @@
       ]
     },
     "asset": "29-yosemite-half-dome-moon.jpg",
-    "printSource": "gallery/29-yosemite-half-dome-moon.png"
+    "printSource": "gallery/29-yosemite-half-dome-moon.png",
+    "categories": {
+      "region": "north-america",
+      "country": "USA",
+      "place": "Yosemite, California",
+      "scenes": [
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "norwegian-stave-church-fjord",
@@ -987,7 +1239,15 @@
       ]
     },
     "asset": "30-norwegian-stave-church-fjord.jpg",
-    "printSource": "gallery/30-norwegian-stave-church-fjord.png"
+    "printSource": "gallery/30-norwegian-stave-church-fjord.png",
+    "categories": {
+      "region": "nordic",
+      "country": "Norway",
+      "place": "A Norwegian fjord",
+      "scenes": [
+        "coastal"
+      ]
+    }
   },
   {
     "slug": "mont-saint-michel-moon",
@@ -1020,7 +1280,16 @@
       ]
     },
     "asset": "31-mont-saint-michel-moon.jpg",
-    "printSource": "gallery/31-mont-saint-michel-moon.png"
+    "printSource": "gallery/31-mont-saint-michel-moon.png",
+    "categories": {
+      "region": "western-europe",
+      "country": "France",
+      "place": "Normandy",
+      "scenes": [
+        "coastal",
+        "castles"
+      ]
+    }
   },
   {
     "slug": "hallstatt-lake-moon",
@@ -1053,7 +1322,16 @@
       ]
     },
     "asset": "32-hallstatt-lake-moon.jpg",
-    "printSource": "gallery/32-hallstatt-lake-moon.png"
+    "printSource": "gallery/32-hallstatt-lake-moon.png",
+    "categories": {
+      "region": "alps",
+      "country": "Austria",
+      "place": "Hallstatt",
+      "scenes": [
+        "lakes",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "zhangjiajie-pillars-moon",
@@ -1086,7 +1364,15 @@
       ]
     },
     "asset": "33-zhangjiajie-pillars-moon.jpg",
-    "printSource": "gallery/33-zhangjiajie-pillars-moon.png"
+    "printSource": "gallery/33-zhangjiajie-pillars-moon.png",
+    "categories": {
+      "region": "asia",
+      "country": "China",
+      "place": "Zhangjiajie",
+      "scenes": [
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "bagan-temples-night",
@@ -1119,7 +1405,15 @@
       ]
     },
     "asset": "34-bagan-temples-night.jpg",
-    "printSource": "gallery/34-bagan-temples-night.png"
+    "printSource": "gallery/34-bagan-temples-night.png",
+    "categories": {
+      "region": "asia",
+      "country": "Myanmar",
+      "place": "Bagan",
+      "scenes": [
+        "temples"
+      ]
+    }
   },
   {
     "slug": "matterhorn-alpine-moon",
@@ -1152,7 +1446,15 @@
       ]
     },
     "asset": "35-matterhorn-alpine-moon.jpg",
-    "printSource": "gallery/35-matterhorn-alpine-moon.png"
+    "printSource": "gallery/35-matterhorn-alpine-moon.png",
+    "categories": {
+      "region": "alps",
+      "country": "Switzerland",
+      "place": "Zermatt",
+      "scenes": [
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "chefchaouen-blue-moon",
@@ -1185,7 +1487,15 @@
       ]
     },
     "asset": "36-chefchaouen-blue-moon.jpg",
-    "printSource": "gallery/36-chefchaouen-blue-moon.png"
+    "printSource": "gallery/36-chefchaouen-blue-moon.png",
+    "categories": {
+      "region": "africa-middle-east",
+      "country": "Morocco",
+      "place": "Chefchaouen",
+      "scenes": [
+        "villages"
+      ]
+    }
   },
   {
     "slug": "plitvice-lakes-moon",
@@ -1218,7 +1528,16 @@
       ]
     },
     "asset": "37-plitvice-lakes-moon.jpg",
-    "printSource": "gallery/37-plitvice-lakes-moon.png"
+    "printSource": "gallery/37-plitvice-lakes-moon.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Croatia",
+      "place": "Plitvice Lakes",
+      "scenes": [
+        "waterfalls",
+        "lakes"
+      ]
+    }
   },
   {
     "slug": "neuschwanstein-castle-moon",
@@ -1251,7 +1570,15 @@
       ]
     },
     "asset": "38-neuschwanstein-castle-moon.jpg",
-    "printSource": "gallery/38-neuschwanstein-castle-moon.png"
+    "printSource": "gallery/38-neuschwanstein-castle-moon.png",
+    "categories": {
+      "region": "alps",
+      "country": "Germany",
+      "place": "Bavarian Alps",
+      "scenes": [
+        "castles"
+      ]
+    }
   },
   {
     "slug": "angkor-wat-moon",
@@ -1284,7 +1611,15 @@
       ]
     },
     "asset": "39-angkor-wat-moon.jpg",
-    "printSource": "gallery/39-angkor-wat-moon.png"
+    "printSource": "gallery/39-angkor-wat-moon.png",
+    "categories": {
+      "region": "asia",
+      "country": "Cambodia",
+      "place": "Angkor Wat",
+      "scenes": [
+        "temples"
+      ]
+    }
   },
   {
     "slug": "faroe-gasadalur-moon",
@@ -1317,7 +1652,17 @@
       ]
     },
     "asset": "40-faroe-gasadalur-moon.jpg",
-    "printSource": "gallery/40-faroe-gasadalur-moon.png"
+    "printSource": "gallery/40-faroe-gasadalur-moon.png",
+    "categories": {
+      "region": "nordic",
+      "country": "Faroe Islands",
+      "place": "Gásadalur",
+      "scenes": [
+        "waterfalls",
+        "coastal",
+        "lakes"
+      ]
+    }
   },
   {
     "slug": "dolomites-tre-cime-moon",
@@ -1350,7 +1695,15 @@
       ]
     },
     "asset": "41-dolomites-tre-cime-moon.jpg",
-    "printSource": "gallery/41-dolomites-tre-cime-moon.png"
+    "printSource": "gallery/41-dolomites-tre-cime-moon.png",
+    "categories": {
+      "region": "alps",
+      "country": "Italy",
+      "place": "Dolomites",
+      "scenes": [
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "lofoten-reine-moon",
@@ -1383,7 +1736,16 @@
       ]
     },
     "asset": "42-lofoten-reine-moon.jpg",
-    "printSource": "gallery/42-lofoten-reine-moon.png"
+    "printSource": "gallery/42-lofoten-reine-moon.png",
+    "categories": {
+      "region": "nordic",
+      "country": "Norway",
+      "place": "Reine, Lofoten",
+      "scenes": [
+        "coastal",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "cinque-terre-manarola-moon",
@@ -1416,7 +1778,16 @@
       ]
     },
     "asset": "43-cinque-terre-manarola-moon.jpg",
-    "printSource": "gallery/43-cinque-terre-manarola-moon.png"
+    "printSource": "gallery/43-cinque-terre-manarola-moon.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Italy",
+      "place": "Manarola, Cinque Terre",
+      "scenes": [
+        "coastal",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "lake-bled-island-moon",
@@ -1449,7 +1820,16 @@
       ]
     },
     "asset": "44-lake-bled-island-moon.jpg",
-    "printSource": "gallery/44-lake-bled-island-moon.png"
+    "printSource": "gallery/44-lake-bled-island-moon.png",
+    "categories": {
+      "region": "alps",
+      "country": "Slovenia",
+      "place": "Lake Bled",
+      "scenes": [
+        "lakes",
+        "castles"
+      ]
+    }
   },
   {
     "slug": "guilin-li-river-moon",
@@ -1482,7 +1862,15 @@
       ]
     },
     "asset": "45-guilin-li-river-moon.jpg",
-    "printSource": "gallery/45-guilin-li-river-moon.png"
+    "printSource": "gallery/45-guilin-li-river-moon.png",
+    "categories": {
+      "region": "asia",
+      "country": "China",
+      "place": "Li River, Guilin",
+      "scenes": [
+        "countryside"
+      ]
+    }
   },
   {
     "slug": "meteora-monasteries-moon",
@@ -1515,7 +1903,15 @@
       ]
     },
     "asset": "46-meteora-monasteries-moon.jpg",
-    "printSource": "gallery/46-meteora-monasteries-moon.png"
+    "printSource": "gallery/46-meteora-monasteries-moon.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Greece",
+      "place": "Meteora",
+      "scenes": [
+        "temples"
+      ]
+    }
   },
   {
     "slug": "lauterbrunnen-valley-moon",
@@ -1548,7 +1944,18 @@
       ]
     },
     "asset": "47-lauterbrunnen-valley-moon.jpg",
-    "printSource": "gallery/47-lauterbrunnen-valley-moon.png"
+    "printSource": "gallery/47-lauterbrunnen-valley-moon.png",
+    "categories": {
+      "region": "alps",
+      "country": "Switzerland",
+      "place": "Lauterbrunnen",
+      "scenes": [
+        "waterfalls",
+        "lakes",
+        "mountains",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "mount-fuji-pagoda-moon",
@@ -1581,7 +1988,16 @@
       ]
     },
     "asset": "48-mount-fuji-pagoda-moon.jpg",
-    "printSource": "gallery/48-mount-fuji-pagoda-moon.png"
+    "printSource": "gallery/48-mount-fuji-pagoda-moon.png",
+    "categories": {
+      "region": "asia",
+      "country": "Japan",
+      "place": "Mount Fuji",
+      "scenes": [
+        "temples",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "iguazu-falls-moon",
@@ -1614,7 +2030,16 @@
       ]
     },
     "asset": "49-iguazu-falls-moon.jpg",
-    "printSource": "gallery/49-iguazu-falls-moon.png"
+    "printSource": "gallery/49-iguazu-falls-moon.png",
+    "categories": {
+      "region": "south-america",
+      "country": "Argentina & Brazil",
+      "place": "Iguazu Falls",
+      "scenes": [
+        "waterfalls",
+        "lakes"
+      ]
+    }
   },
   {
     "slug": "isle-of-skye-storr-moon",
@@ -1647,7 +2072,15 @@
       ]
     },
     "asset": "50-isle-of-skye-storr-moon.jpg",
-    "printSource": "gallery/50-isle-of-skye-storr-moon.png"
+    "printSource": "gallery/50-isle-of-skye-storr-moon.png",
+    "categories": {
+      "region": "british-isles",
+      "country": "Scotland",
+      "place": "Isle of Skye",
+      "scenes": [
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "sintra-pena-palace-moon",
@@ -1683,7 +2116,15 @@
       ]
     },
     "asset": "51-sintra-pena-palace-moon.jpg",
-    "printSource": "gallery/51-sintra-pena-palace-moon.png"
+    "printSource": "gallery/51-sintra-pena-palace-moon.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Portugal",
+      "place": "Sintra",
+      "scenes": [
+        "castles"
+      ]
+    }
   },
   {
     "slug": "lake-como-bellagio-moon",
@@ -1719,7 +2160,16 @@
       ]
     },
     "asset": "52-lake-como-bellagio-moon.jpg",
-    "printSource": "gallery/52-lake-como-bellagio-moon.png"
+    "printSource": "gallery/52-lake-como-bellagio-moon.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Italy",
+      "place": "Bellagio, Lake Como",
+      "scenes": [
+        "lakes",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "grand-canyon-rim-moon",
@@ -1755,7 +2205,15 @@
       ]
     },
     "asset": "53-grand-canyon-rim-moon.jpg",
-    "printSource": "gallery/53-grand-canyon-rim-moon.png"
+    "printSource": "gallery/53-grand-canyon-rim-moon.png",
+    "categories": {
+      "region": "north-america",
+      "country": "USA",
+      "place": "Grand Canyon, Arizona",
+      "scenes": [
+        "deserts"
+      ]
+    }
   },
   {
     "slug": "cliffs-of-moher-moon",
@@ -1791,7 +2249,15 @@
       ]
     },
     "asset": "54-cliffs-of-moher-moon.jpg",
-    "printSource": "gallery/54-cliffs-of-moher-moon.png"
+    "printSource": "gallery/54-cliffs-of-moher-moon.png",
+    "categories": {
+      "region": "british-isles",
+      "country": "Ireland",
+      "place": "Cliffs of Moher",
+      "scenes": [
+        "coastal"
+      ]
+    }
   },
   {
     "slug": "big-sur-bixby-bridge-moon",
@@ -1827,7 +2293,16 @@
       ]
     },
     "asset": "55-big-sur-bixby-bridge-moon.jpg",
-    "printSource": "gallery/55-big-sur-bixby-bridge-moon.png"
+    "printSource": "gallery/55-big-sur-bixby-bridge-moon.png",
+    "categories": {
+      "region": "north-america",
+      "country": "USA",
+      "place": "Big Sur, California",
+      "scenes": [
+        "coastal",
+        "canals-bridges"
+      ]
+    }
   },
   {
     "slug": "prague-charles-bridge-moon",
@@ -1860,7 +2335,16 @@
       "muralPaymentLinkId": "plink_1UPwwPK3OWN3aipgPOI20zf1"
     },
     "asset": "56-prague-charles-bridge-moon.jpg",
-    "printSource": "gallery/56-prague-charles-bridge-moon.png"
+    "printSource": "gallery/56-prague-charles-bridge-moon.png",
+    "categories": {
+      "region": "western-europe",
+      "country": "Czech Republic",
+      "place": "Prague",
+      "scenes": [
+        "canals-bridges",
+        "castles"
+      ]
+    }
   },
   {
     "slug": "taj-mahal-moon",
@@ -1893,7 +2377,15 @@
       "muralPaymentLinkId": "plink_1UPwwSK3OWN3aipgBNtc9Hxr"
     },
     "asset": "57-taj-mahal-moon.jpg",
-    "printSource": "gallery/57-taj-mahal-moon.png"
+    "printSource": "gallery/57-taj-mahal-moon.png",
+    "categories": {
+      "region": "asia",
+      "country": "India",
+      "place": "Agra",
+      "scenes": [
+        "temples"
+      ]
+    }
   },
   {
     "slug": "salar-de-uyuni-moon",
@@ -1926,7 +2418,16 @@
       "muralPaymentLinkId": "plink_1UPwwWK3OWN3aipgE0sQegH2"
     },
     "asset": "58-salar-de-uyuni-moon.jpg",
-    "printSource": "gallery/58-salar-de-uyuni-moon.png"
+    "printSource": "gallery/58-salar-de-uyuni-moon.png",
+    "categories": {
+      "region": "south-america",
+      "country": "Bolivia",
+      "place": "Salar de Uyuni",
+      "scenes": [
+        "lakes",
+        "deserts"
+      ]
+    }
   },
   {
     "slug": "victoria-falls-moon",
@@ -1959,7 +2460,16 @@
       "muralPaymentLinkId": "plink_1UPwwXK3OWN3aipga9xt4IrH"
     },
     "asset": "59-victoria-falls-moon.jpg",
-    "printSource": "gallery/59-victoria-falls-moon.png"
+    "printSource": "gallery/59-victoria-falls-moon.png",
+    "categories": {
+      "region": "africa-middle-east",
+      "country": "Zambia & Zimbabwe",
+      "place": "Victoria Falls",
+      "scenes": [
+        "waterfalls",
+        "lakes"
+      ]
+    }
   },
   {
     "slug": "great-wall-mutianyu-moon",
@@ -1992,7 +2502,16 @@
       "muralPaymentLinkId": "plink_1UPwwaK3OWN3aipg4ZfXSObZ"
     },
     "asset": "60-great-wall-mutianyu-moon.jpg",
-    "printSource": "gallery/60-great-wall-mutianyu-moon.png"
+    "printSource": "gallery/60-great-wall-mutianyu-moon.png",
+    "categories": {
+      "region": "asia",
+      "country": "China",
+      "place": "Great Wall at Mutianyu",
+      "scenes": [
+        "temples",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "lake-tekapo-church-moon",
@@ -2025,7 +2544,16 @@
       "muralPaymentLinkId": "plink_1UQJPXK3OWN3aipgfwpnZ0tC"
     },
     "asset": "61-lake-tekapo-church-moon.jpg",
-    "printSource": "gallery/61-lake-tekapo-church-moon.png"
+    "printSource": "gallery/61-lake-tekapo-church-moon.png",
+    "categories": {
+      "region": "oceania",
+      "country": "New Zealand",
+      "place": "Lake Tekapo",
+      "scenes": [
+        "lakes",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "bruges-canal-moon",
@@ -2058,7 +2586,16 @@
       "muralPaymentLinkId": "plink_1UQJPeK3OWN3aipgNsxR9JoS"
     },
     "asset": "62-bruges-canal-moon.jpg",
-    "printSource": "gallery/62-bruges-canal-moon.png"
+    "printSource": "gallery/62-bruges-canal-moon.png",
+    "categories": {
+      "region": "western-europe",
+      "country": "Belgium",
+      "place": "Bruges",
+      "scenes": [
+        "canals-bridges",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "kirkjufell-waterfall-moon",
@@ -2091,7 +2628,17 @@
       "muralPaymentLinkId": "plink_1UQJPpK3OWN3aipg7zZCnO8O"
     },
     "asset": "63-kirkjufell-waterfall-moon.jpg",
-    "printSource": "gallery/63-kirkjufell-waterfall-moon.png"
+    "printSource": "gallery/63-kirkjufell-waterfall-moon.png",
+    "categories": {
+      "region": "nordic",
+      "country": "Iceland",
+      "place": "Kirkjufell, Snæfellsnes",
+      "scenes": [
+        "waterfalls",
+        "lakes",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "bibury-arlington-row-moon",
@@ -2124,7 +2671,16 @@
       "muralPaymentLinkId": "plink_1UQJPxK3OWN3aipgu6ucSCnz"
     },
     "asset": "64-bibury-arlington-row-moon.jpg",
-    "printSource": "gallery/64-bibury-arlington-row-moon.png"
+    "printSource": "gallery/64-bibury-arlington-row-moon.png",
+    "categories": {
+      "region": "british-isles",
+      "country": "England",
+      "place": "Bibury, Cotswolds",
+      "scenes": [
+        "villages",
+        "countryside"
+      ]
+    }
   },
   {
     "slug": "na-pali-coast-moon",
@@ -2157,7 +2713,15 @@
       "muralPaymentLinkId": "plink_1UQJQ8K3OWN3aipgfWYwPXHV"
     },
     "asset": "65-na-pali-coast-moon.jpg",
-    "printSource": "gallery/65-na-pali-coast-moon.png"
+    "printSource": "gallery/65-na-pali-coast-moon.png",
+    "categories": {
+      "region": "oceania",
+      "country": "Hawaii, USA",
+      "place": "Na Pali Coast, Kauai",
+      "scenes": [
+        "coastal"
+      ]
+    }
   },
   {
     "slug": "eilean-donan-castle-moon",
@@ -2190,7 +2754,16 @@
       "muralPaymentLinkId": "plink_1UQfpfK3OWN3aipgqDWrplrO"
     },
     "asset": "66-eilean-donan-castle-moon.jpg",
-    "printSource": "gallery/66-eilean-donan-castle-moon.png"
+    "printSource": "gallery/66-eilean-donan-castle-moon.png",
+    "categories": {
+      "region": "british-isles",
+      "country": "Scotland",
+      "place": "Eilean Donan",
+      "scenes": [
+        "castles",
+        "coastal"
+      ]
+    }
   },
   {
     "slug": "dubrovnik-old-town-moon",
@@ -2223,7 +2796,17 @@
       "muralPaymentLinkId": "plink_1UQfprK3OWN3aipgJ9dGXJ0s"
     },
     "asset": "67-dubrovnik-old-town-moon.jpg",
-    "printSource": "gallery/67-dubrovnik-old-town-moon.png"
+    "printSource": "gallery/67-dubrovnik-old-town-moon.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Croatia",
+      "place": "Dubrovnik",
+      "scenes": [
+        "coastal",
+        "castles",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "pamukkale-terraces-moon",
@@ -2256,7 +2839,16 @@
       "muralPaymentLinkId": "plink_1UQfqAK3OWN3aipgfORrz5EA"
     },
     "asset": "68-pamukkale-terraces-moon.jpg",
-    "printSource": "gallery/68-pamukkale-terraces-moon.png"
+    "printSource": "gallery/68-pamukkale-terraces-moon.png",
+    "categories": {
+      "region": "africa-middle-east",
+      "country": "Turkey",
+      "place": "Pamukkale",
+      "scenes": [
+        "lakes",
+        "temples"
+      ]
+    }
   },
   {
     "slug": "rothenburg-old-town-moon",
@@ -2289,7 +2881,15 @@
       "muralPaymentLinkId": "plink_1UQfqLK3OWN3aipg1piWb4Iv"
     },
     "asset": "69-rothenburg-old-town-moon.jpg",
-    "printSource": "gallery/69-rothenburg-old-town-moon.png"
+    "printSource": "gallery/69-rothenburg-old-town-moon.png",
+    "categories": {
+      "region": "western-europe",
+      "country": "Germany",
+      "place": "Rothenburg ob der Tauber",
+      "scenes": [
+        "villages"
+      ]
+    }
   },
   {
     "slug": "bora-bora-lagoon-moon",
@@ -2322,7 +2922,15 @@
       "muralPaymentLinkId": "plink_1UQfqfK3OWN3aipgpFi2z4sg"
     },
     "asset": "70-bora-bora-lagoon-moon.jpg",
-    "printSource": "gallery/70-bora-bora-lagoon-moon.png"
+    "printSource": "gallery/70-bora-bora-lagoon-moon.png",
+    "categories": {
+      "region": "oceania",
+      "country": "French Polynesia",
+      "place": "Bora Bora",
+      "scenes": [
+        "coastal"
+      ]
+    }
   },
   {
     "slug": "colmar-petite-venise-moon",
@@ -2355,7 +2963,16 @@
       "muralPaymentLinkId": "plink_1UR2OoK3OWN3aipg1ejnjSg8"
     },
     "asset": "71-colmar-petite-venise-moon.jpg",
-    "printSource": "gallery/71-colmar-petite-venise-moon.png"
+    "printSource": "gallery/71-colmar-petite-venise-moon.png",
+    "categories": {
+      "region": "western-europe",
+      "country": "France",
+      "place": "Colmar, Alsace",
+      "scenes": [
+        "canals-bridges",
+        "villages"
+      ]
+    }
   },
   {
     "slug": "glenfinnan-viaduct-moon",
@@ -2388,7 +3005,15 @@
       "muralPaymentLinkId": "plink_1UR2P0K3OWN3aipgf0oYv2s4"
     },
     "asset": "72-glenfinnan-viaduct-moon.jpg",
-    "printSource": "gallery/72-glenfinnan-viaduct-moon.png"
+    "printSource": "gallery/72-glenfinnan-viaduct-moon.png",
+    "categories": {
+      "region": "british-isles",
+      "country": "Scotland",
+      "place": "Glenfinnan",
+      "scenes": [
+        "canals-bridges"
+      ]
+    }
   },
   {
     "slug": "monument-valley-moon",
@@ -2421,7 +3046,16 @@
       "muralPaymentLinkId": "plink_1UR2PIK3OWN3aipgJ2REk5Tb"
     },
     "asset": "73-monument-valley-moon.jpg",
-    "printSource": "gallery/73-monument-valley-moon.png"
+    "printSource": "gallery/73-monument-valley-moon.png",
+    "categories": {
+      "region": "north-america",
+      "country": "USA",
+      "place": "Monument Valley",
+      "scenes": [
+        "deserts",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "sigiriya-rock-moon",
@@ -2454,7 +3088,15 @@
       "muralPaymentLinkId": "plink_1UR2PTK3OWN3aipgmcKerih1"
     },
     "asset": "74-sigiriya-rock-moon.jpg",
-    "printSource": "gallery/74-sigiriya-rock-moon.png"
+    "printSource": "gallery/74-sigiriya-rock-moon.png",
+    "categories": {
+      "region": "asia",
+      "country": "Sri Lanka",
+      "place": "Sigiriya",
+      "scenes": [
+        "temples"
+      ]
+    }
   },
   {
     "slug": "cradle-mountain-dove-lake-moon",
@@ -2487,7 +3129,16 @@
       "muralPaymentLinkId": "plink_1UR2PnK3OWN3aipgbuByKtYP"
     },
     "asset": "75-cradle-mountain-dove-lake-moon.jpg",
-    "printSource": "gallery/75-cradle-mountain-dove-lake-moon.png"
+    "printSource": "gallery/75-cradle-mountain-dove-lake-moon.png",
+    "categories": {
+      "region": "oceania",
+      "country": "Australia",
+      "place": "Cradle Mountain, Tasmania",
+      "scenes": [
+        "lakes",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "skogafoss-waterfall-moon",
@@ -2520,7 +3171,16 @@
       "muralPaymentLinkId": "plink_1US7sHK3OWN3aipg83wypAyf"
     },
     "asset": "76-skogafoss-waterfall-moon.jpg",
-    "printSource": "gallery/76-skogafoss-waterfall-moon.png"
+    "printSource": "gallery/76-skogafoss-waterfall-moon.png",
+    "categories": {
+      "region": "nordic",
+      "country": "Iceland",
+      "place": "Skógafoss",
+      "scenes": [
+        "waterfalls",
+        "lakes"
+      ]
+    }
   },
   {
     "slug": "moraine-lake-moon",
@@ -2553,7 +3213,16 @@
       "muralPaymentLinkId": "plink_1US7sbK3OWN3aipgpgGb407i"
     },
     "asset": "77-moraine-lake-moon.jpg",
-    "printSource": "gallery/77-moraine-lake-moon.png"
+    "printSource": "gallery/77-moraine-lake-moon.png",
+    "categories": {
+      "region": "north-america",
+      "country": "Canada",
+      "place": "Moraine Lake, Banff",
+      "scenes": [
+        "lakes",
+        "mountains"
+      ]
+    }
   },
   {
     "slug": "hohenzollern-castle-moon",
@@ -2586,7 +3255,15 @@
       "muralPaymentLinkId": "plink_1US7slK3OWN3aipgx84KSjUz"
     },
     "asset": "78-hohenzollern-castle-moon.jpg",
-    "printSource": "gallery/78-hohenzollern-castle-moon.png"
+    "printSource": "gallery/78-hohenzollern-castle-moon.png",
+    "categories": {
+      "region": "western-europe",
+      "country": "Germany",
+      "place": "Swabian Alb",
+      "scenes": [
+        "castles"
+      ]
+    }
   },
   {
     "slug": "havasu-falls-moon",
@@ -2619,7 +3296,17 @@
       "muralPaymentLinkId": "plink_1US7t4K3OWN3aipgBRfrAdli"
     },
     "asset": "79-havasu-falls-moon.jpg",
-    "printSource": "gallery/79-havasu-falls-moon.png"
+    "printSource": "gallery/79-havasu-falls-moon.png",
+    "categories": {
+      "region": "north-america",
+      "country": "USA",
+      "place": "Havasu Falls, Arizona",
+      "scenes": [
+        "waterfalls",
+        "lakes",
+        "deserts"
+      ]
+    }
   },
   {
     "slug": "ponte-vecchio-florence-moon",
@@ -2652,6 +3339,14 @@
       "muralPaymentLinkId": "plink_1US7tGK3OWN3aipg1m1EOiBj"
     },
     "asset": "80-ponte-vecchio-florence-moon.jpg",
-    "printSource": "gallery/80-ponte-vecchio-florence-moon.png"
+    "printSource": "gallery/80-ponte-vecchio-florence-moon.png",
+    "categories": {
+      "region": "southern-europe",
+      "country": "Italy",
+      "place": "Florence",
+      "scenes": [
+        "canals-bridges"
+      ]
+    }
   }
 ]

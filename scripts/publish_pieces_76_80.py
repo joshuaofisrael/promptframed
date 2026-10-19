@@ -21,6 +21,7 @@ Run from anywhere:
   python3 scripts/publish_pieces_76_80.py --allow-todo  # dry runs only
   python3 scripts/publish_pieces_76_80.py --check       # read-only structural checks
   python3 scripts/publish_pieces_76_80.py --ping        # AFTER commit+push: wait for deploy, IndexNow-ping new + changed URLs
+  python3 scripts/build_categories.py --ping           # AFTER commit+push: IndexNow-ping category pages touched by the publish
 Without all five masters every mode except --check/--ping stops at check_pngs() BEFORE writing anything.
 
 Re-run the SAME command after the Stripe links (posterUrl, framedUrl, muralUrl) are in
@@ -1208,6 +1209,8 @@ def main() -> int:
     made = build_grid_thumbs.build_thumbs()
     pages = [p for p in build_grid_thumbs.PAGES if build_grid_thumbs.rewrite(p)]
     print(f"  grid thumbs: built {made}; srcset added on {pages or 'none'}")
+    import build_categories  # tag new pieces (region/country/scenes), rebuild category pages, nav, crumbs, sitemap
+    build_categories.main([])
     print()
     verify()
     print("\nNo git commit/push done. Stripe untouched.")

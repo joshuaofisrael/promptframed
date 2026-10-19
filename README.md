@@ -101,6 +101,10 @@ Live source: **Settings → Pages → Deploy from a branch → `main` → `/ (ro
 
 If the URL 404s, open https://github.com/joshuaofisrael/promptframed/settings/pages and confirm that source. Do not switch to GitHub Actions unless you also remove the branch source. One source only.
 
+## Categories (Shop by category)
+
+`scripts/build_categories.py` owns the browse structure: `browse.html` (hub with search + filter chips), the region and scene subcategory pages (`*-wall-art.html`), the site-wide nav with the Categories dropdown, the breadcrumb and category links on every piece page, and the matching sitemap/llms.txt entries. Tags live in `products.json` under `categories` (region, country, place, scenes). New pieces are auto-tagged from catalog.json and printed for review; fix a tag by editing products.json and re-running. Reused hand-built collection pages (Asia, waterfalls, lakes, mountains, coastal, bedroom, murals) get new pieces appended automatically. Publish scripts call it before verify(); after re-running any `build_collection_*.py`, run `python3 scripts/build_categories.py` again. `--check` = dry run, `--ping` = IndexNow after push.
+
 ## Map
 
 | Path | Page |
