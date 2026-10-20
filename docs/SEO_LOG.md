@@ -506,3 +506,21 @@ On-page audit of every page: no duplicate titles or descriptions, one H1 each, c
 - GSC still needs a browser pass outside the drop window (submit sitemap, request indexing for waterfall-wall-art.html, pieces 51–80, hubs, bedroom guide; pull 7/28d numbers).
 - Collection hub descriptions are also 237–270 characters; shorten them in the builders (keep the place-name tails the publish scripts maintain) on a non-drop day.
 - Piece titles run 70–86 characters; consider dropping the "| Moonlit Windows" suffix on piece pages once GSC shows which title words earn impressions.
+
+## 2026-10-20 ~05:00 London — Scheduled SEO run: branded 404 page
+### Data review
+- Stripe: no Night Windows sales. No checkout sessions and no charges since 19 Oct 05:00 London (live Joshua Israel Ventures LLC account, read-only).
+- GSC: not checked. The browser lock is held by the daily drop (since 04:47), so no browser work in this slot. The Sunday 12:47 London Search Console routine is the planned fix for this; it has not run yet. Last numbers still 8 Oct (28d: 0 clicks, 4 impressions, avg pos 6.8).
+- News post: none (nothing genuinely relevant). Outreach: none (not authorised for this routine).
+- The drop (pieces 81+, Seljalandsfoss first) was mid-edit in the collection builders and `build_categories.py`, so this run stayed out of those files and the piece pages.
+
+### Opportunity chosen (and why)
+Technical audit found the site had no `404.html`. Any mistyped, shared-wrong or old URL (for example an Instagram caption link with a typo, or a piece slug guessed from a place name) showed GitHub's plain "Page not found · GitHub Pages" page: off-brand, no navigation and a dead end for a buyer. A branded 404 keeps those visitors on the shop, gives crawlers links back into the collections, and the GA4 tag on it lets us spot broken inbound links by the "Page not found" title. It is a new file, so it could ship without touching anything the drop was editing.
+
+### Shipped
+- `404.html` (commit `1fa4950`, live 05:01 London): `noindex, follow`, no canonical, not in the sitemap; absolute paths so it renders at any depth; full Categories nav and footer; search box that submits to `/browse.html?q=` (browse already reads `q`); a small script that turns the bad path into search words and suggests up to six matching pieces from `/products.json` (tested: `/pieces/skogafoss-waterfall.html` suggests Skógafoss Waterfall Moon first, `/lake-bled.htm` suggests Lake Bled Island Moon first); ten popular collection links; GA4 + Cloudflare beacon.
+- Checks: live `https://moonlitwindows.com/pieces/skogafoss-waterfall.html` and `/xyz-nope` both return HTTP 404 with the branded page; all internal links on the page resolve; no AI/ChatGPT/Higgsfield/github.io in copy; `apply_stripe_links.py --check` 80/80.
+
+### Next
+- GSC still needs a signed-in browser pass outside the drop window (sitemap, request indexing for waterfall-wall-art.html, browse.html + the 15 category pages, pieces 51–85, bedroom guide; pull 7/28d numbers).
+- Shorten collection hub meta descriptions (237–270 characters) in the builders once the drop is not editing them.
