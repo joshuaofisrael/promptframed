@@ -524,3 +524,16 @@ Technical audit found the site had no `404.html`. Any mistyped, shared-wrong or 
 ### Next
 - GSC still needs a signed-in browser pass outside the drop window (sitemap, request indexing for waterfall-wall-art.html, browse.html + the 15 category pages, pieces 51–81, bedroom guide; pull 7/28d numbers).
 - Shorten collection hub meta descriptions (237–270 characters) in the builders once the drop is not editing them.
+
+## 2026-10-21 ~05:00 London — Scheduled SEO run: data check only (usage hold)
+### Data review
+- Stripe: no Night Windows sales. No charges since 20 Oct 05:00 London (live Joshua Israel Ventures LLC account, read-only). The only checkout session is an open, unpaid $5 Map the Midterms tip session; none are Moonlit Windows.
+- GSC: not checked (scarce mode on, browser lock window of the daily drop). Last numbers still 8 Oct (28d: 0 clicks, 4 impressions, avg pos 6.8).
+- News post: none. Outreach: none.
+
+### Opportunity chosen (and why)
+None shipped. Scarce mode is on (`/workspace/usage/SCARCE`, usage hold at 82%+ before the 22 Oct reset), and this SEO run is optional, non-revenue work, so it was deferred to the post-reset backlog (logged in `/workspace/usage/deferred/art-gallery-and-poster-maker.md`).
+
+### Next (deferred)
+- Shorten collection hub meta descriptions (237–270 characters) in the builders.
+- Signed-in GSC pass: sitemap, request indexing for waterfall-wall-art.html, browse.html + category pages, pieces 51–81, bedroom guide; pull 7/28d numbers.
