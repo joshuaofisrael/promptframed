@@ -27,6 +27,7 @@ GROUPS = [
     ("iceland-north-atlantic", "Iceland and North Atlantic waterfalls", "waterfall wall art poster and framed print",
      "Mossy cliffs, black rock and long northern nights: falls that drop straight out of green walls toward the sea.", [
         ("skogafoss-waterfall-moon", "Skógafoss pouring a wide white curtain over mossy cliffs in south Iceland beside its staircase path under a full moon"),
+        ("seljalandsfoss-waterfall-moon", "Seljalandsfoss dropping from a mossy cliff into silver mist in south Iceland, its footpath curving behind the falls, under a full moon"),
         ("kirkjufell-waterfall-moon", "Kirkjufellsfoss cascading over mossy rocks below cone-shaped Kirkjufell on a moonlit Icelandic fjord"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from green sea cliffs at Gásadalur in the Faroe Islands under a full moon"),
     ]),

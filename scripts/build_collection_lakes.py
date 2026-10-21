@@ -47,6 +47,7 @@ GROUPS = [
         ("victoria-falls-moon", "Victoria Falls pouring into a misty gorge on the Zambezi with a moonbow in the spray under a full moon"),
         ("kirkjufell-waterfall-moon", "Kirkjufellsfoss pouring over mossy rocks with cone-shaped Kirkjufell and a moonlit Icelandic fjord beyond"),
         ("skogafoss-waterfall-moon", "Skógafoss pouring a wide white curtain over mossy cliffs in south Iceland beside its staircase path"),
+        ("seljalandsfoss-waterfall-moon", "Seljalandsfoss dropping from a mossy cliff into a misty pool in south Iceland beside a turf-roofed cottage"),
         ("havasu-falls-moon", "Havasu Falls plunging from red canyon rock into a turquoise travertine pool in the Grand Canyon"),
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring into the Lauterbrunnen valley with lit chalets and snowy Alps"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from green sea cliffs at Gásadalur under a full moon"),

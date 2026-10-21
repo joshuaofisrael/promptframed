@@ -3348,5 +3348,47 @@
         "canals-bridges"
       ]
     }
+  },
+  {
+    "slug": "seljalandsfoss-waterfall-moon",
+    "title": "Seljalandsfoss Waterfall Moon",
+    "series": "Night Windows",
+    "photoNumber": 81,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": "https://buy.stripe.com/3cI3cw9UsdEB3ttc2sb3r1K",
+      "framedUrl": "https://buy.stripe.com/14A00k4A87gd5BB2rSb3r1L",
+      "muralUrl": "https://buy.stripe.com/dRmcN6eaIgQNbZZgiIb3r1M",
+      "status": "live",
+      "posterPrice": 3500,
+      "framedPrice": 6900,
+      "muralPrice": 14900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VToAFXKChnSZYy",
+      "posterPriceId": "price_1USqYJK3OWN3aipgFmeQz0NL",
+      "posterPaymentLinkId": "plink_1USqYWK3OWN3aipgHQff0cR9",
+      "framedProductId": "prod_VToAI8Wc75ZTk1",
+      "framedPriceId": "price_1USqYMK3OWN3aipgKGCuEGHG",
+      "framedPaymentLinkId": "plink_1USqYZK3OWN3aipgXCKbqwUm",
+      "muralProductId": "prod_VToAhbGVOIsvdU",
+      "muralPriceId": "price_1USqYPK3OWN3aipg7DgXmI4z",
+      "muralPaymentLinkId": "plink_1USqYdK3OWN3aipgzuXS9h0E"
+    },
+    "asset": "81-seljalandsfoss-waterfall-moon.jpg",
+    "printSource": "gallery/81-seljalandsfoss-waterfall-moon.png",
+    "categories": {
+      "region": "nordic",
+      "country": "Iceland",
+      "place": "Seljalandsfoss",
+      "scenes": [
+        "waterfalls",
+        "lakes"
+      ]
+    }
   }
 ]

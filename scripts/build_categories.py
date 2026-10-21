@@ -265,6 +265,7 @@ SEED = {
     "sigiriya-rock-moon": ("asia", "Sri Lanka", "Sigiriya", ["temples"]),
     "cradle-mountain-dove-lake-moon": ("oceania", "Australia", "Cradle Mountain, Tasmania", ["lakes", "mountains"]),
     "skogafoss-waterfall-moon": ("nordic", "Iceland", "Skógafoss", ["waterfalls", "lakes"]),
+    "seljalandsfoss-waterfall-moon": ("nordic", "Iceland", "Seljalandsfoss", ["waterfalls", "lakes"]),
     "moraine-lake-moon": ("north-america", "Canada", "Moraine Lake, Banff", ["lakes", "mountains"]),
     "hohenzollern-castle-moon": ("western-europe", "Germany", "Swabian Alb", ["castles"]),
     "havasu-falls-moon": ("north-america", "USA", "Havasu Falls, Arizona", ["waterfalls", "lakes", "deserts"]),
