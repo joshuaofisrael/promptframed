@@ -16,3 +16,4 @@ gallery/reels/*-raw.mp4
 # internal docs live in /workspace/promptframed-private
 docs/REELS_PIPELINE.md
 docs/MARGINS.md
+__pycache__/
