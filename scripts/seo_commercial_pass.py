@@ -69,7 +69,7 @@ s=nav(s); s=footer(s,"./")
 s=s.replace('<p>Windows into places you wish you were. Dreamy moonlit landscapes, printed as posters.</p>\n      <p class="soft-cta"><a class="btn" href="./buy.html">Want a poster? Buy at the link.</a>',
  '<p>Windows into places you wish you were. Dreamy moonlit landscapes, printed as posters.</p>\n      <p class="sale-line">Art posters and framed prints for sale: $35 poster · $69 framed · 12×18 · shipping included.</p>\n      <p class="soft-cta"><a class="btn" href="./buy.html">Shop Posters &amp; Framed Prints</a>',1)
 s=setld(s,{"@context":"https://schema.org","@graph":[
- {"@type":"Organization","@id":SITE+"/#org","name":"Moonlit Windows","alternateName":["Night Shade Art","Prompt Framed"],"url":SITE+"/","logo":SITE+"/assets/brand/night-shade-art-avatar-1080.png","sameAs":["https://www.instagram.com/moonnightshadeart/"],"legalName":"Joshua Israel Ventures LLC"},
+ {"@type":"Organization","@id":SITE+"/#org","name":"Moonlit Windows","alternateName":["Night Shade Art","Prompt Framed"],"url":SITE+"/","logo":SITE+"/assets/brand/night-shade-art-avatar-1080.png","sameAs":["https://www.instagram.com/moonnightshadeart/"],},
  {"@type":"WebSite","@id":SITE+"/#website","name":"Moonlit Windows","url":SITE+"/","publisher":{"@id":SITE+"/#org"}},
  {"@type":"ItemList","name":"Night Windows posters & framed prints","numberOfItems":len(items),"itemListElement":items}]},"shop")
 if s!=o: open("index.html","w").write(s); changed.append("index.html")

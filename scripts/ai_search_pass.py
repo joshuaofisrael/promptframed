@@ -29,7 +29,7 @@ edit('index.html', [
         "description": "Night Windows: cinematic night landscapes as posters and framed prints.",
         "publisher": {
           "@type": "Organization",
-          "name": "Joshua Israel Ventures LLC"
+          "name": "Moonlit Windows"
         }''',
      '''        "@type": "WebSite",
         "@id": "https://moonlitwindows.com/#website",
@@ -70,10 +70,10 @@ edit('night-windows.html', [
 edit('about.html', [
     ('<title>About — Prompt Framed</title>',
      '<title>About Moonlit Windows: Night Windows Wall Art by Night Shade Art | Prompt Framed</title>'),
-    ('<meta name="description" content="Prompt Framed is the Night Windows gallery of Joshua Israel Ventures LLC. Night pictures, printed as posters and shipped when you order.">',
-     '<meta name="description" content="Moonlit Windows (Prompt Framed, Night Shade Art on Instagram) is the Night Windows wall art shop of Joshua Israel Ventures LLC: $35 posters, $69 framed prints and $149 peel-and-stick wall murals, printed to order and shipped.">'),
+    ('<meta name="description" content="Prompt Framed is the Night Windows gallery of Moonlit Windows. Night pictures, printed as posters and shipped when you order.">',
+     '<meta name="description" content="Moonlit Windows (Prompt Framed, Night Shade Art on Instagram) is the Night Windows wall art shop of Moonlit Windows: $35 posters, $69 framed prints and $149 peel-and-stick wall murals, printed to order and shipped.">'),
     ('    <h1>Night Windows</h1>\n    <p>Windows into places',
-     '    <h1>Night Windows</h1>\n    <p class="answer-first">Moonlit Windows is the online shop for Night Windows, a series of 50 moonlit landscape pictures sold as $35 posters, $69 framed prints (12×18 in) and $149 peel-and-stick wall murals (4×6 ft). It is operated by Joshua Israel Ventures LLC and shares the series on Instagram as Night Shade Art.</p>\n    <p>Windows into places'),
+     '    <h1>Night Windows</h1>\n    <p class="answer-first">Moonlit Windows is the online shop for Night Windows, a series of 50 moonlit landscape pictures sold as $35 posters, $69 framed prints (12×18 in) and $149 peel-and-stick wall murals (4×6 ft). It is operated by Moonlit Windows and shares the series on Instagram as Night Shade Art.</p>\n    <p>Windows into places'),
 ])
 
 # Piece pages: mural in the answer-first sale line

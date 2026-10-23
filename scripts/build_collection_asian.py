@@ -50,9 +50,7 @@ SLUGS = [s for _, _, _, _, items in GROUPS for s, _ in items]
 N = len(SLUGS)
 
 TITLE = "Asian Wall Art: Japanese & Temple Posters, Framed Prints | Moonlit Windows"
-DESC = (f"Asian wall art: {N} moonlit Japanese, Chinese and temple posters and framed prints, from Mount Fuji, Kyoto "
-        "and the Great Wall to the Taj Mahal, Sigiriya, Angkor Wat and Bagan. 12×18 poster $35, framed $69, "
-        "4×6 ft wall mural $149, shipping included.")
+DESC = f"Asian wall art: {N} moonlit posters, from Mount Fuji and Kyoto to the Taj Mahal and Angkor Wat. Poster $35, framed $69, mural $149, shipping included."
 H1 = "Asian Wall Art: Moonlit Japanese, Chinese and Temple Prints"
 
 FAQ = [
@@ -114,8 +112,7 @@ def ld(items):
         {"@type": "CollectionPage", "name": "Asian Wall Art: Moonlit Japanese, Chinese and Temple Prints",
          "url": URL, "description": DESC,
          "isPartOf": {"@type": "WebSite", "name": "Moonlit Windows", "url": SITE + "/"},
-         "publisher": {"@type": "Organization", "@id": SITE + "/#org", "name": "Joshua Israel Ventures LLC", "url": SITE + "/",
-                       "legalName": "Joshua Israel Ventures LLC",
+         "publisher": {"@type": "Organization", "@id": SITE + "/#org", "name": "Moonlit Windows", "url": SITE + "/",
                        "brand": {"@type": "Brand", "name": "Moonlit Windows", "alternateName": ["Night Shade Art", "Night Windows", "Prompt Framed"]}},
          "mainEntity": {"@type": "ItemList", "numberOfItems": len(items), "itemListElement": [
              {"@type": "ListItem", "position": i + 1, "name": f"{it['title']} poster & framed print",
@@ -229,7 +226,7 @@ def page(by_slug, bl):
     <div class="wrap"><div class="footer-shop"><a href="./buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div>
       <div><a href="./">Gallery</a> · <a href="./mountain-wall-art.html">Mountain wall art</a> · <a href="./lake-wall-art.html">Lake and waterfall wall art</a> · <a href="./coastal-wall-art.html">Coastal wall art</a> · <a href="./asian-wall-art.html">Asian wall art</a> · <a href="./european-wall-art.html">European wall art</a> · <a href="./peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
-    <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
+    <div class="operated-by footer-legal"><p>© 2026 Moonlit Windows</p><p class="footer-legal-links"><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a> · <a href="./disclaimer.html">Disclaimer</a> · <a href="./contact.html">Contact</a></p></div>
   </footer>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "899375a6262144aabf5184589abd580c"}}'></script>
 </body>

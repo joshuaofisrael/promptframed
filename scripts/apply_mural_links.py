@@ -20,7 +20,7 @@ NOTE = ('<p class="note mural-note">Peel &amp; stick wall mural: 4×6 ft (48×72
         'peel-and-stick polyester. No paste; removes cleanly from most smooth painted walls. Each mural is printed to order and '
         'ships in 1–2 weeks, shipping included.</p>')
 NAV_OLD, NAV_NEW = ">Shop Posters &amp; Framed Prints<", ">Shop Posters, Prints &amp; Wall Murals<"
-OWNER = '<div class="operated-by">Operated by Joshua Israel Ventures LLC</div>'
+OWNER = '<div class="operated-by">Operated by Moonlit Windows</div>'
 
 def btn(slug, url, ind):
     return f'{ind}<a class="btn secondary" data-buy="{slug}" data-sku="mural" href="{url}">{LABEL}</a>\n'
@@ -38,7 +38,7 @@ def offer(slug, title):
             "price": "149.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock",
             "itemCondition": "https://schema.org/NewCondition", "url": u,
             "shippingDetails": __import__("shipping_schema").shipping_details("mural"),
-            "seller": {"@type": "Organization", "name": "Joshua Israel Ventures LLC", "url": "https://moonlitwindows.com/"}}
+            "seller": {"@type": "Organization", "name": "Moonlit Windows", "url": "https://moonlitwindows.com/"}}
 
 def fix_ld(src, slug, title):
     def f(m):

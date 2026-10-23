@@ -541,8 +541,8 @@ def product_jsonld(piece: dict) -> str:
     sku = f"nw-{piece['photoNumber']:02d}-{slug}"
     from shipping_schema import shipping_details
     ship = shipping_details("poster")  # mural/framed handling times set by shipping_schema.apply_all()
-    # seller = the LLC (Moonlit Windows is only a brand of Joshua Israel Ventures LLC)
-    mw = {"@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "Joshua Israel Ventures LLC", "url": f"{BASE_URL}/"}
+    # seller = the LLC (Moonlit Windows is only a brand of Moonlit Windows)
+    mw = {"@type": "Organization", "@id": f"{BASE_URL}/#org", "name": "Moonlit Windows", "url": f"{BASE_URL}/"}
 
     def offer(variant: str, name: str, price: str) -> dict:
         return {"@type": "Offer", "@id": f"{page}#offer-{variant}", "name": name, "price": price,
@@ -668,7 +668,7 @@ def piece_html(piece: dict, aw: int, ah: int, tt: dict[str, str]) -> str:
       </div>
     </article>
   </div>
-  <footer class="site-footer"><div class="wrap"><div class="footer-shop"><a href="../buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div><div><a href="../">Back to gallery</a> · {IG}</div></div>  <div class="operated-by footer-legal"><p>© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is owned and operated by Joshua Israel Ventures LLC.</p><p class="footer-legal-links"><a href="../terms.html">Terms</a> · <a href="../privacy.html">Privacy</a> · <a href="../disclaimer.html">Disclaimer</a> · <a href="../contact.html">Contact</a></p></div>
+  <footer class="site-footer"><div class="wrap"><div class="footer-shop"><a href="../buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div><div><a href="../">Back to gallery</a> · {IG}</div></div>  <div class="operated-by footer-legal"><p>© 2026 Moonlit Windows</p><p class="footer-legal-links"><a href="../terms.html">Terms</a> · <a href="../privacy.html">Privacy</a> · <a href="../disclaimer.html">Disclaimer</a> · <a href="../contact.html">Contact</a></p></div>
   </footer>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "899375a6262144aabf5184589abd580c"}}'></script>
 </body>

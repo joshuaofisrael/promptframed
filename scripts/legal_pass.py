@@ -28,9 +28,9 @@ def write(rel, new):
             p.write_text(new, encoding="utf-8")
 
 def legal_footer(p):
-    return (f'<div class="operated-by footer-legal"><p>© 2026 {LLC}. All rights reserved. Moonlit Windows is owned and operated by {LLC}.</p>'
-            f'<p class="footer-legal-links"><a href="{p}terms.html">Terms</a> · <a href="{p}privacy.html">Privacy</a> · '
-            f'<a href="{p}disclaimer.html">Disclaimer</a> · <a href="{p}contact.html">Contact</a></p></div>')
+    return (f'<div class="operated-by footer-legal"><p>© 2026 Moonlit Windows · '
+            f'<a href="{p}terms.html">Terms</a> · <a href="{p}privacy.html">Privacy</a> · '
+            f'<a href="{p}disclaimer.html">Disclaimer</a> · <a href="{p}contact.html">Contact</a></p></div>')  # LLC rule 23 Oct: brand-only; run brand_only_pass.py after
 
 OLD_OWNER = '<div class="operated-by">Operated by Joshua Israel Ventures LLC</div>'
 
