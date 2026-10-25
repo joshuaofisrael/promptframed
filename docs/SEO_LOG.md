@@ -537,3 +537,13 @@ None shipped. Scarce mode is on (`/workspace/usage/SCARCE`, usage hold at 82%+ b
 ### Next (deferred)
 - Shorten collection hub meta descriptions (237–270 characters) in the builders.
 - Signed-in GSC pass: sitemap, request indexing for waterfall-wall-art.html, browse.html + category pages, pieces 51–81, bedroom guide; pull 7/28d numbers.
+
+## 2026-10-25 ~12:50 London — Weekly Search Console pass (Sunday routine)
+- Property: URL-prefix `https://moonlitwindows.com/` (no access to the domain property).
+- Sitemap: `sitemap.xml` resubmitted, status Success, 117 discovered pages (last read 22 Oct).
+- Performance, last 28 days (to 23 Oct): 0 clicks, 43 impressions, 0% CTR, avg position 17.9 (was 0 clicks, 4 impressions, avg pos 6.8 on 8 Oct). Last 7 days: 0 clicks, 26 impressions, avg pos 19.7.
+- Top queries (all 0 clicks): wall murals honey lake 2; خيال انجليزي 1; moonlight window 1; wall murals wind lake 1; moonlit window 1; lauterbrunnen poster 1.
+- Top pages (impressions): /how-to-turn-chatgpt-art-into-a-framed-poster.html 7; /peel-and-stick-wall-murals.html 7; /night-windows.html 6; /mountain-wall-art.html 5; / 4.
+- Page indexing (updated 16 Oct): 11 indexed, 59 not indexed (all "Discovered - currently not indexed").
+- Indexing requested: seljalandsfoss-waterfall-moon, waterfall-wall-art, havasu-falls-moon, hohenzollern-castle-moon, moraine-lake-moon. Already on Google: browse, colmar-petite-venise-moon, ponte-vecchio-florence-moon, moon-poster-bedroom, peel-and-stick-wall-murals. Quota not reached.
+- Note: `/how-to-turn-chatgpt-art-into-a-framed-poster.html` earns impressions but is not in the current repo (404 now?) — check next SEO run.
