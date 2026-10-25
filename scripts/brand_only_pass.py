@@ -3,11 +3,14 @@
 import re, pathlib, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LEGAL = {"terms.html", "privacy.html", "disclaimer.html", "contact.html"}
+# Copyright rule (24 Oct 2026): copyright line only on true legal pages, never in sitewide footer.
+COPY_PAGES = {"terms.html", "privacy.html", "disclaimer.html"}
+COPY = "© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is a trade name of Joshua Israel Ventures LLC, a Florida limited liability company."
 LLC = "Joshua Israel Ventures LLC"
 FOOT_RE = re.compile(r'<div class="operated-by footer-legal">.*?</div>', re.S)
 def footer(prefix, legal=False):
-    note = f'<p class="footer-legal-note">Moonlit Windows is owned and operated by {LLC}, a Florida limited liability company.</p>' if legal else ''
-    return (f'<div class="operated-by footer-legal"><p>© 2026 Moonlit Windows · <a href="{prefix}terms.html">Terms</a> · '
+    note = f'<p class="footer-legal-note">{COPY}</p>' if legal else ''
+    return (f'<div class="operated-by footer-legal"><p><a href="{prefix}terms.html">Terms</a> · '
             f'<a href="{prefix}privacy.html">Privacy</a> · <a href="{prefix}disclaimer.html">Disclaimer</a> · '
             f'<a href="{prefix}contact.html">Contact</a></p>{note}</div>')
 SENT = [
@@ -30,7 +33,7 @@ def process(p):
     t = p.read_text(); o = t
     prefix = "../" if p.parent != ROOT else "./"
     legal = p.name in LEGAL and p.parent == ROOT
-    t = FOOT_RE.sub(lambda m: footer(prefix, legal), t)
+    t = FOOT_RE.sub(lambda m: footer(prefix, p.name in COPY_PAGES and p.parent == ROOT), t)
     t = fix_jsonld_meta(t)
     if not legal:
         for a, b in SENT: t = t.replace(a, b)

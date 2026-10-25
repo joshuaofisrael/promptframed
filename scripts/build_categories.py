@@ -513,7 +513,7 @@ def footer(p: str = "./") -> str:
       <div><a href="{p}{HUB}">Shop by category</a> · By region: {reg}</div>
       <div>By scene: {sce} · <a href="{p}peel-and-stick-wall-murals.html">Peel and stick wall murals</a> · Night Shade Art on Instagram: <a href="https://www.instagram.com/moonnightshadeart/" rel="me">@moonnightshadeart</a></div>
     </div>
-    <div class="operated-by footer-legal"><p>© 2026 Moonlit Windows</p><p class="footer-legal-links"><a href="{p}terms.html">Terms</a> · <a href="{p}privacy.html">Privacy</a> · <a href="{p}disclaimer.html">Disclaimer</a> · <a href="{p}contact.html">Contact</a></p></div>
+    <div class="operated-by footer-legal"><p class="footer-legal-links"><a href="{p}terms.html">Terms</a> · <a href="{p}privacy.html">Privacy</a> · <a href="{p}disclaimer.html">Disclaimer</a> · <a href="{p}contact.html">Contact</a></p></div>
   </footer>
 {CF}
 </body>

@@ -745,7 +745,7 @@ def piece_html(piece: dict, aw: int, ah: int, tt: dict[str, str]) -> str:
       </div>
     </article>
   </div>
-  <footer class="site-footer"><div class="wrap"><div class="footer-shop"><a href="../buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div><div><a href="../">Back to gallery</a> · {IG}</div></div>  <div class="operated-by footer-legal"><p>© 2026 Moonlit Windows</p><p class="footer-legal-links"><a href="../terms.html">Terms</a> · <a href="../privacy.html">Privacy</a> · <a href="../disclaimer.html">Disclaimer</a> · <a href="../contact.html">Contact</a></p></div>
+  <footer class="site-footer"><div class="wrap"><div class="footer-shop"><a href="../buy.html">Shop Posters, Prints &amp; Wall Murals</a> · $35 poster · $69 framed · 12×18 · shipping included</div><div><a href="../">Back to gallery</a> · {IG}</div></div>  <div class="operated-by footer-legal"><p class="footer-legal-links"><a href="../terms.html">Terms</a> · <a href="../privacy.html">Privacy</a> · <a href="../disclaimer.html">Disclaimer</a> · <a href="../contact.html">Contact</a></p></div>
   </footer>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "899375a6262144aabf5184589abd580c"}}'></script>
 </body>
