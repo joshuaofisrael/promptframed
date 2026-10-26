@@ -53,6 +53,7 @@ GROUPS = [
         ("skogafoss-waterfall-moon", "Skógafoss pouring a wide white curtain over mossy cliffs in south Iceland under a full moon"),
         ("seljalandsfoss-waterfall-moon", "Seljalandsfoss dropping from a mossy Icelandic cliff into silver mist beside a turf cottage under a full moon"),
         ("havasu-falls-moon", "Havasu Falls plunging from red canyon rock into a turquoise travertine pool in the Grand Canyon under a full moon"),
+        ("multnomah-falls-moon", "Multnomah Falls pouring in two tiers past the Benson Bridge in Oregon’s Columbia River Gorge under a full moon"),
         ("moraine-lake-moon", "Moraine Lake mirroring the Valley of the Ten Peaks beside red canoes in Banff under a full moon"),
     ]),
     ("coasts", "Coastal and fjord wall murals", "Cliffs, harbours and sea light for a living room or a hallway you want to open up.", [

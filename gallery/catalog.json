@@ -1866,5 +1866,28 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "82-multnomah-falls-moon",
+    "slug": "multnomah-falls-moon",
+    "title": "Multnomah Falls Moon",
+    "photoNumber": 82,
+    "file": "82-multnomah-falls-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Multnomah Falls in Oregon’s Columbia River Gorge, a tall two-tier white waterfall pouring down a mossy basalt cliff with the arched Benson Bridge spanning the gap between the tiers, dark evergreen forest and ferns on both sides, a stone lodge with warm amber windows at lower right beside a lamplit path and stone wall, a rocky creek in the foreground and a full moon among thin wispy clouds",
+    "description": "Multnomah Falls pours in two tiers past the Benson Bridge in Oregon’s Columbia River Gorge, beside a glowing stone lodge under a full moon.",
+    "keywords": [
+      "Multnomah Falls night",
+      "Multnomah Falls moonlight",
+      "Oregon waterfall wall art",
+      "Columbia River Gorge print"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]

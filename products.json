@@ -3390,5 +3390,48 @@
         "lakes"
       ]
     }
+  },
+  {
+    "slug": "multnomah-falls-moon",
+    "title": "Multnomah Falls Moon",
+    "series": "Night Windows",
+    "photoNumber": 82,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": "https://buy.stripe.com/6oUeVefeMfMJbZZaYob3r1N",
+      "framedUrl": "https://buy.stripe.com/dRm3cwgiQ8kh5BB7Mcb3r1O",
+      "muralUrl": "https://buy.stripe.com/6oU6oId6E1VTggfc2sb3r1P",
+      "status": "live",
+      "posterPrice": 3500,
+      "framedPrice": 6900,
+      "muralPrice": 14900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VVhGR73plqfX3W",
+      "posterPriceId": "price_1UUfs3K3OWN3aipgm0P0V8F6",
+      "posterPaymentLinkId": "plink_1UUfsGK3OWN3aipg1WdQXJ7M",
+      "framedProductId": "prod_VVhGivVauQgDsR",
+      "framedPriceId": "price_1UUfs6K3OWN3aipgR7H4yI99",
+      "framedPaymentLinkId": "plink_1UUfsKK3OWN3aipgEwSWWDVY",
+      "muralProductId": "prod_VVhGIivPkxWZ1t",
+      "muralPriceId": "price_1UUfs9K3OWN3aipg8dH2afEo",
+      "muralPaymentLinkId": "plink_1UUfsNK3OWN3aipgxu1MvAeE"
+    },
+    "asset": "82-multnomah-falls-moon.jpg",
+    "printSource": "gallery/82-multnomah-falls-moon.png",
+    "categories": {
+      "region": "north-america",
+      "country": "USA",
+      "place": "Multnomah Falls, Oregon",
+      "scenes": [
+        "waterfalls",
+        "lakes",
+        "countryside"
+      ]
+    }
   }
 ]

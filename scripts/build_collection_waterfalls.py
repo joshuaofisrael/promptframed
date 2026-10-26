@@ -19,7 +19,7 @@ FILE = "waterfall-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-19"
+TODAY = "2026-10-26"
 OG_SLUG = "plitvice-lakes-moon"
 MARK = 'data-collection="waterfalls"'
 
@@ -36,10 +36,14 @@ GROUPS = [
         ("plitvice-lakes-moon", "Plitvice’s turquoise lakes spilling over terraced falls, a lit boardwalk threading the Croatian forest under moonlight"),
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring down the cliff above Lauterbrunnen’s lit chalets and church in the Swiss Alps"),
     ]),
-    ("rainforest-canyon-river", "Rainforest, canyon and river waterfalls", "waterfall wall art poster and framed print",
-     "The big ones: rainforest gorges, a desert canyon oasis and the Zambezi, all wrapped in moonlit spray.", [
-        ("iguazu-falls-moon", "Tier after tier of Iguazu’s waterfalls thundering into a misty rainforest gorge under a full moon"),
+    ("north-america", "North American waterfalls", "waterfall wall art poster and framed print",
+     "From Oregon’s mossy Columbia River Gorge to a desert canyon oasis in Arizona, falls lit by the moon and a few warm windows.", [
+        ("multnomah-falls-moon", "Multnomah Falls pouring in two tiers past the arched Benson Bridge in Oregon’s Columbia River Gorge under a full moon"),
         ("havasu-falls-moon", "Havasu Falls plunging from red canyon rock into a turquoise travertine pool in the Grand Canyon under a full moon"),
+    ]),
+    ("rainforest-canyon-river", "Rainforest, canyon and river waterfalls", "waterfall wall art poster and framed print",
+     "The big ones: rainforest gorges and the Zambezi, all wrapped in moonlit spray.", [
+        ("iguazu-falls-moon", "Tier after tier of Iguazu’s waterfalls thundering into a misty rainforest gorge under a full moon"),
         ("victoria-falls-moon", "Victoria Falls pouring into its misty gorge on the Zambezi with a moonbow arcing through the spray"),
         ("moonlit-waterfall", "A tall waterfall pouring through a deep, misty gorge among ferns and mossy rock under moonlight"),
     ]),
@@ -198,9 +202,9 @@ def page(by_slug, bl):
       <div class="kicker">Collection</div>
       <h1>{H1}</h1>
       <p class="sale-line">{N} waterfall art prints · $35 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
-      <p class="answer-first">These are {N} moonlit waterfall prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real falls at night, among them Skógafoss and Kirkjufellsfoss in Iceland, Plitvice in Croatia, Iguazu, Havasu Falls in the Grand Canyon and Victoria Falls, with a full moon over the spray.</p>
+      <p class="answer-first">These are {N} moonlit waterfall prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real falls at night, among them Skógafoss and Kirkjufellsfoss in Iceland, Plitvice in Croatia, Iguazu, Havasu Falls in the Grand Canyon, Multnomah Falls in Oregon and Victoria Falls, with a full moon over the spray.</p>
       <p>Falling water is the brightest thing in a moonlit landscape. White water and mist hold the moonlight while the cliffs, moss and forest around them stay dark, so a waterfall print reads clearly from across a room and still feels quiet up close. Tall falls also suit the portrait 12×18 format and a 4×6 ft wall panel naturally.</p>
-      <p class="note">Jump to: <a href="#iceland-north-atlantic">Iceland and North Atlantic</a> · <a href="#europe">Europe</a> · <a href="#rainforest-canyon-river">Rainforest, canyon and river</a> · <a href="#choose">Choosing a piece</a> · <a href="#faq">FAQ</a></p>
+      <p class="note">Jump to: <a href="#iceland-north-atlantic">Iceland and North Atlantic</a> · <a href="#europe">Europe</a> · <a href="#north-america">North America</a> · <a href="#rainforest-canyon-river">Rainforest, canyon and river</a> · <a href="#choose">Choosing a piece</a> · <a href="#faq">FAQ</a></p>
     </section>
 
 {grids}
