@@ -547,3 +547,23 @@ None shipped. Scarce mode is on (`/workspace/usage/SCARCE`, usage hold at 82%+ b
 - Page indexing (updated 16 Oct): 11 indexed, 59 not indexed (all "Discovered - currently not indexed").
 - Indexing requested: seljalandsfoss-waterfall-moon, waterfall-wall-art, havasu-falls-moon, hohenzollern-castle-moon, moraine-lake-moon. Already on Google: browse, colmar-petite-venise-moon, ponte-vecchio-florence-moon, moon-poster-bedroom, peel-and-stick-wall-murals. Quota not reached.
 - Note: `/how-to-turn-chatgpt-art-into-a-framed-poster.html` earns impressions but is not in the current repo (404 now?) — check next SEO run.
+
+## 2026-10-26 ~05:00 London — Scheduled SEO run: place-specific copy on piece pages
+### Data review
+- Stripe: no Night Windows sales. The live Joshua Israel Ventures LLC account has no charges at all (read-only check).
+- GSC: not re-checked (Sunday pass was yesterday). 28d to 23 Oct: 0 clicks, 43 impressions, avg pos 17.9; 11 indexed, 59 "Discovered - currently not indexed". Queries include "lauterbrunnen poster", "moonlit window", "wall murals <lake>".
+- Follow-up from Sunday: `/how-to-turn-chatgpt-art-into-a-framed-poster.html` is fine. It is a noindex redirect to `guide-print-sizes.html` (commit c980bcf), so its impressions should move to the guide.
+- Collection hub meta descriptions are already 140–155 characters (done in 4a3699e), so that backlog item is closed.
+- News post: none (nothing genuinely relevant). Outreach: none (not authorised for this routine).
+
+### Opportunity chosen (and why)
+Most of the site's pages are discovered but not indexed. Piece pages are about 425 words, and almost all of that is shared boilerplate around a single scene sentence, which gives Google little unique value. Adding real, place-specific substance is the main lever, and it suits buyer queries like "lauterbrunnen poster". Today's pass started with the four pieces that earn impressions or had indexing requested on 25 Oct.
+
+### Shipped
+- New idempotent `scripts/seo_piece_about.py` adds an About section (facts about the real place), "In the painting" (what the piece shows, with an honest note that it's a painted reimagining) and "Where it hangs best" (2:3 portrait, poster or framed or mural, plus an internal link to a pairing piece). The content sits between the `about:start` and `about:end` markers after `buy:end`.
+- Pages updated: Lauterbrunnen Valley Moon, Seljalandsfoss Waterfall Moon, Havasu Falls Moon, Moraine Lake Moon. Small `.piece-about` styles were added, and the sitemap lastmod for these 4 is now 2026-10-26 (real content change). Commit `1f40800`, all 4 are live (HTTP 200 with the section), and the IndexNow ping returned 200 for 4 URLs.
+- Checks: `apply_stripe_links.py --check` 82/82; no AI, ChatGPT, Higgsfield or github.io in the new copy; canvas is not mentioned.
+
+### Next
+- Extend `seo_piece_about.py` a few pieces per run, prioritising pieces with GSC impressions, then waterfalls, then famous named places (Plitvice, Skógafoss, Iguazu, Victoria Falls, Lake Bled, Hallstatt, Multnomah).
+- On the next GSC pass, request indexing for the 4 updated pages and watch whether the "Discovered - not indexed" count falls.
