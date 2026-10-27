@@ -42,6 +42,31 @@ ABOUT = {
         "scene": "This Night Windows piece shows the jagged, snow-streaked Ten Peaks mirrored in still turquoise water, red canoes at the dock on the far shore, dark spruce and grey boulders in the foreground, and a full moon in thin cloud reflected in the lake. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
         "hang": "The artwork is a tall 2:3 portrait. The 12×18 poster or black-framed print suits a bedroom, a narrow wall or a hallway, and pairs well with <a href=\"./banff-lake-louise-moon.html\">Banff Lake Louise Moon</a> for a Rockies pair. For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
     },
+    "plitvice-lakes-moon": {
+        "h": "About this Plitvice Lakes poster",
+        "place": "Plitvice Lakes National Park is in central Croatia and is the country’s oldest national park, founded in 1949 and listed as a UNESCO World Heritage Site in 1979. Sixteen named lakes step down a forested valley, joined by cascades and waterfalls; the natural dams between them are travertine, built up over thousands of years as calcium carbonate settles on moss and algae. The tallest fall, Veliki slap, drops about 78 metres, and wooden boardwalks carry visitors right over the water.",
+        "scene": "This Night Windows piece shows turquoise pools spilling over terraced falls, a lantern-lit wooden boardwalk crossing the water, steep forested cliffs, and a full moon in a cloudy night sky. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
+        "hang": "The artwork is a tall 2:3 portrait. The 12×18 poster or black-framed print suits a bedroom, a narrow wall or a hallway, and pairs well with <a href=\"./lake-bled-island-moon.html\">Lake Bled Island Moon</a> or the other <a href=\"../waterfall-wall-art.html\">waterfall pieces</a>. For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
+    },
+    "skogafoss-waterfall-moon": {
+        "h": "About this Skógafoss poster",
+        "place": "Skógafoss is one of Iceland’s best known waterfalls, on the Skógá river near the village of Skógar on the south coast, just off the Ring Road. The river drops about 60 metres over a former sea cliff in a curtain roughly 25 metres wide, and the spray often throws rainbows on sunny days. A staircase of several hundred steps climbs the slope beside the falls to a viewing platform at the top, where the Fimmvörðuháls hiking trail begins.",
+        "scene": "This Night Windows piece shows the broad white curtain pouring over a sheer, moss-covered cliff into rising mist, the staircase path with its railing climbing the slope, the Skógá river running over dark rocks, mossy boulders and white wildflowers in the foreground, and a full moon among thin clouds. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
+        "hang": "The artwork is a tall 2:3 portrait. The 12×18 poster or black-framed print suits a bedroom, a narrow wall or a hallway, and pairs naturally with <a href=\"./seljalandsfoss-waterfall-moon.html\">Seljalandsfoss</a>, its neighbour along the south coast, for an Iceland wall (see the <a href=\"../iceland-nordic-wall-art.html\">Iceland and Nordic pieces</a>). For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
+    },
+    "iguazu-falls-moon": {
+        "h": "About this Iguazu Falls poster",
+        "place": "Iguazu Falls is on the Iguazu River, on the border between Argentina and Brazil. Its name comes from the Guaraní words for “big water”. Roughly 275 separate falls spread along nearly 3 kilometres of river, and the most dramatic, the Devil’s Throat (Garganta del Diablo), is a U-shaped chasm about 80 metres deep. The national parks on both sides of the border are UNESCO World Heritage Sites.",
+        "scene": "This Night Windows piece shows tier after tier of falls pouring through lush rainforest, mist rising from the gorge, and a full moon above the river. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
+        "hang": "The artwork is a tall 2:3 portrait. The 12×18 poster or black-framed print suits a living room nook, a narrow wall or a hallway, and pairs well with <a href=\"./victoria-falls-moon.html\">Victoria Falls Moon</a> for a pair of the world’s great waterfalls. For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
+    },
+    "victoria-falls-moon": {
+        "h": "About this Victoria Falls poster",
+        "place": "Victoria Falls is on the Zambezi River, on the border between Zambia and Zimbabwe. Its local name, Mosi-oa-Tunya, means “the smoke that thunders”, after the spray that rises from the gorge. At about 1,700 metres wide and more than 100 metres high, it is often called the largest single curtain of falling water in the world, and it has been a UNESCO World Heritage Site since 1989. Around the full moon, when the river is high, the moonlight can make a lunar rainbow, or moonbow, in the spray.",
+        "scene": "This Night Windows piece shows a wide curtain of white water plunging into a misty gorge lined with green rainforest, a moonbow arcing through the spray, and a full moon behind wispy clouds. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
+        "hang": "The artwork is a tall 2:3 portrait. The 12×18 poster or black-framed print suits a bedroom, a narrow wall or a hallway, and pairs well with <a href=\"./iguazu-falls-moon.html\">Iguazu Falls Moon</a> or the other <a href=\"../africa-middle-east-wall-art.html\">Africa and Middle East pieces</a>. For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
+    },
+
 }
 
 BLOCK = re.compile(r"\n?\s*<!-- about:start -->.*?<!-- about:end -->", re.S)
@@ -68,11 +93,13 @@ def main():
     for slug, d in ABOUT.items():
         p = ROOT / "pieces" / f"{slug}.html"
         h = p.read_text()
+        if render(d).strip() in h:  # already current (other builders may sit between buy:end and the block)
+            continue
         base = BLOCK.sub("", h)
         if "<!-- buy:end -->" not in base:
             print("no buy:end marker:", slug); continue
         new = base.replace("<!-- buy:end -->", "<!-- buy:end -->" + render(d), 1)
-        if new != h:
+        if re.sub(r"\s+", "", new) != re.sub(r"\s+", "", h):  # ignore whitespace-only churn
             changed.append(slug)
             if not check:
                 p.write_text(new)
