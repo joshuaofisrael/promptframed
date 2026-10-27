@@ -567,3 +567,22 @@ Most of the site's pages are discovered but not indexed. Piece pages are about 4
 ### Next
 - Extend `seo_piece_about.py` a few pieces per run, prioritising pieces with GSC impressions, then waterfalls, then famous named places (Plitvice, Skógafoss, Iguazu, Victoria Falls, Lake Bled, Hallstatt, Multnomah).
 - On the next GSC pass, request indexing for the 4 updated pages and watch whether the "Discovered - not indexed" count falls.
+
+## 2026-10-27 ~05:05 London — Scheduled SEO run: About sections on four famous waterfalls
+### Data review
+- Stripe: no Night Windows sales. The live Joshua Israel Ventures LLC account still has no charges; latest checkout sessions are old Map the Midterms / Tax Deed Pack tests (read-only check).
+- GSC: not re-checked (next weekly pass is Sunday). Last: 28d to 23 Oct 0 clicks, 43 impressions, avg pos 17.9; 11 indexed, 59 "Discovered - currently not indexed".
+- News post: none (nothing genuinely relevant). Outreach: none (not authorised for this routine).
+
+### Opportunity chosen (and why)
+Continuing the thin-content fix for "Discovered - not indexed": real, place-specific copy on piece pages, next in priority the famous named waterfalls (Joshua's waterfall focus, and strong "<place> poster" buyer queries).
+
+### Shipped
+- `scripts/seo_piece_about.py`: About / In the painting / Where it hangs best sections for Plitvice Lakes Moon, Skógafoss Waterfall Moon, Iguazu Falls Moon and Victoria Falls Moon, each with internal links to a pairing piece and a category hub (waterfalls, Iceland & Nordic, Africa & Middle East).
+- Script fix: it now skips a page whose block is already current. `build_categories.py` re-inserts category links between `buy:end` and the block, which made re-runs churn the first four pages.
+- Sitemap lastmod for the 4 pages set to 2026-10-27. Commit `80ba1b7`, all 4 live (HTTP 200 with the section), IndexNow 200.
+- Checks: `apply_stripe_links.py --check` 83/83; no AI, ChatGPT, Higgsfield, github.io or canvas in the new copy.
+
+### Next
+- Continue a few pieces per run: Multnomah, Rhine Falls, Kirkjufell, Lake Bled, Hallstatt, Yosemite.
+- Sunday GSC pass: request indexing for the 8 updated piece pages; watch the not-indexed count.
