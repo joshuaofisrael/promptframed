@@ -3433,5 +3433,32 @@
         "countryside"
       ]
     }
+  },
+  {
+    "slug": "rhine-falls-moon",
+    "title": "Rhine Falls Moon",
+    "series": "Night Windows",
+    "photoNumber": 83,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "83-rhine-falls-moon.jpg",
+    "printSource": "gallery/83-rhine-falls-moon.png",
+    "categories": {
+      "region": "alps",
+      "country": "Switzerland",
+      "place": "Rhine Falls, Schaffhausen",
+      "scenes": [
+        "waterfalls",
+        "castles"
+      ]
+    }
   }
 ]

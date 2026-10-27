@@ -297,6 +297,10 @@ input, textarea {
 .site-footer .footer-legal a:hover { color: var(--accent); }
 .legal ul { padding-left: 1.2rem; }
 .legal li { margin: 0.5rem 0; }
+.piece-about { margin: 1.6rem 0 1rem; }
+.piece-about h2 { font-size: 1.25rem; margin: 0 0 .5rem; }
+.piece-about h3 { font-size: 1.02rem; margin: 1rem 0 .3rem; }
+.piece-about p { line-height: 1.6; }
 
 /* cats:start (scripts/build_categories.py) */
 .nav { align-items: center; }
@@ -335,7 +339,3 @@ input, textarea {
 .card .place { color: var(--dim); font-size: 0.92rem; margin: 0.2rem 0 0; }
 @media (max-width: 640px) { .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 0.3rem; } .chip { flex: 0 0 auto; } }
 /* cats:end */
-.piece-about { margin: 1.6rem 0 1rem; }
-.piece-about h2 { font-size: 1.25rem; margin: 0 0 .5rem; }
-.piece-about h3 { font-size: 1.02rem; margin: 1rem 0 .3rem; }
-.piece-about p { line-height: 1.6; }

@@ -1889,5 +1889,28 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "83-rhine-falls-moon",
+    "slug": "rhine-falls-moon",
+    "title": "Rhine Falls Moon",
+    "photoNumber": 83,
+    "file": "83-rhine-falls-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Rhine Falls at Neuhausen in Switzerland, wide white cascades crashing around a tall rock pillar in mid-river, Schloss Laufen castle with a red-tiled roof and warm amber windows on the wooded cliff above, a lamplit wooden viewing platform at the cliff edge, mist rising from the falls, wildflowers on the near bank and a full moon among thin wispy clouds",
+    "description": "The Rhine Falls thunder around their rock pillar below Schloss Laufen in Switzerland, the castle windows glowing under a full moon.",
+    "keywords": [
+      "Rhine Falls night",
+      "Rhine Falls moonlight",
+      "Schloss Laufen print",
+      "Switzerland waterfall wall art"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]

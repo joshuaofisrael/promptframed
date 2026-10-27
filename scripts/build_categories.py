@@ -266,6 +266,7 @@ SEED = {
     "cradle-mountain-dove-lake-moon": ("oceania", "Australia", "Cradle Mountain, Tasmania", ["lakes", "mountains"]),
     "skogafoss-waterfall-moon": ("nordic", "Iceland", "Skógafoss", ["waterfalls", "lakes"]),
     "seljalandsfoss-waterfall-moon": ("nordic", "Iceland", "Seljalandsfoss", ["waterfalls", "lakes"]),
+    "rhine-falls-moon": ("alps", "Switzerland", "Rhine Falls, Schaffhausen", ["waterfalls", "castles"]),
     "multnomah-falls-moon": ("north-america", "USA", "Multnomah Falls, Oregon", ["waterfalls", "lakes", "countryside"]),
     "moraine-lake-moon": ("north-america", "Canada", "Moraine Lake, Banff", ["lakes", "mountains"]),
     "hohenzollern-castle-moon": ("western-europe", "Germany", "Swabian Alb", ["castles"]),

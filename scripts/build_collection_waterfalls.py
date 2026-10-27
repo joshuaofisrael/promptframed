@@ -19,7 +19,7 @@ FILE = "waterfall-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-26"
+TODAY = "2026-10-27"
 OG_SLUG = "plitvice-lakes-moon"
 MARK = 'data-collection="waterfalls"'
 
@@ -34,6 +34,7 @@ GROUPS = [
     ("europe", "European waterfalls", "waterfall wall art poster and framed print",
      "Alpine valleys and terraced forest lakes, with a few lit windows and boardwalks close to the water.", [
         ("plitvice-lakes-moon", "Plitvice’s turquoise lakes spilling over terraced falls, a lit boardwalk threading the Croatian forest under moonlight"),
+        ("rhine-falls-moon", "The Rhine Falls thundering around their rock pillar below the lit windows of Schloss Laufen in Switzerland under a full moon"),
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring down the cliff above Lauterbrunnen’s lit chalets and church in the Swiss Alps"),
     ]),
     ("north-america", "North American waterfalls", "waterfall wall art poster and framed print",
@@ -202,7 +203,7 @@ def page(by_slug, bl):
       <div class="kicker">Collection</div>
       <h1>{H1}</h1>
       <p class="sale-line">{N} waterfall art prints · $35 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
-      <p class="answer-first">These are {N} moonlit waterfall prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real falls at night, among them Skógafoss and Kirkjufellsfoss in Iceland, Plitvice in Croatia, Iguazu, Havasu Falls in the Grand Canyon, Multnomah Falls in Oregon and Victoria Falls, with a full moon over the spray.</p>
+      <p class="answer-first">These are {N} moonlit waterfall prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real falls at night, among them Skógafoss and Kirkjufellsfoss in Iceland, Plitvice in Croatia, Iguazu, Havasu Falls in the Grand Canyon, Multnomah Falls in Oregon, the Rhine Falls in Switzerland and Victoria Falls, with a full moon over the spray.</p>
       <p>Falling water is the brightest thing in a moonlit landscape. White water and mist hold the moonlight while the cliffs, moss and forest around them stay dark, so a waterfall print reads clearly from across a room and still feels quiet up close. Tall falls also suit the portrait 12×18 format and a 4×6 ft wall panel naturally.</p>
       <p class="note">Jump to: <a href="#iceland-north-atlantic">Iceland and North Atlantic</a> · <a href="#europe">Europe</a> · <a href="#north-america">North America</a> · <a href="#rainforest-canyon-river">Rainforest, canyon and river</a> · <a href="#choose">Choosing a piece</a> · <a href="#faq">FAQ</a></p>
     </section>

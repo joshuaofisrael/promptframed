@@ -50,6 +50,7 @@ GROUPS = [
         ("seljalandsfoss-waterfall-moon", "Seljalandsfoss dropping from a mossy cliff into a misty pool in south Iceland beside a turf-roofed cottage"),
         ("havasu-falls-moon", "Havasu Falls plunging from red canyon rock into a turquoise travertine pool in the Grand Canyon"),
         ("multnomah-falls-moon", "Multnomah Falls pouring in two tiers past the Benson Bridge in Oregon’s mossy Columbia River Gorge"),
+        ("rhine-falls-moon", "The Rhine Falls thundering around their rock pillar below Schloss Laufen’s lit windows in Switzerland"),
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring into the Lauterbrunnen valley with lit chalets and snowy Alps"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from green sea cliffs at Gásadalur under a full moon"),
         ("moonlit-waterfall", "A luminous waterfall pouring through a deep, misty gorge under moonlight"),

@@ -42,6 +42,7 @@ GROUPS = [
         ("lake-bled-island-moon", "Lake Bled’s island church and clifftop castle on the moonlit lake"),
         ("lake-tekapo-church-moon", "The Church of the Good Shepherd above purple lupins on turquoise Lake Tekapo under a full moon"),
         ("hallstatt-lake-moon", "Hallstatt’s church steeple and lit houses reflected in a still alpine lake at night"),
+        ("rhine-falls-moon", "The Rhine Falls thundering below Schloss Laufen’s lit windows in Switzerland under a full moon"),
         ("lauterbrunnen-valley-moon", "Staubbach Falls pouring into the Lauterbrunnen valley with lit chalets and snowy Alps"),
         ("iguazu-falls-moon", "Tiers of Iguazu waterfalls falling into a misty rainforest gorge under a full moon"),
         ("plitvice-lakes-moon", "Plitvice’s turquoise lakes and terraced falls with a lit boardwalk through the forest"),
