@@ -3445,9 +3445,24 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/fZufZi6IgeIFbZZfeEb3r1Q",
+      "framedUrl": "https://buy.stripe.com/4gM6oIeaI4410hh3vWb3r1R",
+      "muralUrl": "https://buy.stripe.com/6oU3cwgiQcAxbZZeaAb3r1S",
+      "status": "live",
+      "posterPrice": 3500,
+      "framedPrice": 6900,
+      "muralPrice": 14900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VW4Z6lAslQzxeA",
+      "posterPriceId": "price_1UV2QpK3OWN3aipghnqY9Vy5",
+      "posterPaymentLinkId": "plink_1UV2R0K3OWN3aipgWvNUqWOA",
+      "framedProductId": "prod_VW4aACMo4DMBo1",
+      "framedPriceId": "price_1UV2QsK3OWN3aipgnP1JBm7x",
+      "framedPaymentLinkId": "plink_1UV2R3K3OWN3aipgt38E1h62",
+      "muralProductId": "prod_VW4aMLAsCoVbN0",
+      "muralPriceId": "price_1UV2QvK3OWN3aipgUeytwIQ7",
+      "muralPaymentLinkId": "plink_1UV2R7K3OWN3aipgF5NhGgeM"
     },
     "asset": "83-rhine-falls-moon.jpg",
     "printSource": "gallery/83-rhine-falls-moon.png",
