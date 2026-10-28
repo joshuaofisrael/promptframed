@@ -66,6 +66,30 @@ ABOUT = {
         "scene": "This Night Windows piece shows a wide curtain of white water plunging into a misty gorge lined with green rainforest, a moonbow arcing through the spray, and a full moon behind wispy clouds. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
         "hang": "The artwork is a tall 2:3 portrait. The 12×18 poster or black-framed print suits a bedroom, a narrow wall or a hallway, and pairs well with <a href=\"./iguazu-falls-moon.html\">Iguazu Falls Moon</a> or the other <a href=\"../africa-middle-east-wall-art.html\">Africa and Middle East pieces</a>. For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
     },
+    "multnomah-falls-moon": {
+        "h": "About this Multnomah Falls poster",
+        "place": "Multnomah Falls is in the Columbia River Gorge in Oregon, about 30 miles east of Portland, and is the tallest waterfall in the state at roughly 620 feet (189 metres). It falls in two tiers, an upper drop of about 542 feet and a lower one of about 69 feet, and the Benson Bridge, built in 1914, crosses the gap between them. Multnomah Falls Lodge, a stone building from 1925, stands at the base beside the trail.",
+        "scene": "This Night Windows piece shows the tall two-tier fall pouring down a mossy basalt cliff, the arched Benson Bridge spanning the gap between the tiers, dark evergreen forest and ferns on both sides, the stone lodge with warm amber windows beside a lamplit path, a rocky creek in the foreground and a full moon among thin clouds. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
+        "hang": "The artwork is a tall 2:3 portrait, a natural fit for one of the tallest falls in North America: the 12×18 poster or black-framed print suits a narrow wall, a spot beside the bed or a hallway, and pairs well with <a href=\"./yosemite-half-dome-moon.html\">Yosemite Half Dome Moon</a> or the other <a href=\"../north-america-wall-art.html\">North America pieces</a>. For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
+    },
+    "rhine-falls-moon": {
+        "h": "About this Rhine Falls poster",
+        "place": "The Rhine Falls (Rheinfall) are at Neuhausen am Rheinfall near Schaffhausen in northern Switzerland. The river drops about 23 metres across a width of around 150 metres, and they are often described as the largest plain waterfall in Europe by volume. A tall rock stands in the middle of the falls, and Schloss Laufen, a castle on the cliff above the south bank, has viewing platforms that reach out over the water.",
+        "scene": "This Night Windows piece shows wide white cascades crashing around the rock pillar in mid-river, Schloss Laufen with its red-tiled roof and warm amber windows on the wooded cliff above, a lamplit wooden viewing platform at the cliff edge, mist rising from the falls, wildflowers on the near bank and a full moon among thin clouds. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
+        "hang": "The artwork is a tall 2:3 portrait. The 12×18 poster or black-framed print suits a bedroom, a narrow wall or a hallway, and makes a Swiss pair with <a href=\"./lauterbrunnen-valley-moon.html\">Lauterbrunnen Valley Moon</a> (more in the <a href=\"../alps-wall-art.html\">Alps pieces</a>). For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
+    },
+    "kirkjufell-waterfall-moon": {
+        "h": "About this Kirkjufell poster",
+        "place": "Kirkjufell, “church mountain”, is a 463-metre peak on the north coast of Iceland’s Snæfellsnes Peninsula, just outside the town of Grundarfjörður. Its steep, symmetrical cone rising from the shore makes it one of the most photographed mountains in Iceland. The classic view is from Kirkjufellsfoss, a small set of falls across the road, where the water in the foreground frames the mountain behind.",
+        "scene": "This Night Windows piece shows Kirkjufellsfoss pouring silky white over mossy rocks, with the cone-shaped peak and a moonlit fjord beyond and a full moon behind wispy clouds. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
+        "hang": "The artwork is a tall 2:3 portrait. The 12×18 poster or black-framed print suits a bedroom, a narrow wall or a hallway, and pairs well with <a href=\"./gullfoss-waterfall-moon.html\">Gullfoss Waterfall Moon</a> or the other <a href=\"../iceland-nordic-wall-art.html\">Iceland and Nordic pieces</a>. For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
+    },
+    "gullfoss-waterfall-moon": {
+        "h": "About this Gullfoss poster",
+        "place": "Gullfoss, “golden falls”, is on the Hvítá river in southwest Iceland and is one of the stops on the Golden Circle route with Þingvellir and Geysir. The river turns and drops in two stages, of about 11 and 21 metres, into a narrow canyon that runs away from the falls, so from the viewpoints the water seems to vanish into the earth. Plans to dam the river for power in the early 20th century never went ahead, and the falls have been a protected nature reserve since 1979.",
+        "scene": "This Night Windows piece shows the wide tiered falls plunging into a deep, rugged canyon with spray rising, a small turf-roofed stone farmhouse with warm amber windows on the grassy rim, mossy rocks and white wildflowers in the foreground, and a full moon behind thin clouds. It is a painted, moonlit reimagining rather than a photograph of one exact viewpoint.",
+        "hang": "The artwork is a tall 2:3 portrait. The 12×18 poster or black-framed print suits a bedroom, a narrow wall or a hallway, and pairs well with <a href=\"./skogafoss-waterfall-moon.html\">Skógafoss</a> or <a href=\"./kirkjufell-waterfall-moon.html\">Kirkjufell</a> for an Iceland wall (see the <a href=\"../iceland-nordic-wall-art.html\">Iceland and Nordic pieces</a>). For a feature wall, the 4×6 ft (48×72 in) peel and stick mural keeps the same portrait shape.",
+    },
 
 }
 
