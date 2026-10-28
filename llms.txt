@@ -1,23 +1,23 @@
 # Moonlit Windows
 
-> Moonlit Windows (moonlitwindows.com) sells Night Windows, a series of 83 moonlit landscape pictures, as wall art: $35 posters and $69 black-framed prints (both 12×18 in) and $149 peel-and-stick wall murals (4×6 ft, removable polyester). Shipping is included, everything is printed to order, and checkout is through Stripe. Murals ship in 1–2 weeks. Moonlit Windows is a brand, not a separate company: the shop is owned and operated by Moonlit Windows, which handles every order. Night Windows, Night Shade Art (Instagram @moonnightshadeart) and Prompt Framed are also brands of Moonlit Windows.
+> Moonlit Windows (moonlitwindows.com) sells Night Windows, a series of 84 moonlit landscape pictures, as wall art: $35 posters and $69 black-framed prints (both 12×18 in) and $149 peel-and-stick wall murals (4×6 ft, removable polyester). Shipping is included, everything is printed to order, and checkout is through Stripe. Murals ship in 1–2 weeks. Moonlit Windows is a brand, not a separate company: the shop is owned and operated by Moonlit Windows, which handles every order. Night Windows, Night Shade Art (Instagram @moonnightshadeart) and Prompt Framed are also brands of Moonlit Windows.
 
 ## Shop
 
-- [Home](https://moonlitwindows.com/): Gallery of all 83 Night Windows pieces with prices and links to each piece page
+- [Home](https://moonlitwindows.com/): Gallery of all 84 Night Windows pieces with prices and links to each piece page
 - [Shop posters, prints & wall murals](https://moonlitwindows.com/buy.html): Every piece with poster ($35), framed ($69) and wall mural ($149) checkout buttons
 - [Mountain wall art](https://moonlitwindows.com/mountain-wall-art.html): 19 moonlit mountain pieces (Matterhorn, Dolomites, Mount Fuji, Yosemite, Isle of Skye, the Great Wall and more) with a room guide and FAQ
-- [Peel and stick wall murals](https://moonlitwindows.com/peel-and-stick-wall-murals.html): 52 moonlit scenes picked for a feature wall as 4×6 ft (48×72 in) removable peel-and-stick wall murals ($149, shipping included), with measuring, wall prep and FAQ
-- [Lake and waterfall wall art](https://moonlitwindows.com/lake-wall-art.html): 26 moonlit lake and waterfall posters ($35), framed prints ($69) and wall murals ($149), from Lake Como, Lake Bled, Hallstatt and Lake Louise to Plitvice, Iguazu and Victoria Falls, with a room guide and FAQ
-- [Waterfall wall art](https://moonlitwindows.com/waterfall-wall-art.html): 12 moonlit waterfall posters ($35), framed prints ($69) and wall murals ($149), from Skógafoss, Kirkjufellsfoss and Plitvice to Iguazu, Havasu Falls and Victoria Falls, with a room guide and FAQ
+- [Peel and stick wall murals](https://moonlitwindows.com/peel-and-stick-wall-murals.html): 53 moonlit scenes picked for a feature wall as 4×6 ft (48×72 in) removable peel-and-stick wall murals ($149, shipping included), with measuring, wall prep and FAQ
+- [Lake and waterfall wall art](https://moonlitwindows.com/lake-wall-art.html): 27 moonlit lake and waterfall posters ($35), framed prints ($69) and wall murals ($149), from Lake Como, Lake Bled, Hallstatt and Lake Louise to Plitvice, Iguazu and Victoria Falls, with a room guide and FAQ
+- [Waterfall wall art](https://moonlitwindows.com/waterfall-wall-art.html): 13 moonlit waterfall posters ($35), framed prints ($69) and wall murals ($149), from Skógafoss, Kirkjufellsfoss and Plitvice to Iguazu, Havasu Falls and Victoria Falls, with a room guide and FAQ
 - [Coastal wall art](https://moonlitwindows.com/coastal-wall-art.html): 18 moonlit ocean, seaside and fjord posters ($35), framed prints ($69) and wall murals ($149), from the Amalfi Coast, Santorini and Cinque Terre to the Cliffs of Moher, Big Sur and Lofoten, with a room guide and FAQ
 - [Asian wall art](https://moonlitwindows.com/asian-wall-art.html): 13 moonlit Japanese, Chinese and temple posters ($35), framed prints ($69) and wall murals ($149), from Mount Fuji, Kyoto and the Great Wall to the Taj Mahal, Sigiriya, Angkor Wat and Bagan, with a room guide and FAQ
 - [European wall art](https://moonlitwindows.com/european-wall-art.html): 18 moonlit castle, old town and village posters ($35), framed prints ($69) and wall murals ($149), from Neuschwanstein, Venice and Prague to Bruges, Colmar, Dubrovnik, Provence and Tuscany, with a room guide and FAQ
-- [The Night Windows series](https://moonlitwindows.com/night-windows.html): Overview of the series and an index of all 83 pieces
+- [The Night Windows series](https://moonlitwindows.com/night-windows.html): Overview of the series and an index of all 84 pieces
 
 ## Browse by category
 - [Shop by category](https://moonlitwindows.com/browse.html): Every piece sorted by region, scene and room, with a search box and filter chips
-- [Iceland & Nordic wall art](https://moonlitwindows.com/iceland-nordic-wall-art.html): 8 moonlit pieces (region)
+- [Iceland & Nordic wall art](https://moonlitwindows.com/iceland-nordic-wall-art.html): 9 moonlit pieces (region)
 - [Scotland, England & Ireland wall art](https://moonlitwindows.com/british-isles-wall-art.html): 6 moonlit pieces (region)
 - [The Alps wall art](https://moonlitwindows.com/alps-wall-art.html): 7 moonlit pieces (region)
 - [Western & Central Europe wall art](https://moonlitwindows.com/western-europe-wall-art.html): 7 moonlit pieces (region)
@@ -28,8 +28,8 @@
 - [South America wall art](https://moonlitwindows.com/south-america-wall-art.html): 4 moonlit pieces (region)
 - [Oceania & the Pacific wall art](https://moonlitwindows.com/oceania-pacific-wall-art.html): 4 moonlit pieces (region)
 - [Imagined Places wall art](https://moonlitwindows.com/imagined-landscape-wall-art.html): 9 moonlit pieces (region)
-- [Waterfalls wall art](https://moonlitwindows.com/waterfall-wall-art.html): 12 moonlit pieces (scene)
-- [Lakes wall art](https://moonlitwindows.com/lake-wall-art.html): 25 moonlit pieces (scene)
+- [Waterfalls wall art](https://moonlitwindows.com/waterfall-wall-art.html): 13 moonlit pieces (scene)
+- [Lakes wall art](https://moonlitwindows.com/lake-wall-art.html): 26 moonlit pieces (scene)
 - [Mountains wall art](https://moonlitwindows.com/mountain-wall-art.html): 19 moonlit pieces (scene)
 - [Coastal & Sea wall art](https://moonlitwindows.com/coastal-wall-art.html): 18 moonlit pieces (scene)
 - [Castles & Palaces wall art](https://moonlitwindows.com/castle-wall-art.html): 10 moonlit pieces (scene)

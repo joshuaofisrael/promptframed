@@ -1912,5 +1912,28 @@
       "framed_print"
     ],
     "status": "ready"
+  },
+  {
+    "id": "84-gullfoss-waterfall-moon",
+    "slug": "gullfoss-waterfall-moon",
+    "title": "Gullfoss Waterfall Moon",
+    "photoNumber": 84,
+    "file": "84-gullfoss-waterfall-moon.png",
+    "width": 1024,
+    "height": 1536,
+    "orientation": "portrait",
+    "alt": "Moonlit Gullfoss in Iceland, the wide tiered falls of the Hvítá river plunging into a deep rugged canyon with misty spray rising, a small turf-roofed stone farmhouse with warm amber windows on the grassy canyon rim at right, mossy rocks and small white wildflowers in the foreground and a full moon behind thin wispy clouds",
+    "description": "Gullfoss pours in wide tiers into its misty canyon in Iceland, a turf-roofed farmhouse glowing on the rim under a full moon.",
+    "keywords": [
+      "Gullfoss night",
+      "Gullfoss moonlight",
+      "Golden Circle Iceland print",
+      "Iceland waterfall wall art"
+    ],
+    "products": [
+      "poster",
+      "framed_print"
+    ],
+    "status": "ready"
   }
 ]

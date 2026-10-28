@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://moonlitwindows.com/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://moonlitwindows.com/</loc><lastmod>2026-10-28</lastmod></url>
   <url>
-    <loc>https://moonlitwindows.com/night-windows.html</loc><lastmod>2026-10-27</lastmod>
+    <loc>https://moonlitwindows.com/night-windows.html</loc><lastmod>2026-10-28</lastmod>
     <image:image><image:loc>https://moonlitwindows.com/assets/night-windows-contact-sheet.jpg</image:loc></image:image>
   </url>
-  <url><loc>https://moonlitwindows.com/buy.html</loc><lastmod>2026-10-27</lastmod></url>
-  <url><loc>https://moonlitwindows.com/about.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://moonlitwindows.com/buy.html</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://moonlitwindows.com/about.html</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://moonlitwindows.com/contact.html</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://moonlitwindows.com/how-it-works.html</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://moonlitwindows.com/guide-print-sizes.html</loc><lastmod>2026-10-19</lastmod></url>
@@ -157,7 +157,7 @@
     <image:image><image:loc>https://moonlitwindows.com/assets/36-chefchaouen-blue-moon.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://moonlitwindows.com/pieces/plitvice-lakes-moon.html</loc><lastmod>2026-10-27</lastmod>
+    <loc>https://moonlitwindows.com/pieces/plitvice-lakes-moon.html</loc><lastmod>2026-10-19</lastmod>
     <image:image><image:loc>https://moonlitwindows.com/assets/37-plitvice-lakes-moon.jpg</image:loc></image:image>
   </url>
   <url>
@@ -205,7 +205,7 @@
     <image:image><image:loc>https://moonlitwindows.com/assets/48-mount-fuji-pagoda-moon.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://moonlitwindows.com/pieces/iguazu-falls-moon.html</loc><lastmod>2026-10-27</lastmod>
+    <loc>https://moonlitwindows.com/pieces/iguazu-falls-moon.html</loc><lastmod>2026-10-19</lastmod>
     <image:image><image:loc>https://moonlitwindows.com/assets/49-iguazu-falls-moon.jpg</image:loc></image:image>
   </url>
   <url>
@@ -245,7 +245,7 @@
     <image:image><image:loc>https://moonlitwindows.com/assets/58-salar-de-uyuni-moon.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://moonlitwindows.com/pieces/victoria-falls-moon.html</loc><lastmod>2026-10-27</lastmod>
+    <loc>https://moonlitwindows.com/pieces/victoria-falls-moon.html</loc><lastmod>2026-10-19</lastmod>
     <image:image><image:loc>https://moonlitwindows.com/assets/59-victoria-falls-moon.jpg</image:loc></image:image>
   </url>
   <url>
@@ -313,7 +313,7 @@
     <image:image><image:loc>https://moonlitwindows.com/assets/75-cradle-mountain-dove-lake-moon.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://moonlitwindows.com/pieces/skogafoss-waterfall-moon.html</loc><lastmod>2026-10-27</lastmod>
+    <loc>https://moonlitwindows.com/pieces/skogafoss-waterfall-moon.html</loc><lastmod>2026-10-19</lastmod>
     <image:image><image:loc>https://moonlitwindows.com/assets/76-skogafoss-waterfall-moon.jpg</image:loc></image:image>
   </url>
   <url>
@@ -341,13 +341,17 @@
     <image:image><image:loc>https://moonlitwindows.com/assets/82-multnomah-falls-moon.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://moonlitwindows.com/pieces/rhine-falls-moon.html</loc><lastmod>2026-10-27</lastmod>
+    <loc>https://moonlitwindows.com/pieces/rhine-falls-moon.html</loc><lastmod>2026-10-19</lastmod>
     <image:image><image:loc>https://moonlitwindows.com/assets/83-rhine-falls-moon.jpg</image:loc></image:image>
   </url>
-  <url><loc>https://moonlitwindows.com/mountain-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/35-matterhorn-alpine-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/peel-and-stick-wall-murals.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/41-dolomites-tre-cime-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/lake-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/44-lake-bled-island-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/waterfall-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/37-plitvice-lakes-moon.jpg</image:loc></image:image></url>
+  <url>
+    <loc>https://moonlitwindows.com/pieces/gullfoss-waterfall-moon.html</loc><lastmod>2026-10-19</lastmod>
+    <image:image><image:loc>https://moonlitwindows.com/assets/84-gullfoss-waterfall-moon.jpg</image:loc></image:image>
+  </url>
+  <url><loc>https://moonlitwindows.com/mountain-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/35-matterhorn-alpine-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/peel-and-stick-wall-murals.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/41-dolomites-tre-cime-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/lake-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/44-lake-bled-island-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/waterfall-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/37-plitvice-lakes-moon.jpg</image:loc></image:image></url>
   <url><loc>https://moonlitwindows.com/coastal-wall-art.html</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/17-amalfi-terrace-night.jpg</image:loc></image:image></url>
   <url><loc>https://moonlitwindows.com/asian-wall-art.html</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/48-mount-fuji-pagoda-moon.jpg</image:loc></image:image></url>
   <url><loc>https://moonlitwindows.com/european-wall-art.html</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/38-neuschwanstein-castle-moon.jpg</image:loc></image:image></url>
@@ -355,21 +359,21 @@
   <url><loc>https://moonlitwindows.com/terms.html</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://moonlitwindows.com/privacy.html</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://moonlitwindows.com/disclaimer.html</loc><lastmod>2026-10-19</lastmod></url>
-  <url><loc>https://moonlitwindows.com/browse.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/night-windows-contact-sheet.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/iceland-nordic-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/63-kirkjufell-waterfall-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/british-isles-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/66-eilean-donan-castle-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/alps-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/32-hallstatt-lake-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/western-europe-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/62-bruges-canal-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/southern-europe-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/22-santorini-caldera-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/africa-middle-east-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/27-petra-treasury-night.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/north-america-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/77-moraine-lake-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/south-america-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/24-machu-picchu-mist.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/oceania-pacific-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/61-lake-tekapo-church-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/imagined-landscape-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/01-moonlit-alpine-meadow.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/castle-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/38-neuschwanstein-castle-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/village-old-town-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/69-rothenburg-old-town-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/bridge-canal-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/12-venetian-canal-moonrise.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/temple-ancient-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/39-angkor-wat-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/countryside-forest-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/16-provence-lavender-moon.jpg</image:loc></image:image></url>
-  <url><loc>https://moonlitwindows.com/desert-canyon-wall-art.html</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/73-monument-valley-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/browse.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/night-windows-contact-sheet.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/iceland-nordic-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/63-kirkjufell-waterfall-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/british-isles-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/66-eilean-donan-castle-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/alps-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/32-hallstatt-lake-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/western-europe-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/62-bruges-canal-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/southern-europe-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/22-santorini-caldera-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/africa-middle-east-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/27-petra-treasury-night.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/north-america-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/77-moraine-lake-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/south-america-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/24-machu-picchu-mist.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/oceania-pacific-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/61-lake-tekapo-church-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/imagined-landscape-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/01-moonlit-alpine-meadow.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/castle-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/38-neuschwanstein-castle-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/village-old-town-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/69-rothenburg-old-town-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/bridge-canal-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/12-venetian-canal-moonrise.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/temple-ancient-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/39-angkor-wat-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/countryside-forest-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/16-provence-lavender-moon.jpg</image:loc></image:image></url>
+  <url><loc>https://moonlitwindows.com/desert-canyon-wall-art.html</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://moonlitwindows.com/assets/73-monument-valley-moon.jpg</image:loc></image:image></url>
 </urlset>

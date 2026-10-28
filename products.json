@@ -3475,5 +3475,32 @@
         "castles"
       ]
     }
+  },
+  {
+    "slug": "gullfoss-waterfall-moon",
+    "title": "Gullfoss Waterfall Moon",
+    "series": "Night Windows",
+    "photoNumber": 84,
+    "printful": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "stripe": {
+      "posterUrl": null,
+      "framedUrl": null,
+      "status": "placeholder"
+    },
+    "asset": "84-gullfoss-waterfall-moon.jpg",
+    "printSource": "gallery/84-gullfoss-waterfall-moon.png",
+    "categories": {
+      "region": "nordic",
+      "country": "Iceland",
+      "place": "Gullfoss, Golden Circle",
+      "scenes": [
+        "waterfalls",
+        "lakes"
+      ]
+    }
   }
 ]

@@ -19,7 +19,7 @@ FILE = "waterfall-wall-art.html"
 PAGE = ROOT / FILE
 SITE = "https://moonlitwindows.com"
 URL = f"{SITE}/{FILE}"
-TODAY = "2026-10-27"
+TODAY = "2026-10-28"
 OG_SLUG = "plitvice-lakes-moon"
 MARK = 'data-collection="waterfalls"'
 
@@ -28,6 +28,7 @@ GROUPS = [
      "Mossy cliffs, black rock and long northern nights: falls that drop straight out of green walls toward the sea.", [
         ("skogafoss-waterfall-moon", "Skógafoss pouring a wide white curtain over mossy cliffs in south Iceland beside its staircase path under a full moon"),
         ("seljalandsfoss-waterfall-moon", "Seljalandsfoss dropping from a mossy cliff into silver mist in south Iceland, its footpath curving behind the falls, under a full moon"),
+        ("gullfoss-waterfall-moon", "Gullfoss plunging in wide tiers into its misty Hvítá canyon on Iceland’s Golden Circle, a turf-roofed farmhouse lit on the rim under a full moon"),
         ("kirkjufell-waterfall-moon", "Kirkjufellsfoss cascading over mossy rocks below cone-shaped Kirkjufell on a moonlit Icelandic fjord"),
         ("faroe-gasadalur-moon", "Múlafossur waterfall dropping from green sea cliffs at Gásadalur in the Faroe Islands under a full moon"),
     ]),
@@ -203,7 +204,7 @@ def page(by_slug, bl):
       <div class="kicker">Collection</div>
       <h1>{H1}</h1>
       <p class="sale-line">{N} waterfall art prints · $35 poster · $69 framed · 12×18 · $149 peel &amp; stick wall mural (4×6 ft) · shipping included</p>
-      <p class="answer-first">These are {N} moonlit waterfall prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real falls at night, among them Skógafoss and Kirkjufellsfoss in Iceland, Plitvice in Croatia, Iguazu, Havasu Falls in the Grand Canyon, Multnomah Falls in Oregon, the Rhine Falls in Switzerland and Victoria Falls, with a full moon over the spray.</p>
+      <p class="answer-first">These are {N} moonlit waterfall prints, each sold as a 12×18 in poster for $35, a black-framed print for $69, or a 4×6 ft peel and stick wall mural for $149, with shipping included. Most show real falls at night, among them Skógafoss, Gullfoss and Kirkjufellsfoss in Iceland, Plitvice in Croatia, Iguazu, Havasu Falls in the Grand Canyon, Multnomah Falls in Oregon, the Rhine Falls in Switzerland and Victoria Falls, with a full moon over the spray.</p>
       <p>Falling water is the brightest thing in a moonlit landscape. White water and mist hold the moonlight while the cliffs, moss and forest around them stay dark, so a waterfall print reads clearly from across a room and still feels quiet up close. Tall falls also suit the portrait 12×18 format and a 4×6 ft wall panel naturally.</p>
       <p class="note">Jump to: <a href="#iceland-north-atlantic">Iceland and North Atlantic</a> · <a href="#europe">Europe</a> · <a href="#north-america">North America</a> · <a href="#rainforest-canyon-river">Rainforest, canyon and river</a> · <a href="#choose">Choosing a piece</a> · <a href="#faq">FAQ</a></p>
     </section>
