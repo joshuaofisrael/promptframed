@@ -586,3 +586,21 @@ Continuing the thin-content fix for "Discovered - not indexed": real, place-spec
 ### Next
 - Continue a few pieces per run: Multnomah, Rhine Falls, Kirkjufell, Lake Bled, Hallstatt, Yosemite.
 - Sunday GSC pass: request indexing for the 8 updated piece pages; watch the not-indexed count.
+
+## 2026-10-28 ~05:10 London — Scheduled SEO run: About sections on four more waterfall pieces
+### Data review
+- Stripe: no Night Windows sales. No paid sessions since the last run on the live Joshua Israel Ventures LLC account (read-only); the newest are two open, unpaid $1,000 ad-slot sessions from another site, and the last Night Windows session (lakeside-cabin poster) expired unpaid.
+- GSC: not re-checked (weekly pass is Sunday). Last: 28d to 23 Oct 0 clicks, 43 impressions, avg pos 17.9; 11 indexed, 59 "Discovered - currently not indexed".
+- News post: none (nothing genuinely relevant). Outreach: none (not authorised for this routine).
+
+### Opportunity chosen (and why)
+Same thin-content fix for "Discovered - not indexed", continuing through the famous named waterfalls (Joshua's waterfall focus, "<place> poster" buyer queries), plus the brand-new Gullfoss piece so it launches with substance.
+
+### Shipped
+- `scripts/seo_piece_about.py`: About / In the painting / Where it hangs best sections for Multnomah Falls Moon, Rhine Falls Moon, Kirkjufell Waterfall Moon and Gullfoss Waterfall Moon, with internal links to pairing pieces (Yosemite, Lauterbrunnen, Gullfoss, Skógafoss, Kirkjufell) and hubs (North America, Alps, Iceland & Nordic).
+- Sitemap lastmod 2026-10-28 for Multnomah, Rhine Falls, Kirkjufell (Gullfoss already 28 Oct). Commit `6568f35`, all 4 live (HTTP 200 with the section), IndexNow 200.
+- Checks: `apply_stripe_links.py --check` 84/84; no AI, ChatGPT, Higgsfield, github.io or canvas in the new copy; script `--check` clean.
+
+### Next
+- Continue: Lake Bled, Hallstatt, Yosemite, then other pieces with GSC impressions (honey lake / wind lake murals).
+- Sunday GSC pass: request indexing for the 12 updated piece pages; watch the not-indexed count.
