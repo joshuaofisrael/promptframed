@@ -3487,9 +3487,24 @@
       "status": "placeholder"
     },
     "stripe": {
-      "posterUrl": null,
-      "framedUrl": null,
-      "status": "placeholder"
+      "posterUrl": "https://buy.stripe.com/00wcN68Qoaspfcb4A0b3r1X",
+      "framedUrl": "https://buy.stripe.com/28EbJ2giQ9olaVVfeEb3r1Y",
+      "muralUrl": "https://buy.stripe.com/00w4gA2s0fMJ8NN1nOb3r1Z",
+      "status": "live",
+      "posterPrice": 3500,
+      "framedPrice": 6900,
+      "muralPrice": 14900,
+      "currency": "usd",
+      "size": "12x18",
+      "posterProductId": "prod_VWRmqmMT9hZCOX",
+      "posterPriceId": "price_1UVOtMK3OWN3aipgmjCS6wC3",
+      "posterPaymentLinkId": "plink_1UVOtYK3OWN3aipgvoc2yXRH",
+      "framedProductId": "prod_VWRmf5HraW04fs",
+      "framedPriceId": "price_1UVOtPK3OWN3aipg2mDDEIjw",
+      "framedPaymentLinkId": "plink_1UVOtbK3OWN3aipgmK4Z2s9S",
+      "muralProductId": "prod_VWRnTzrKsWljHG",
+      "muralPriceId": "price_1UVOtSK3OWN3aipgsDSP1EUs",
+      "muralPaymentLinkId": "plink_1UVOtfK3OWN3aipg9I1qrsdp"
     },
     "asset": "84-gullfoss-waterfall-moon.jpg",
     "printSource": "gallery/84-gullfoss-waterfall-moon.png",
