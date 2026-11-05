@@ -29,8 +29,8 @@ def write(rel, new):
 
 def legal_footer(p):
     return (f'<div class="operated-by footer-legal"><p>'
-            f'<a href="{p}terms.html">Terms</a> · <a href="{p}privacy.html">Privacy</a> · '
-            f'<a href="{p}disclaimer.html">Disclaimer</a> · <a href="{p}contact.html">Contact</a></p></div>')  # LLC rule 23 Oct: brand-only; run brand_only_pass.py after
+            f'<a href="{p}about.html">About</a> · <a href="{p}terms.html">Terms</a> · <a href="{p}privacy.html">Privacy</a> · '
+            f'<a href="{p}disclaimer.html">Disclaimer</a> · <a href="{p}disclosure.html">Disclosure</a> · <a href="{p}contact.html">Contact</a></p></div>')  # LLC rule 23 Oct: brand-only; run brand_only_pass.py after
 
 OLD_OWNER = '<div class="operated-by">Operated by Joshua Israel Ventures LLC</div>'
 
@@ -150,10 +150,12 @@ PRIVACY = dict(
                    "<strong>Fonts.</strong> Most pages load fonts from Google Fonts, so your browser sends your IP address to Google when it fetches them.",
                    "<strong>Hosting.</strong> The site is hosted on GitHub Pages. GitHub may log visitors’ IP addresses to operate and secure the service.",
                    "<strong>Email and the contact form.</strong> The contact form does not send anything to our server; it opens your own email app with your message filled in. If you email us, we receive your email address and whatever you write, and use it only to reply and to handle your order.")),
+        section("Advertising",
+                "We use Google AdSense to show ads. Google and other third-party advertising vendors may set cookies (and use similar technologies) to serve and measure ads, including ads based on your visits to this site and other sites. You can opt out of personalized advertising at <a href=\"https://adssettings.google.com\" rel=\"noopener\">https://adssettings.google.com</a>."),
         section("What we don’t do",
-                "We don’t run advertising or AdSense, we don’t use affiliate tracking cookies, and we don’t sell or rent your personal data."),
+                "We don’t sell or rent your personal data, and we don’t use affiliate tracking cookies."),
         section("Legal bases",
-                "We process order data to perform our contract with you and to meet tax and accounting obligations, and analytics data based on our legitimate interest in understanding how the site is used, or your consent where the law requires it."),
+                "We process order data to perform our contract with you and to meet tax and accounting obligations. We process analytics and advertising data based on our legitimate interest in understanding how the site is used and in funding it, or on your consent where the law requires it."),
         section("How long we keep it",
                 "Order records are kept for as long as needed to fulfil the order and to meet tax, accounting and legal obligations. Emails are kept for as long as needed to handle your request. Google Analytics data is kept according to the retention settings of our Analytics account."),
         section("International transfers",
