@@ -2,16 +2,17 @@
 """LLC rule (23 Oct 2026): owner/LLC names only on legal pages. Idempotent."""
 import re, pathlib, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-LEGAL = {"terms.html", "privacy.html", "disclaimer.html", "contact.html"}
+LEGAL = {"terms.html", "privacy.html", "disclaimer.html", "disclosure.html", "contact.html"}
 # Copyright rule (24 Oct 2026): copyright line only on true legal pages, never in sitewide footer.
-COPY_PAGES = {"terms.html", "privacy.html", "disclaimer.html"}
+COPY_PAGES = {"terms.html", "privacy.html", "disclaimer.html", "disclosure.html"}
 COPY = "© 2026 Joshua Israel Ventures LLC. All rights reserved. Moonlit Windows is a trade name of Joshua Israel Ventures LLC, a Florida limited liability company."
 LLC = "Joshua Israel Ventures LLC"
 FOOT_RE = re.compile(r'<div class="operated-by footer-legal">.*?</div>', re.S)
 def footer(prefix, legal=False):
     note = f'<p class="footer-legal-note">{COPY}</p>' if legal else ''
-    return (f'<div class="operated-by footer-legal"><p><a href="{prefix}terms.html">Terms</a> · '
+    return (f'<div class="operated-by footer-legal"><p><a href="{prefix}about.html">About</a> · <a href="{prefix}terms.html">Terms</a> · '
             f'<a href="{prefix}privacy.html">Privacy</a> · <a href="{prefix}disclaimer.html">Disclaimer</a> · '
+            f'<a href="{prefix}disclosure.html">Disclosure</a> · '
             f'<a href="{prefix}contact.html">Contact</a></p>{note}</div>')
 SENT = [
  ("is the Night Windows wall art shop of Joshua Israel Ventures LLC:", "is the Night Windows wall art shop:"),

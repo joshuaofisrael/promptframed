@@ -1,5 +1,10 @@
 # moonlitwindows.com: all crawlers welcome, including AI search, answer
 # and training crawlers. No paths are blocked.
+
+# Google AdSense crawler
+User-agent: Mediapartners-Google
+Allow: /
+
 User-agent: *
 Allow: /
 
