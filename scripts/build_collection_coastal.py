@@ -168,7 +168,7 @@ def page(by_slug, bl):
   <script type="application/ld+json" data-ld="faq-coastal">
 {faq_ld()}
   </script>
-</head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5681559774142917" crossorigin="anonymous"></script></head>
 <body data-products="products.json">
   <div class="wrap">
     <header class="site-header">
