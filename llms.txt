@@ -65,4 +65,5 @@
 - [Terms of Use and Sale](https://moonlitwindows.com/terms.html): Orders are contracts with Moonlit Windows; Stripe checkout, made-to-order printing, USD pricing, damaged or misprinted items, Florida law
 - [Privacy Policy](https://moonlitwindows.com/privacy.html): What is collected (Stripe checkout, fulfilment, Google Analytics, email) and how to make a privacy request
 - [Disclaimer](https://moonlitwindows.com/disclaimer.html): Colour and screen accuracy, watermarked previews, creator promo code commissions
-- [Editorial and AI image disclosure](https://moonlitwindows.com/disclosure.html): Night Windows pictures are generative AI images, selected and edited by the studio
+- [Editorial and AI image disclosure](https://moonlitwindows.com/disclosure.html): Night Windows pictures are generative AI images, selected and edited by the studio; editorial and sourcing policy for Moonlit Windows Editorial
+- [Image policy](https://moonlitwindows.com/image-policy.html): How AI-generated Night Windows pictures are labelled and credited; captions link here

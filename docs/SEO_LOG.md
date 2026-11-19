@@ -6,6 +6,17 @@
 
 ---
 
+## 2026-11-19 — compliance: image policy, bylines, hilltop refresh
+
+### Priority (compliance only; no new article)
+- Added `image-policy.html` (AI labelling, watermark vs print file, caption Source links). Footer sitewide now: About · Contact · Privacy · Terms · Editorial policy (`disclosure.html`) · Image policy · Disclaimer.
+- Expanded `disclosure.html` editorial/sourcing policy (Moonlit Windows Editorial byline, primary-source rule, imagined vs real places, corrections + image-policy link).
+- Piece pages: brand byline + `figcaption.img-credit` linking to image policy under the hero image.
+- Guides refreshed for engagement/trust: bylines; hanging-height and renters captions link to image policy; next-read thumbnails + compare boxes on size/hang/renters/bedroom guides.
+- Refresh: `pieces/hilltop-path-village.html` filled out (About / In the painting / Where it hangs best, next-reads with thumbs mid + end, compare box). Imagined place: no invented geography.
+- Sitemap lastmod bumped only for materially changed URLs; llms.txt lists image policy. `scripts/brand_only_pass.py` footer template updated so future passes keep the new links.
+- Link asset / new content types: none today (brief). AdSense code not added (Stripe shop; existing verification snippet left untouched).
+
 ## Rolling scorecard
 
 | Window | Impressions | Clicks | CTR | Avg position | Indexed pages | Notes |
