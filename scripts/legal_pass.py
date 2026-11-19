@@ -29,8 +29,11 @@ def write(rel, new):
 
 def legal_footer(p):
     return (f'<div class="operated-by footer-legal"><p>'
-            f'<a href="{p}about.html">About</a> · <a href="{p}terms.html">Terms</a> · <a href="{p}privacy.html">Privacy</a> · '
-            f'<a href="{p}disclaimer.html">Disclaimer</a> · <a href="{p}disclosure.html">Disclosure</a> · <a href="{p}contact.html">Contact</a></p></div>')  # LLC rule 23 Oct: brand-only; run brand_only_pass.py after
+            f'<a href="{p}about.html">About</a> · <a href="{p}contact.html">Contact</a> · '
+            f'<a href="{p}privacy.html">Privacy</a> · <a href="{p}terms.html">Terms</a> · '
+            f'<a href="{p}disclosure.html">Editorial policy</a> · '
+            f'<a href="{p}image-policy.html">Image policy</a> · '
+            f'<a href="{p}disclaimer.html">Disclaimer</a></p></div>')  # LLC rule 23 Oct: brand-only; run brand_only_pass.py after
 
 OLD_OWNER = '<div class="operated-by">Operated by Joshua Israel Ventures LLC</div>'
 
