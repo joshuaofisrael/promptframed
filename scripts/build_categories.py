@@ -496,8 +496,7 @@ def head(title: str, desc: str, url: str, og_img: str, og_alt: str, lds: list, p
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Outfit:wght@380;560;650&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{p}styles.css">
-{ld}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5681559774142917" crossorigin="anonymous"></script></head>'''
+{ld}</head>'''
 
 
 def header(p: str = "./") -> str:
