@@ -138,8 +138,7 @@ def page(items, bl, total):
   </script>
   <script type="application/ld+json" data-ld="faq-mountain">
 {faq_ld()}
-  </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5681559774142917" crossorigin="anonymous"></script></head>
+  </script></head>
 <body data-products="products.json">
   <div class="wrap">
     <header class="site-header">
